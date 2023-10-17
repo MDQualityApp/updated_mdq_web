@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('path/to/Montserrat-Regular.woff2') format('woff2'),
+         url('path/to/Montserrat-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background-color: #081A48 !important;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    visibility: inherit;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav_button {
+    border: 2px solid #1cc4f8;
+    border-radius: 30px;
+
+    margin-top: 5px;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white;
+}
+
+.nav_ani .nav_ani_li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav_ani_li:after {
+    content: '';
+    margin: auto;
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: transparent;
+    transition: all 0.4s ease;
+    margin-top: -5px;
+}
+
+.nav-underline:after {
+    margin-top: 3px;
+}
+
+.nav_ani_li:hover:after {
+    width: 100%;
+    background-color: #1cc4f8;
+}
+
+.card-img-overlay {
+    color: white !important;
+    text-align: left;
+    font-weight: 800 !important;
+    white-space: normal;
+    margin-top: 8%;
+    padding-right: 50%;
+    padding-left: 60px;
+    padding-bottom: 5% !important;
+}
+.inner-link{
+    text-decoration: none;
+    color: #1cc4f8;
+}
+.inner-link:hover{
+    color: #1cc4f8;
+}
+  .custom-btn {
+    color: #fff;
+    border-radius: 30px;
+    border:2px solid #1cc4f8 !important;
+    padding: 3px 10px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+  }
+
+  .btn-11 {
+    border: none;
+     background-color: #081A48;
+      color: #fff;
+      overflow: hidden;
+  }
+
+  .btn-11:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+  }
+  .btn-11:hover{
+    background-color: #1cc4f8;
+
+  }
+  .btn-11:active{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2),
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+  }
+
+
+  @-webkit-keyframes shiny-btn1 {
+      0% { -webkit-transform: scale(0) rotate(45deg); opacity: 0; }
+      80% { -webkit-transform: scale(0) rotate(45deg); opacity: 0.5; }
+      81% { -webkit-transform: scale(4) rotate(45deg); opacity: 1; }
+      100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
+  }
+  .second-section-button{
+    background-color:#081A48;
+    color: white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+.program-logo{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
