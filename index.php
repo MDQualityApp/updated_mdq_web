@@ -58,33 +58,29 @@ include './includes/header.php';
       <div class="col-lg-6">
         <div class="row">
           <div class="col-lg-6">
-            <div class="card mx-3 mt-5">
+            <div class="card fourth-sec-card mx-3 mt-5">
               <div class="card-body">
                 <p style="text-transform:uppercase">years</p>
-                <h2>7+</h2>
+                <h2 style="font-weight:600">7+</h2>
                 <p>Extensive experience in delivering IT solutions & services.</p>
               </div>
             </div>
-            <div class="card mx-3 my-5">
+            <div class="card fourth-sec-card mx-3 my-5">
               <div class="card-body">
                 <p style="text-transform:uppercase">years</p>
-                <h2>7+</h2>
+                <h2 style="font-weight:600">7+</h2>
                 <p>Extensive experience in delivering IT solutions & services.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="card mx-3 my-5">
-              <div class="card-body">
-                <p style="text-transform:uppercase">years</p>
-                <h2>7+</h2>
-                <p>Extensive experience in delivering IT solutions & services.</p>
-              </div>
+              <img src="./images/home-company-profile.jpg" alt="" height="206px">
             </div>
-            <div class="card mx-3 my-5">
+            <div class="card fourth-sec-card mx-3 my-5">
               <div class="card-body">
                 <p style="text-transform:uppercase">years</p>
-                <h2>7+</h2>
+                <h2 style="font-weight:600">7+</h2>
                 <p>Extensive experience in delivering IT solutions & services.</p>
               </div>
             </div>
@@ -111,59 +107,20 @@ include './includes/header.php';
             <div class="swiper-slide"><img src="./images/clients/imsklogo.pptx.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/nadilogo.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/pixellogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/Poppers.jpg" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/vibrocarelogo.pptx.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/viscoperuse.jpg" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/vkart.jpg" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/vsafelogo.pptx.png" width="60%"></div>
           </div>
-          <script>
-            const reviewsCarouselOptions = {
-              direction: 'horizontal',
-              freeMode: true,
-              grabCursor: true,
-              speed: 600,
-              a11y: false,
-              loop: false,
-              breakpoints: {
-                640: {
-                  slidesPerView: 2,
-                  spaceBetween: 5,
-                },
-                768: {
-                  slidesPerView: 3,
-                  spaceBetween: 10,
-                },
-                1024: {
-                  slidesPerView: 4,
-                  spaceBetween: 10,
-                },
-                1366: {
-                  slidesPerView: 5,
-                  spaceBetween: 20,
-                },
-                1500: {
-                  slidesPerView: 6,
-                  spaceBetween: 20,
-                },
-              },
-              autoplay:
-              {
-                delay: 2000,
-              },
-              loop: true,
-            };
-            const reviewsCarousel = new Swiper('.swiper-container', reviewsCarouselOptions);
-          </script>
         </div>
       </div>
     </div>
   </div>
   </div>
 
-<div class="container-fluid pl-5 py-5 my-1" style="background-color:#081A48">
-<h5 class=" px-5" style="color:#081A48; font-weight:700; color:white">OUR SERVICES</h5>
-<h1 class="py-3 px-5"  style="font-weight:800;color:white">Providing a full range of services</h1>
+<div class="container-fluid pl-5 py-5 my-1" style="background-color:#F7F7F7">
+<h5 class=" px-5" style="color:#081A48; font-weight:700; color:#081A48">OUR SERVICES</h5>
+<h1 class="py-3 px-5"  style="font-weight:800;color:black">Providing a full range of services</h1>
   <div class="swiperlogo">
     <div class="container d-flex justify-content-center align-items-center">
       <div class="swiper-container" id="slider1">
@@ -205,11 +162,11 @@ include './includes/header.php';
     </div>
   </div>
 </div>
-<div class="container-fluid" style="height: 90vh;">
-<h5 class=" px-5" style="color:#081A48; font-weight:700;">OUR SERVICES</h5>
-<h1 class="py-3 px-5"  style="font-weight:800;">Providing a full range of services</h1>
+<div class="container-fluid pt-5" style="height: 90vh;">
+<h5 class=" px-5" style="color:#081A48; font-weight:700;">TECHNOLOGY STACK</h5>
+<h1 class="py-3 px-5"  style="font-weight:800;">Technologies we work with</h1>
 <div class="d-flex justify-content-center">
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:black">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="pills-Front-End-tab" data-bs-toggle="pill" data-bs-target="#pills-Front-End" type="button" role="tab" aria-controls="pills-Front-End" aria-selected="true">Front-End</button>
   </li>
@@ -276,9 +233,9 @@ include './includes/header.php';
 </div>
 
 </div>
-<div class="container-fluid pl-5 py-5" style="background-color:#081A48">
-<h5 class=" px-5" style="font-weight:700; color:white">OUR WORK</h5>
-<h1 class="py-3 px-5" style="font-weight:800;color:white">Our happiness lies in the journey</h1>
+<div class="container-fluid pl-5 py-5" style="background-color:#F7F7F7">
+<h5 class=" px-5" style="font-weight:700; color:#081A48">OUR WORK</h5>
+<h1 class="py-3 px-5" style="font-weight:800;color:black">Our happiness lies in the journey</h1>
   <div class="swiperlogo">
     <div class="container d-flex justify-content-center align-items-center">
       <div class="swiper-container" id="slider2">
@@ -320,7 +277,115 @@ include './includes/header.php';
     </div>
   </div>
 </div>
+
+
+
+<div class=" pl-5 py-5" >
+<div class="container">
+<h5 class=" px-5" style="font-weight:700; color:#081A48">INDUSTRIES</h5>
+<h1 class="py-3 px-5" style="font-weight:800;color:black">Serving our clients across diverse industries</h1>
+<div class="row my-5 py-3">
+  <div class="col-lg-3 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/100/external-heart-beat-active-lifestyle-kmg-design-glyph-kmg-design.png" alt="external-heart-beat-active-lifestyle-kmg-design-glyph-kmg-design"/>
+  </div>
+  <div class="col-lg-3 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-glyphs/70/graduation-cap--v1.png" alt="graduation-cap--v1"/>
+  </div>
+  <div class="col-lg-3 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/70/truck.png" alt="truck"/>
+  </div>
+  <div class="col-lg-3 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/70/airplane-take-off.png" alt="airplane-take-off"/>
+  </div>
+</div>
+<div class="row py-3">
+  <div class="col-lg-4 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/70/oil-industry.png" alt="oil-industry"/>
+  </div>
+  <div class="col-lg-4 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/ios-filled/70/youtube-play.png" alt="youtube-play"/>
+  </div>
+  <div class="col-lg-4 d-flex justify-content-center align-items-center">
+  <img width="70" height="70" src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/70/external-deal-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png" alt="external-deal-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto"/>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<div class=" pl-5 py-5" style="background-color:#F7F7F7">
+<div class="container">
+<h5 class=" px-5" style="font-weight:700; color:#081A48">NEWS & INSIGHT</h5>
+<h1 class="py-3 px-5" style="font-weight:800;color:black">Our happiness lies in the journey</h1>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="card fourth-sec-card">
+    <img src="./images/news-blog.jpg" alt="" width="100%">
+      <div class="card-body p-4 my-4">
+<h5 class="my-3" style="font-weight:600">Modern Web and Mobile Development Solutions</h5>
+<p>Discover case study highlights that display how our feature-rich, aesthetically appealing mobile and web app solutions helped clients in a wide range of sectors resolve their complex business problems.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card fourth-sec-card mb-5">
+      <div class="card-body p-4 my-3">
+        <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
+        <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
+        <p>Employing remote developers guarantees scalability, continued innovation, and rapid team ramp-up.</p>
+      </div>
+    </div>
+    <div class="card fourth-sec-card" style="margin-top:70px">
+      <div class="card-body p-4 my-3">
+        <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
+        <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
+        <p>Employing remote developers guarantees scalability, continued innovation, and rapid team ramp-up.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 <script>
+            const reviewsCarouselOptions = {
+              direction: 'horizontal',
+              freeMode: true,
+              grabCursor: true,
+              speed: 600,
+              a11y: false,
+              loop: false,
+              breakpoints: {
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 5,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 10,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 10,
+                },
+                1366: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
+                },
+                1500: {
+                  slidesPerView: 6,
+                  spaceBetween: 20,
+                },
+              },
+              autoplay:
+              {
+                delay: 2000,
+              },
+              loop: true,
+            };
+            const reviewsCarousel = new Swiper('.swiper-container', reviewsCarouselOptions);
+
+
   const slider1Options = {
     direction: 'horizontal',
               freeMode: true,
