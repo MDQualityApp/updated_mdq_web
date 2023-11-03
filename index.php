@@ -3,7 +3,8 @@ include './includes/header.php';
 ?>
 
 <body>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="padding-top:65px;">
+  <div class="website-background" style="background-color:#F7FDFF; padding-top:65px">
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
         aria-current="true" aria-label="Slide 1"></button>
@@ -15,101 +16,150 @@ include './includes/header.php';
         <img src="./images/mobile-development.webp" class="d-block w-100"
           alt="best-mobile-app-development-company-chennai">
         <div class="card-img-overlay">
-          <h1>Innovation Meets Expertise in Every App We Create</h1>
+          <div class="row">
+            <div class="col-lg-6 px-5">
+            <h1>Innovating People, Celebrating Culture, Redefining Workplace Excellence.</h1>
           <h4>MDQuality Apps Solutions-</h4>
           <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a
               class="inner-link" href="">iOS</a></h5>
+            </div>
+
+          </div>
+
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="4000">
         <img src="./images/web-development.webp" class="d-block w-100" alt="best-web-development-company-chennai">
         <div class="card-img-overlay">
-          <h1>Innovation Meets Expertise in Every App We Create</h1>
+          <div class="row">
+            <div class="col-lg-6 px-5">
+            <h1>Your Path to Technological Transformation.</h1>
           <h4>MDQuality Apps Solutions-</h4>
-          <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a
+          <h5>pioneer in Native and Hybrid Website Development of <a class="inner-link" href=""> Android</a> and <a
               class="inner-link" href="">iOS</a></h5>
+            </div>
+
+          </div>
+
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="4000">
         <img src="./images/mobile-development.webp" class="d-block w-100"
           alt="best-cyber-security-development-company-chennai">
-        <div class="card-img-overlay">
-          <h1>Innovation Meets Expertise in Every App We Create</h1>
+          <div class="card-img-overlay">
+          <div class="row">
+            <div class="col-lg-6 px-5">
+            <h1>Instructing Today, Versatile Tomorrow, Transforming the Future</h1>
           <h4>MDQuality Apps Solutions-</h4>
           <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a
               class="inner-link" href="">iOS</a></h5>
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
   </div>
   <!-- secondsection -->
-  <div class="container-fluid">
+  <div class="container-fluid" >
     <div class="row px-4">
-      <div class="col-lg-6 p-4 mt-5">
-        <h5 class="py-3" style="color:#081A48; font-weight:700">WE ARE RAY I</h5>
-        <h1 style="font-weight:700;line-height:50px;">IT Consulting & Offshore Software Development Firm</h1>
-        <p style="line-height:30px">With decades of expertise in directing clients through digital transformation, Ray I
-          is an award-winning application software and IT consulting company. To deliver high-performance technology
-          solutions, we provide in-depth sector expertise and implement a teamwork technique. With the help of our
-          invention ecosystem's transfer of knowledge, we assist our clients to obtain constant improvement.</p>
+      <div class="col-lg-6 p-4" style="text-align:justify">
+        <h5 class="py-3" style="color:#1C46A8; font-weight:700;">WE ARE MDQ</h5>
+        <h1 style="font-weight:700;line-height:50px;color:#081A48">Empowering People through Technology</h1>
+        <h5 class="py-2" style="font-weight:700;">We find ourselves at the dawn of a new era in digital transformation.</h5>
+        <p class="website-para">Established in 2016, MDQuality Apps has rapidly expanded its client base across three different countries. Our core focus is on delivering comprehensive IT services and industry-specific solutions across 13 domains worldwide. Whether you're an ISV or a large corporation, we're here to accelerate your progress and unlock future possibilities. With a wealth of industry knowledge and technical prowess, we're dedicated to creating tangible value through digitalization and propelling various sectors forward by leveraging cutting-edge innovations.</p>
+        <p class="website-para">At MDQuality Apps, we're committed to fostering innovation and addressing today's technology needs. Our co-founder, Divya L, leads our team of professionals and problem solvers on a mission to become a global leader in IT services and solutions. We draw inspiration from our diverse culture, unwavering commitment, and expertise as we collaborate effectively with partners and clients.</p>
         <button class="second-section-button ">About us</button>
       </div>
 
       <div class="col-lg-6">
         <div class="row">
           <div class="col-lg-6">
-            <div class="card fourth-sec-card mx-3 mt-5">
-              <div class="card-body">
-                <p style="text-transform:uppercase">years</p>
-                <h2 style="font-weight:600">7+</h2>
-                <p>Extensive experience in delivering IT solutions & services.</p>
+            <div>
+            <div class="card fourth-sec-card mx-4 mt-5 d-flex justify-content-center align-items-center" style="background-color:#6892D7">
+              <div class="card-body px-3 pb-5">
+              <img width="60" height="60" src="https://img.icons8.com/ios/100/ffffff/android.png" alt="android"/>
               </div>
             </div>
-            <div class="card fourth-sec-card mx-3 my-5">
+            <div class="card inner-card"  data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+                <div class="card-body">
+                  <h6 style="color:#1C46A8; font-weight:600">MOBILE APP</h6>
+                  <p class="animation-no fs-2" style="font-weight:700; font-size: 45px !important;"><span id='0101'></span>+</p>
+                  <p>Extensive experience in delivering IT solutions & services.</p>
+                </div>
+               </div>
+               </div>
+               <div class="my-5">
+            <div class="card fourth-sec-card mx-4 d-flex justify-content-center align-items-center" style="background-color:#5CB85C">
               <div class="card-body">
-                <p style="text-transform:uppercase">years</p>
-                <h2 style="font-weight:600">7+</h2>
-                <p>Extensive experience in delivering IT solutions & services.</p>
+              <img width="60" height="60" src="https://img.icons8.com/ios/100/ffffff/mac-os--v1.png" alt="mac-os--v1"/>
               </div>
             </div>
+            <div class="card inner-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+                <div class="card-body">
+                <h6 style="color:#1C46A8; font-weight:600">iOS</h6>
+                  <p class="animation-no fs-2" style="font-weight:700; font-size: 45px !important;"><span id='0102'></span>+</p>
+                  <p>Extensive experience in delivering IT solutions & services.</p>
+                </div>
+               </div>
+               </div>
           </div>
-          <div class="col-lg-6">
-            <div class="card mx-3 my-5">
-              <img src="./images/home-company-profile.jpg" alt="" height="206px">
-            </div>
-            <div class="card fourth-sec-card mx-3 my-5">
-              <div class="card-body">
-                <p style="text-transform:uppercase">years</p>
-                <h2 style="font-weight:600">7+</h2>
-                <p>Extensive experience in delivering IT solutions & services.</p>
+          <div class="col-lg-6 pt-5 mt-4 ">
+            <div class="my-5">
+          <div class="card fourth-sec-card mx-4 d-flex justify-content-center align-items-center" style="background-color:#F15048">
+              <div class="card-body ">
+              <img width="60" height="60" src="https://img.icons8.com/ios/100/ffffff/programming.png" alt="programming"/>
               </div>
             </div>
+            <div class="card inner-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+                <div class="card-body">
+                <h6 style="color:#1C46A8; font-weight:600">WEBSITE</h6>
+                  <p class="animation-no fs-2" style="font-weight:700; font-size: 45px !important;"><span id='0103'></span>+</p>
+                  <p>Extensive experience in delivering IT solutions & services.</p>
+                </div>
+               </div>
+               </div>
+               <div class="my-5">
+            <div class="card fourth-sec-card mx-4 d-flex justify-content-center align-items-center" style="background-color:#FB9056">
+              <div class="card-body">
+              <img width="60" height="60" src="https://img.icons8.com/ios/100/ffffff/administrator-male--v1.png" alt="administrator-male--v1"/>
+              </div>
+            </div>
+            <div class="card inner-card" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+                <div class="card-body">
+                <h6 style="color:#1C46A8; font-weight:600">CLIENTS</h6>
+                  <p class="animation-no fs-2" style="font-weight:700; font-size: 45px !important;"><span id='0104'></span>+</p>
+                  <p>Clients across the globe testifying our quality & processes.</p>
+                </div>
+               </div>
+               </div>
           </div>
         </div>
       </div>
     </div>
 
   <!-- clients -->
-  <div class="clients ml-4">
+  <div class="clients">
     <div class="swiperlogo">
       <div class="container">
         <div class="swiper-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./images/clients/algoshacklogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/ARpower.jpg" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/ARpower.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/azonixlogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/cartunez.jpg" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/clubnoww.jpg" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/CMRAgency.jpg" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/dulydecors.jpg" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/cartunez.png" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/clubnoww.png" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/CMRAgency.png" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/dulydecors.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/evtron.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/fujifilmlogo.pptx.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/imsklogo.pptx.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/nadilogo.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/pixellogo.pptx.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/vibrocarelogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/viscoperuse.jpg" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/vkart.jpg" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/viscoperuse.png" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/vkart.png" width="60%"></div>
             <div class="swiper-slide"><img src="./images/clients/vsafelogo.pptx.png" width="60%"></div>
           </div>
         </div>
@@ -118,55 +168,26 @@ include './includes/header.php';
   </div>
   </div>
 
-<div class="container-fluid pl-5 py-5 my-1" style="background-color:#F7F7F7">
-<h5 class=" px-5" style="color:#081A48; font-weight:700; color:#081A48">OUR SERVICES</h5>
-<h1 class="py-3 px-5"  style="font-weight:800;color:black">Providing a full range of services</h1>
-  <div class="swiperlogo">
-    <div class="container d-flex justify-content-center align-items-center">
-      <div class="swiper-container" id="slider1">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="card py-5">
-              <div class="card-body">
-                <h2>Development of Web Application</h2>
-                <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card py-5">
-              <div class="card-body">
-                <h2>Development of Web Application</h2>
-                <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card py-5">
-              <div class="card-body">
-                <h2>Development of Web Application</h2>
-                <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card py-5">
-              <div class="card-body">
-                <h2>Development of Web Application</h2>
-                <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
+
+
+
+<div class="container-fluid pl-5 pt-5 my-1" >
+<h5 class=" px-5" style=" font-weight:700; color:#1C46A8">OUR SERVICES</h5>
+<h1 class="py-3 px-5"  style="font-weight:800;color:#081A48">Providing a full range of services</h1>
+<?php
+include './includes/slider.php';
+?>
 </div>
-<div class="container-fluid pt-5" style="height: 90vh;">
-<h5 class=" px-5" style="color:#081A48; font-weight:700;">TECHNOLOGY STACK</h5>
-<h1 class="py-3 px-5"  style="font-weight:800;">Technologies we work with</h1>
+
+
+
+
+<div class="container-fluid pt-5">
+<h5 class=" px-5" style=" font-weight:700; color:#1C46A8">TECHNOLOGY STACK</h5>
+<h1 class="py-3 px-5"  style="font-weight:800;color:#081A48;">Technologies we work with</h1>
 <div class="d-flex justify-content-center">
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:black">
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style="color:black; background-color:#F7FDFF !important">
   <li class="nav-item" role="presentation">
     <button class="nav-link active" id="pills-Front-End-tab" data-bs-toggle="pill" data-bs-target="#pills-Front-End" type="button" role="tab" aria-controls="pills-Front-End" aria-selected="true">Front-End</button>
   </li>
@@ -231,17 +252,18 @@ include './includes/header.php';
     </div>
   </div>
 </div>
-
 </div>
-<div class="container-fluid pl-5 py-5" style="background-color:#F7F7F7">
-<h5 class=" px-5" style="font-weight:700; color:#081A48">OUR WORK</h5>
-<h1 class="py-3 px-5" style="font-weight:800;color:black">Our happiness lies in the journey</h1>
+
+
+<div class="container-fluid pl-5 py-5" >
+<h5 class=" px-5" style="font-weight:700;color:#1C46A8">OUR WORK</h5>
+<h1 class="py-3 px-5" style="font-weight:800; color:#081A48">Our happiness lies in the journey</h1>
   <div class="swiperlogo">
-    <div class="container d-flex justify-content-center align-items-center">
+    <div class="container d-flex justify-content-center align-items-center ">
       <div class="swiper-container" id="slider2">
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper my-2">
           <div class="swiper-slide">
-            <div class="card py-5">
+            <div class="card py-4">
               <div class="card-body">
                 <h2>Development of Web Application</h2>
                 <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
@@ -249,7 +271,7 @@ include './includes/header.php';
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="card py-5">
+            <div class="card py-4">
               <div class="card-body">
                 <h2>Development of Web Application</h2>
                 <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
@@ -257,15 +279,7 @@ include './includes/header.php';
             </div>
           </div>
           <div class="swiper-slide">
-            <div class="card py-5">
-              <div class="card-body">
-                <h2>Development of Web Application</h2>
-                <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="card py-5">
+            <div class="card py-4">
               <div class="card-body">
                 <h2>Development of Web Application</h2>
                 <p>With long-term business plans in mind, we have formed safe web app development solutions. Our team, which is focused on a collaborative approach, is aware of the needs of clients to access value and develop generation-next skills.</p>
@@ -282,8 +296,8 @@ include './includes/header.php';
 
 <div class=" pl-5 py-5" >
 <div class="container">
-<h5 class=" px-5" style="font-weight:700; color:#081A48">INDUSTRIES</h5>
-<h1 class="py-3 px-5" style="font-weight:800;color:black">Serving our clients across diverse industries</h1>
+<h5 class="" style="font-weight:700; color:#1C46A8">INDUSTRIES</h5>
+<h1 class="py-3" style="font-weight:800; color:#081A48;">Serving our clients across diverse industries</h1>
 <div class="row my-5 py-3">
   <div class="col-lg-3 d-flex justify-content-center align-items-center">
   <img width="70" height="70" src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/100/external-heart-beat-active-lifestyle-kmg-design-glyph-kmg-design.png" alt="external-heart-beat-active-lifestyle-kmg-design-glyph-kmg-design"/>
@@ -314,13 +328,13 @@ include './includes/header.php';
 
 
 
-<div class=" pl-5 py-5" style="background-color:#F7F7F7">
+<div class=" pl-5 py-5" >
 <div class="container">
-<h5 class=" px-5" style="font-weight:700; color:#081A48">NEWS & INSIGHT</h5>
-<h1 class="py-3 px-5" style="font-weight:800;color:black">Our happiness lies in the journey</h1>
+<h5 style="font-weight:700;  color:#1C46A8">NEWS & INSIGHT</h5>
+<h1 class="py-3" style="font-weight:800;color:#081A48;">Our happiness lies in the journey</h1>
 <div class="row">
   <div class="col-lg-6">
-    <div class="card fourth-sec-card">
+    <div class="card ">
     <img src="./images/news-blog.jpg" alt="" width="100%">
       <div class="card-body p-4 my-4">
 <h5 class="my-3" style="font-weight:600">Modern Web and Mobile Development Solutions</h5>
@@ -329,14 +343,14 @@ include './includes/header.php';
     </div>
   </div>
   <div class="col-lg-6">
-    <div class="card fourth-sec-card mb-5">
+    <div class="card  mb-5 mt-2">
       <div class="card-body p-4 my-3">
         <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
         <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
         <p>Employing remote developers guarantees scalability, continued innovation, and rapid team ramp-up.</p>
       </div>
     </div>
-    <div class="card fourth-sec-card" style="margin-top:70px">
+    <div class="card">
       <div class="card-body p-4 my-3">
         <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
         <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
@@ -347,6 +361,9 @@ include './includes/header.php';
 </div>
 </div>
 </div>
+<div>
+
+
 <script>
             const reviewsCarouselOptions = {
               direction: 'horizontal',
@@ -461,6 +478,38 @@ include './includes/header.php';
             };
   const slider2 = new Swiper('#slider2', slider2Options);
 </script>
+<script>
+        function animate(obj, initVal, lastVal, duration) {
+            let startTime = null;
+
+            const step = (timestamp) => {
+                if (!startTime) {
+                    startTime = timestamp;
+                }
+                const progress = Math.min((timestamp - startTime) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+
+            window.requestAnimationFrame(step);
+        }
+
+        let text1 = document.getElementById('0101');
+        let text2 = document.getElementById('0102');
+        let text3 = document.getElementById('0103');
+        let text4 = document.getElementById('0104');
+
+        const load = () => {
+            animate(text1, 0, 110, 7000);
+            animate(text2, 0, 95, 7000);
+            animate(text3, 0, 120, 7000);
+            animate(text4, 0, 200, 7000);
+        }
+        window.addEventListener('load', load);
+    </script>
+    </div>
 </body>
 <?php
 include './includes/footer.php';
