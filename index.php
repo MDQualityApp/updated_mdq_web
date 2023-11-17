@@ -1,7 +1,6 @@
 <?php
-include './includes/header.php';
+include './header.php';
 ?>
-
 <body>
   <div class="website-background" style="background-color:#F7FDFF; padding-top:65px">
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
@@ -17,7 +16,7 @@ include './includes/header.php';
           alt="best-mobile-app-development-company-chennai">
         <div class="card-img-overlay">
           <div class="row">
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-7 px-5">
             <h1>Innovating People, Celebrating Culture, Redefining Workplace Excellence.</h1>
           <h4>MDQuality Apps Solutions-</h4>
           <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a
@@ -145,22 +144,22 @@ include './includes/header.php';
       <div class="container">
         <div class="swiper-container">
           <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="./images/clients/algoshacklogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/ARpower.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/azonixlogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/cartunez.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/clubnoww.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/CMRAgency.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/dulydecors.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/evtron.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/fujifilmlogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/imsklogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/nadilogo.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/pixellogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/vibrocarelogo.pptx.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/viscoperuse.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/vkart.png" width="60%"></div>
-            <div class="swiper-slide"><img src="./images/clients/vsafelogo.pptx.png" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/algoshacklogo.pptx.png" alt="custom web development company" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/ARpower.png" alt="android app development company usa" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/azonixlogo.pptx.png" alt="android app development company in bangalore" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/cartunez.png" alt="iphone app development company" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/clubnoww.png" alt="android app development company in usa" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/CMRAgency.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/dulydecors.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/evtron.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/fujifilmlogo.pptx.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/imsklogo.pptx.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/nadilogo.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/pixellogo.pptx.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/vibrocarelogo.pptx.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/viscoperuse.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/vkart.png" alt="" width="60%"></div>
+            <div class="swiper-slide"><img src="./images/clients/vsafelogo.pptx.png" alt="" width="60%"></div>
           </div>
         </div>
       </div>
@@ -212,32 +211,42 @@ include './includes/slider.php';
   <div class="tab-pane fade show active" id="pills-Front-End" role="tabpanel" aria-labelledby="pills-Front-End-tab">
     <div class="d-flex justify-content-center">
       <div>
-      <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/html-5--v1.png" alt="html-5--v1"/>
-      <p style="text-align:center;">html</p>
-      </div>
-
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/css3.png" alt="css3"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/100/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/angularjs.png" alt="angularjs"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/color/100/nextjs.png" alt="nextjs"/>
+        <div class="row">
+          <div class="col-lg-12">
+      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/html-5--v1.png" alt="html-5--v1"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/css3.png" alt="css3"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/500/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/angularjs.png" alt="angularjs"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/500/nextjs.png" alt="nextjs"/>
     </div>
+    </div>
+    </div>
+        </div>
   </div>
   <div class="tab-pane fade" id="pills-Back-End" role="tabpanel" aria-labelledby="pills-Back-End-tab">
     <div class="d-flex justify-content-center">
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/php-logo.png" alt="php-logo"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/python.png" alt="python"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/windows/100/node-js.png" alt="node-js"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios/100/laravel.png" alt="laravel"/>
+    <div class="row">
+          <div class="col-lg-12">
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/php-logo.png" alt="php-logo"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/python.png" alt="python"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/500/node-js.png" alt="node-js"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios/500/laravel.png" alt="laravel"/>
+    </div>
+    </div>
     </div>
   </div>
   <div class="tab-pane fade" id="pills-Mobile" role="tabpanel" aria-labelledby="pills-Mobile-tab">
     <div class="d-flex justify-content-center">
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/flutter.png" alt="flutter"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/100/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/wired/100/iphone-x.png" alt="iphone-x"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/android-os.png" alt="android-os"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/kotlin.png" alt="kotlin"/>
-    <img class="program-logo" width="100" height="100" src="https://img.icons8.com/ios-filled/100/swift.png" alt="swift"/>
+    <div class="row">
+          <div class="col-lg-12">
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/flutter.png" alt="flutter"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/500/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/wired/500/iphone-x.png" alt="iphone-x"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/android-os.png" alt="android-os"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/kotlin.png" alt="kotlin"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/swift.png" alt="swift"/>
+    </div>
+    </div>
     </div>
     </div>
   <div class="tab-pane fade" id="pills-Open-Source" role="tabpanel" aria-labelledby="pills-Open-Source-tab">
@@ -246,16 +255,19 @@ include './includes/slider.php';
   <div class="tab-pane fade" id="pills-devops" role="tabpanel" aria-labelledby="pills-devops-tab">...</div>
   <div class="tab-pane fade" id="pills-Database" role="tabpanel" aria-labelledby="pills-Database-tab">
   <div class="d-flex justify-content-center">
-    <img width="100" height="100" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/100/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
-    <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/mysql-logo.png" alt="mysql-logo"/>
-    <img width="100" height="100" src="https://img.icons8.com/color/100/maria-db.png" alt="maria-db"/>
+  <div class="row">
+          <div class="col-lg-12">
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/mysql-logo.png" alt="mysql-logo"/>
+    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/500/maria-db.png" alt="maria-db"/>
+    </div>
+    </div>
     </div>
   </div>
 </div>
 </div>
 
-
-<div class="container-fluid pl-5 py-5" >
+<div class="container-fluid pl-5 py-5" style="position:relative">
 <h5 class=" px-5" style="font-weight:700;color:#1C46A8">OUR WORK</h5>
 <h1 class="py-3 px-5" style="font-weight:800; color:#081A48">Our happiness lies in the journey</h1>
   <div class="swiperlogo">
@@ -512,5 +524,5 @@ include './includes/slider.php';
     </div>
 </body>
 <?php
-include './includes/footer.php';
+include './footer.php';
 ?>

@@ -16,7 +16,13 @@
     padding-bottom: 0px !important;
     background-color: #081A48 !important;
 }
+.navbar-light .navbar-toggler{
+    color: white !important;
+}
 
+.navbar-toggler{
+    background-color: #1CC4F8 !important;
+}
 .fixed-navbar {
     position: fixed !important;
     top: 0;
@@ -25,7 +31,15 @@
     z-index: 1000;
     visibility: inherit;
 }
-
+.h1-heading{
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+.h2-heading{
+    color: #1C46A8;
+    font-weight: 600;
+}
 .nav-item {
     margin-right: 20px;
 }
@@ -84,7 +98,8 @@
 }
 .website-para{
     line-height:30px;
-    font-size:18px
+    font-size:18px;
+    text-align:justify;
 }
 .inner-link{
     text-decoration: none;
@@ -185,4 +200,33 @@
 }
 .nav-link:focus, .nav-link:hover{
     color: black;
+}
+
+/* our work */
+.our-work-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    border-radius: 10px;
+}
+.view-more-button{
+    border: none !important;
+    background-color: #081A48;
+    color: white;
+
+}
+.portfolio-img{
+    border-radius: 10px 10px 0px 0px;
+}
+.portfolio-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    width:40px;
+    height:40px
+}
+/* Add this CSS in your stylesheet */
+.swiper-button-prev.custom-prev::after,
+.swiper-button-next.custom-next::after {
+    color: black !important;
 }

@@ -5,9 +5,9 @@
     }
 
     .third-page .card {
-        width: 60%;
+        width: 80%;
         height: 100%;
-        margin-left: 20%;
+        margin-left: 10%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -201,7 +201,7 @@
        outline: none;
     }
 </style>
-<div class="third-page">
+<div class="third-page" id="contactus" style="background-color:#F7FDFF">
     <div class="card">
         <div class="card-body p-3" style="width:100%">
             <h1 class="py-1">Contact Us</h1>
@@ -212,16 +212,16 @@
                 </div>
                 <div class="col-lg-7 ">
                     <div class="d-flex justify-content-center align-items-center">
-                        <input class="contact-input py-2 mt-3" type="text" placeholder=" Your Name">
+                        <input class="contact-input py-3 mt-3" type="text" placeholder=" Your Name">
                     </div>
                     <div>
-                        <input class="contact-input py-2 my-3" type="text" placeholder=" Phone Number">
+                        <input class="contact-input py-3 my-3" type="text" placeholder=" Phone Number">
                     </div>
                     <div>
-                        <input class="contact-input py-2" type="text" placeholder=" Email Address">
+                        <input class="contact-input py-3" type="text" placeholder=" Email Address">
                     </div>
                     <div>
-                        <textarea class="contact-input py-2 my-3" placeholder=" Message"></textarea>
+                        <textarea class="contact-input py-3 my-3" placeholder=" Message"></textarea>
                     </div>
                 </div>
             </div>
