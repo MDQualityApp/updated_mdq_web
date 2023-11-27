@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <body>
-  <div class="website-background" style="background-color:#F7FDFF; padding-top:65px">
+  <div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" >
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"

@@ -85,7 +85,7 @@
 </style>
 <body>
 <div class="dropdown-content dropdown-content-hire">
-<div style="background-color:#081A48; opacity:1 !important; padding-top:10.5px"></div>
+<div style="background-color:#081A48; opacity:1 !important; padding-top:8px"></div>
 <div class="d-flex align-items-start" style=" width:100% !important;">
   <div class="nav flex-column nav-pills nav-pills-hire me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-hire active" id="v-pills-mobile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-mobile" type="button" role="tab" aria-controls="v-pills-mobile" aria-selected="true">Mobile</button>
@@ -99,53 +99,53 @@
     <div class="tab-pane fade show active" id="v-pills-mobile" role="tabpanel" aria-labelledby="v-pills-mobile-tab" >
     <div class="row">
         <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/mac-os.png" alt="mac-os"/> Hire iOS Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/ios-filled/400/ffffff/android-os.png" alt="android-os"/> Hire Android Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/swift.png" alt="swift"/> Hire Swift Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/material-rounded/960/ffffff/kotlin.png" alt="kotlin"/> Hire Kotlin Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/flutter.png" alt="flutter"/> Hire Flutter Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-ios-developers.php"><img style="margin-top: -6px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/mac-os.png" alt="mac-os"/>&nbsp;&nbsp; Hire iOS Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-android-developers.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/ios-filled/400/ffffff/android-os.png" alt="android-os"/>&nbsp;&nbsp; Hire Android Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-swift-developers.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/swift.png" alt="swift"/>&nbsp;&nbsp; Hire Swift Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-kotlin-developers.php"><img style="margin-top: -1px;" width="25" height="25" src="https://img.icons8.com/material-rounded/960/ffffff/kotlin.png" alt="kotlin"/>&nbsp;&nbsp; Hire Kotlin Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-flutter-developers.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/flutter.png" alt="flutter"/>&nbsp;&nbsp; Hire Flutter Developers</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-website" role="tabpanel" aria-labelledby="v-pills-website-tab">
     <div class="row">
     <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/nolan/1000/ffffff/php-elephant.png" alt="java-coffee-cup-logo--v1" /> Hire PHP Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/windows/200/ffffff/node-js.png" alt="node-js" /> Hire Node JS Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Java Spring Boot Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-php-developers.php"><img width="25" height="25" src="https://img.icons8.com/nolan/1000/ffffff/php-elephant.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; Hire PHP Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-nodejs-developers.php"><img width="25" height="25" src="https://img.icons8.com/windows/200/ffffff/node-js.png" alt="node-js" />&nbsp;&nbsp; Hire Node JS Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-javaspring-developers.php"> Hire Java Spring Boot Developers</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-frontend" role="tabpanel" aria-labelledby="v-pills-frontend-tab">
     <div class="row">
     <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""><img width="25" height="25" src="https://img.icons8.com/ios/1000/ffffff/angularjs.png" alt="angularjs"/> Hire Angular Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""><img  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" /> Hire React JS Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Knockout JS Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-angular-developers.php"><img width="25" height="25" src="https://img.icons8.com/ios/1000/ffffff/angularjs.png" alt="angularjs"/>&nbsp;&nbsp; Hire Angular Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-reactjs-developers.php"><img  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" /> Hire React JS Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-knockoutjs-developers.php">&nbsp;&nbsp; Hire Knockout JS Developers</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-microsoft" role="tabpanel" aria-labelledby="v-pills-microsoft-tab">
     <div class="row">
     <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire ASP.net Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire C# Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-asp.net-developers.php"> Hire ASP.net Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-c-developers.php"> Hire C# Developers</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-cross" role="tabpanel" aria-labelledby="v-pills-cross-tab">
     <div class="row">
     <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Xamarin Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Ionic Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-xamarin-developers.php"> Hire Xamarin Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-ionic-developers.php"> Hire Ionic Developers</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-open-source" role="tabpanel" aria-labelledby="v-pills-open-source-tab">
     <div class="row">
     <div class="col-lg-12">
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Wordpress Developers</a></p>
-        <p class="industry-content"><a class="hire-content-a" href=""> Hire Shopify Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-wordpress-developers.php"> Hire Wordpress Developers</a></p>
+        <p class="industry-content"><a class="hire-content-a" href="./hire-shopify-developers.php"> Hire Shopify Developers</a></p>
         </div>
       </div>
     </div>

@@ -80,7 +80,7 @@
 </style>
 <body>
 <div class="dropdown-content dropdown-content-service">
-<div style="background-color:#081A48; opacity:1 !important; padding-top:10.5px"></div>
+<div style="background-color:#081A48; opacity:1 !important; padding-top:8px"></div>
 <div class="d-flex align-items-start" style=" width:100% !important;">
   <div class="nav flex-column nav-pills nav_pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-service active" id="v-pills-Industry-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Industry" type="button" role="tab" aria-controls="v-pills-Industry" aria-selected="true">Industry</button>
@@ -92,48 +92,50 @@
     <div class="tab-pane fade show active" id="v-pills-Industry" role="tabpanel" aria-labelledby="v-pills-Industry-tab" >
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/device-shop.png" alt="device-shop"/> E-Commerce</a></p>
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/online-group-studying.png" alt="online-group-studying"/> Education & E-Learning</a></p>
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/glyph-neue/640/ffffff/electric-bike.png" alt="electric-bike"/> Electric Vechicle</a></p>
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/640/ffffff/external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando.png" alt="external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando"/> IoT Apps</a></p>
-        <p class="industry-content"><a href="./program-javascript.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/1000/ffffff/food-bar.png" alt="food-bar"/> Food & Restaurants</a></p>
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/trust--v1.png" alt="trust--v1"/> Healthcare & Fitness</a></p>
+        <p class="industry-content"><a href=""><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/device-shop.png" alt="device-shop"/>&nbsp;&nbsp; E-Commerce</a></p>
+        <p class="industry-content"><a href="./industry-education.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/online-group-studying.png" alt="online-group-studying"/>&nbsp;&nbsp; Education & E-Learning</a></p>
+        <p class="industry-content"><a href=""><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/glyph-neue/640/ffffff/electric-bike.png" alt="electric-bike"/>&nbsp;&nbsp; Electric Vechicle</a></p>
+        <p class="industry-content"><a href=""><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/640/ffffff/external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando.png" alt="external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando"/>&nbsp;&nbsp; IoT Apps</a></p>
+        <p class="industry-content"><a href=""><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-filled/1000/ffffff/food-bar.png" alt="food-bar"/>&nbsp;&nbsp; Food & Restaurants</a></p>
+        <p class="industry-content"><a href="./industry-healthcare.php"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/trust--v1.png" alt="trust--v1"/>&nbsp;&nbsp; Healthcare</a></p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">
 
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/pastel-glyph/640/ffffff/transport--delivery--logistics--cargo--parcel--box--service-28.png" alt="transport--delivery--logistics--cargo--parcel--box--service-28"/> Logistics & Distribution</a></p>
-        <p class="industry-content"><a href=""><img width="25" height="25" src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/320/ffffff/external-house-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png" alt="external-house-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto"/> Real Estate</a></p>
+        <p class="industry-content"><a href="./industry-logistics.php"><img style="margin-top: -7px;" width="25" height="25" src="https://img.icons8.com/pastel-glyph/640/ffffff/transport--delivery--logistics--cargo--parcel--box--service-28.png" alt="transport--delivery--logistics--cargo--parcel--box--service-28"/>&nbsp;&nbsp; Logistics & Distribution</a></p>
+        <p class="industry-content"><a href="./industry-realestate.php"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/320/ffffff/external-house-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png" alt="external-house-real-estate-yogi-aprelliyanto-glyph-yogi-aprelliyanto"/>&nbsp;&nbsp; Real Estate</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-Offering" role="tabpanel" aria-labelledby="v-pills-Offering-tab">
     <div class="row">
         <div class="col-lg-6">
-        <p class="industry-content"><a href=""> Virtual Reality (VR)</a></p>
-        <p class="industry-content"><a href=""> Cloud</a></p>
-        <p class="industry-content"><a href=""> Big Data</a></p>
-        <p class="industry-content"><a href=""> Data Science</a></p>
+        <p class="industry-content"><a href="./offering-ar-vr.php"> AR/VR App Development</a></p>
+        <p class="industry-content"><a href="./offering-it-consulting.php"> IT Consulting Services</a></p>
+        <p class="industry-content"><a href="./offering-web-application.php"> Web Application Development</a></p>
+        <p class="industry-content"><a href="./offering-mobile-app.php"> Mobile App Development</a></p>
+        <p class="industry-content"><a href="./offering-front-end.php"> Front End Development</a></p>
         </div>
         <div class="col-lg-6">
-        <p class="industry-content"><a href=""> Artificial Intelligence</a></p>
-        <p class="industry-content"><a href=""> Blockchain</a></p>
+        <p class="industry-content"><a href="./offerings-microsoft.php"> Microsoft Development</a></p>
+        <p class="industry-content"><a href="./offerings-hire-dedicated.php"> Hire Dedicated Developers</a></p>
+        <p class="industry-content"><a href="./offerings-product-prototyping.php"> Product Prototyping</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-Models" role="tabpanel" aria-labelledby="v-pills-Models-tab">
     <div class="row">
         <div class="col-lg-6">
-        <p class="industry-content"><a href=""> Microsoft</a></p>
-        <p class="industry-content"><a href=""> Amazon</a></p>
-        <p class="industry-content"><a href=""> Salesforce</a></p>
+        <p class="industry-content"><a href="./models-delivery.php"> Delivery Models</a></p>
+        <p class="industry-content"><a href="./models-engagement.php"> Engagement Models</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-trending" role="tabpanel" aria-labelledby="v-pills-trending-tab">
     <div class="row">
         <div class="col-lg-6">
-        <p class="industry-content"><a href=""> Microsoft</a></p>
-        <p class="industry-content"><a href=""> Amazon</a></p>
+        <p class="industry-content"><a href="./services-trending-chatbot.php"> ChatBOT</a></p>
+        <p class="industry-content"><a href="./services-trending-chatbot.php"> AI / ML</a></p>
+        <p class="industry-content"><a href="./services-trending-blockchain.php"> BlockChain</a></p>
         </div>
       </div>
     </div>

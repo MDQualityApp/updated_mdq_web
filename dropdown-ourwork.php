@@ -36,9 +36,9 @@
 </style>
 <body>
 <div class="dropdown-content dropdown-content-ourwork">
-<div style="background-color:#081A48; opacity:1 !important; padding-top:10.5px"></div>
+<div style="background-color:#081A48; opacity:1 !important; padding-top:8px"></div>
 <div style=" border: 5px solid #1C46A8;">
-<a class="com-hover"  href="./portfolio.php">Portfolio</a>
+<a class="com-hover"  href="./portfolio.php"><img style="margin-top:-5px;" width="25" height="25" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/640/ffffff/external-portfolio-advertising-kiranshastry-solid-kiranshastry.png" alt="external-portfolio-advertising-kiranshastry-solid-kiranshastry"/>&nbsp;&nbsp; Portfolio</a>
 </div>
 </div>
 </body>
