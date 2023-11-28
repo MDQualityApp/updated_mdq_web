@@ -3,10 +3,10 @@ include './header.php';
 ?>
 <div class="website-background" style="background-color:#F7FDFF">
     <div class="container-fluid" style="padding-top:63px">
-        <h1 class="py-4" style="color:#1C46A8; font-weight:700;">Our Work</h1>
+        <h1 class="py-4" style="color:#1C46A8; font-weight:700;">Portfolio</h1>
         <div class="row">
             <div class="col-lg-4">
-                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                 <div class="card our-work-card">
                     <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                     <div class="py-3 d-flex  align-items-center px-4">

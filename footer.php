@@ -1,9 +1,18 @@
 <style>
+    @font-face {
+  font-family: 'Pacifico';
+  src: url('path_to_your_font_files/Pacifico-Regular.ttf') format('truetype'); /* Update the path to your font file */
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('path_to_your_font_files/Quicksand-Regular.ttf') format('truetype'); /* Update the path to your font file */
+  /* You can also add additional font weights or styles here */
+}
     .contact-card {
         height: 480px;
-        box-shadow: 0 4px 8px 0 rgba(28, 196, 248, 0.2), 0 6px 20px 0 rgba(28, 196, 248, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(256, 256, 256, 0.25);
         border-radius: 0px !important;
-        border: 1px solid #081A48;
+        border: none;
         margin-bottom: -7%;
     }
 
@@ -165,66 +174,125 @@
         font-weight: 600;
     }
 
-    .back-img {
-        background: url(./images/contact-background.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
+	.title {
+        font-family: 'Pacifico', cursive;
+		color: #081A48;
+		font-size: 1.7rem;
+	}
 
-    }
-    .inner-contact{
-        border-radius: 0px !important;
-        border: none;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-    .contact-input{
-width: 100%;
-background-color: #eee;
-border: 1px solid rgba(28, 70, 168,0.2);
-border-radius: 4px;
-    }
-.contact-input:focus{
-        outline: none !important;
-        border: 1px solid #1C46A8 !important;
- }
+	.form-control {
+		background-color: #A4E7FC;
+		border-radius: 2rem;
+		border: none;
+        width: 90%;
+        margin-left: 5%;
+		box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.2);
+
+		&.thick {
+			height: 1.3rem;
+			padding: 0.5rem 3.5rem;
+		}
+
+		&:focus {
+			background-color: #A4E7FC;
+			border: none;
+			box-shadow: 5px 10px 5px #76dbfa inset;
+		}
+	}
+
+	.message .form-control {
+		padding: 0.5rem 1.8rem;
+	}
+
+	::placeholder {
+		font-family: "Quicksand", sans-serif;
+		font-weight: 600;
+		font-size: 1.1rem;
+		color: #081A48 !important;
+		position: relative;
+		left: 0;
+	}
+
+	input,
+	textarea {
+		font-family: "Quicksand", sans-serif;
+		color: #081A48;
+		font-size: 1.1rem;
+	}
+
+	.icon {
+		position: absolute;
+		left: 45px;
+		top: 12px;
+	}
+
+
+.btn.btn-primary {
+	font-family: "Quicksand", sans-serif;
+	font-weight: bold;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding: 0 3rem;
+	border: 0;
+	border-radius: 3rem;
+	background-image: linear-gradient(131deg, #1C46A8, #1CC4F8);
+	background-size: 300% 100%;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn.btn-primary:hover:enabled {
+	box-shadow: 0 0.5em 0.5em -0.4em #ff923cba;
+	background-size: 100% 100%;
+	transform: translateY(-0.15em);
+}
+.back-img{
+    background: url(./images/contact.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+
 <div class="pt-5" id="contactus" style="background-color:#F7FDFF">
     <div class="card back-img contact-card mt-4" style="width: 80%; margin-left:10%">
-        <div class="container py-5 px-5">
-            <h1 class=" pb-4" style="color:#1C46A8">Contact <span style="color:#1CC4F8">Us</span></h1>
-            <div class="card inner-contact" style="width:70%">
-            <div class="container">
+        <div class="container py-3 px-5">
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-8 p-2">
-                    <div class="d-flex">
-                <div style="padding-right: 10px;">
-                    <label for="">First Name*</label>
-                    <input class="contact-input py-2" type="text">
-                </div>
-                <div>
-                    <label for="">Last Name</label>
-                    <input class="contact-input py-2" type="text">
-                </div>
-                </div>
+                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                <form>
+		<h1 class="title text-center mb-4">Talk to Us</h1>
 
-                <div>
-                    <label for="">Email*</label><br>
-                    <input class="contact-input py-2" type="text">
-                </div>
-                <div>
-                    <label for="">Message</label><br>
-                    <textarea class="contact-input py-2" type="text">
-                    </textarea>
-                </div>
-                <div class="outer">
-                    <button class="text-but mt-2">Submit</button>
-                </div>
-                </div>
-            </div>
-            </div>
+			<!-- Name -->
+			<div class="form-group position-relative">
+				<label for="formName" class="d-block">
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-sharp/960/081A48/user.png" alt="user"/>
+				</label>
+				<input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
+			</div>
 
+			<!-- E-mail -->
+			<div class="form-group position-relative my-3">
+				<label for="formEmail" class="d-block">
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/960/081A48/new-post.png" alt="new-post"/>
+				</label>
+				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
+			</div>
+
+			<!-- Message -->
+			<div class="form-group message">
+
+				<textarea id="formMessage" class="form-control form-control-lg" rows="6" placeholder="Message"></textarea>
+			</div>
+
+			<!-- Submit btn -->
+			<div class="text-center mt-3">
+				<button type="submit" class="btn btn-primary" tabIndex="-1">Send message</button>
+			</div>
+	</form>
+                </div>
             </div>
         </div>
     </div>

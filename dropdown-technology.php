@@ -126,23 +126,23 @@
     <div class="tab-pane fade" id="v-pills-Trending" role="tabpanel" aria-labelledby="v-pills-Trending-tab">
     <div class="row">
         <div class="col-lg-6">
-        <p class="industry-content"><a href="./trending-virtual-reality.php"> Virtual Reality (VR)</a></p>
-        <p class="industry-content"><a href="./trending-cloud.php"> Cloud</a></p>
-        <p class="industry-content"><a href="./trending-bigdata.php"> Big Data</a></p>
-        <p class="industry-content"><a href="./trending-data-science.php"> Data Science</a></p>
+        <p class="industry-content"><a href="./trending-virtual-reality.php"><img width="27" height="27" src="https://img.icons8.com/sf-black-filled/640/ffffff/virtual-reality.png" alt="virtual-reality"/>&nbsp;&nbsp; Virtual Reality (VR)</a></p>
+        <p class="industry-content"><a href="./trending-cloud.php"><img width="23" height="23" src="https://img.icons8.com/ios-glyphs/300/ffffff/cloud.png" alt="cloud"/>&nbsp;&nbsp; Cloud</a></p>
+        <p class="industry-content"><a href="./trending-bigdata.php"><img width="25" height="25" src="https://img.icons8.com/external-sbts2018-solid-sbts2018/580/ffffff/external-big-data-basic-ui-elements-2.4-sbts2018-solid-sbts2018.png" alt="external-big-data-basic-ui-elements-2.4-sbts2018-solid-sbts2018"/>&nbsp;&nbsp; Big Data</a></p>
+        <p class="industry-content"><a href="./trending-data-science.php"><img width="25" height="25" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/640/ffffff/external-data-science-programming-solid-solidglyph-m-oki-orlando.png" alt="external-data-science-programming-solid-solidglyph-m-oki-orlando"/>&nbsp;&nbsp; Data Science</a></p>
         </div>
         <div class="col-lg-6">
-        <p class="industry-content"><a href="./trending-artificial-intelligence.php"> Artificial Intelligence</a></p>
-        <p class="industry-content"><a href="./trending-blockchain.php"> Blockchain</a></p>
+        <p class="industry-content"><a href="./trending-artificial-intelligence.php"><img width="23" height="23" src="https://img.icons8.com/ios-filled/600/ffffff/artificial-intelligence.png" alt="artificial-intelligence"/>&nbsp;&nbsp; Artificial Intelligence</a></p>
+        <p class="industry-content"><a href="./trending-blockchain.php"><img style="margin-top:-2px;"width="23" height="23" src="https://img.icons8.com/ios-filled/500/ffffff/blockchain-technology.png" alt="blockchain-technology"/>&nbsp;&nbsp; Blockchain</a></p>
         </div>
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-platform" role="tabpanel" aria-labelledby="v-pills-platform-tab">
     <div class="row">
         <div class="col-lg-6">
-        <p class="industry-content"><a href="./platform-microsoft.php"> Microsoft</a></p>
-        <p class="industry-content"><a href="./platform-amazon.php"> Amazon</a></p>
-        <p class="industry-content"><a href="./platform-salesforce.php"> Salesforce</a></p>
+        <p class="industry-content"><a href="./platform-microsoft.php"><img style="margin-top:-5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/microsoft.png" alt="microsoft"/>&nbsp;&nbsp; Microsoft</a></p>
+        <p class="industry-content"><a href="./platform-amazon.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/amazon.png" alt="amazon"/>&nbsp;&nbsp; Amazon</a></p>
+        <p class="industry-content"><a href="./platform-salesforce.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/salesforce.png" alt="salesforce"/>&nbsp;&nbsp; Salesforce</a></p>
         </div>
       </div>
     </div>

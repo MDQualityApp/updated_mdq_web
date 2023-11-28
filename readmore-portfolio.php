@@ -2,9 +2,8 @@
 include './header.php';
 ?>
 <div class="website-background" style="background-color:#F7FDFF;padding-top:63px">
-    <img src="./images/our-work/portfolio/bepper-banner.jpeg" alt="" width="100%">
     <div class="container-fluid">
-        <div class="row py-4">
+        <div class="row py-3">
             <div class="col-lg-7">
 
                 <h3 class="my-2" style="color: #064B96; font-weight:700;"><img src="./images/our-work/portfolio/beppers.png" alt="web application development" width="100">Beppers</h3>
@@ -60,7 +59,7 @@ include './header.php';
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
@@ -73,7 +72,7 @@ include './header.php';
                                 </a>
                             </div>
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
@@ -86,7 +85,7 @@ include './header.php';
                                 </a>
                             </div>
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
@@ -99,7 +98,7 @@ include './header.php';
                                 </a>
                             </div>
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
@@ -112,7 +111,7 @@ include './header.php';
                                 </a>
                             </div>
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
@@ -125,7 +124,7 @@ include './header.php';
                                 </a>
                             </div>
                             <div class="swiper-slide py-5 px-3">
-                                <a href="./readmore-ourwork.php" style="color:black; text-decoration:none">
+                                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
                                     <div class="card our-work-card">
                                         <img class="portfolio-img py-1" src="./images/our-work/33.png" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
                                         <div class="py-3 d-flex  align-items-center px-4">
