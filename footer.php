@@ -16,40 +16,6 @@
         margin-bottom: -7%;
     }
 
-    .outer button {
-        background-color: white;
-        color: white;
-        font-weight: 700;
-        padding: 5px 20px;
-        border: none;
-        border-radius: 5px;
-        background: linear-gradient(to right, #1CC4F8 50%, #1C46A8 50%);
-        background-size: 220% 100%;
-        background-position: right bottom;
-        transition: all .5s ease-out;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
-    }
-
-    .text-but {
-        font-size: 16px;
-        line-height: 30px;
-        color: black;
-        transition: all .6s ease-out;
-    }
-
-    .text-but:hover {
-        color: white;
-    }
-
-   .outer button:hover {
-        background-color: #081A48 !important;
-        color: black;
-        background-position: left bottom;
-    }
-
     .last {
         background-color: #081A48;
         color: white;
@@ -274,7 +240,14 @@
 			</div>
 
 			<!-- E-mail -->
-			<div class="form-group position-relative my-3">
+			<div class="form-group position-relative mt-2">
+				<label for="formEmail" class="d-block">
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/960/081A48/new-post.png" alt="new-post"/>
+				</label>
+				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="Phone">
+			</div>
+            <!-- phone -->
+			<div class="form-group position-relative my-2">
 				<label for="formEmail" class="d-block">
                 <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/960/081A48/new-post.png" alt="new-post"/>
 				</label>
@@ -284,7 +257,7 @@
 			<!-- Message -->
 			<div class="form-group message">
 
-				<textarea id="formMessage" class="form-control form-control-lg" rows="6" placeholder="Message"></textarea>
+				<textarea id="formMessage" class="form-control form-control-lg" rows="4" placeholder="Message"></textarea>
 			</div>
 
 			<!-- Submit btn -->

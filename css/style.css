@@ -19,6 +19,30 @@
 .navbar-light .navbar-toggler{
     color: white !important;
 }
+/* scroll animation */
+.navbar {
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /* Styles for scrolled state */
+  .navbar.scrolled {
+    background-color: white !important;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+  }
+  .navbar.scrolled .scroll-nav-item .scroll-nav-link {
+    color: #081A48 !important;
+    font-weight: 600;
+  }
+
+  .navbar.scrolled .background-adjust {
+    background-color: #FFFFFF;
+    opacity: 0.1 !important;
+  }
+.background-adjust{
+    background-color: #081A48;
+}
+  /* Styles for toggler icon color change */
 
 .navbar-toggler{
     background-color: #1CC4F8 !important;
@@ -152,23 +176,66 @@
 }
 
 .letstalk_button{
-    background-color: #081A48;
     border: none;
     color: white;
+    background-color: #1C46A8;
+    border-radius: 8px;
 }
+.bub-nav .bub-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-/* .letstalk_button:hover {
-    transition: all 500ms ease-out;
-    background-color: #1cc4f8;
+  .bub-nav .bub-ul .bub-li {
+    --c: #1cc4f8;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    padding: 8px 20px;
+  }
+
+  .bub-nav .bub-ul .bub-li .bub-span {
+    position: absolute;
+    width: 50%;
+    height: 100% !important;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+  }
+
+  .bub-nav .bub-ul .bub-li:hover {
     color: #081A48;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
+  }
 
-.carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: white !important;
-}
+  .bub-nav .bub-ul .bub-li:hover .bub-span {
+    transform: translateY(-50%) translateX(-50%) scale(2);
+opacity: 1;
+  }
 
-.nav_ani .nav_ani_li {
+  .bub-nav .bub-ul .bub-li .bub-span:nth-child(1) {
+    --n: 1;
+  }
+
+  .bub-nav .bub-ul .bub-li .bub-span:nth-child(2) {
+    --n: 2;
+  }
+
+  .bub-nav .bub-ul .bub-li .bub-span:nth-child(3) {
+    --n: 3;
+  }
+
+  .bub-nav .bub-ul .bub-li .bub-span:nth-child(4) {
+    --n: 4;
+  }
+  .nav_ani .nav_ani_li {
     list-style-type: none;
     display: inline-block;
 }
@@ -187,12 +254,53 @@
 .nav-underline:after {
     margin-top: 3px;
 }
-/* .navbar-expand-lg .navbar-nav .nav-link:focus{
-    color: #1cc4f8 !important;
-} */
+
 .nav_ani_li:hover:after {
     width: 100%;
     background-color: #1cc4f8;
+}
+
+
+/* button animation */
+.web-button-div .web-button {
+    background-color: white;
+    color: white;
+    font-weight: 700;
+    padding: 3px 20px;
+    border: none;
+    background: linear-gradient(to right, #1CC4F8 50%, #1C46A8 50%);
+    background-size: 220% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.web-button {
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    transition: all .6s ease-out;
+}
+
+.web-button:hover {
+    color: white;
+}
+
+.web-button-div .web-button:hover {
+    background-color: #081A48 !important;
+    color: black;
+    background-position: left bottom;
+}
+
+
+
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white !important;
 }
 
 .card-img-overlay {
@@ -285,7 +393,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-    background-color: #081A48 !important;
+    background-color: #1C46A8 !important;
     color: white !important;
 }
 .nav-link:focus, .nav-link{
@@ -308,7 +416,7 @@
 
 }
 .portfolio-img{
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px;
 }
 .portfolio-logo{
     display: flex;
@@ -322,4 +430,21 @@
 .swiper-button-prev.custom-prev::after,
 .swiper-button-next.custom-next::after {
     color: black !important;
+}
+.sec-mov-img{
+    animation: moving_object 5s infinite linear;
+    width: 100%;
+}
+@keyframes moving_object{
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-35px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }

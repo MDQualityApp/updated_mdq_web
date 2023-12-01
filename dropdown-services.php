@@ -8,7 +8,7 @@
     display: none;
     position: absolute;
     width: 60vw;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
     z-index: 1;
     margin-left: -320px;
     opacity: 0.92;
@@ -80,8 +80,8 @@
 </style>
 <body>
 <div class="dropdown-content dropdown-content-service">
-<div style="background-color:#081A48; opacity:1 !important; padding-top:8px"></div>
-<div class="d-flex align-items-start" style=" width:100% !important;">
+<div class="background-adjust" style="opacity:1 !important; padding-top:8px"></div>
+<div class="d-flex align-items-start" style=" width:100% !important; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
   <div class="nav flex-column nav-pills nav_pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-service active" id="v-pills-Industry-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Industry" type="button" role="tab" aria-controls="v-pills-Industry" aria-selected="true">Industry</button>
     <button class="nav-link nav-link-service" id="v-pills-Offering-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Offering" type="button" role="tab" aria-controls="v-pills-Offering" aria-selected="false">Offering</button>

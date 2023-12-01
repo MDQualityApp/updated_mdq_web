@@ -8,7 +8,6 @@
     display: none;
     position: absolute;
     width: 67vw;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     margin-left: -480px !important;
     opacity: 0.92;
@@ -89,8 +88,8 @@
 </style>
 <body>
 <div class="dropdown-content dropdown-content-tech">
-<div style="background-color:#081A48; opacity:1 !important; padding-top:8px"></div>
-<div class="d-flex align-items-start" style=" width:100% !important;">
+<div class="background-adjust" style="opacity:1 !important; padding-top:8px"></div>
+<div class="d-flex align-items-start" style=" width:100% !important;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
   <div class="nav flex-column nav-pills nav-pills-tech me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-tech active" id="v-pills-programming-tab" data-bs-toggle="pill" data-bs-target="#v-pills-programming" type="button" role="tab" aria-controls="v-pills-programming" aria-selected="true">Programming</button>
     <button class="nav-link nav-link-tech" id="v-pills-Trending-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Trending" type="button" role="tab" aria-controls="v-pills-Trending" aria-selected="false">Trending</button>

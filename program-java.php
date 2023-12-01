@@ -21,15 +21,14 @@ include './header.php';
                 <p class="website-para">At MDQuality Apps, we specialize in crafting Java-based solutions. Here's what sets us apart:</p>
             </div>
             <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="70%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Java Development Services</h2>
+                <div class="sec-mov-img">
+                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+                </div>
             </div>
             <div class="col-lg-6 px-5">
                 <h3 class="h2-heading ">Java Development Services:</h3>
@@ -55,20 +54,16 @@ include './header.php';
                 <p class="website-para">Developing secure SaaS applications with rapid, high-quality updates tailored to diverse tenant needs.</p>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading ">Our Comprehensive Java Development Services</h2>
-
+            <div class="sec-mov-img">
+                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+                </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Java Powers Our Solutions</h2>
+            <div class="sec-mov-img">
+                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+                </div>
             </div>
             <div class="col-lg-6 px-5 pt-5">
                 <h5 class="h2-heading ">We specialize in creating various Java-based software, including:</h5>
@@ -80,10 +75,9 @@ include './header.php';
                 </ul>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-lg-6 px-5">
-                <h5 class="h2-heading pt-4 pb-2">Why Collaborate with MDQuality Apps for Java Development?</h5>
+        <div class="">
+            <div class="px-5">
+                <h5 class="h2-heading pt-1 pb-2">Why Collaborate with MDQuality Apps for Java Development?</h5>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="web development in java chennai india" /> Over six years of Java development experience</li>
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java cloud development chennai india" /> Successful delivery of ten Java projects</li>
@@ -92,14 +86,6 @@ include './header.php';
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="SaaS application development using java chennai" /> Proprietary Integrated Manual and Automated Testing (IMAAT) approach</li>
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java development service" /> Proficiency in big data, image processing, machine learning, IoT, blockchain, and other cutting-edge technologies</li>
                 </ul>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading "> Java Development</h2>
-
             </div>
         </div>
         <div class="px-5">
@@ -116,8 +102,8 @@ include './header.php';
             <p class="website-para">We tailor communication to best suit each stakeholder, ensuring everyone stays informed about project progress.</p>
         </div>
 
-        <div class="row">
-            <div class="col-lg-6 px-5">
+        <div class="">
+            <div class=" px-5">
                 <h5 class="h2-heading pt-5 pb-2">Our commitment to code quality includes:</h5>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java development service chennai" /> Adherence to Java style guidelines</li>
@@ -130,14 +116,6 @@ include './header.php';
                     <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development chennai" /> Version control utilization</li>
                 </ul>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading "> Assessing and Enhancing Java Code Quality</h2>
-
-            </div>
         </div>
         <div class="px-5">
             <h5 class="h2-heading">Code Review Standards:</h5>
@@ -149,12 +127,12 @@ include './header.php';
             <h3 class="h2-heading pt-5">Choose Risk-Free, Expert Java Development</h3>
             <h5 class="h2-heading pt-3">Our extensive expertise spans 30 industries and leading-edge technologies, enabling us to meet a wide range of Java development needs, such as:</h5>
             <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development" /> Java code review and maintenance</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development chennai india" /> Developing new Java applications with industry-specific insights</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development india" /> Crafting Java products and custom Java programming</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java android development services india" /> Supporting, maintaining, and expanding Java programs</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java android development services india" /> Migrating legacy applications to new Java versions and re-architecture</li>
-                </ul>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development" /> Java code review and maintenance</li>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development chennai india" /> Developing new Java applications with industry-specific insights</li>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="expert java development india" /> Crafting Java products and custom Java programming</li>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java android development services india" /> Supporting, maintaining, and expanding Java programs</li>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java android development services india" /> Migrating legacy applications to new Java versions and re-architecture</li>
+            </ul>
         </div>
 
         <div class="px-5">

@@ -22,128 +22,66 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-navbar">
     <div class="container-fluid">
-      <a class="navbar-brand" href="./index.php"><img src="./images/MDQualityappssolutions.png" alt="app-development-company-chennai" width="90"></a>
+    <a class="navbar-brand" href="./index.php">
+  <img id="logo" src="./images/mdq-white.png" alt="app-development-company-chennai" width="115">
+</a>
       <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav nav_ani mx-auto">
-          <li class="nav-item ">
-            <a class="nav-link nav_ani_li active nav-underline" aria-current="page" href="./index.php">Home</a>
+          <li class="nav-item scroll-nav-item ">
+            <a class="nav-link scroll-nav-link nav_ani_li active nav-underline" aria-current="page" href="./index.php">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item scroll-nav-item">
             <div class="dropdown">
-              <a class="nav-link nav_ani_li dropdown nav-underline" href="./company-android-app.php">Company</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./company-android-app.php">Company</a>
               <?php include './dropdown-company.php'; ?>
             </div>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link nav_ani_li dropdown nav-underline" href="./portfolio.php">Our Work</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./portfolio.php">Our Work</a>
               <?php include './dropdown-ourwork.php'; ?>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link nav_ani_li dropdown nav-underline" href="">Services</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="">Services</a>
               <?php include './dropdown-services.php'; ?>
             </div>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link nav_ani_li dropdown nav-underline" href="./program-react.php">Technology</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./program-react.php">Technology</a>
               <?php include './dropdown-technology.php'; ?>
             </div>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link nav_ani_li dropdown nav-underline" href="./hire-ios-developers.php">Hire Developers</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./hire-ios-developers.php">Hire Developers</a>
               <?php include './dropdown-hiredevelopers.php'; ?>
           </li>
 
         </ul>
-
-        <!-- <div class="frame">
-              <a href="#contactus">
-              <button class="custom-btn btn-11">Let's Talk<div class="dot"></div></button>
-              </a>
-            </div> -->
-
-        <style>
-          .bub-nav .bub-ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-          }
-
-          .bub-nav .bub-ul .bub-li {
-            --c: #1cc4f8;
-            color: white;
-            position: relative;
-            font-weight: 600;
-            overflow: hidden;
-            z-index: 1;
-            transition: 0.5s;
-            padding: 5px 20px;
-          }
-
-          .bub-nav .bub-ul .bub-li .bub-span {
-            position: absolute;
-            width: 50%;
-            height: 100% !important;
-            background-color: var(--c);
-            transform: translateY(150%);
-            border-radius: 50%;
-            left: calc((var(--n) - 1) * 25%);
-            transition: 0.5s;
-            transition-delay: calc((var(--n) - 1) * 0.1s);
-            z-index: -1;
-          }
-
-          .bub-nav .bub-ul .bub-li:hover {
-            color: #081A48;
-          }
-
-          .bub-nav .bub-ul .bub-li:hover .bub-span {
-            transform: translateY(-50%) translateX(-50%) scale(2);
-    opacity: 1;
-          }
-
-          .bub-nav .bub-ul .bub-li .bub-span:nth-child(1) {
-            --n: 1;
-          }
-
-          .bub-nav .bub-ul .bub-li .bub-span:nth-child(2) {
-            --n: 2;
-          }
-
-          .bub-nav .bub-ul .bub-li .bub-span:nth-child(3) {
-            --n: 3;
-          }
-
-          .bub-nav .bub-ul .bub-li .bub-span:nth-child(4) {
-            --n: 4;
-          }
-        </style>
-<nav class="bub-nav custom-btn  letstalk_button" style="margin-top:5px">
-        <div class="navbar_button frame">
-          <a class="mar-a" href="#contactus">
-            <span class="mar-span"></span>
-            <span class="mar-span"></span>
-            <span class="mar-span"></span>
-            <span class="mar-span"></span>
-                <ul class="bub-ul btn-11">
-                  <li class="bub-li">
-                    Let's Talk
-                    <span class="bub-span"></span>
-                    <span class="bub-span"></span>
-                    <span class="bub-span"></span>
-                    <span class="bub-span"></span>
-                  </li>
-                </ul>
-
+        <nav class="bub-nav custom-btn  " style="margin-top:5px">
+          <div class="navbar_button frame">
+            <a class="mar-a" href="#contactus">
+              <span class="mar-span"></span>
+              <span class="mar-span"></span>
+              <span class="mar-span"></span>
+              <span class="mar-span"></span>
+              <ul class="bub-ul btn-11 letstalk_button">
+                <li class="bub-li">
+                  Let's Talk
+                  <span class="bub-span"></span>
+                  <span class="bub-span"></span>
+                  <span class="bub-span"></span>
+                  <span class="bub-span"></span>
+                </li>
+              </ul>
               <div class="dot"></div>
-          </a>
-        </div>
+            </a>
+          </div>
         </nav>
       </div>
     </div>
@@ -151,6 +89,30 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+  </script>
+  <script>
+    window.addEventListener('scroll', function() {
+  var navbar = document.querySelector('.navbar');
+  if (window.scrollY > 30) {
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
+});
+window.addEventListener('scroll', function() {
+  var navbar = document.querySelector('.navbar');
+  var logo = document.getElementById('logo');
+
+  if (window.scrollY > 30) {
+    navbar.classList.add('scrolled');
+    logo.src = './images/MDQualityappssolutions.png'; // Change to the path of your new logo
+    logo.style.width = '90px'; // Set the width for the scrolled state
+  } else {
+    navbar.classList.remove('scrolled');
+    logo.src = './images/mdq-white.png'; // Change back to the original logo path
+    logo.style.width = '115px'; // Set the width for the default state
+  }
+});
   </script>
 </body>
 
