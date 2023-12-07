@@ -4,14 +4,14 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Models<br><span style="font-weight:500 !important; font-size:xx-large">Engagement </span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Models for Activation</h2>
 
-        <p class="website-para">At MD Quality Apps, we prioritize delivering exceptional value for your investment through our thoughtful and practical pricing models. Our commitment to providing comprehensive value for your unique needs drives us to offer customizable engagement models that align with your goals. Our pricing strategies are transparent, flexible, cost-effective, and quality-focused, ensuring you get the best service.</p>
+        <p class="website-para">At MDQuality Apps, we prioritize delivering exceptional value for your investment through our thoughtful and practical pricing models. Our commitment to providing comprehensive value for your unique needs drives us to offer customizable engagement models that align with your goals. Our pricing strategies are transparent, flexible, cost-effective, and quality-focused, ensuring you get the best service.</p>
 
             </div>
             <div class="col-lg-6 px-4">
@@ -55,7 +55,7 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Virtual personnel exclusively dedicated to your team.</li>
                 </ul>
 
-            <p class="website-para">Our commitment to flexible and tailored engagement models ensures we meet your specific needs, from the well-defined to the ever-evolving. MD Quality Apps is your reliable partner for achieving your project goals efficiently and effectively.</p>
+            <p class="website-para">Our commitment to flexible and tailored engagement models ensures we meet your specific needs, from the well-defined to the ever-evolving. MDQuality Apps is your reliable partner for achieving your project goals efficiently and effectively.</p>
 
                 </div>
             </div>

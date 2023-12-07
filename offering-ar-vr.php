@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Offering<br><span style="font-weight:500 !important; font-size:xx-large">AR/VR</span></h1>
         </div>
         <div class="row py-3">
@@ -12,7 +12,7 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">AR and VR App Development Services</h2>
 
         <p class="website-para">Our team specializes in crafting AR and VR applications that transform ordinary processes into extraordinary, immersive experiences, catering to the demands of the next generation of users. We are dedicated to delivering cutting-edge AR and VR software development solutions.</p>
-        <p class="website-para">At MD Quality Apps, we are a leading AR and VR development company, committed to helping startups and established businesses harness the immense potential of augmented and virtual reality to captivate users and maximize their return on investment.</p>
+        <p class="website-para">At MDQuality Apps, we are a leading AR and VR development company, committed to helping startups and established businesses harness the immense potential of augmented and virtual reality to captivate users and maximize their return on investment.</p>
         <p class="website-para">As consumer expectations continue to rise, businesses are constantly seeking innovative ways to engage with their customers and provide exceptional value for their investments. This is precisely where we come in.</p>
 
 
@@ -41,11 +41,11 @@ include './header.php';
             <h5 style="color:#1C46A8; font-weight:700;">Face and Gesture Recognition Platforms:</h5>
             <p class="website-para">We also develop solutions for face and gesture recognition, enhancing user convenience, engagement, and security within your ecosystem.</p>
             <h5 style="color:#1C46A8; font-weight:700;">IoT + AR/VR:</h5>
-            <p class="website-para">MD Quality Apps stands as one of the premier VR/AR development agencies that seamlessly integrate the power of AR/VR with the Internet of Things (IoT) to provide a unified experience across multiple connected devices.</p>
+            <p class="website-para">MDQuality Apps stands as one of the premier VR/AR development agencies that seamlessly integrate the power of AR/VR with the Internet of Things (IoT) to provide a unified experience across multiple connected devices.</p>
             <h5 style="color:#1C46A8; font-weight:700;">AR and VR App Support and Maintenance:</h5>
             <p class="website-para">Our expert team of AR/VR developers provides top-notch app maintenance and update services to clients globally.</p>
             <h5 style="color:#1C46A8; font-weight:700;"></h5>
-            <p class="website-para">Partner with MD Quality Apps to bring your AR and VR visions to life and transform your business in this immersive digital landscape.</p>
+            <p class="website-para">Partner with MDQuality Apps to bring your AR and VR visions to life and transform your business in this immersive digital landscape.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Our AR VR Technology Stack</h5>
             <p class="website-para">We trust these tools and platforms to build successful AR and VR applications and offer exceptional experiences to all.</p>
             <div class="row">

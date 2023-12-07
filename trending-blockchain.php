@@ -4,14 +4,14 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Technology<br><span style="font-weight:500 !important; font-size:xx-large">Blockchain</span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Blockchain</h2>
-        <p class="website-para">Our blockchain development services are designed to empower the creation of decentralized software solutions with enhanced traceability and data security. With a track record in the IT industry since 2015, MD Quality Apps is your trusted partner for expert guidance and comprehensive support in custom blockchain app development.</p>
-            <h3 style="color:#1C46A8; font-weight:700;">MD Quality Apps: Your Blockchain Solution Provider</h3>
+        <p class="website-para">Our blockchain development services are designed to empower the creation of decentralized software solutions with enhanced traceability and data security. With a track record in the IT industry since 2015, MDQuality Apps is your trusted partner for expert guidance and comprehensive support in custom blockchain app development.</p>
+            <h3 style="color:#1C46A8; font-weight:700;">MDQuality Apps: Your Blockchain Solution Provider</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Explore a wide range of blockchain solutions tailored to your needs:</h5>
             <h5 style="color:#1C46A8; font-weight:700;">Blockchain Systems</h5>
             <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
@@ -120,7 +120,7 @@ include './header.php';
         <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Designed a robust NFT marketplace model, validating its viability.</li>
         </ul>
-        <h3 style="color:#1C46A8; font-weight:700;">Applications of Blockchain by MD Quality Apps</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Applications of Blockchain by MDQuality Apps</h3>
         <h5 style="color:#1C46A8; font-weight:700;">Explore the versatility of blockchain technology in various domains:</h5>
         <p class="website-para">Financial Transactions: Secure lending, currency exchange, and payments without intermediaries.</p>
         <p class="website-para">Health Records: Safe and efficient sharing of sensitive patient data while maintaining HIPAA compliance.</p>
@@ -130,7 +130,7 @@ include './header.php';
         <p class="website-para">Document Management: Traceable document manipulations, ensuring legal compliance.</p>
         <p class="website-para">Marketplace Management: Enhanced order and payment traceability, faster payments for multiple sellers.</p>
         <p class="website-para">Insurance Claims: Rapid and accurate claim handling, transparent dispute resolution.</p>
-        <h3 style="color:#1C46A8; font-weight:700;">Why Choose MD Quality Apps for Blockchain Development</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Blockchain Development</h3>
         <h5 style="color:#1C46A8; font-weight:700;">We offer:</h5>
         <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Proficiency in major blockchain frameworks, including Graphene, Hyperledger Fabric, Ethereum, and Substrate.</li>
@@ -146,7 +146,7 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Exceptional blockchain software, leveraging our diverse industry expertise.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Get Professional Assistance for Launching Blockchain Applications</li>
         </ul>
-        <h5 style="color:#1C46A8; font-weight:700;">MD Quality Apps is ready to assist you with:</h5>
+        <h5 style="color:#1C46A8; font-weight:700;">MDQuality Apps is ready to assist you with:</h5>
         <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Products tailored for quick revenue generation.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Blockchain solutions for non-IT organizations to enhance productivity, transparency, and security.</li>
@@ -181,7 +181,7 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Design for Development: Our multi-layer blockchain architecture ensures scalability and evolution.</li>
         </ul>
         <h3 style="color:#1C46A8; font-weight:700;">Sample Blockchain Architecture</h3>
-        <h5 style="color:#1C46A8; font-weight:700;">At MD Quality Apps, we simplify the complex concept of blockchain through architecture:</h5>
+        <h5 style="color:#1C46A8; font-weight:700;">At MDQuality Apps, we simplify the complex concept of blockchain through architecture:</h5>
         <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Presentation Layer: User interaction via web and mobile applications.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Application Layer: Business logic defining transaction instructions.</li>
@@ -191,7 +191,7 @@ include './header.php';
         </ul>
 
         <h5 style="color:#1C46A8; font-weight:700;">Empower Your Business with Blockchain</h5>
-        <p class="website-para">MD Quality Apps stands ready to provide robust blockchain solutions, delivering enhanced traceability, security, and data processing speed. Contact us to embark on your blockchain journey.</p>
+        <p class="website-para">MDQuality Apps stands ready to provide robust blockchain solutions, delivering enhanced traceability, security, and data processing speed. Contact us to embark on your blockchain journey.</p>
         </div>
         </div>
 <?php

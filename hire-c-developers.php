@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">C#</span></h1>
         </div>
         <div class="row">
@@ -25,9 +23,9 @@ include './header.php';
         </div>
         <div class="px-4">
         <div class="px-1">
-            <h5 class="h2-heading ">Unlock the Potential with MD Quality Apps C# Developers</h5>
-            <p class="website-para">Our C# developers at MD Quality Apps are available at competitive rates, offering tailor-made solutions that align with your project's unique requirements. Our hiring methodology ensures the utmost transparency, security, and scalability. We provide flexible services, allowing you to engage C# experts from our extensive talent pool for both ongoing projects and one-time needs.</p>
-            <h3 class="h2-heading ">Why Choose MD Quality Apps C# Software Developers?</h3>
+            <h5 class="h2-heading ">Unlock the Potential with MDQuality Apps C# Developers</h5>
+            <p class="website-para">Our C# developers at MDQuality Apps are available at competitive rates, offering tailor-made solutions that align with your project's unique requirements. Our hiring methodology ensures the utmost transparency, security, and scalability. We provide flexible services, allowing you to engage C# experts from our extensive talent pool for both ongoing projects and one-time needs.</p>
+            <h3 class="h2-heading ">Why Choose MDQuality Apps C# Software Developers?</h3>
             <h5 class="h2-heading ">Team-Based Problem Solving</h5>
             <p class="website-para">Collaborate with remote C# engineers who work cohesively to identify and resolve core business challenges.</p>
             <h5 class="h2-heading ">Control and Oversight</h5>
@@ -56,7 +54,7 @@ include './header.php';
             <p class="website-para">Utilize skilled developers for consistent C# support and maintenance services to ensure your applications run reliably at their peak.</p>
             <h5 class="h2-heading ">Enterprise Application Development</h5>
             <p class="website-para">Hire experienced Microsoft developers to work on large-scale, complex projects tailored to your business needs, taking your success to new heights.</p>
-            <h5 class="h2-heading ">The Benefits of MD Quality Apps' Dedicated C# Developers</h5>
+            <h5 class="h2-heading ">The Benefits of MDQuality Apps' Dedicated C# Developers</h5>
             <p class="website-para">When you choose to hire remote C# developers, you gain access to a rich talent pool, flexibility, cost savings, and numerous other advantages.</p>
             <h5 class="h2-heading ">Reimagine Your Workforce</h5>
             <p class="website-para">Collaborate with skilled C# software developers and consultants to build cutting-edge applications that seamlessly operate across web, mobile, and desktop platforms.</p>
@@ -70,7 +68,7 @@ include './header.php';
             <p class="website-para">Engage a dedicated C# developer or team to create secure and reliable applications on the .NET platform, using the latest Microsoft technologies and cutting-edge coding techniques.</p>
             <h5 class="h2-heading ">Flexible Hiring Models</h5>
             <p class="website-para">Explore a range of web design options for your project to stay at the forefront of creativity.</p>
-            <h5 class="h2-heading ">Managed Team by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed Team by MDQuality Apps</h5>
             <p class="website-para">Our managed team hiring approach provides a dedicated creative team and manager to efficiently handle all your project requirements from start to finish.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Collaborate with our designers to ensure cost-effectiveness and scalability, working closely with your internal team or creative director to provide crucial design and UI/UX support.</p>

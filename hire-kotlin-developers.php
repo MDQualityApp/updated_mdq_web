@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Kotlin</span></h1>
         </div>
         <div class="row">
@@ -23,12 +21,12 @@ include './header.php';
         <div class="px-4">
         <div class="px-1">
             <h5 class="h2-heading ">Expertise in Kotlin</h5>
-            <p class="website-para">At MD Quality Apps, we offer the opportunity to hire Kotlin developers who are experts in their field. They specialize in creating high-performance Android apps through various flexible engagement models.</p>
+            <p class="website-para">At MDQuality Apps, we offer the opportunity to hire Kotlin developers who are experts in their field. They specialize in creating high-performance Android apps through various flexible engagement models.</p>
             <p class="website-para">Partnering with our team of seasoned Kotlin developers means gaining valuable insights into the process of building scalable apps that can swiftly adapt to changing business dynamics.</p>
 
-            <p class="website-para">When you choose MD Quality Apps, you embark on a collaborative journey, ensuring top-tier Android development solutions while maintaining the highest standards of craftsmanship. We prioritize the security of your intellectual property and provide robust infrastructure support.</p>
+            <p class="website-para">When you choose MDQuality Apps, you embark on a collaborative journey, ensuring top-tier Android development solutions while maintaining the highest standards of craftsmanship. We prioritize the security of your intellectual property and provide robust infrastructure support.</p>
             <h5 class="h2-heading ">Customized Hiring Models</h5>
-            <p class="website-para">Tailor your development team according to your budget and project requirements with our flexible recruitment models. Benefit from our extensive experience in developing mobile apps across diverse industry verticals when you engage Kotlin developers from MD Quality Apps. Our skilled developers are ready to address urgent business needs and meet project deadlines.</p>
+            <p class="website-para">Tailor your development team according to your budget and project requirements with our flexible recruitment models. Benefit from our extensive experience in developing mobile apps across diverse industry verticals when you engage Kotlin developers from MDQuality Apps. Our skilled developers are ready to address urgent business needs and meet project deadlines.</p>
             <h5 class="h2-heading ">Advantages of Collaborating with Kotlin Developers</h5>
             <p class="website-para">Discover the benefits of technological excellence, scalable teams, and deep domain expertise. We specialize in achieving a short time to market, delivering highly efficient and detail-oriented Kotlin apps.</p>
             <h5 class="h2-heading ">Resource Expertise</h5>
@@ -55,14 +53,14 @@ include './header.php';
             <h5 class="h2-heading ">Key Benefits of Hiring Kotlin Engineers for Your Project</h5>
             <p class="website-para">Choose Kotlin developers to expedite the development of high-performance online applications with a reduced time to market.</p>
             <h5 class="h2-heading ">Streamlined Communication</h5>
-            <p class="website-para">MD Quality Apps offers Single Points of Contact (SPOCs) focused on Kotlin, ensuring direct communication and collaboration with your team throughout the project lifecycle, from proof of concept to UI/UX design, development, testing, and maintenance.</p>
+            <p class="website-para">MDQuality Apps offers Single Points of Contact (SPOCs) focused on Kotlin, ensuring direct communication and collaboration with your team throughout the project lifecycle, from proof of concept to UI/UX design, development, testing, and maintenance.</p>
 
             <h5 class="h2-heading ">Customized Team Building</h5>
             <p class="website-para">Select from a diverse pool of Kotlin developers, each specializing in Android applications, tailored to the specific complexity of your project.</p>
             <h5 class="h2-heading ">Technical Excellence</h5>
-            <p class="website-para">Our developer team at MD Quality Apps possesses unique expertise in Android best practices and Kotlin. We help you maintain, advance, and expand your digital transformation process.</p>
+            <p class="website-para">Our developer team at MDQuality Apps possesses unique expertise in Android best practices and Kotlin. We help you maintain, advance, and expand your digital transformation process.</p>
             <h5 class="h2-heading ">Adaptable Workforce</h5>
-            <p class="website-para">Whether you need full-time, part-time, or project-based resources, hiring Kotlin developers from MD Quality Apps allows you to stay cost-effective while staying current with the latest developments in Android technology.</p>
+            <p class="website-para">Whether you need full-time, part-time, or project-based resources, hiring Kotlin developers from MDQuality Apps allows you to stay cost-effective while staying current with the latest developments in Android technology.</p>
             <h5 class="h2-heading ">Choose the Right Model</h5>
             <p class="website-para">With a variety of engagement models, we offer managed teams or a customer-managed approach, ensuring scalability and efficiency while collaborating seamlessly with your internal team or project managers.</p>
             <h5 class="h2-heading ">Hybrid Development</h5>

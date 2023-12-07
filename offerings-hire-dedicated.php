@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Offering<br><span style="font-weight:500 !important; font-size:xx-large">Hire Dedicated</span></h1>
         </div>
         <div class="row py-3">
@@ -12,7 +12,7 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">Choose Dedicated Developers for Your Project</h2>
 
 
-        <p class="website-para">Recruiting a team of dedicated developers means collaborating with a motivated group of programmers committed to pushing the boundaries of quality while advancing your business concepts. Whether you require specialized development expertise or are facing challenges, here's why you should consider MD Quality Apps for your development needs.</p>
+        <p class="website-para">Recruiting a team of dedicated developers means collaborating with a motivated group of programmers committed to pushing the boundaries of quality while advancing your business concepts. Whether you require specialized development expertise or are facing challenges, here's why you should consider MDQuality Apps for your development needs.</p>
             </div>
             <div class="col-lg-6 px-4">
             </div>
@@ -22,7 +22,7 @@ include './header.php';
 
             <h3 style="color:#1C46A8; font-weight:700;">Overcoming Skill Gaps</h3>
 
-            <p class="website-para">When you're dealing with a shortage of local talent, MD Quality Apps can help you bridge the skills gap by hiring knowledgeable developers from various specialized fields.</p>
+            <p class="website-para">When you're dealing with a shortage of local talent, MDQuality Apps can help you bridge the skills gap by hiring knowledgeable developers from various specialized fields.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Handling Business Peaks</h5>
             <p class="website-para">Our team possesses the technological expertise to manage unexpected surges in demand and address any company issues effectively.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Focus on Your Core Business</h5>
@@ -36,8 +36,8 @@ include './header.php';
             <p class="website-para">Our expert developers ensure smooth application maintenance and upgrades.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Innovation</h5>
             <p class="website-para">Our team encourages the generation of creative ideas that can propel your company forward.</p>
-            <h5 style="color:#1C46A8; font-weight:700;">Why Choose MD Quality Apps for Dedicated Developers?</h5>
-            <p class="website-para">When you choose MD Quality Apps, you gain access to dedicated developers and programmers who can work full- or part-time to meet your project's requirements. We offer the expertise of technical architects to help you plan and find the best technological solutions for your business challenges.</p>
+            <h5 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Dedicated Developers?</h5>
+            <p class="website-para">When you choose MDQuality Apps, you gain access to dedicated developers and programmers who can work full- or part-time to meet your project's requirements. We offer the expertise of technical architects to help you plan and find the best technological solutions for your business challenges.</p>
             <p class="website-para">Additionally, for specialized projects or handling high-volume work, we can provide specialist architects to ensure a successful approach. Our fast onboarding process for technology specialists gives you the flexibility you need as your business demands change.</p>
             <h5 style="color:#1C46A8; font-weight:700;">For Critical Situations</h5>
             <p class="website-para">Our team is always available to assist you, whether you're dealing with significant bugs, capacity issues, or need a complete rework of your application.</p>
@@ -45,7 +45,7 @@ include './header.php';
             <p class="website-para">Regardless of your industry, you can hire specialized developers or offshore programmers to work on your startup or business projects and provide technical guidance throughout the development process. Leading software development firms prefer our dedicated remote software development team hiring model.</p>
             <h3 style="color:#1C46A8; font-weight:700;">Our Models for Hiring Dedicated Developers</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Choose from our flexible hiring options based on your company's needs and budget:</h5>
-            <h5 style="color:#1C46A8; font-weight:700;">Managed by MD Quality Apps</h5>
+            <h5 style="color:#1C46A8; font-weight:700;">Managed by MDQuality Apps</h5>
             <p class="website-para">We take full responsibility for all your app development requirements, allowing you to focus on your strategic business operations. Our software developers will meet all your project's needs.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Customer-Managed Team</h5>
             <p class="website-para">Collaborate with our committed development staff to function as an additional team, offering complete offshore development assistance while working with your internal team or project management.</p>
@@ -59,7 +59,7 @@ include './header.php';
             <h5 style="color:#1C46A8; font-weight:700;">Frontend:</h5>
             <p class="website-para">Hire specialized front-end developers skilled in Angular, React, Express, and other frameworks to create reliable and secure apps. Our developers follow industry best practices and can work on your project on a part-time, full-time, or project basis.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Microsoft:</h5>
-            <p class="website-para">Recruit Microsoft developers with expertise in Asp.net and C# through MD Quality Apps. Our qualified professionals support your app development from start to finish, whether you're creating a new app or updating legacy applications.</p>
+            <p class="website-para">Recruit Microsoft developers with expertise in Asp.net and C# through MDQuality Apps. Our qualified professionals support your app development from start to finish, whether you're creating a new app or updating legacy applications.</p>
             <h5 style="color:#1C46A8; font-weight:700;">OpenSource:</h5>
             <p class="website-para">Our team includes WordPress and Shopify specialists with expertise in open-source technologies, providing you with feature-rich apps and the ability to scale your team with open-source professionals.</p>
             <h5 style="color:#1C46A8; font-weight:700;">How to Hire Dedicated Experts in 5 Simple Steps</h5>

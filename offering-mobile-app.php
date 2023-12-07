@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Offering<br><span style="font-weight:500 !important; font-size:xx-large">Mobile App</span></h1>
         </div>
         <div class="row py-3">
@@ -20,7 +20,7 @@ include './header.php';
 
 
             <h3 style="color:#1C46A8; font-weight:700;">Why Choose Us for Offshore Mobile App Development?</h3>
-            <p class="website-para">When it comes to mobile app development, MD Quality Apps is a top choice in India. We excel in crafting and customizing cross-platform, iOS, and Android mobile apps, providing a unique digital solution that ensures your product's success. Our commitment to on-time delivery, transparency, and ethical practices sets us apart as providers of cutting-edge mobile app development services.</p>
+            <p class="website-para">When it comes to mobile app development, MDQuality Apps is a top choice in India. We excel in crafting and customizing cross-platform, iOS, and Android mobile apps, providing a unique digital solution that ensures your product's success. Our commitment to on-time delivery, transparency, and ethical practices sets us apart as providers of cutting-edge mobile app development services.</p>
 
             <h5 style="color:#1C46A8; font-weight:700;">Our Expertise at a Glance</h5>
 
@@ -58,7 +58,7 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Construction and Real Estate </li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Wellness and Health</li>
             </ul>
-            <p class="website-para">Count on MD Quality Apps for exceptional mobile app development services that meet your unique requirements and elevate your business.</p>
+            <p class="website-para">Count on MDQuality Apps for exceptional mobile app development services that meet your unique requirements and elevate your business.</p>
                 </div>
             </div>
 

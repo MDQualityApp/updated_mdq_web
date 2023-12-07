@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Shopify</span></h1>
         </div>
         <div class="row">
@@ -16,9 +14,9 @@ include './header.php';
 
                 <p class="website-para">Our team of highly skilled Shopify ecommerce developers is ready for your hiring needs. They possess an in-depth knowledge of online commerce, ensuring the creation of a reputable and reliable brand.</p>
                 <h5 class="h2-heading ">Specialized Shopify Developers for E-commerce Websites</h5>
-                <p class="website-para">Engage dedicated Shopify web developers to expedite project completion and enhance the value of your business. MD Quality Apps offers the flexibility of hiring Shopify specialists and developers on a full-time, part-time, or project basis.</p>
+                <p class="website-para">Engage dedicated Shopify web developers to expedite project completion and enhance the value of your business. MDQuality Apps offers the flexibility of hiring Shopify specialists and developers on a full-time, part-time, or project basis.</p>
                 <p class="website-para">Our offshore Shopify ecommerce developers are proficient in crafting tailored solutions to meet your company's requirements, whether you're in search of unique apps, extension development, theme creation, or template design. With their expertise, they excel at constructing robust e-commerce websites with captivating designs and user-friendly interfaces.</p>
-                <p class="website-para">By hiring Shopify web developers from MD Quality Apps, you gain access to professionals deeply committed to quality, who stay current with evolving Shopify development trends and implement best practices.</p>
+                <p class="website-para">By hiring Shopify web developers from MDQuality Apps, you gain access to professionals deeply committed to quality, who stay current with evolving Shopify development trends and implement best practices.</p>
 
             </div>
             <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
@@ -27,7 +25,7 @@ include './header.php';
         </div>
         <div class="px-4">
         <div class="px-1">
-        <h5 class="h2-heading ">Key Benefits of Employing MD Quality Apps' Shopify Developers</h5>
+        <h5 class="h2-heading ">Key Benefits of Employing MDQuality Apps' Shopify Developers</h5>
             <p class="website-para">Engage a remote Shopify developer to create dependable e-commerce sites that aim to enhance user engagement and generate revenue.</p>
         <h5 class="h2-heading ">Regular Progress Reports</h5>
             <p class="website-para">Track project milestones by closely monitoring our dedicated Shopify developers and receive timely progress reports.</p>
@@ -57,14 +55,14 @@ include './header.php';
             <h5 class="h2-heading ">Build Your Own Team</h5>
             <p class="website-para">Assemble a carefully chosen team of Shopify developers with extensive experience to meet clients' demands for rapid scalability and business agility, addressing projects of varying complexity and volume.</p>
             <h5 class="h2-heading ">Technical Expertise</h5>
-            <p class="website-para">MD Quality Apps boasts one of the finest Shopify application development teams in the industry, creating innovative e-commerce applications that help businesses thrive in the digital transformation journey.</p>
+            <p class="website-para">MDQuality Apps boasts one of the finest Shopify application development teams in the industry, creating innovative e-commerce applications that help businesses thrive in the digital transformation journey.</p>
 
             <h5 class="h2-heading ">Flexible Hiring Models</h5>
             <p class="website-para">Employ Shopify app developers on a full-time, part-time, or as-needed basis to handle peak business periods and fluctuating workloads, all while minimizing recruitment and onboarding costs associated with various technologies.</p>
             <h5 class="h2-heading ">Use Our Skilled Shopify Developers for Your Project</h5>
             <p class="website-para">Maximize revenue and competitiveness for your Shopify ecommerce project by hiring dedicated developers.</p>
-            <h5 class="h2-heading ">Managed by MD Quality Apps</h5>
-            <p class="website-para">Access a dedicated development team and manager committed to working closely with clients throughout all aspects of UI/UX, analytics, application development, system integration, and support, under MD Quality Apps' managed team model.</p>
+            <h5 class="h2-heading ">Managed by MDQuality Apps</h5>
+            <p class="website-para">Access a dedicated development team and manager committed to working closely with clients throughout all aspects of UI/UX, analytics, application development, system integration, and support, under MDQuality Apps' managed team model.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">For streamlined development, scalability, and ecommerce solutions to expedite time to value, our skilled Shopify website developers collaborate closely with your internal or technical team.</p>
             <h5 class="h2-heading ">Blended Model</h5>

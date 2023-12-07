@@ -1,3 +1,6 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <style>
     @font-face {
   font-family: 'Pacifico';
@@ -217,6 +220,286 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.anchor-footer{
+color: #B6C7D6;
+text-decoration: none;
+}
+.anchor-footer:hover{
+color:white;
+}
+.social-media .fb {
+    position: relative;
+    display: block;
+    width:45px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px -5px rgba(69,69,69,0.5);
+    color: #4267B2;
+}
+.social-media .fb i{
+    line-height:50px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+}
+.social-media .fb:hover i{
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+.social-media .fb:hover::before{
+    animation: icons .7s 1;
+    top: -10%;
+    left: -10%;
+}
+.social-media .fb::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background:#4267B2;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+@keyframes icons {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/****************************linkedin***************/
+.social-media .linkedin {
+    position: relative;
+    display: block;
+    width:45px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    /* margin: 10px; */
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px -5px rgba(69,69,69,0.5);
+    color: #0077b5;
+}
+.social-media .linkedin i{
+    line-height:50px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+}
+.social-media .linkedin:hover i{
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+.social-media .linkedin:hover::before{
+    animation: icons .7s 1;
+    top: -10%;
+    left: -10%;
+}
+.social-media .linkedin::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background:#0077b5;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+@keyframes icons {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/********************************youtube************************/
+.social-media .youtube {
+    position: relative;
+    display: block;
+    width:45px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    /* margin: 10px; */
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px -5px rgba(69,69,69,0.5);
+    color: #FF0000;
+}
+.social-media .youtube i{
+    line-height:50px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+}
+.social-media .youtube:hover i{
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+.social-media .youtube:hover::before{
+    animation: icons .7s 1;
+    top: -10%;
+    left: -10%;
+}
+.social-media .youtube::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background:#FF0000;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+@keyframes icons {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/********************instragram***************/
+.social-media .instagram {
+    position: relative;
+    display: block;
+    width:45px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    /* margin: 10px; */
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px -5px rgba(69,69,69,0.5);
+    color: rgb(251, 173, 80) ;
+}
+.social-media .instagram i{
+    line-height:50px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+}
+.social-media .instagram:hover i{
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+.social-media .instagram:hover::before{
+    animation: icons .7s 1;
+    top: -10%;
+    left: -10%;
+}
+.social-media .instagram::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background:#fbad50;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+@keyframes icons {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+/**************twitter****************/
+.social-media .twitter{
+    position: relative;
+    display: block;
+    width:45px;
+    height: 45px;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px -5px rgba(69,69,69,0.5);
+    color: 	#1DA1F2;
+}
+.social-media .twitter i{
+    line-height:50px;
+    font-size: 1.5rem;
+    transition: .2s linear;
+}
+.social-media .twitter:hover i{
+    transform: scale(1.2);
+    color: #f1f1f1;
+}
+.social-media .twitter:hover::before{
+    animation: icons .7s 1;
+    top: -10%;
+    left: -10%;
+}
+.social-media .twitter::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background:	#1DA1F2;
+    transform:rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+@keyframes icons {
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}
+
+
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -234,7 +517,7 @@
 			<!-- Name -->
 			<div class="form-group position-relative">
 				<label for="formName" class="d-block">
-                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-sharp/960/081A48/user.png" alt="user"/>
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-sharp/150/081A48/user.png" alt="user"/>
 				</label>
 				<input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Name">
 			</div>
@@ -242,14 +525,14 @@
 			<!-- E-mail -->
 			<div class="form-group position-relative mt-2">
 				<label for="formEmail" class="d-block">
-                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/960/081A48/new-post.png" alt="new-post"/>
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/glyph-neue/150/081A48/phone.png" alt="phone"/>
 				</label>
 				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="Phone">
 			</div>
             <!-- phone -->
 			<div class="form-group position-relative my-2">
 				<label for="formEmail" class="d-block">
-                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/960/081A48/new-post.png" alt="new-post"/>
+                <img class="icon" width="23" height="23" src="https://img.icons8.com/material-rounded/150/081A48/new-post.png" alt="new-post"/>
 				</label>
 				<input type="email" id="formEmail" class="form-control form-control-lg thick" placeholder="E-mail">
 			</div>
@@ -261,8 +544,10 @@
 			</div>
 
 			<!-- Submit btn -->
-			<div class="text-center mt-3">
-				<button type="submit" class="btn btn-primary" tabIndex="-1">Send message</button>
+			<div class="text-center px-5 mt-3">
+            <div class="web-button-div">
+            <button style="border-radius: 30px;" class="web-button py-1">Submit</button>
+          </div>
 			</div>
 	</form>
                 </div>
@@ -284,16 +569,45 @@
                         <h4 class="mt-2"> Links</h4>
                         <div class="col-lg-5">
                             <a style="color: #B6C7D6; text-decoration: none" href="#">Home</a><br>
-                            <a style="color: #B6C7D6; text-decoration: none" href="">Company</a><br>
-                            <a style="color: #B6C7D6; text-decoration: none" href="">Our Work</a>
+                            <a style="color: #B6C7D6; text-decoration: none" href="#">Company</a><br>
+                            <a style="color: #B6C7D6; text-decoration: none" href="#">Our Work</a>
                         </div>
                         <div class="col-lg-7">
-                            <a style="color: #B6C7D6; text-decoration: none" href="">Services</a><br>
-                            <a style="color: #B6C7D6; text-decoration: none" href="">Technology</a><br>
-                            <a style="color: #B6C7D6; text-decoration: none" href="">Hire Developers</a>
+                            <a style="color: #B6C7D6; text-decoration: none" href="#">Services</a><br>
+                            <a style="color: #B6C7D6; text-decoration: none" href="#">Technology</a><br>
+                            <a style="color: #B6C7D6; text-decoration: none" href="#">Hire Developers</a>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-3">
+            <h4 class="mt-2"> Contact us</h4>
+          <a href="tel:8838995745" class="anchor-footer">  <p><img style="margin-top: -2px;" width="20" height="20" src="https://img.icons8.com/android/150/ffffff/phone.png" alt="phone"/> +91 8838995745</p></a>
+          <a href="mailto:apps@mdqualityapps.com" class="anchor-footer">  <p><img style="margin-top: -2px;" width="20" height="20" src="https://img.icons8.com/metro/150/ffffff/filled-message.png" alt="filled-message"/> &nbsp;apps@mdqualityapps.com</p></a>
+            <ul style="list-style-type:none; margin-left:-33px; display:flex">
+                <li><img width="22" height="22" src="https://img.icons8.com/ios-filled/150/ffffff/place-marker--v1.png" alt="place-marker--v1"/></li>
+                <li class="px-2" style="color:#B6C7D6"> #2B, Vel Nagar, 6th Cross St,<br> Maduravoyal, Chennai,<br> Tamil Nadu - 600095.</li>
+            </ul>
+            <h4 class="mt-2">Social Networks</h4>
+            <div class="row pt-3 gy-3">
+            <div class="col-lg-12">
+                <ul class="social-media d-flex justify-content-center" style="list-style-type:none; margin-left:-33px">
+                    <li class="pe-2"><a style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" href="https://www.facebook.com/MDQuality-Apps-Solutions-101922395234820" target="_blank" class="fb"><i class="fa fa-facebook-f" style="font-size:20px"></i></a>
+                    </li>
+                    <li class="pe-2 mx-1"><a style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" href="https://www.linkedin.com/company/mdquality-apps-solutions/" target="_blank" class="linkedin"><i class="fa fa-linkedin" style="font-size:20px"></i></a>
+                    </li>
+
+                    <li class="pe-2 "><a style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" href="https://twitter.com/mdqualityapps" target="_blank" class="twitter"><i class="fa fa-twitter" style="font-size:20px"></i></a>
+                    </li>
+                    <li class="pe-2 mx-1"><a style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" href="https://www.instagram.com/mdqualityapps/" target="_blank" class="instagram"><i class="fa fa-instagram" style="font-size:20px"></i></a>
+                    </li>
+                    <li class="pe-2 "><a style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" href="https://www.youtube.com/channel/UC7SEYMIvdeC1dPU-dCQT_Vw" target="_blank" class="youtube"><i class="fa fa-youtube-play" style="font-size:20px"></i></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>
+            <div class="col-lg-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1284.578782734799!2d80.17467962117463!3d13.059582507596213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52613d2014a4ab%3A0xd495655bdeb91fea!2s2B%2C%206th%20Cross%20St%2C%20Velu%20Nagar%2C%20Maduravoyal%2C%20Chennai%2C%20Tamil%20Nadu%20600095!5e0!3m2!1sen!2sin!4v1701947091680!5m2!1sen!2sin" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
@@ -301,11 +615,13 @@
 
     <div class="pb-4">
         <hr>
-        <h3 class="pt-1" style="color:white; font-weight:600; text-align: center;">MDQ</h3>
+        <div class="pb-4 d-flex justify-content-center">
+        <img src="./images/Untitled design (4).png" alt="#" width="60">
+        </div>
         <p style="color:#B6C7D6 ; text-align:center;font-weight:600; margin-bottom:0px; margin-top:-15px;font-size:14px">Copyright © 2023 MDQuality
             Apps Solutions </p>
         <div>
-            <p style="text-align:center; margin-bottom:0px"><a class="a-tag" href="">Privacy Policy</a> | <a class="a-tag" href="">Security </a></p>
+            <p style="text-align:center; margin-bottom:0px"><a class="a-tag" href="./privacy-policy.php">Privacy Policy</a></p>
         </div>
 
     </div>

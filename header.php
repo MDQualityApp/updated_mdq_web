@@ -35,30 +35,30 @@
           </li>
           <li class="nav-item scroll-nav-item">
             <div class="dropdown">
-              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./company-android-app.php">Company</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" style="cursor: pointer;">Company</a>
               <?php include './dropdown-company.php'; ?>
             </div>
           </li>
           <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./portfolio.php">Our Work</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" style="cursor: pointer;">Our Work</a>
               <?php include './dropdown-ourwork.php'; ?>
           </li>
           <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="">Services</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" style="cursor: pointer;">Services</a>
               <?php include './dropdown-services.php'; ?>
             </div>
           </li>
           <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./program-react.php">Technology</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" style="cursor: pointer;">Technology</a>
               <?php include './dropdown-technology.php'; ?>
             </div>
           </li>
           <li class="nav-item scroll-nav-item ">
             <div class="dropdown">
-              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" href="./hire-ios-developers.php">Hire Developers</a>
+              <a class="nav-link scroll-nav-link nav_ani_li dropdown nav-underline" style="cursor: pointer;">Hire Developers</a>
               <?php include './dropdown-hiredevelopers.php'; ?>
           </li>
 
@@ -106,7 +106,7 @@ window.addEventListener('scroll', function() {
   if (window.scrollY > 30) {
     navbar.classList.add('scrolled');
     logo.src = './images/MDQualityappssolutions.png'; // Change to the path of your new logo
-    logo.style.width = '90px'; // Set the width for the scrolled state
+    logo.style.width = '100px'; // Set the width for the scrolled state
   } else {
     navbar.classList.remove('scrolled');
     logo.src = './images/mdq-white.png'; // Change back to the original logo path

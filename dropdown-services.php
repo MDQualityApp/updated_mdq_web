@@ -8,7 +8,6 @@
     display: none;
     position: absolute;
     width: 60vw;
-
     z-index: 1;
     margin-left: -320px;
     opacity: 0.92;
@@ -92,11 +91,11 @@
     <div class="tab-pane fade show active" id="v-pills-Industry" role="tabpanel" aria-labelledby="v-pills-Industry-tab" >
     <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
-        <p class="industry-content"><a href="./industry-e-commerce.php"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/device-shop.png" alt="device-shop"/>&nbsp;&nbsp; E-Commerce</a></p>
+        <p class="industry-content"><a href="#"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/device-shop.png" alt="device-shop"/>&nbsp;&nbsp; E-Commerce</a></p>
         <p class="industry-content"><a href="./industry-education.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/online-group-studying.png" alt="online-group-studying"/>&nbsp;&nbsp; Education & E-Learning</a></p>
-        <p class="industry-content"><a href="./industry-electric-vechicle.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/glyph-neue/640/ffffff/electric-bike.png" alt="electric-bike"/>&nbsp;&nbsp; Electric Vechicle</a></p>
-        <p class="industry-content"><a href="./industry-iot.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/640/ffffff/external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando.png" alt="external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando"/>&nbsp;&nbsp; IoT Apps</a></p>
-        <p class="industry-content"><a href="./industry-food.php"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-filled/1000/ffffff/food-bar.png" alt="food-bar"/>&nbsp;&nbsp; Food & Restaurants</a></p>
+        <p class="industry-content"><a href="#"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/glyph-neue/640/ffffff/electric-bike.png" alt="electric-bike"/>&nbsp;&nbsp; Electric Vechicle</a></p>
+        <p class="industry-content"><a href="#"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/640/ffffff/external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando.png" alt="external-iot-mobile-app-development-solid-solidglyph-m-oki-orlando"/>&nbsp;&nbsp; IoT Apps</a></p>
+        <p class="industry-content"><a href="#"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-filled/1000/ffffff/food-bar.png" alt="food-bar"/>&nbsp;&nbsp; Food & Restaurants</a></p>
         <p class="industry-content"><a href="./industry-healthcare.php"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/trust--v1.png" alt="trust--v1"/>&nbsp;&nbsp; Healthcare</a></p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6">

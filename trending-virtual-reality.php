@@ -4,13 +4,13 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-4" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Technology<br><span style="font-weight:500 !important; font-size:xx-large">VR</span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Virtual Reality (VR):</h2>
-        <p class="website-para">At MD Quality Apps, we specialize in crafting software that immerses users in simulated environments, making virtual reality (VR) a transformative experience. With over three decades of software development expertise and 26 years of 3D modeling experience, our team excels at creating VR applications that not only compete in the market but also boast high user adoption rates.</p>
+        <p class="website-para">At MDQuality Apps, we specialize in crafting software that immerses users in simulated environments, making virtual reality (VR) a transformative experience. With over three decades of software development expertise and 26 years of 3D modeling experience, our team excels at creating VR applications that not only compete in the market but also boast high user adoption rates.</p>
         <p class="website-para">Harness the power of virtual reality to thrive in the real world!</p>
         <p class="website-para">To establish a dedicated user base in the ever-expanding VR landscape, it's time to start planning your original VR app development project with us.</p>
 
@@ -79,7 +79,7 @@ include './header.php';
 
         <div class="row py-3">
             <div class="col-lg-6">
-            <h3 style="color:#1C46A8; font-weight:700;">Why Choose MD Quality Apps for Your VR App Development?</h3>
+            <h3 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Your VR App Development?</h3>
             <ul style="list-style-type:none; margin-left:-30px">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> 5 years of software product development</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> 3 years of 3D modeling</li>
@@ -90,14 +90,14 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> A team of 6+ highly qualified professionals</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Proficiency in DevOps, Agile, and Lean methodologies</li>
             </ul>
-            <h5 style="color:#1C46A8; font-weight:700;">MD Quality Apps VR Development in Numbers</h5>
+            <h5 style="color:#1C46A8; font-weight:700;">MDQuality Apps VR Development in Numbers</h5>
         <p class="website-para">2.5x: Cost savings compared to internal VR app development.</p>
         <p class="website-para">10x: Faster 3D model creation with our scripts.</p>
         <p class="website-para">90%+: High user satisfaction with the finished VR application.</p>
             </div>
             <div class="col-lg-6"></div>
         </div>
-        <h3 style="color:#1C46A8; font-weight:700;">Additional Benefits of VR Development with MD Quality Apps</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Additional Benefits of VR Development with MDQuality Apps</h3>
         <h5 style="color:#1C46A8; font-weight:700;">A Secure and Lucrative Investment:</h5>
         <p class="website-para">We conduct a feasibility study and offer a free project estimation to ensure your investment is well-spent.</p>
         <p class="website-para">Technical product management consultancy available to manage risks and minimize financial losses.</p>

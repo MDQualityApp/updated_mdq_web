@@ -4,15 +4,13 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Node JS</span></h1>
         </div>
         <div class="row">
             <div class="col-lg-6 px-5 pt-2">
                 <h2 class="h2-heading ">Hire Node.js Developers</h2>
-                <p class="website-para">At MD Quality Apps, you can hire accomplished Node.js experts who are both highly skilled and certified to deliver comprehensive Node.js development services for your projects.</p>
+                <p class="website-para">At MDQuality Apps, you can hire accomplished Node.js experts who are both highly skilled and certified to deliver comprehensive Node.js development services for your projects.</p>
                 <h3 class="h2-heading ">Node.js Development Professionals for Your Needs</h3>
                 <p class="website-para">Our platform offers you access to the top Node.js developers in India, all ready to be part of your team. We have a vast pool of Node.js professionals who can cater to your specific requirements.</p>
 
@@ -24,7 +22,7 @@ include './header.php';
         <div class="px-4">
         <div class="px-1">
             <h5 class="h2-heading ">Control and Customization</h5>
-            <p class="website-para">When you bring specialized Node.js developers, Node.js programmers, and Node.js software engineers from MD Quality Apps onto your project, you're in complete control. A dedicated Node.js programmer will work exclusively on your project, ensuring high-quality, innovative, and scalable solutions that meet your unique demands. We stay up-to-date with the latest technological advancements to keep your project cutting-edge.</p>
+            <p class="website-para">When you bring specialized Node.js developers, Node.js programmers, and Node.js software engineers from MDQuality Apps onto your project, you're in complete control. A dedicated Node.js programmer will work exclusively on your project, ensuring high-quality, innovative, and scalable solutions that meet your unique demands. We stay up-to-date with the latest technological advancements to keep your project cutting-edge.</p>
             <h5 class="h2-heading ">Transparent and Ownership</h5>
             <p class="website-para">Our hire dedicated Node.js developer services promise complete transparency and thorough reporting. You retain full ownership of all intellectual property rights and the source code.</p>
             <h5 class="h2-heading ">Industry Expertise</h5>
@@ -49,7 +47,7 @@ include './header.php';
             <p class="website-para">Our Node.js engineers promote the widespread usage and rapid development of Node.js and related plugins.</p>
             <h5 class="h2-heading ">Support and Maintenance</h5>
             <p class="website-para">Employ our skilled Node.js engineers to ensure the active and scalable development of your applications, guaranteeing smooth operations.</p>
-            <h5 class="h2-heading ">Why Choose MD Quality Apps' Node.js Developers</h5>
+            <h5 class="h2-heading ">Why Choose MDQuality Apps' Node.js Developers</h5>
             <p class="website-para">Our Node.js professionals are dedicated to building innovative technological solutions that promote transformative change and adapt to evolving circumstances.</p>
             <h5 class="h2-heading ">Flexibility</h5>
             <p class="website-para">Our developers offer flexibility, allowing you to match your business plan, obtain resources as needed, and grow your team for the project or full-time.</p>
@@ -61,7 +59,7 @@ include './header.php';
             <p class="website-para">We assist you in finding qualified team members and experienced developers to create a successful team that meets your demands.</p>
             <h5 class="h2-heading ">Flexible Hiring Models</h5>
             <p class="website-para">We offer multiple hiring models to cater to your project's needs, ensuring streamlined productivity and quick alignment with your business processes.</p>
-            <h5 class="h2-heading ">Managed by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed by MDQuality Apps</h5>
             <p class="website-para">Our managed teams provide dedicated management for Node.js projects, focusing on development while you concentrate on core business operations.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Work collaboratively with our skilled Node.js engineers, who can support your internal team or project managers throughout the development process.</p>

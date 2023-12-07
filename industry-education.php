@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Industry<br><span style="font-weight:500 !important; font-size:xx-large">Education</span></h1>
         </div>
         <div class="row py-3">
@@ -26,7 +26,7 @@ include './header.php';
             <div class="col-lg-6">
             <h3 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h3>
             <h5 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h5>
-            <p class="website-para">At MD Quality Apps, a leading educational software provider, we offer a comprehensive range of eLearning development services and solutions to ensure continuous learning. Our technological solutions enhance productivity, facilitate learning, and support students, teachers, and administrators.</p>
+            <p class="website-para">At MDQuality Apps, a leading educational software provider, we offer a comprehensive range of eLearning development services and solutions to ensure continuous learning. Our technological solutions enhance productivity, facilitate learning, and support students, teachers, and administrators.</p>
             <h3 style="color:#1C46A8; font-weight:700;">Comprehensive School Management System</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Streamlining Educational Management</h5>
             <p class="website-para">Our school management system is tailor-made for colleges, universities, and other educational institutions. It simplifies the management of student and curriculum-related data on a unified platform, offering features such as:</p>

@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Android</span></h1>
         </div>
         <div class="row">
@@ -23,8 +21,8 @@ include './header.php';
         </div>
         <div class="px-4">
         <div class="px-1">
-            <h5 class="h2-heading ">"At MD Quality Apps, we provide top-notch Android app developers to assist you in creating exceptional Android apps."</h5>
-            <p class="website-para">With over 86% of the market share in application development, the Android operating system reigns supreme in the mobile application industry. Its open-source nature grants businesses the flexibility to customize Android applications to meet exact user needs and business requirements. These applications, backed by Google, seamlessly integrate into the entire Android Studio ecosystem, including tablets, smartphones, Android TVs, and wearables. Additionally, Android apps can leverage cutting-edge technologies such as AR, IoT, and VR. At MD Quality Apps, we offer top Android app developers ready to bring your app idea to fruition.</p>
+            <h5 class="h2-heading ">"At MDQuality Apps, we provide top-notch Android app developers to assist you in creating exceptional Android apps."</h5>
+            <p class="website-para">With over 86% of the market share in application development, the Android operating system reigns supreme in the mobile application industry. Its open-source nature grants businesses the flexibility to customize Android applications to meet exact user needs and business requirements. These applications, backed by Google, seamlessly integrate into the entire Android Studio ecosystem, including tablets, smartphones, Android TVs, and wearables. Additionally, Android apps can leverage cutting-edge technologies such as AR, IoT, and VR. At MDQuality Apps, we offer top Android app developers ready to bring your app idea to fruition.</p>
             <h5 class="h2-heading ">Why Choose Us for Your Android App Development Needs?</h5>
             <p class="website-para">Collaborating with Android developers allows you to consistently create highly contextual user experiences.</p>
             <h5 class="h2-heading ">Focus on Core Operations</h5>
@@ -58,10 +56,10 @@ include './header.php';
             <h5 class="h2-heading ">Build Your Team</h5>
             <p class="website-para">Choose qualified Android developers based on their expertise, aligning with your requirements for rapid scalability and increased business agility.</p>
             <h5 class="h2-heading ">Technical Proficiency</h5>
-            <p class="website-para">MD Quality Apps' top Android app developers are experts in Android Studio, C, C++, HTML, CSS, Google Material, and Java, utilizing these tools to create cutting-edge Android applications.</p>
+            <p class="website-para">MDQuality Apps' top Android app developers are experts in Android Studio, C, C++, HTML, CSS, Google Material, and Java, utilizing these tools to create cutting-edge Android applications.</p>
             <h5 class="h2-heading ">Hire Android Developers with Our Flexible Models</h5>
             <p class="website-para">Our adaptable models for hiring Android app specialists eliminate HR formalities, infrastructure costs, software licenses, hardware expenses, employee training costs, and employment expenses. This enables you to focus on your core business and scale up or down based on current needs, adapting to changing circumstances.</p>
-            <h5 class="h2-heading ">Managed Team by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed Team by MDQuality Apps</h5>
             <p class="website-para">Our managed team model includes a dedicated development team and manager who take complete responsibility for your project needs, ensuring seamless execution.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Our full-stack Android developers work closely with your internal team or project managers to provide strategic offshore development support, ensuring a quick time to market and effectiveness.</p>

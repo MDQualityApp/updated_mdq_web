@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Java Spring Boot</span></h1>
         </div>
         <div class="row">
@@ -24,8 +22,8 @@ include './header.php';
         </div>
         <div class="px-4">
         <div class="px-1">
-            <h5 class="h2-heading ">Partner with MD Quality Apps</h5>
-            <p class="website-para">For designing, developing, and scaling dependable Spring Boot web applications, collaborate with our Java Spring Boot developers. You can access top-tier talent in the market and save up to 50% on costs when you hire a full-stack Java developer from MD Quality Apps. Our Java Spring Boot developers are well-versed in cutting-edge, efficiency-optimized technologies tailored to your specific business needs.</p>
+            <h5 class="h2-heading ">Partner with MDQuality Apps</h5>
+            <p class="website-para">For designing, developing, and scaling dependable Spring Boot web applications, collaborate with our Java Spring Boot developers. You can access top-tier talent in the market and save up to 50% on costs when you hire a full-stack Java developer from MDQuality Apps. Our Java Spring Boot developers are well-versed in cutting-edge, efficiency-optimized technologies tailored to your specific business needs.</p>
             <h5 class="h2-heading ">Stay Ahead with Expertise</h5>
             <p class="website-para">To stay ahead in the ever-evolving world of innovation, hire skilled Java Spring Boot developers for your project. We offer the best and most experienced Java programmers with a wealth of knowledge and a track record of delivering Spring Boot-based web solutions. Our remote Java Spring Boot developers excel in constructing standalone, production-grade Spring-based applications with features like health checks and externalized configuration.</p>
             <h5 class="h2-heading ">Efficiency and Timeliness</h5>
@@ -66,10 +64,10 @@ include './header.php';
             <h5 class="h2-heading ">Build Your Ideal Team</h5>
             <p class="website-para">Choose Java Spring Boot developers based on their expertise and ability to meet your requirements for rapid scalability and business agility. Overcome obstacles and gain a competitive advantage with a customized team.</p>
             <h5 class="h2-heading ">Technical Excellence</h5>
-            <p class="website-para">As one of the leading offshore Java Spring Boot development teams, MD Quality Apps helps create innovative web applications to thrive in the digital transformation journey.</p>
+            <p class="website-para">As one of the leading offshore Java Spring Boot development teams, MDQuality Apps helps create innovative web applications to thrive in the digital transformation journey.</p>
             <h5 class="h2-heading ">Flexible Engagement Models</h5>
             <p class="website-para">Hire Java Spring Boot developers according to your workload, whether it's full-time, part-time, or on-demand, reducing costs associated with hiring and training.</p>
-            <h5 class="h2-heading ">Managed by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed by MDQuality Apps</h5>
             <p class="website-para">Opt for our full-time experts for your project's duration, and a dedicated project manager will guide you through the entire process, taking care of design and coding according to your specifications.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Our Java developers can work with your company's internal team or project managers for critical offshore development support, ensuring the best value and quality for your projects.</p>

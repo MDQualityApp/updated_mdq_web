@@ -4,13 +4,13 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Technology<br><span style="font-weight:500 !important; font-size:xx-large">Data Science</span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Data Science</h2>
-        <p class="website-para">MD Quality Apps offers Data Science Services for a wide range of practical use cases, harnessing the power of intelligence to drive operational improvements and enhance performance. Here's how our expertise can benefit your business:</p>
+        <p class="website-para">MDQuality Apps offers Data Science Services for a wide range of practical use cases, harnessing the power of intelligence to drive operational improvements and enhance performance. Here's how our expertise can benefit your business:</p>
             <h3 style="color:#1C46A8; font-weight:700;">Operational Intelligence:</h3>
         <p class="website-para">We help identify deviations, undesired trends, and root causes, and predict performance to enhance operational efficiency.</p>
             <h3 style="color:#1C46A8; font-weight:700;">Supply Chain Management:</h3>
@@ -143,7 +143,7 @@ include './header.php';
         <h5 style="color:#1C46A8; font-weight:700;">Data Mining Services:</h5>
         <p class="website-para">Extract valuable insights from vast and dynamic datasets without hiring in-house data mining specialists.</p>
 
-        <p class="website-para">MD Quality Apps is ready to support your project with deep learning and machine learning expertise. Uncover new business opportunities and boost performance through advanced analytical tools. Contact us today for a free trial of our Data Science Consultancy!</p>
+        <p class="website-para">MDQuality Apps is ready to support your project with deep learning and machine learning expertise. Uncover new business opportunities and boost performance through advanced analytical tools. Contact us today for a free trial of our Data Science Consultancy!</p>
         </div>
         </div>
 <?php

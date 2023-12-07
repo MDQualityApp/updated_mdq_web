@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">Xamarin</span></h1>
         </div>
         <div class="row">
@@ -17,7 +15,7 @@ include './header.php';
                 <p class="website-para">Bring onboard top-notch Xamarin developers to create cross-platform applications that enhance your business's value, broaden your user reach, and expedite your company's growth.</p>
                 <h3 class="h2-heading ">Specialized Xamarin Developers for Hire</h3>
                 <h5 class="h2-heading ">Explore our pool of dedicated Xamarin developers</h5>
-                <p class="website-para">At MD Quality Apps, we offer a team of Xamarin developers with robust technical skills and experience spanning diverse industry sectors. Our Xamarin experts possess an in-depth understanding of the Xamarin technology, capable of crafting high-quality native apps for Windows, iOS, and Android. With a single C# codebase, they can create mobile applications using the same IDE, language, and APIs, extending your global reach.</p>
+                <p class="website-para">At MDQuality Apps, we offer a team of Xamarin developers with robust technical skills and experience spanning diverse industry sectors. Our Xamarin experts possess an in-depth understanding of the Xamarin technology, capable of crafting high-quality native apps for Windows, iOS, and Android. With a single C# codebase, they can create mobile applications using the same IDE, language, and APIs, extending your global reach.</p>
 
             </div>
             <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
@@ -29,7 +27,7 @@ include './header.php';
             <h5 class="h2-heading ">Flexible Hiring Models for Your Mobile Projects</h5>
             <p class="website-para">Choose dedicated Xamarin developers on an hourly, part-time, or full-time basis, tailored to your budget and business needs. When you opt to hire Xamarin developers through our services, our programmers commit their time exclusively to your project, operating under your direct supervision. This way, you maintain control over your project from start to finish.</p>
 
-            <h5 class="h2-heading ">Why Choose MD Quality Apps for Xamarin Developers?</h5>
+            <h5 class="h2-heading ">Why Choose MDQuality Apps for Xamarin Developers?</h5>
             <p class="website-para">Unlock the benefits of team augmentation, collaboration, and technical excellence by hiring a remote Xamarin developer.</p>
             <h5 class="h2-heading ">Remote Development Team</h5>
             <p class="website-para">Leverage the expertise and technical prowess of remote Xamarin developers to fill skill gaps and enhance your team's capabilities quickly.</p>
@@ -60,10 +58,10 @@ include './header.php';
             <h5 class="h2-heading ">Build Your Team</h5>
             <p class="website-para">Choose dedicated Xamarin app developers with experience and expertise aligned with your customer's demands, fostering agility, overcoming obstacles, and gaining a competitive edge.</p>
             <h5 class="h2-heading ">Technical Expertise</h5>
-            <p class="website-para">Our expert Xamarin developers at MD Quality Apps utilize .NET and C# to create secure and reliable apps for Android, iPhone, iPad, Mac, and Windows platforms while adhering to industry best practices.</p>
+            <p class="website-para">Our expert Xamarin developers at MDQuality Apps utilize .NET and C# to create secure and reliable apps for Android, iPhone, iPad, Mac, and Windows platforms while adhering to industry best practices.</p>
             <h5 class="h2-heading ">Hire Dedicated Xamarin Engineers through Our Models</h5>
             <p class="website-para">Opt for simplified efficiency, reduced costs, and a quicker time to market with full transparency by hiring experienced Xamarin developers.</p>
-            <h5 class="h2-heading ">Managed Team by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed Team by MDQuality Apps</h5>
             <p class="website-para">Our managed team model offers a specialized development team and manager to handle various project components from start to finish, tailored to your specific needs.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Enhance productivity, cost-effectiveness, and scalability by having our skilled Xamarin developers collaborate with your in-house team or technical project managers.</p>

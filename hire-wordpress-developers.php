@@ -4,9 +4,7 @@ include './header.php';
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">WordPress</span></h1>
         </div>
         <div class="row">
@@ -17,7 +15,7 @@ include './header.php';
                 <p class="website-para">Enhance your business by hiring a WordPress developer to swiftly and flexibly create solutions that set you apart from the competition.</p>
                 <h3 class="h2-heading ">Affordable WordPress Development</h3>
                 <h5 class="h2-heading ">Leverage the expertise of a team of WordPress developers.</h5>
-                <p class="website-para">At MD Quality Apps, a leading WordPress development firm, you can access skilled WordPress developers who assist clients in anticipating business needs and rapidly expanding their teams.</p>
+                <p class="website-para">At MDQuality Apps, a leading WordPress development firm, you can access skilled WordPress developers who assist clients in anticipating business needs and rapidly expanding their teams.</p>
                 <p class="website-para">WordPress, a contemporary and reliable software, powers millions of websites worldwide. This user-friendly and agile CMS platform has revolutionized the way websites operate.</p>
 
             </div>
@@ -29,7 +27,7 @@ include './header.php';
         <div class="px-1">
 
             <p class="website-para">Our reliable WordPress web developers offer top-notch development and customization solutions, backed by open source technologies, to help your business thrive in the competitive world. We are poised to use WordPress technology to help businesses navigate the digital landscape and prepare for future workforce changes.</p>
-            <p class="website-para">MD Quality Apps provides qualified WordPress developers, programmers, designers, and software engineers on an hourly, part-time, or full-time basis. There are no hidden fees or upfront costs. Depending on your project's requirements, you can engage top WordPress developers, programmers, and designers from India, whether you need a single WordPress developer or an entire team of WordPress specialists. Let's shape the future together with our skilled WordPress developers.</p>
+            <p class="website-para">MDQuality Apps provides qualified WordPress developers, programmers, designers, and software engineers on an hourly, part-time, or full-time basis. There are no hidden fees or upfront costs. Depending on your project's requirements, you can engage top WordPress developers, programmers, and designers from India, whether you need a single WordPress developer or an entire team of WordPress specialists. Let's shape the future together with our skilled WordPress developers.</p>
             <h5 class="h2-heading ">Unlock the Benefits of Hiring Remote WordPress Developers</h5>
             <p class="website-para">Explore the power of team augmentation, collaboration, subject-matter expertise, and technical excellence.</p>
             <h5 class="h2-heading ">Scalability and Flexibility</h5>
@@ -56,8 +54,8 @@ include './header.php';
             <p class="website-para">Remote WordPress developers offer custom API and integration services for a feature-rich user experience.</p>
             <h5 class="h2-heading ">WordPress Support & Maintenance</h5>
             <p class="website-para">Keep your website updated and secure by hiring a WordPress developer.</p>
-            <p class="website-para">The Advantages of Hiring MD Quality Apps' WordPress Developers</p>
-            <p class="website-para">Hire WordPress developers from MD Quality Apps to ensure faster time-to-market, the development of high-performance online applications, and robust security. We provide top-notch WordPress developers for dedicated projects, ensuring exceptional speed and productivity.</p>
+            <p class="website-para">The Advantages of Hiring MDQuality Apps' WordPress Developers</p>
+            <p class="website-para">Hire WordPress developers from MDQuality Apps to ensure faster time-to-market, the development of high-performance online applications, and robust security. We provide top-notch WordPress developers for dedicated projects, ensuring exceptional speed and productivity.</p>
             <h5 class="h2-heading ">A Point of Expertise</h5>
             <p class="website-para">We offer WordPress experts and points of contact to collaborate with your team throughout various project stages, ensuring project success.</p>
             <h5 class="h2-heading ">Extensibility</h5>
@@ -66,7 +64,7 @@ include './header.php';
             <p class="website-para">Our professional WordPress developers are well-versed in tools, platforms, and industry standards, enabling them to create high-performance WordPress sites.</p>
             <h5 class="h2-heading ">Flexible Hiring Models for WordPress Developers</h5>
             <p class="website-para">Embrace change and stay ahead of the curve by hiring skilled WordPress developers.</p>
-            <h5 class="h2-heading ">Managed Team by MD Quality Apps</h5>
+            <h5 class="h2-heading ">Managed Team by MDQuality Apps</h5>
             <p class="website-para">Our managed team hiring approach provides an effective way to meet the demands of complex projects with a dedicated development team and manager, from start to finish.</p>
             <h5 class="h2-heading ">Customer-Managed Team</h5>
             <p class="website-para">Our WordPress specialists work seamlessly with your internal team or project managers to provide development support and ensure scalability to meet evolving business needs.</p>

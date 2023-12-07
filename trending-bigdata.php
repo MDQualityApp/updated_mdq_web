@@ -4,14 +4,14 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Technology<br><span style="font-weight:500 !important; font-size:xx-large">Big Data</span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Big Data Services for Significant Impact</h2>
-        <p class="website-para">Our Big Data services are here to empower businesses by unlocking the full potential of their data and helping them achieve their strategic goals through data analysis. Since 2014, MD Quality Apps has been at the forefront of offering a wide range of Big Data services, including consultancy, installation, support, and Big Data as a Service.</p>
-            <h3 style="color:#1C46A8; font-weight:700;">What Sets MD Quality Apps Apart</h3>
+        <p class="website-para">Our Big Data services are here to empower businesses by unlocking the full potential of their data and helping them achieve their strategic goals through data analysis. Since 2014, MDQuality Apps has been at the forefront of offering a wide range of Big Data services, including consultancy, installation, support, and Big Data as a Service.</p>
+            <h3 style="color:#1C46A8; font-weight:700;">What Sets MDQuality Apps Apart</h3>
         <p class="website-para">With over 4 years of experience in the fields of data analytics and data science, we've honed our expertise in addressing diverse analytical needs, including advanced analytics. This deep understanding equips us to guide you through your data-driven journey effectively.</p>
 
             </div>
@@ -26,7 +26,7 @@ include './header.php';
         <div class="row py-3">
         <div class="col-lg-6"></div>
             <div class="col-lg-6">
-            <h3 style="color:#1C46A8; font-weight:700;">Comprehensive Big Data Services by MD Quality Apps</h3>
+            <h3 style="color:#1C46A8; font-weight:700;">Comprehensive Big Data Services by MDQuality Apps</h3>
                 <h5 style="color:#1C46A8; font-weight:700;">Our comprehensive suite of Big Data services includes:</h5>
                 <ul class="website-para" style="list-style-type:none; margin-left:-30px; line-height:40px;">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Administration of Big Data solutions.</li>
@@ -68,7 +68,7 @@ include './header.php';
             <div class="col-lg-6"></div>
         </div>
         <h5 style="color:#1C46A8; font-weight:700;">Ready to Unlock Your Company's Big Data Potential?</h5>
-        <p class="website-para">MD Quality Apps is your partner in collecting, combining, and analyzing data from diverse sources to reveal hidden insights that can transform your business.</p>
+        <p class="website-para">MDQuality Apps is your partner in collecting, combining, and analyzing data from diverse sources to reveal hidden insights that can transform your business.</p>
         <h5 style="color:#1C46A8; font-weight:700;">Our Notable Big Data Projects</h5>
         <p class="website-para">Consulting for a Major Internet of Vehicles Business: We assisted a client in enhancing their Big Data analytics capabilities, connecting 600,000 vehicles to their IoT data system.</p>
         <p class="website-para">Consultation and Training for a Satellite Agency: We evaluated and improved a big data solution's architecture, providing training materials and workshops for satellite agency teams.</p>
@@ -80,7 +80,7 @@ include './header.php';
         <h5 style="color:#1C46A8; font-weight:700;">Leading-Edge Technologies</h5>
         <p class="website-para">We utilize a wide range of technologies in our Big Data projects, including distributed storage, database management, data processing, machine learning, and programming languages.</p>
         <h5 style="color:#1C46A8; font-weight:700;">Choose the Big Data Experts</h5>
-        <p class="website-para">MD Quality Apps is here to help you achieve your Big Data goals, enhancing business efficiency and decision-making through our extensive experience in providing Big Data services.</p>
+        <p class="website-para">MDQuality Apps is here to help you achieve your Big Data goals, enhancing business efficiency and decision-making through our extensive experience in providing Big Data services.</p>
         </div>
         </div>
 <?php

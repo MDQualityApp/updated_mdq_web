@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Trending<br><span style="font-weight:500 !important; font-size:xx-large">AI / ML</span></h1>
         </div>
         <div class="row py-3">
@@ -22,8 +22,8 @@ include './header.php';
 
             <h3 style="color:#1C46A8; font-weight:700;">Unlocking the Potential of AI & Deep Learning</h3>
             <p class="website-para">Enrich your applications with intelligence through our AI and Machine Learning solutions.</p>
-            <h5 style="color:#1C46A8; font-weight:700;">MD Quality Apps: Your Path to Machine Learning Excellence</h5>
-            <p class="website-para">At MD Quality Apps, we offer a comprehensive suite of Deep Learning and Artificial Intelligence solutions, making machine learning accessible to developers, data scientists, and experts. We pioneer AI solution and implementation services, accelerating your machine learning and artificial intelligence endeavors.</p>
+            <h5 style="color:#1C46A8; font-weight:700;">MDQuality Apps: Your Path to Machine Learning Excellence</h5>
+            <p class="website-para">At MDQuality Apps, we offer a comprehensive suite of Deep Learning and Artificial Intelligence solutions, making machine learning accessible to developers, data scientists, and experts. We pioneer AI solution and implementation services, accelerating your machine learning and artificial intelligence endeavors.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Elevating Your Workflows and Apps with AI</h5>
             <p class="website-para">Our AI support services provide pre-built intelligence for your workflows and applications, addressing various use cases like personalized recommendations, enhancing contact centers, fortifying security, and boosting customer engagement. Integrating artificial intelligence software into your apps is straightforward.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Tailored ML Framework Solutions</h5>

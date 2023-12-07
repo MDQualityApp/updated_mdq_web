@@ -4,14 +4,14 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Models<br><span style="font-weight:500 !important; font-size:xx-large">Delivery </span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Delivery Methods</h2>
             <h3 style="color:#1C46A8; font-weight:700;">Various Approaches to Delivering Exceptional Service</h3>
-        <p class="website-para">At MD Quality Apps, we've meticulously crafted our delivery strategies to cater to a diverse range of client needs, including urgent delivery requirements and shared objectives. We understand that in today's dynamic business landscape, where every company has its unique operational procedures and demands, offering multiple delivery models is essential.</p>
+        <p class="website-para">At MDQuality Apps, we've meticulously crafted our delivery strategies to cater to a diverse range of client needs, including urgent delivery requirements and shared objectives. We understand that in today's dynamic business landscape, where every company has its unique operational procedures and demands, offering multiple delivery models is essential.</p>
 
             </div>
             <div class="col-lg-6 px-4">
@@ -43,7 +43,7 @@ include './header.php';
             <p class="website-para">Skilled Resources: Access the best infrastructure, skilled labor, and technology at our offshore development centers.</p>
             <p class="website-para">Cost Advantages: Significant cost reductions through outsourcing to the offshore center.</p>
             <p class="website-para">Resource Optimization: Ensure your resources are used to their fullest potential.</p>
-            <p class="website-para">At MD Quality Apps, our goal is to provide you with the ideal delivery model that aligns with your business needs, ensuring you achieve success in the ever-evolving business landscape.</p>
+            <p class="website-para">At MDQuality Apps, our goal is to provide you with the ideal delivery model that aligns with your business needs, ensuring you achieve success in the ever-evolving business landscape.</p>
                 </div>
             </div>
 

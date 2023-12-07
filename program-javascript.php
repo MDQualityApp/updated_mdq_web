@@ -1,24 +1,23 @@
 <?php
 include './header.php';
 ?>
-<div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
+<div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
+
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-            <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8">
-                <path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path>
-            </svg>
+
             <h1 style="position:relative;" class="h1-heading">Technology <br><span style="font-weight:500 !important; font-size:xx-large"> JavaScript</span></h1>
         </div>
         <div class="row">
-            <div class="col-lg-6 px-5 pt-5">
+            <div class="col-lg-6 px-5">
 
-                <h3 class="h2-heading ">JavaScript Development Services:</h3>
-                <h5 class="h2-heading py-3">Elevating JavaScript Web and Mobile Applications</h5>
-                <p class="website-para">JavaScript stands as a pivotal client-side programming language, enabling the creation of dynamic website content. At MD Quality Apps, we harness the full potential of JavaScript, complemented by the power of Node.js on the server-side, to deliver blazing-fast web and mobile applications.</p>
+                <h2 class="h2-heading ">JavaScript Development Services:</h2>
+                <h3 class="h2-heading py-3">Elevating JavaScript Web and Mobile Applications</h3>
+                <p class="website-para">JavaScript stands as a pivotal client-side programming language, enabling the creation of dynamic website content. At MDQuality Apps, we harness the full potential of JavaScript, complemented by the power of Node.js on the server-side, to deliver blazing-fast web and mobile applications.</p>
 
             </div>
             <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="70%" src="https://img.icons8.com/ios-filled/1000/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" />
+                <img width="50%" src="https://img.icons8.com/ios-filled/1000/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" />
             </div>
         </div>
         <div class="row">
@@ -26,11 +25,11 @@ include './header.php';
                 <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
                     <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
                 </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Skilled JavaScript Developers</h2>
+                <h2 style="position: absolute; color:white; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Skilled JavaScript Developers</h2>
             </div>
             <div class="col-lg-6 px-5 pt-5">
                 <h5 class="h2-heading py-3">Are you in search of skilled JavaScript developers?</h5>
-                <p class="website-para">MD Quality Apps provides a solution: a handpicked team of JavaScript experts who are ready to reduce project delivery times and costs. Here's why our expertise is your advantage:</p>
+                <p class="website-para">MDQuality Apps provides a solution: a handpicked team of JavaScript experts who are ready to reduce project delivery times and costs. Here's why our expertise is your advantage:</p>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
                     <li><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" /> Five Years of Software Development Experience.</li>
                     <li><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" /> Over 100 Successfully Completed Development Projects.</li>
@@ -57,7 +56,7 @@ include './header.php';
                     <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
                 </svg>
 
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading ">JavaScript finds its place in various domains</h2>
+                <h2 style="position: absolute; color:white; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading ">JavaScript finds its place in various domains</h2>
 
             </div>
         </div>
@@ -66,7 +65,7 @@ include './header.php';
                 <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
                     <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
                 </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">JavaScript development adheres to industry best practices</h2>
+                <h2 style="position: absolute; color:white; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">JavaScript development adheres to industry best practices</h2>
             </div>
             <div class="col-lg-6 px-5">
                 <h5 class="h2-heading ">Our approach to JavaScript development adheres to industry best practices, ensuring the highest quality outcomes:</h5>
@@ -94,10 +93,10 @@ include './header.php';
             </ul>
             <h5 class="h2-heading pt-3">A Dedicated JavaScript Team</h5>
             <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                <li><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" /> Suitable for: Bridging resource and expertise gaps with a team of more than four developers, managed by an MD Quality Apps Project Manager.</li>
+                <li><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" /> Suitable for: Bridging resource and expertise gaps with a team of more than four developers, managed by an MDQuality Apps Project Manager.</li>
                 <li><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/1C46A8/javascript-logo.png" alt="java-coffee-cup-logo--v1" /> Pricing Model: Time & Materials (T&M).</li>
             </ul>
-            <p class="website-para">At MD Quality Apps, we are committed to delivering excellence in JavaScript development, ensuring your web and mobile applications stand out with dynamism and speed. Contact us today to elevate your projects with our JavaScript expertise.</p>
+            <p class="website-para">At MDQuality Apps, we are committed to delivering excellence in JavaScript development, ensuring your web and mobile applications stand out with dynamism and speed. Contact us today to elevate your projects with our JavaScript expertise.</p>
         </div>
 
     </div>

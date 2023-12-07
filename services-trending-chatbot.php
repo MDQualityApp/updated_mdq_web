@@ -4,7 +4,7 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Trending<br><span style="font-weight:500 !important; font-size:xx-large">Chat BOT</span></h1>
         </div>
         <div class="row py-3">
@@ -23,8 +23,8 @@ include './header.php';
 
 
 
-            <h3 style="color:#1C46A8; font-weight:700;">MD Quality Apps</h3>
-            <p class="website-para">MD Quality Apps offers intelligent chatbot creation solutions catering to diverse domains.</p>
+            <h3 style="color:#1C46A8; font-weight:700;">MDQuality Apps</h3>
+            <p class="website-para">MDQuality Apps offers intelligent chatbot creation solutions catering to diverse domains.</p>
             <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
             <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
             <p class="website-para">We deliver comprehensive chatbot development services for a wide range of platforms, including Facebook, Twitter, Slack, Kik, Microsoft, and more, all powered by advanced AI, NLP, and machine learning technologies. Our services are tailor-made to suit your specific requirements, whether you are seeking to create conversational agents, IVR bots, online chatbots, text bots, or messaging bots.</p>
@@ -39,7 +39,7 @@ include './header.php';
             <h5 style="color:#1C46A8; font-weight:700;">Twitter Bot</h5>
             <p class="website-para">Organizations can create highly personalized Messenger experiences using the Messenger Platform. We collaborate with Facebook Messenger to implement business logic and controls that enhance user interactions with bots.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Chatfuel</h5>
-            <p class="website-para">MD Quality Apps explores Chatfuel, a tool that enables the creation of Facebook Messenger bots without requiring programming expertise. Businesses can reap the benefits of increased engagement and retention rates with Chatfuel development.</p>
+            <p class="website-para">MDQuality Apps explores Chatfuel, a tool that enables the creation of Facebook Messenger bots without requiring programming expertise. Businesses can reap the benefits of increased engagement and retention rates with Chatfuel development.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Amazon Lex</h5>
             <p class="website-para">Our team delves into chatbot creation using Amazon Lex to incorporate conversational user interfaces and deep learning capabilities into applications (NLU).</p>
             <h5 style="color:#1C46A8; font-weight:700;">Comprehensive Chatbot Services</h5>

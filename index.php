@@ -123,7 +123,7 @@ include './header.php';
               <div class="col-lg-6 px-5">
                 <h1 style="font-size:35px">Innovating People, Celebrating Culture, Redefining Workplace Excellence.</h1>
                 <h2 style="font-size:24px">MDQuality Apps Solutions-</h2>
-                <h3 style="font-size:20px">pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a class="inner-link" href="">iOS</a></h3>
+                <h3 style="font-size:20px">pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href="./offering-mobile-app.php"> Android</a> and <a class="inner-link" href="#">iOS</a></h3>
               </div>
 
             </div>
@@ -137,7 +137,7 @@ include './header.php';
               <div class="col-lg-6 px-5">
                 <h1>Your Path to Technological Transformation.</h1>
                 <h4>MDQuality Apps Solutions-</h4>
-                <h5>pioneer in Native and Hybrid Website Development of <a class="inner-link" href=""> Android</a> and <a class="inner-link" href="">iOS</a></h5>
+                <h5>pioneer in Native and Hybrid Website Development of <a class="inner-link" href="#"> Android</a> and <a class="inner-link" href="#">iOS</a></h5>
               </div>
 
             </div>
@@ -145,13 +145,13 @@ include './header.php';
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/mobile-development.webp" class="d-block w-100" alt="best-cyber-security-development-company-chennai">
+          <img src="./images/cyber-security.webp" class="d-block w-100" alt="best-cyber-security-development-company-chennai">
           <div class="card-img-overlay">
             <div class="row">
               <div class="col-lg-6 px-5">
                 <h1>Instructing Today, Versatile Tomorrow, Transforming the Future</h1>
                 <h4>MDQuality Apps Solutions-</h4>
-                <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href=""> Android</a> and <a class="inner-link" href="">iOS</a></h5>
+                <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href="#"> Android</a> and <a class="inner-link" href="#">iOS</a></h5>
               </div>
 
             </div>
@@ -169,9 +169,9 @@ include './header.php';
           <h5 class="py-2" style="font-weight:700;">We find ourselves at the dawn of a new era in digital transformation.</h5>
           <p class="website-para">Established in 2016, MDQuality Apps has rapidly expanded its client base across three different countries. Our core focus is on delivering comprehensive IT services and industry-specific solutions across 13 domains worldwide. Whether you're an ISV or a large corporation, we're here to accelerate your progress and unlock future possibilities. With a wealth of industry knowledge and technical prowess, we're dedicated to creating tangible value through digitalization and propelling various sectors forward by leveraging cutting-edge innovations.</p>
           <p class="website-para">At MDQuality Apps, we're committed to fostering innovation and addressing today's technology needs. Our co-founder, Divya L, leads our team of professionals and problem solvers on a mission to become a global leader in IT services and solutions. We draw inspiration from our diverse culture, unwavering commitment, and expertise as we collaborate effectively with partners and clients.</p>
-          <div class="web-button-div">
-            <button class="web-button my-4">About Us</button>
-          </div>
+            <div class="web-button-div">
+              <button class="web-button my-4">About Us</button>
+            </div>
         </div>
 
         <div class="col-lg-6">
@@ -436,9 +436,7 @@ include './header.php';
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-Mobile-tab" data-bs-toggle="pill" data-bs-target="#pills-Mobile" type="button" role="tab" aria-controls="pills-Mobile" aria-selected="false">Mobile</button>
           </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-Open-Source-tab" data-bs-toggle="pill" data-bs-target="#pills-Open-Source" type="button" role="tab" aria-controls="pills-Open-Source" aria-selected="false">Open Source</button>
-          </li>
+
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-devops-tab" data-bs-toggle="pill" data-bs-target="#pills-devops" type="button" role="tab" aria-controls="pills-devops" aria-selected="false">DevOps / Clouds</button>
           </li>
@@ -489,17 +487,28 @@ include './header.php';
             </div>
           </div>
         </div>
-        <div class="tab-pane fade" id="pills-Open-Source" role="tabpanel" aria-labelledby="pills-Open-Source-tab">
-          ...
+        <div class="tab-pane fade" id="pills-devops" role="tabpanel" aria-labelledby="pills-devops-tab">
+        <div class="d-flex justify-content-center">
+            <div class="row">
+              <div class="col-lg-12">
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/3200/1C46A8/amazon-web-services.png" alt="amazon-web-services"/>
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/800/1C46A8/azure-1.png" alt="azure-1"/>
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-glyphs/900/1C46A8/cloud.png" alt="cloud"/>
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency-systems-filled/960/1C46A8/docker.png" alt="docker"/>
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/1000/1C46A8/jenkins.png" alt="jenkins"/>
+              <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/900/1C46A8/kubernetes.png" alt="kubernetes"/>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="tab-pane fade" id="pills-devops" role="tabpanel" aria-labelledby="pills-devops-tab">...</div>
         <div class="tab-pane fade" id="pills-Database" role="tabpanel" aria-labelledby="pills-Database-tab">
           <div class="d-flex justify-content-center">
             <div class="row">
               <div class="col-lg-12">
                 <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/1C46A8/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo" />
                 <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/mysql-logo.png" alt="mysql-logo" />
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/500/1C46A8/maria-db.png" alt="maria-db" />
+                <img class="program-logo" width="70" height="70" src="./images/pngwing.com.png" alt="maria-db" />
+                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/1000/1C46A8/postgreesql.png" alt="postgreesql"/>
               </div>
             </div>
           </div>
@@ -562,39 +571,8 @@ include './header.php';
 
 
 
-    <div class=" pl-5 py-5">
-      <div class="container">
-        <h5 style="font-weight:700;  color:#1C46A8">NEWS & INSIGHT</h5>
-        <h2 class="py-3" style="font-weight:800;color:#081A48;">Our happiness lies in the journey</h2>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card ">
-              <img src="./images/news-blog.jpg" alt="" width="100%">
-              <div class="card-body p-4 my-4">
-                <h5 class="my-3" style="font-weight:600">Modern Web and Mobile Development Solutions</h5>
-                <p>Discover case study highlights that display how our feature-rich, aesthetically appealing mobile and web app solutions helped clients in a wide range of sectors resolve their complex business problems.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card  mb-5 mt-2">
-              <div class="card-body p-4 my-3">
-                <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
-                <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
-                <p>Employing remote developers guarantees scalability, continued innovation, and rapid team ramp-up.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body p-4 my-3">
-                <h6 style="color:#081A48; font-weight: 600;">BLOG</h6>
-                <h5 class="my-3" style="font-weight:600">Working with remote developers</h5>
-                <p>Employing remote developers guarantees scalability, continued innovation, and rapid team ramp-up.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
+
 
     <!-- <div class="testimonial" style="background: url(./images/arrangement-with-different-expressions.jpg);
     background-position: center;

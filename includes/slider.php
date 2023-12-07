@@ -19,7 +19,11 @@
         <!-- <span class="blog-slider__code">26 December 2019</span> -->
         <div class="blog-slider__title">Mobile App Development</div>
         <div class="blog-slider__text">We harness the latest technologies, tools, frameworks and SDKs to develop custom mobile applications for iPhone, iPad, and Android operating systems. Our clients have won awards and mobile apps have been featured in the App Store.</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
+        <a href="./offering-mobile-app.php">
+        <div class="web-button-1-div">
+            <button style="border-radius: 30px;box-shadow: 0px 14px 80px rgba(28, 196, 248, 1);" class="web-button-1">READ MORE</button>
+          </div>
+        </a>
       </div>
     </div>
 
@@ -31,7 +35,10 @@
         <!-- <span class="blog-slider__code">26 December 2019</span> -->
         <div class="blog-slider__title">Web Application Development</div>
         <div class="blog-slider__text">We have built secure web application development solutions that align with business long-term strategies. Focused on a collaborative approach, our team understands customers needs to unlock value, build generation-next capabilities.</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
+        <a href="./offering-web-application.php" ">
+        <div class="web-button-1-div">
+            <button style="border-radius: 30px;box-shadow: 0px 14px 80px rgba(28, 196, 248, 1);" class="web-button-1">READ MORE</button>
+          </div></a>
       </div>
     </div>
 
@@ -44,7 +51,11 @@
         <!-- <span class="blog-slider__code">26 December 2019</span> -->
         <div class="blog-slider__title">Artificial Intelligence</div>
         <div class="blog-slider__text">With a proficiency in Artificial Intelligence technology & Machine Learning, we help businesses build intelligent solutions by providing AI consulting, deployment, and support. We guide enterprises to use AI solutions and improve ROI.</div>
-        <a href="#" class="blog-slider__button">READ MORE</a>
+        <a href="./trending-artificial-intelligence.php">
+        <div class="web-button-1-div">
+            <button style="border-radius: 30px;box-shadow: 0px 14px 80px rgba(28, 196, 248, 1);" class="web-button-1">READ MORE</button>
+          </div>
+        </a>
       </div>
     </div>
 

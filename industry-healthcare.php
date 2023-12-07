@@ -4,14 +4,14 @@ include './header.php';
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-    <svg style="position:absolute; width:300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1155" fill="#1C46A8"><path d="M968.99 1033c-187.45.85-174.59 47.22-449 48-352 1-463-239-463-548 0-273.09 190-474 496-472 277.28 1.81 277.22 60.83 470 57 252-5 217.88-56.12 487-57 305-1 431 290 433 526s-117.08 502.4-432 507c-342 5-322-62-542-61Z"></path></svg>
+
         <h1 style="position:relative;" class="h1-heading">Industry<br><span style="font-weight:500 !important; font-size:xx-large">Healthcare</span></h1>
         </div>
         <div class="row py-3">
             <div class="col-lg-6">
             <h2 style="color:#1C46A8; font-weight:700;">Healthcare Information Technology Solutions</h2>
 
-        <p class="website-para">Our mission is to enhance patient care by providing cutting-edge healthcare information technology consulting and technology solutions, bridging the gap between hospitals and patients' homes. MD Quality Apps has achieved significant success through mobile devices, connected care solutions, and remote consultations:</p>
+        <p class="website-para">Our mission is to enhance patient care by providing cutting-edge healthcare information technology consulting and technology solutions, bridging the gap between hospitals and patients' homes. MDQuality Apps has achieved significant success through mobile devices, connected care solutions, and remote consultations:</p>
         <p class="website-para">5K consultations have been conducted, connecting patients with doctors through internet-enabled devices.</p>
         <p class="website-para">2K patient records are securely stored to ensure privacy and accessibility.</p>
         <p class="website-para">Successful delivery of 20 healthcare projects in the past.</p>
