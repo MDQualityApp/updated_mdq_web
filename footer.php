@@ -499,7 +499,13 @@ color:white;
     }
 }
 
-
+.cap-inp{
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    width: 150px;
+    background-color: #A4E7FC;
+}
 </style>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
@@ -512,7 +518,7 @@ color:white;
                 <div class="col-lg-6"></div>
                 <div class="col-lg-6">
                 <form>
-		<h1 class="title text-center mb-4">Talk to Us</h1>
+		<h1 class="title text-center mb-2">Talk to Us</h1>
 
 			<!-- Name -->
 			<div class="form-group position-relative">
@@ -542,13 +548,33 @@ color:white;
 
 				<textarea id="formMessage" class="form-control form-control-lg" rows="4" placeholder="Message"></textarea>
 			</div>
-
-			<!-- Submit btn -->
-			<div class="text-center px-5 mt-3">
+<div class="row">
+    <div class="col-lg-6">
+        <div style="margin-left:20px">
+    <div id="user-input" class="inline">
+                        <input class="cap-inp py-2 mt-3 form-control" type="text" id="submit" placeholder=" Enter Captcha" required />
+                    </div>
+                    <div class="d-flex mt-1">
+                    <div class="inline mx-3 " onclick="generate()">
+                    <img width="25" height="25" src="https://img.icons8.com/ios-glyphs/90/1C46A8/refresh--v1.png" alt="refresh--v1"/>
+                    </div>
+                   <del style="text-decoration-thickness: 1.5px; text-decoration-color: #1C46A8;"> <div id="image" style="color: red; font-weight:bold; font-style:italic; font-size:18px" class="inline" selectable="False">
+                    </div></del> <span id="key"></span>
+                    </div>
+                    </div>
+    </div>
+    <div class="col-lg-6">
+        <!-- Submit btn -->
+			<div class="text-center mt-3">
             <div class="web-button-div">
-            <button style="border-radius: 30px;" class="web-button py-1">Submit</button>
+            <button style="border-radius: 30px; padding: 7px 50px;" onclick="return printmsg()" class="web-button ">Submit</button>
           </div>
 			</div>
+    </div>
+</div>
+
+
+
 	</form>
                 </div>
             </div>
@@ -556,12 +582,46 @@ color:white;
     </div>
 </div>
 </div>
+<script>
+        let captcha;
+function generate() {
+
+    captcha = document.getElementById("image");
+    let uniquechar = "";
+
+    const randomchar =
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for (let i = 1; i < 5; i++) {
+        uniquechar += randomchar.charAt(
+            Math.random() * randomchar.length)
+    }
+    captcha.innerHTML = uniquechar;
+}
+
+function printmsg() {
+    const usr_input = document
+        .getElementById("submit").value;
+    if (usr_input == captcha.innerHTML) {
+        let s = document.getElementById("key")
+            .innerHTML = '<img width="30" height="30" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/00A751/external-select-checkmark-symbol-to-choose-true-answer-basic-bold-tal-revivo.png" alt="external-select-checkmark-symbol-to-choose-true-answer-basic-bold-tal-revivo"/>';
+        generate();
+       return true;
+    }
+    else {
+        let s = document.getElementById("key")
+            .innerHTML = '<img width="30" height="30" src="https://img.icons8.com/material-sharp/96/EA0B0B/multiply.png" alt="multiply"/>';
+        generate();
+        return false;
+    }
+}
+    </script>
 <div class="last">
     <div class="container-fluid last1">
         <div class="row">
             <div class="col-lg-4 px-5 d-flex justify-content-center ">
                 <div class="last-first">
-                    <h4 class="mt-2"> MDQ</h4>
+                    <h4 class="mt-2">MDQ</h4>
                     <p style="color:#B6C7D6; text-align:justify"> MDQuality Apps Solutions is a Website Development, Web Application, Digital Marketing and Mobile
                         Application leading Company in Chennai. We are all about the web. You would like to do
                         anything with online then, we are the ones you call. </p>

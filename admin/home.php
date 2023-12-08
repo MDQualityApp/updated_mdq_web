@@ -40,23 +40,26 @@
             </div>
             <div class="container-fluid px-5 py-3 mx-auto">
                 <div class="row">
-                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Home</p>
+                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Carousel</p>
 
                     <div class="d-flex align-items-center justify-content-center">
-                        <div class="card shadow px-3 py-3 marq" style="border-radius:1rem; background-color: white">
+                        <div class="card shadow px-3 py-3 marq" style="border-radius:1rem;width:100%; background-color: white">
                             <div class="about_label">
                                 <form method="POST" action="aboutupload.php" enctype="multipart/form-data">
-                                    <div class="row my-2">
-                                        <div class="col-lg-6">
-                                            <label for="">Name</label><br>
+                                            <label for="">H1 Title</label><br>
                                             <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="name" placeholder="Enter the Name" required />
-                                        </div>
-                                        <div class="col-lg-6">
+                                            <label class="mt-3" for="">H2 Title</label><br>
+                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="name" placeholder="Enter the Name" required />
+                                            <label class="mt-3" for="">H3 Title</label><br>
+                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="name" placeholder="Enter the Name" required />
 
-                                            <label for="">Image</label><br>
+
+                                            <label class="mt-3" for="">Carousel Image</label><br>
                                             <input type="file" class="form-control about_input py-2" id="text" cols="30" rows="1" name="image" placeholder="" required /><br>
-                                        </div>
-                                    </div>
+                                            <span class="d-flex justify-content-end">
+                                    <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
+                                </span>
+
                                 </form>
                             </div>
 

@@ -76,36 +76,20 @@ if (!$_SESSION['email']) {
     </header>
     <div class="l-navbar" id="nav-bar" style="background-color: #1CC4F8;">
         <nav class="nav">
+        <div class="nav_list">
+            <a href="home.php" class="nav_link <?php if ($first_part == "home.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-home nav_icon'></i><span class="nav_name">Carousel</span> </a>
 
-            <div class="nav_list">
-                <a href="home.php" class="nav_link <?php if ($first_part == "home.php") {
-                                                        echo "active";
-                                                    } else {
-                                                        echo "noactive";
-                                                    } ?>"> <i class='bx bxs-home nav_icon'></i><span class="nav_name">Home</span> </a>
-                <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") {
-                                                                echo "active";
-                                                            } else {
-                                                                echo "noactive";
-                                                            } ?>"> <i class='bx bxs-pencil nav_icon'></i>
-                                                            <span class="nav_name">Create Blog</span> </a>
-                <a href="admin-edit-blog.php" class="nav_link <?php if ($first_part == "admin-edit-blog.php") {
-                                                                echo "active";
-                                                            } else {
-                                                                echo "noactive";
-                                                            } ?>"> <i class='bx bxs-edit nav_icon'></i> <span class="nav_name">Edit Blog</span> </a>
-                <a href="admin-blog.php" class="nav_link <?php if ($first_part == "admin-blog.php") {
-                                                                echo "active";
-                                                            } else {
-                                                                echo "noactive";
-                                                            } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
-                <!-- <a href="youtube.php" class="nav_link <?php if ($first_part == "youtube.php") {
-                                                            echo "active";
-                                                        } else {
-                                                            echo "noactive";
-                                                        } ?>"> <i class='bx bi-youtube nav_icon'></i> <span class="nav_name">You Tube</span> </a> -->
+            <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Portfolio</span> </a>
 
-            </div>
+            <a href="admin-edit-portfolio.php" class="nav_link <?php if ($first_part == "admin-edit-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Edit Portfolio</span> </a>
+
+            <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span> </a>
+
+
+            <a href="admin-edit-blog.php" class="nav_link <?php if ($first_part == "admin-edit-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-edit nav_icon'></i> <span class="nav_name">Edit Blog</span> </a>
+
+            <a href="admin-blog.php" class="nav_link <?php if ($first_part == "admin-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
+        </div>
 
         </nav>
 

@@ -283,7 +283,7 @@ include './header.php';
       <h2 class="py-3" style="font-weight:800;color:#081A48;">Here, We make almost every genre of applications. You name it and we build it.</h2>
       <div class="row">
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100" >
             <a href="./offering-mobile-app.php">
             <div class="flip-card">
               <div class="content">
@@ -301,7 +301,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
             <div class="flip-card">
               <div class="content">
                 <div class="front">
@@ -317,7 +317,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
             <a href="./offering-web-application.php">
             <div class="flip-card">
               <div class="content">
@@ -336,7 +336,7 @@ include './header.php';
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
           <a href="./offering-ar-vr.php">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1600">
             <div class="flip-card">
               <div class="content">
                 <div class="front">
@@ -353,7 +353,7 @@ include './header.php';
           </a>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1600">
             <a href="industry-iot.php">
             <div class="flip-card">
               <div class="content">
@@ -370,7 +370,7 @@ include './header.php';
             </a>
           </div>
         </div><div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
             <div class="flip-card">
               <div class="content">
                 <div class="front">
@@ -386,7 +386,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
             <div class="flip-card">
               <div class="content">
                 <div class="front">
@@ -403,7 +403,7 @@ include './header.php';
         </div>
 
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="flip-card-container">
+          <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100">
             <div class="flip-card">
               <div class="content">
                 <div class="front">
@@ -455,7 +455,6 @@ include './header.php';
                   <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/css3.png" alt="css3" />
                   <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/500/1C46A8/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah" />
                   <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/angularjs.png" alt="angularjs" />
-
                 </div>
               </div>
             </div>
@@ -568,65 +567,12 @@ include './header.php';
       </div>
     </div>
 
-
-
-
-
-
-
-    <!-- <div class="testimonial" style="background: url(./images/arrangement-with-different-expressions.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh">
-        <div class="card swiper-back-card"></div>
-        <div class="swiperlogo-b" style="position: absolute;">
-          <div class="container d-flex justify-content-center align-items-center">
-            <div class="swiper-container" id="slider1">
-              <div class="swiper-wrapper my-2">
-                <div class="swiper-slide ">
-                  <div class="card swiper-slide-b py-4" style="border-radius: 0px;">
-                    <div class="card-body">
-                      <h2>Obito</h2>
-                      <p>With specific goals in mind, we've formulated solutions catering to unique requirements. Our team, proficient in addressing varied needs, focuses on innovation and adaptability to meet evolving standards.</p>
-
-                    </div>
-                  </div>
-                  <div class="d-flex justify-content-end" style="margin-top: -70px; position:relative;">
-                    <img src="./images/istockphoto-1364917563-612x612.jpg" alt="" style="border-radius:10px; border: 3px solid #1C46A8" width="100px" height="100px">
-                  </div>
-                </div>
-                <div class="swiper-slide swiper-slide-b">
-                  <div class="card py-4">
-                    <div class="card-body">
-                      <h2>Development of Another Type</h2>
-                      <p>With specific goals in mind, we've formulated solutions catering to unique requirements. Our team, proficient in addressing varied needs, focuses on innovation and adaptability to meet evolving standards.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide swiper-slide-b">
-                  <div class="card py-4">
-                    <div class="card-body">
-                      <h2>Development of Another Type</h2>
-                      <p>With specific goals in mind, we've formulated solutions catering to unique requirements. Our team, proficient in addressing varied needs, focuses on innovation and adaptability to meet evolving standards.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
     <div class="industries container">
       <h5 class="pt-5" style="font-weight:700;  color:#1C46A8">Industries We Serve</h5>
       <h2 class="py-3" style="font-weight:800;color:#081A48;">Here, We make almost every genre of applications. You name it and we build it.</h2>
       <div class="row">
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/ios-filled/1000/A540BF/mobile-shopping-bag--v2.png" alt="mobile-shopping-bag--v2"/>
             </div>
@@ -634,7 +580,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/external-goofy-solid-kerismaker/960/DE9025/external-E-learning-education-goofy-solid-kerismaker.png" alt="external-E-learning-education-goofy-solid-kerismaker"/>
             </div>
@@ -642,7 +588,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/ios-filled/1000/6835AF/electric-vehicle.png" alt="electric-vehicle"/>
             </div>
@@ -650,7 +596,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1400" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/external-solidglyph-m-oki-orlando/1000/1DD2BA/external-iot-web-services-solid-solidglyph-m-oki-orlando.png" alt="external-iot-web-services-solid-solidglyph-m-oki-orlando"/>
             </div>
@@ -658,7 +604,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1400" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/ios-filled/1000/2963E2/soup-plate.png" alt="soup-plate"/>
             </div>
@@ -666,7 +612,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="900" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/glyph-neue/1000/DDB01A/trust--v1.png" alt="trust--v1"/>
             </div>
@@ -674,7 +620,7 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/pastel-glyph/1000/92DE1E/transport--delivery--logistics--cargo--parcel--box--service-28.png" alt="transport--delivery--logistics--cargo--parcel--box--service-28"/>
             </div>
@@ -682,11 +628,11 @@ include './header.php';
           </div>
         </div>
         <div class="col-lg-3 d-flex justify-content-center">
-          <div class="card zoom-in mt-4" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
+          <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
             <div class="zoom-in pt-4 pb-3 d-flex justify-content-center align-items-center">
             <img width="70" height="70" src="https://img.icons8.com/ios-filled/1000/33DBB4/property.png" alt="property"/>
             </div>
-            <p class="pb-4" style="text-align:center">E-Commerce</p>
+            <p class="pb-4" style="text-align:center">Real Estate</p>
           </div>
         </div>
       </div>

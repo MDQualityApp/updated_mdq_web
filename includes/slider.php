@@ -58,6 +58,22 @@
         </a>
       </div>
     </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+
+        <img src="./images/vr-ar.webp" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <!-- <span class="blog-slider__code">26 December 2019</span> -->
+        <div class="blog-slider__title">AR and VR App Development</div>
+        <div class="blog-slider__text">Our team specializes in crafting AR and VR applications that transform ordinary processes into extraordinary, immersive experiences, catering to the demands of the next generation of users.</div>
+        <a href="./trending-artificial-intelligence.php">
+        <div class="web-button-1-div">
+            <button style="border-radius: 30px;box-shadow: 0px 14px 80px rgba(28, 196, 248, 1);" class="web-button-1">READ MORE</button>
+          </div>
+        </a>
+      </div>
+    </div>
 
 
   </div>
