@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore top-notch Xamarin developers for hire. Build robust, cross-platform mobile apps with our skilled Xamarin development team. Contact us for customized solutions." />
+<meta name="keywords" content="Xamarin development, Xamarin app developers, Xamarin app development company, Xamarin consulting services, Xamarin mobile app developers, Xamarin certified developers" />
+<title>Hire Xamarin Developers for Seamless Cross-Platform Solutions | Expert Xamarin Development Services</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">

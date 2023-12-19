@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Delivers scalable and high-performance solutions tailored to your unique requirements. Elevate your web applications with our Node.js expertise. Contact us for innovative and reliable Node.js development services." />
+<meta name="keywords" content="Node.js application development company, Scalable application development services, Node.js API development" />
+<title>Node.js Development Services | Transform Your Ideas into Robust Applications</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">

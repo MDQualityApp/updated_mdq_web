@@ -1,6 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore innovative retail industry technology solutions and services, including expert mobile and web application development. Elevate your business with advanced technologies tailored for success.
+" />
+<meta name="keywords" content="Progressive web app for retail, Cloud-based retail solutions, Mobile app development for retail, Web app development for retail
+" />
+<title>Retail Business with Cutting-Edge Technology Solutions | Mobile & Web App Development
+</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -15,18 +23,30 @@ include './header.php';
         <h3 style="color:#1C46A8; font-weight:700;">Key Achievements</h3>
         <p class="website-para">End-to-End Transformation: Our retail technology solutions are tailored to match customer expectations and shopping habits, revolutionizing the entire shopping experience.</p>
         <p class="website-para">Efficient Product Delivery: We employ technology-based strategies to streamline product delivery, ensuring customers get their orders on time.</p>
-        <p class="website-para">Secure Payment Gateway: With over 40 safe online payment options, we guarantee secure transactions for our customers.</p>
-        <p class="website-para">Global Reach: We extend our retail solutions to more than 7 countries, connecting with clients all over the world.</p>
-        <p class="website-para">Serving 150+ Clients: We've successfully partnered with over 150 clients worldwide, providing them with top-notch IT services for the retail sector.</p>
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/retail-1.png" width="90%" alt="hospital management app and web development">
+                </div>
             </div>
         </div>
 
 
+<div class="row">
+<div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/retail-2.png" width="90%" alt="hospital management app and web development">
+                </div>
+            </div>
+    <div class="col-lg-6">
 
-            <h5 style="color:#1C46A8; font-weight:700;">IT Services for the Retail Sector</h5>
+        <p class="website-para">Secure Payment Gateway: With over 40 safe online payment options, we guarantee secure transactions for our customers.</p>
+        <p class="website-para">Global Reach: We extend our retail solutions to more than 7 countries, connecting with clients all over the world.</p>
+        <p class="website-para">Serving 150+ Clients: We've successfully partnered with over 150 clients worldwide, providing them with top-notch IT services for the retail sector.</p>
+
+            </div>
+</div>
+<h5 style="color:#1C46A8; font-weight:700;">IT Services for the Retail Sector</h5>
             <p class="website-para">MDQuality Apps, a leading retail solutions provider, offers comprehensive support to businesses and stores worldwide, enabling them to deliver exceptional user experiences and improve operational efficiency.</p>
             <p class="website-para">Customized Product Options: Our users can personalize apparel items, choosing their preferred suit, jacket, vest, fabric, color, and collar style, ensuring complete customer satisfaction and reducing order cancellations.</p>
             <p class="website-para">Store-Specific Orders: Utilizing IP detection, we enable businesses to track orders to local stores, reducing transportation and operational costs significantly.</p>

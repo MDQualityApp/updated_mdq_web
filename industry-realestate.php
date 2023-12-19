@@ -1,6 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Discover cutting-edge real estate technology solutions tailored to your needs. Our expert team specializes in mobile and web application development, revolutionizing the way you engage with real estate.
+" />
+<meta name="keywords" content="Mobile App Development for Real Estate, Web App Development Services, Web Development for Realtors
+" />
+<title>Real Estate Technology Solutions | Expert Mobile & Web App Development
+</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -15,12 +23,20 @@ include './header.php';
         <h3 style="color:#1C46A8; font-weight:700;">Real Estate Market</h3>
         <p class="website-para">Ensure your real estate property listings reach potential buyers, sellers, and renters interested in residential and commercial properties, facilitating seamless transactions.</p>
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/real-estate-1.png" width="90%" alt="hospital management app and web development">
+                </div>
             </div>
         </div>
 
-
+<div class="row">
+<div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/real-estate-2.png" width="90%" alt="hospital management app and web development">
+                </div>
+            </div>
+    <div class="col-lg-6">
 
             <h5 style="color:#1C46A8; font-weight:700;">Real Estate Listings</h5>
             <p class="website-para">We provide a property feed with search and filter options based on property type, location, or agent name, making property searching easier than ever.</p>
@@ -32,6 +48,9 @@ include './header.php';
             <p class="website-para">Whether you're looking to buy, sell, or rent, you can easily post your property and reach millions of potential buyers.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Efficient Home Rental Management</h5>
             <p class="website-para">Manage tenant responses and rental properties on the go, ensuring smooth property management.</p>
+            </div>
+</div>
+
             <h5 style="color:#1C46A8; font-weight:700;">Property Valuation Calculators</h5>
             <p class="website-para">Access Property Valuation Calculators to get an accurate estimate of property value, helping you make informed decisions.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Real-Time Messaging</h5>

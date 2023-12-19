@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore our comprehensive AI & ML services designed to drive innovation, enhance efficiency, and unlock new possibilities for your business. Harness the power of artificial intelligence and machine learning with our expert solutions tailored to meet your unique needs." />
+<meta name="keywords" content="ML consulting services, Business transformation with AI, AI and ML consulting services" />
+<title>Transform Your Business with Cutting-Edge AI & ML Services</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -11,23 +16,39 @@ include './header.php';
             <div class="col-lg-6">
         <h2 style="color:#1C46A8; font-weight:700;">Cultivating the Power of Artificial Intelligence</h2>
         <p class="website-para">Our Artificial Intelligence Solutions harness the dynamic force of AI technology to propel your business to new heights, surpassing the competition.</p>
+        <h3 style="color:#1C46A8; font-weight:700;">Unlocking the Potential of AI & Deep Learning</h3>
+            <p class="website-para">Enrich your applications with intelligence through our AI and Machine Learning solutions.</p>
 
             </div>
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/ai-1.png" width="90%" alt="artificial inteligence  development">
+                </div>
             </div>
 
         </div>
+        <div class="row py-3">
+
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/ai-2.png" width="90%" alt="artificial inteligence  ml development">
+                </div>
+            </div>
+            <div class="col-lg-6">
 
 
 
-            <h3 style="color:#1C46A8; font-weight:700;">Unlocking the Potential of AI & Deep Learning</h3>
-            <p class="website-para">Enrich your applications with intelligence through our AI and Machine Learning solutions.</p>
             <h5 style="color:#1C46A8; font-weight:700;">MDQuality Apps: Your Path to Machine Learning Excellence</h5>
             <p class="website-para">At MDQuality Apps, we offer a comprehensive suite of Deep Learning and Artificial Intelligence solutions, making machine learning accessible to developers, data scientists, and experts. We pioneer AI solution and implementation services, accelerating your machine learning and artificial intelligence endeavors.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Elevating Your Workflows and Apps with AI</h5>
             <p class="website-para">Our AI support services provide pre-built intelligence for your workflows and applications, addressing various use cases like personalized recommendations, enhancing contact centers, fortifying security, and boosting customer engagement. Integrating artificial intelligence software into your apps is straightforward.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Tailored ML Framework Solutions</h5>
             <p class="website-para">Choose from a range of popular ML frameworks, including TensorFlow, PyTorch, ONNX, and more, to experiment with and customize machine learning algorithms.</p>
+            </div>
+        </div>
+
+
+
             <h5 style="color:#1C46A8; font-weight:700;">TensorFlow: Visualize, Troubleshoot, Enhance</h5>
             <p class="website-para">TensorFlow offers a comprehensive set of visualization tools, simplifying application understanding, troubleshooting, and enhancement.</p>
             <h5 style="color:#1C46A8; font-weight:700;">ONNX: Defining Computational Graphs</h5>

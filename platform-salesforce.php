@@ -1,10 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our seasoned experts offer tailored solutions to optimize your Salesforce implementation, ensuring seamless integration and enhanced business performance. Explore our comprehensive range of services for a transformative Salesforce experience." />
+<meta name="keywords" content="Salesforce Professional Services, Expert Salesforce Solutions, Salesforce Implementation, Salesforce Support Services" />
+<title>Leading Salesforce Professional Services | Expert Solutions for Your Business</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-
         <h1 style="position:relative;" class="h1-heading">Technology<br><span style="font-weight:500 !important; font-size:xx-large">Salesforce</span></h1>
         </div>
         <div class="row py-3">

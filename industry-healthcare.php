@@ -1,6 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Discover cutting-edge Healthcare IT solutions and services tailored for the future. Our expert team specializes in Mobile & Web Application Development, transforming the way healthcare operates.
+" />
+<meta name="keywords" content="Healthcare IT solutions, Mobile app development for healthcare, Web app development in healthcare
+" />
+<title>Healthcare with Innovative IT Solutions & Services | Mobile & Web App Development
+</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -19,21 +27,33 @@ include './header.php';
         <p class="website-para">Facilitated 5K phone calls during virtual consultations between doctors and patients.</p>
 
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/hospital-1.png" width="90%" alt="hospital management system app and web development">
+                </div>
             </div>
         </div>
 
 
-
+<div class="row">
+<div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/hospital-2.png" width="90%" alt="hospital management app and web development">
+                </div>
+            </div>
+    <div class="col-lg-6">
             <h5 style="color:#1C46A8; font-weight:700;">IT Services for the Healthcare Sector</h5>
             <p class="website-para">Our comprehensive healthcare solutions encompass business consultancy, application development, maintenance, testing, mobility, and analytics, all aimed at improving patient outcomes and healthcare delivery. Our key offerings include:</p>
             <p class="website-para">Hospital Management System: A powerful system streamlining daily hospital operations while considering patient medical histories.</p>
             <p class="website-para">EMR for Managing Patient Records: Securely store and manage electronic health records for a seamless patient experience.</p>
             <p class="website-para">Arrangements & Appointments: Efficiently control appointment scheduling for patients, with doctors overseeing the schedule.</p>
-            <p class="website-para">Records of Admission, Discharge, and Transfer: Manage patient data securely and enable authorized access for status management.</p>
+
+
+            </div>
+</div>
+<p class="website-para">Invoice & Billing: Automatically generate bills based on consultation fees and update payment statuses.</p>
+<p class="website-para">Records of Admission, Discharge, and Transfer: Manage patient data securely and enable authorized access for status management.</p>
             <p class="website-para">Prescription: Patients can access medication information with a single click in our Hospital Information Management System (HIMS).</p>
-            <p class="website-para">Invoice & Billing: Automatically generate bills based on consultation fees and update payment statuses.</p>
             <p class="website-para">Analytics & Insights: Analyze hospital data to gain valuable insights into patients' health problems.</p>
             <p class="website-para">Staff Control: Assign tasks and responsibilities to hospital personnel with tracking for efficient execution.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Chiropractor Practice Guide</h5>

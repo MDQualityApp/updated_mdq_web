@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Elevate your travel and hospitality business with our cutting-edge solutions and services. From mobile to web application development, we specialize in crafting seamless experiences for the modern traveler." />
+<meta name="keywords" content="Mobile App Solutions for Travel, Web App Development for Travel Experiences, Transformative Mobile Apps for Travel" />
+<title>Transforming Travel Experiences: Expert Solutions for Mobile & Web App Development</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -15,16 +20,27 @@ include './header.php';
         <p class="website-para">Our mission is to revolutionize the travel and hospitality industry by offering cutting-edge technological solutions that benefit airlines, lodging providers, travelers, and travel agencies.</p>
         <h5 style="color:#1C46A8; font-weight:700;">Key Achievements</h5>
         <p class="website-para">At the forefront of transforming travel and hospitality through innovative technology:</p>
-        <h5 style="color:#1C46A8; font-weight:700;">Over 150 Service Reservations</h5>
-        <p class="website-para">Discover exclusive deals on accommodations and service providers through online reservations.</p>
+
 
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/travel-1.png" width="90%" alt="travel app and web development">
+                </div>
             </div>
         </div>
+        <div class="row py-3">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/travel-2.png" width="90%" alt="travel management app and web development">
+                </div>
+            </div>
+            <div class="col-lg-6">
 
 
+
+            <h5 style="color:#1C46A8; font-weight:700;">Over 150 Service Reservations</h5>
+        <p class="website-para">Discover exclusive deals on accommodations and service providers through online reservations.</p>
 
             <h5 style="color:#1C46A8; font-weight:700;">More than 2,000 Flight Reservations</h5>
             <p class="website-para">Seamless integration with major flight booking systems, ensuring access to the best airline options.</p>
@@ -33,6 +49,9 @@ include './header.php';
             <h5 style="color:#1C46A8; font-weight:700;">A Team of 15+ Expert Developers</h5>
             <p class="website-para">Our dedicated experts excel in various technology domains.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Tailored Solutions for the Travel and Hospitality Sector</h5>
+            </div>
+
+        </div>
             <p class="website-para">We specialize in developing travel applications catering to the global travel and hospitality sector, encompassing air travel, hotels, car rentals, and travel management and services.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Hotel Reservations and Services</h5>
             <p class="website-para">Experience a personalized hotel booking app offering real-time room availability, hotel comparisons, and convenient checkout options.</p>

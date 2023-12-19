@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our experienced team crafts tailored Java solutions for seamless performance and scalability. Contact us for reliable Java application development expertise." />
+<meta name="keywords" content="Java development services India, Java software development India, Hire Java developers India, Java software outsourcing" />
+<title>Java Application Development Services in India | Custom Java Solutions</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center pb-5 pt-4">

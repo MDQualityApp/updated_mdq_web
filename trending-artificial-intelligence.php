@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our experts harness the power of AI to drive innovation, optimize processes, and enhance decision-making. Discover tailored solutions for your industry and stay ahead in the digital era." />
+<meta name="keywords" content="Artificial Intelligence Consulting, AI Consulting Services, Hire AI Experts" />
+<title>Hire Artificial Intelligence Consulting Services | MD Quality Apps</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our skilled mobile app developers create cutting-edge solutions tailored to your needs. Contact us for innovative Android app development services." />
+<meta name="keywords" content="Android app development India, App development company in India, Hire app developers India, Mobile app outsourcing India, Native Android app development, Offshore app development services" />
+<title>Android App Development Agency in India | Expert Mobile App Developers</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid " style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -15,7 +20,7 @@ include './header.php';
         <p class="website-para">Android applications come with unique user bases and customer expectations. We assist businesses in aligning their ideas with these expectations and the specific Android user base. Our consultants guide you in choosing the optimal Android platform and store placement strategy.</p>
             </div>
             <div class="col-lg-6 px-4">
-                <img src="./images/company/android-app-development-agency-india.webp" alt="" width="100%">
+                <img src="./images/company/android-app-development-agency-india.webp" alt="android-app-development-agency" width="100%">
             </div>
         </div>
 

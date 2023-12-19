@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="From computing and storage to machine learning and analytics, Amazon Web Services offers a robust suite of solutions. Learn more about AWS services and enhance your cloud infrastructure today." />
+<meta name="keywords" content="AWS services, Amazon Web Services, AWS management services" />
+<title>Explore the Comprehensive Range of AWS Services | Amazon Web Services</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

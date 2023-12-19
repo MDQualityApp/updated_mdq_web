@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Looking to hire skilled Shopify developers? Our team offers top-notch Shopify development services to elevate your online store. Contact us today for professional Shopify development solutions." />
+<meta name="keywords" content="Shopify development services, Shopify experts for hire, Shopify development agency, Professional Shopify developers, Shopify app development, Expert Shopify e-commerce solutions" />
+<title>Hire Expert Shopify Developers for E-commerce Success | Custom Shopify Solutions</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">

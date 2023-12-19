@@ -1,6 +1,12 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our experts provide strategic solutions to elevate your IT infrastructure, optimize processes, and drive digital transformation. Explore tailored consulting for sustainable growth." />
+<meta name="keywords" content="IT outsourcing solutions, Information technology solutions, IT consulting services, Managed IT services" />
+<title>Strategic IT Consulting Services | Expert Information Technology Solutions
+</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

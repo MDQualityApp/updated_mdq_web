@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Discover powerful Big Data services tailored to your business needs. Explore advanced analytics, seamless integration, and scalable infrastructure for optimal business insights." />
+<meta name="keywords" content="Big Data Services, Big Data Consulting Services, Big Data Infrastructure Solutions" />
+<title>Cutting-Edge Big Data Services | Your Data Solutions Partner</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

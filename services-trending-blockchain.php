@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our skilled team crafts cutting-edge solutions for secure, transparent, and efficient processes. Contact us for leading blockchain technology expertise and transformative development services." />
+<meta name="keywords" content="Blockchain development services, Innovative blockchain solutions, Cryptocurrency development services" />
+<title>Blockchain Development Services for Innovative Solutions | MD Quality Apps/title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -12,18 +17,23 @@ include './header.php';
         <h2 style="color:#1C46A8; font-weight:700;">Blockchain Development</h2>
         <h2 style="color:#1C46A8; font-weight:700;">Unlock the Potential of Blockchain Technology</h2>
         <p class="website-para">When it comes to blockchain development, MDQuality Apps is your trusted partner with years of experience in the IT industry since 2015. We offer expert guidance and comprehensive support for custom blockchain app development to empower your business with decentralized solutions, complete traceability, and robust data and transaction security.</p>
-
-            </div>
-            <div class="col-lg-6 px-4">
-            </div>
-
-        </div>
-
-
-
-            <h3 style="color:#1C46A8; font-weight:700;">Explore MDQuality Apps' Blockchain Solutions</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Explore MDQuality Apps' Blockchain Solutions</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Blockchain Networks</h5>
             <p class="website-para">We specialize in building secure and scalable decentralized ecosystems with minimal downtime, offering both permissioned and permissionless networks.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/block-chain-1.png" width="90%" alt="blockchain  development">
+                </div>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/block-chain-2.png" width="90%" alt="block chain  development">
+                </div>
+            </div>
+            <div class="col-lg-6">
             <h5 style="color:#1C46A8; font-weight:700;">Asset Tokenization Platforms</h5>
             <p class="website-para">Our blockchain expertise extends to creating, managing, and trading asset-backed tokens, including NFT platforms and security token issuance.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Blockchain-Based Trading Platforms</h5>
@@ -32,6 +42,8 @@ include './header.php';
             <p class="website-para">Our protocols ensure the integrity of multi-party agreements and automate fixed obligations, paving the way for seamless interactions.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Cryptocurrency Assets</h5>
             <p class="website-para">Customized cryptocurrencies, NFTs, security tokens, utility tokens, governance tokens – we offer a wide range of crypto tokens.</p>
+            </div>
+        </div>
             <h5 style="color:#1C46A8; font-weight:700;">Crypto Wallets</h5>
             <p class="website-para">Securely store and exchange various types of crypto assets with our digital wallets.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Decentralized Applications (dApps)</h5>

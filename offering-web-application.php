@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Unlock the full potential of your online presence with our top-notch web application development services. Our skilled team crafts custom solutions to elevate your business, delivering seamless user experiences and cutting-edge functionality." />
+<meta name="keywords" content="Full-stack development company India, Web application development India, Custom web development services, Professional app developers India, Indian web development agency" />
+<title>Web Application Development Services India | MD Quality Apps</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

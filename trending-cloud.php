@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="From migration to optimization, trust us for tailored solutions that elevate your business to new heights. Contact us for seamless and efficient cloud operations." />
+<meta name="keywords" content="Cloud consulting services, Cloud solutions provider, Cloud implementation services, Cloud infrastructure solutions" />
+<title>Strategic Cloud Consulting Services | Expert Cloud Solutions for Your Business</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

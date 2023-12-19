@@ -1,10 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore cutting-edge AR VR development services tailored to your business needs. Contact us for innovative augmented and virtual reality solutions." />
+<meta name="keywords" content="AR development India, VR development agency, Augmented reality experts, AR VR technology India, XR development company, Mixed reality development India, AR VR app development, AR VR consulting India" />
+<title>AR VR Development Agency in India | Immersive Solutions for Your Business</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid " style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
-
         <h1 style="position:relative;" class="h1-heading">Company<br><span style="font-weight:500 !important; font-size:xx-large"> AR / VR</span></h1>
         </div>
         <div class="row py-3">

@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our expert services include mobile and web application development, ensuring efficient and tailored solutions for your business needs. Enhance your supply chain with our advanced technology solutions." />
+<meta name="keywords" content="Custom logistics applications, Web app solutions for distribution, Mobile app development for logistics" />
+<title>Optimizing Logistics & Distribution with Expert Solutions | Mobile & Web App Development</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -22,14 +27,21 @@ include './header.php';
         </ul>
         <p class="website-para">Our foremost commitment is to ensure customer satisfaction.</p>
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/logistic-1.png" width="90%" alt="hospital management app and web development">
+                </div>
             </div>
         </div>
 
         <div class="row py-3">
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/logistic-2.png" width="90%" alt="hospital management app and web development">
+                </div>
+            </div>
             <div class="col-lg-6">
+
 
             <h5 style="color:#1C46A8; font-weight:700;">Empowering Your Logistics and Transportation</h5>
             <p class="website-para">We offer cutting-edge technology solutions to enhance real-time visibility, streamline processes, boost productivity, and meet delivery objectives effectively.</p>
@@ -37,6 +49,9 @@ include './header.php';
             <p class="website-para">Our Transportation Management System aids businesses in efficiently planning and optimizing the movement of goods, whether inbound or outbound, while ensuring compliance.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Efficient Order Processing</h5>
             <p class="website-para">We ensure that all received orders are efficiently processed and ready for delivery, complete with tracking numbers for every shipment.</p>
+            </div>
+            </div>
+
             <h5 style="color:#1C46A8; font-weight:700;">Enhanced Route Optimization</h5>
             <p class="website-para">Our route and carrier planning solutions are designed to minimize overall delivery time, optimizing transportation routes for efficiency.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Real-time Shipment Tracking</h5>

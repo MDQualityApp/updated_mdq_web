@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Top-notch mobile app development services tailored to your business needs. Our skilled developers craft innovative and user-friendly apps for iOS and Android platforms. Get a free consultation today!" />
+<meta name="keywords" content="Enterprise Mobile App Development, UI/UX for Mobile Apps, Custom Mobile App Development, App Development Services" />
+<title>Mobile App Development Services for Seamless Solutions</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

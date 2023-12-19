@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore cutting-edge media and entertainment solutions with our expert team. We specialize in mobile and web application development, delivering seamless experiences for your audience." />
+<meta name="keywords" content="Entertainment technology solutions, Entertainment app development, Media technology development" />
+<title>Innovative Media & Entertainment Solutions | Expert Mobile & Web App Development Services</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -13,7 +18,23 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">Key Highlights</h2>
         <p class="website-para">Our expertise extends to the media and entertainment industry, with services that cater to live streaming, digital publishing, networking, and digital advertising.</p>
         <p class="website-para">Extensive Multimedia Library</p>
-        <p class="website-para">Access over 300,000 multimedia files with ease.</p>
+
+
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/media-1.png" width="100%" alt="media entertainment app and web development">
+                </div>
+            </div>
+        </div>
+        <div class="row py-3">
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/media-2.png" width="100%" alt="media app and web development">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <p class="website-para">Access over 300,000 multimedia files with ease.</p>
         <p class="website-para">International Artist Network</p>
         <p class="website-para">Connect with more than 25,000 artists from around the globe.</p>
         <p class="website-para">Rich Content Repository</p>
@@ -21,10 +42,9 @@ include './header.php';
         <p class="website-para">Streamlined Music Access</p>
         <p class="website-para">Enjoy seamless access to 10,000 tracks for your daily music streaming needs.</p>
 
-            </div>
-            <div class="col-lg-6 px-4">
 
             </div>
+
         </div>
 
 

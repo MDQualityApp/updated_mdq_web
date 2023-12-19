@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our experienced team ensures tailored solutions for enhanced productivity and growth. Explore our Microsoft consulting services today." />
+<meta name="keywords" content="Microsoft technology solutions, Cloud solutions for businesses, Microsoft Azure consulting, Microsoft ERP consulting" />
+<title>Microsoft Consulting Services for Seamless Business Solutions</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="From custom software solutions to robust applications, our team delivers tailored Microsoft development services to elevate your business. Contact us for innovative and reliable solutions tailored to your needs." />
+<meta name="keywords" content="Microsoft development services India, Enterprise application development India, Expert Microsoft developers in India, Scalable Microsoft solutions in India, Full-stack Microsoft development services" />
+<title>Microsoft Development Services for Seamless Solutions in India</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

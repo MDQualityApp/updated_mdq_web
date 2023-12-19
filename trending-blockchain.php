@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our expert team delivers cutting-edge solutions for secure and decentralized applications. Explore our blockchain development expertise today." />
+<meta name="keywords" content="Blockchain development services, Expert blockchain solutions, Blockchain technology solutions, Blockchain app development, Blockchain consulting services" />
+<title>Leading Blockchain Development Services | Expert Blockchain Solutions</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

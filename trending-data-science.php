@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Elevate your business with top-tier data science consulting services. Our experts harness the power of data to drive informed decisions, optimize processes, and boost performance. Contact us for customized solutions tailored to your unique needs." />
+<meta name="keywords" content="Data Science Consulting, Data Science Services, Data Analytics Solutions, Data Modeling Services" />
+<title>Hire Data Science Consulting Services | MD Quality Apps</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

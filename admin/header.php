@@ -2,7 +2,7 @@
 
 use function PHPSTORM_META\type;
 
-include "./connect.php";
+include "../connect.php";
 // session_start();
 
 // if (!$_SESSION['email']) {
@@ -33,7 +33,6 @@ include "./connect.php";
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
     <link rel="stylesheet" href="sidebar.css">
-
 
     <style>
         @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");

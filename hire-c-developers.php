@@ -1,6 +1,12 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Looking to hire dedicated C# developers? Our experienced C# development team delivers top-notch solutions for your software projects. Get reliable expertise and seamless development. Contact us today!" />
+<meta name="keywords" content="C# development team, Hire C# programmers, Custom software development in C#, Remote C# development team, Offshore C# development team
+" />
+<title>Hire Expert C# Developers for Your Software Projects | Skilled C# Development Team</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">

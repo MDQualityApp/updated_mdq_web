@@ -1,10 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Our skilled team crafts robust and scalable web solutions tailored to your business needs. Explore our PHP expertise for cutting-edge websites and applications. Contact us for tailored PHP development services today!" />
+<meta name="keywords" content="Affordable PHP development, Custom web solutions with PHP, PHP web development company, PHP programming services" />
+<title>PHP Development Services for Seamless Web Solutions | MD Quality Apps</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">
-
             <h1 style="position:relative;" class="h1-heading">Technology <br><span style="font-weight:500 !important; font-size:xx-large">PHP</span></h1>
         </div>
         <div class="px-2">

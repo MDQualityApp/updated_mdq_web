@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Full potential of your web presence with our top-notch front-end development services. Our skilled team crafts responsive and user-friendly interfaces, ensuring your digital solutions stand out. Contact us for unparalleled front-end development expertise." />
+<meta name="keywords" content="Front-End Development Services, Front-End Development Agency, Modern Web Development Company" />
+<title>Front-End Development Services for Seamless User Experiences</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

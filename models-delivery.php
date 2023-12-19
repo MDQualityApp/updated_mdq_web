@@ -12,21 +12,35 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">Delivery Methods</h2>
             <h3 style="color:#1C46A8; font-weight:700;">Various Approaches to Delivering Exceptional Service</h3>
         <p class="website-para">At MDQuality Apps, we've meticulously crafted our delivery strategies to cater to a diverse range of client needs, including urgent delivery requirements and shared objectives. We understand that in today's dynamic business landscape, where every company has its unique operational procedures and demands, offering multiple delivery models is essential.</p>
-
+        <h5 style="color:#1C46A8; font-weight:700;">Model for Swift Project Turnaround in Busy Settings</h5>
+            <p class="website-para">Our delivery strategies are geared towards expeditious project completion in hectic environments, ensuring your business stays on track.</p>
             </div>
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/delivery.png" width="100%" alt="media app and web development">
+                </div>
             </div>
 
         </div>
+        <div class="row py-3">
+
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/delivery-2.png" width="90%" alt="media app and web development">
+                </div>
+            </div>
+            <div class="col-lg-6">
 
 
 
             <h5 style="color:#1C46A8; font-weight:700;">Tailored Delivery Models for Your Business</h5>
             <p class="website-para">We offer a range of delivery models designed to support businesses in their digital transformation journey. Our practical approach leverages cutting-edge technology to benefit your company, all while ensuring flexibility, security, and scalability. This means you can confidently achieve your business goals and consistently receive top-tier products.</p>
-            <h5 style="color:#1C46A8; font-weight:700;">Model for Swift Project Turnaround in Busy Settings</h5>
-            <p class="website-para">Our delivery strategies are geared towards expeditious project completion in hectic environments, ensuring your business stays on track.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Offshore Delivery Model</h5>
             <p class="website-para">In the Offshore Delivery Model, project deliverables and milestones are accomplished at our offshore development center. This model allows clients to tap into dedicated or on-demand skilled resources, addressing any skills gap that may exist. The benefits are numerous:</p>
+            </div>
+
+        </div>
+
             <p class="website-para">Cost Reduction: Lower labor costs significantly reduce the overall project expenses.</p>
             <p class="website-para">Skilled Resources: Hire competent professionals from abroad to work on your projects.</p>
             <p class="website-para">Minimal Overhead: Scale up your operations without the need to expand your infrastructure.</p>

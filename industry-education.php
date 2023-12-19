@@ -1,6 +1,14 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Discover top-notch education and eLearning IT solutions for seamless learning experiences. Our services include innovative mobile and web application development, enhancing educational accessibility and engagement.
+" />
+<meta name="keywords" content="Web Development for Education, eLearning Platform Development, Mobile App Development for Education
+" />
+<title>Cutting-Edge Education / eLearning IT Solutions | Mobile & Web App Development
+</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -16,13 +24,19 @@ include './header.php';
         <p class="website-para">70+ Diverse Courses: Our platform offers a wide array of on-demand courses.</p>
 
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/e-learning-1.png" width="90%" alt="e-learning system development">
+                </div>
             </div>
         </div>
 
         <div class="row py-3">
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/e-learning-2.png" width="90%" alt="e-learning system development">
+                </div>
+            </div>
             <div class="col-lg-6">
             <h3 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h3>
             <h5 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h5>
@@ -30,7 +44,10 @@ include './header.php';
             <h3 style="color:#1C46A8; font-weight:700;">Comprehensive School Management System</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Streamlining Educational Management</h5>
             <p class="website-para">Our school management system is tailor-made for colleges, universities, and other educational institutions. It simplifies the management of student and curriculum-related data on a unified platform, offering features such as:</p>
-            <ul class="website-para" style="list-style-type:none; margin-left:-30px">
+            </div>
+
+        </div>
+        <ul class="website-para" style="list-style-type:none; margin-left:-30px">
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Education Management: Seating diagrams, lesson planning, daily logs, and more.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Attendance Control: Easy tracking of student attendance and absences.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Study Resources and Homework: Subject-specific study materials and homework tracking.</li>
@@ -41,8 +58,6 @@ include './header.php';
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Effective Communication Tools: Ensuring seamless communication among schools, students, teachers, and parents.</li>
                 <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Fee Collection and Accounting: Streamlined online payment for parent fees.</li>
             </ul>
-            </div>
-        </div>
         <h3 style="color:#1C46A8; font-weight:700;">Learning Management Systems</h3>
         <h5 style="color:#1C46A8; font-weight:700;">Driving eLearning Excellence</h5>
         <p class="website-para">Our learning management systems oversee the delivery of eLearning courses, serving various entities, including businesses, government organizations, educational institutions, and online learning providers. Our online programs foster engagement between students and instructors, transcending geographical barriers.</p>

@@ -24,18 +24,18 @@ if (!$_SESSION['email']) {
     <link rel="stylesheet" href="sidebar.css">
     <title>Admin</title>
     <style>
-        .nav_list{
-            color: white;
+        .nav_list a{
+            color: #1CC4F8;
             font-weight: 600;
         }
         .nav_list>a:hover {
-            color: #081A48;
+           color: white;
         }
 
         /*code to change background color*/
         nav.nav>.nav_list>a.active {
 
-            color: #081A48;
+            color: white;
         }
 
         .btn:active {
@@ -74,16 +74,16 @@ if (!$_SESSION['email']) {
             </div>
         </div>
     </header>
-    <div class="l-navbar" id="nav-bar" style="background-color: #1CC4F8;">
+    <div class="l-navbar" id="nav-bar" style="background-color: #1C46A8;">
         <nav class="nav">
         <div class="nav_list">
-            <a href="home.php" class="nav_link <?php if ($first_part == "home.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-home nav_icon'></i><span class="nav_name">Carousel</span> </a>
+            <a href="home.php" class="nav_link <?php if ($first_part == "home.php" || $first_part == "table-carousel.php" || $first_part == "edit-carousel.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-home nav_icon'></i><span class="nav_name">Carousel</span> </a>
 
-            <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Portfolio</span> </a>
+            <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="fas fa-briefcase" style="margin-left:3px"></i><span class="nav_name"> Portfolio</span> </a>
 
-            <a href="admin-edit-portfolio.php" class="nav_link <?php if ($first_part == "admin-edit-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Edit Portfolio</span> </a>
+            <a href="admin-edit-portfolio.php" class="nav_link <?php if ($first_part == "admin-edit-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i><span class="nav_name">Edit Portfolio</span> </a>
 
-            <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span> </a>
+            <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span></a>
 
 
             <a href="admin-edit-blog.php" class="nav_link <?php if ($first_part == "admin-edit-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-edit nav_icon'></i> <span class="nav_name">Edit Blog</span> </a>

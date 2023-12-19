@@ -1,6 +1,12 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="We specialize in creating cutting-edge conversational interfaces to enhance user engagement. Contact us for tailored chatbot solutions that elevate your business to new heights.
+" />
+<meta name="keywords" content="Advanced chatbot solutions, Virtual assistant development, Chatbot development services, Chatbot development company" />
+<title>Chatbot Development Services for Seamless Conversational Experiences</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">
@@ -14,20 +20,34 @@ include './header.php';
         <p class="website-para">To develop highly sophisticated and intelligent chatbot solutions across various major platforms, consider the use of custom chatbots.</p>
         <h2 style="color:#1C46A8; font-weight:700;">OPTIMIZING CHATBOT PERFORMANCE</h2>
         <p class="website-para">Revolutionize Customer Interaction with Custom Chatbot Development Services.</p>
+        <h3 style="color:#1C46A8; font-weight:700;">MDQuality Apps</h3>
+            <p class="website-para">MDQuality Apps offers intelligent chatbot creation solutions catering to diverse domains.</p>
+            <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
 
             </div>
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/chatbot-1.png" width="90%" alt="chatbot  ml development">
+                </div>
             </div>
+        </div>
+        <div class="row py-3">
 
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/chatbot-2.png" width="90%" alt="chatbot  development">
+                </div>
+            </div>
+            <div class="col-lg-6">
+
+
+
+            <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
+            <p class="website-para">We deliver comprehensive chatbot development services for a wide range of platforms, including Facebook, Twitter, Slack, Kik, Microsoft, and more, all powered by advanced AI, NLP, and machine learning technologies. Our services are tailor-made to suit your specific requirements, whether you are seeking to create conversational agents, IVR bots, online chatbots, text bots, or messaging bots.</p>
+            </div>
         </div>
 
 
-
-            <h3 style="color:#1C46A8; font-weight:700;">MDQuality Apps</h3>
-            <p class="website-para">MDQuality Apps offers intelligent chatbot creation solutions catering to diverse domains.</p>
-            <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
-            <p class="website-para">Our team of chatbot developers is dedicated to crafting chatbots and automated assistants designed to reshape how businesses engage with their customers. Our offerings encompass automated customer service and interactive experiences through chatbot platforms.</p>
-            <p class="website-para">We deliver comprehensive chatbot development services for a wide range of platforms, including Facebook, Twitter, Slack, Kik, Microsoft, and more, all powered by advanced AI, NLP, and machine learning technologies. Our services are tailor-made to suit your specific requirements, whether you are seeking to create conversational agents, IVR bots, online chatbots, text bots, or messaging bots.</p>
             <h3 style="color:#1C46A8; font-weight:700;">EXPANDING CHATBOT CAPABILITIES</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Elevate Your Proficiency in Bot Development Frameworks.</h5>
             <h5 style="color:#1C46A8; font-weight:700;">Microsoft Chatbot</h5>

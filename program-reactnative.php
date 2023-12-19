@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Discover top React Native developers for your project. Hire experienced React Native developers to bring your vision to life efficiently and cost-effectively." />
+<meta name="keywords" content="React Native development services, React Native app development, React Native outsourcing" />
+<title>Hire Expert React Native Developers for Seamless Mobile App Development</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
         <div class="d-flex justify-content-center align-items-center py-5">

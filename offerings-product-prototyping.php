@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Explore top-notch product prototyping services tailored to bring your ideas to life. Our skilled team ensures precision, speed, and quality in transforming concepts into reality." />
+<meta name="keywords" content="Explore top-notch product prototyping services tailored to bring your ideas to life. Our skilled team ensures precision, speed, and quality in transforming concepts into reality." />
+<title>Product Prototyping Services for Innovative Ideas | MD Quality Apps</title>
+</head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
     <div class="d-flex justify-content-center align-items-center py-5">

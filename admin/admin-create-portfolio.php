@@ -1,6 +1,9 @@
 <?php include 'header.php'; ?>
 
 <style>
+    .col-height{
+        height: 80px;
+    }
     .body_color {
         background-color: #e5e8e8 !important;
     }
@@ -38,87 +41,184 @@
                 $first_part = $components[1];
                 include 'sidebar.php'; ?>
             </div>
-            <div class="container-fluid px-5 py-3 mx-auto">
+            <div class="container-fluid px-5 pt-1 pb-3 mx-auto">
                 <div class="row">
-                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio</p>
-                    <p class="fs-5 card-text" style="font-weight:600">For Slider</p>
-
+                    <div class="d-flex align-items-center justify-content-between">
+                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - App</p>
+                        <div class="fw-bold">
+                            <a href="table-add-mobile.php" class="nav-link align-middle px-0">
+                                <button class="btn" type="submit" name="switch">Switch to table</button>
+                            </a>
+                        </div>
+                    </div>
                     <div class="d-flex align-items-center justify-content-center">
                         <div class="card shadow px-3 py-3 marq" style="border-radius:10px; background-color: white">
                             <div class="about_label">
-                                <form method="POST" action="aboutupload.php" enctype="multipart/form-data">
+                                <form method="POST" action="upload-add-mobille.php" enctype="multipart/form-data">
                                     <div class="row my-2">
-                                        <div class="col-lg-6">
-                                            <label for="">Project Name</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" rows="1" name="name" placeholder="Enter the Name" required />
+                                        <div class="col-lg-6 col-height">
+                                            <div class="">
+                                                <label>Select Project Name:</label>
+                                                <br><select class="py-3" style="width:100%" name='cilent_id'>
+                                                    <?php
+                                                    $multiplesearch = mysqli_query($conn, "SELECT id, projectname, aboutproject,image FROM project_list WHERE type_project=2");
+                                                    while ($multiicon = mysqli_fetch_array($multiplesearch)) {
+                                                        $cilent_id = $multiicon['id'];
+                                                        $project_name = $multiicon['projectname'];
+                                                    ?>
+                                                        <option value="<?php echo $cilent_id; ?>"><?php echo $project_name; ?></option>
+                                                    <?php
+                                                    } ?>
+                                                </select>
+                                            </div>
+                                            <div>
+                                            </div>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-height">
 
-                                            <label for="">Slider Image</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="" required /><br>
+                                            <label for="files">Project Title:</label>
+                                            <textarea class="form-control" id="text" cols="0" rows="1" name='project_title' placeholder="Say something about this project..."></textarea>
                                         </div>
-                                        <div class="col-lg-6">
-
-                                            <label for="">Background Color</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="Hex color code" required /><br>
+                                        <div class="col-lg-6 col-height mt-2">
+                                            <label for="">Project Logo</label><br>
+                                            <input type="file" class="form-control py-2" id="text" rows="1" name="projectimages" placeholder="" required /><br>
                                         </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-height mt-2">
 
-                                            <label for="">Logo</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="" required /><br>
+                                            <label>Select technology:</label>
+                              <select name='technology[]'  class="multiple-select one" data-placeholder="Select" multiple >
+                       <?php
+                    $multiplesearch = mysqli_query($conn,"SELECT `id`, `technology` FROM `technology_name`");
+                    while($multiicon = mysqli_fetch_array($multiplesearch))
+                    {
+                         $technologyname = $multiicon['technology'];
+                         $id = $multiicon['id'];
+                         ?>
+                <option  value="<?php echo $id; ?>" ><?php echo $technologyname; ?></option>
+                <?php
+
+                }?>
+            </select>
+            <script>
+           $('.multiple-select.one').multipleSelect();
+
+           let tempMultipleSelect = $.fn.multipleSelect;
+
+               $.fn.multipleSelect = function() {
+              this.removeAttr('multiple'); //remove attribute as per your logic
+                  return tempMultipleSelect.apply(this, arguments);
+                   }
+             </script>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
+                                            <label for="files">Banner Images</label><br>
+                                            <input type="file" class="form-control" id="files" multiple="multiple" name="bannerimages" />
+                                            <output id="result"></output>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
+                                            <label for="files">Select Multiple Slider Images</label><br>
+                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="photos[]" accept="image/*" />
+                                            <output id="result"></output>
+                                        </div>
+                                        <div class="col-lg-12">
+                                        <label >Project_Overview:</label>
+                                <textarea class="form-control" id="text" cols="40" rows="2" name='project_overviews' placeholder="Say something about this project..." ></textarea>
                                         </div>
                                     </div>
                                     <span class="d-flex justify-content-end">
-                                    <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
-                                </span>
+                                        <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
+                                    </span>
                                 </form>
                             </div>
 
                         </div>
                     </div>
-                    <p class="fs-5 pt-4 card-text" style="font-weight:600">For Main Page</p>
+                    <div class="d-flex pt-5 align-items-center justify-content-between">
+                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - Web</p>
+                        <div class="fw-bold">
+                            <a href="table-add-web.php" class="nav-link align-middle px-0">
+                                <button class="btn" type="submit" name="switch">Switch to table</button>
+                            </a>
+                        </div>
+                    </div>
 
-                    <div class="d-flex align-items-center justify-content-center">
+
+                    <div class="d-flex  align-items-center justify-content-center">
                         <div class="card shadow px-3 py-3 marq" style="border-radius:10px; background-color: white">
                             <div class="about_label">
-                                <form method="POST" action="aboutupload.php" enctype="multipart/form-data">
+                                <form method="POST" action="upload-add-web.php" enctype="multipart/form-data">
                                     <div class="row my-2">
-                                        <div class="col-lg-6">
-                                            <label for="">Project Name</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" rows="1" name="name" placeholder="Enter the Name" required />
-                                        </div>
-                                        <div class="col-lg-6">
+                                        <div class="col-lg-6 col-height">
+                                            <div class="">
+                                                <label>Select Project Name:</label>
+                                                <br><select class="py-3" style="width:100%" name='cilent_id'>
+                                                    <?php
+                                                    $multiplesearch = mysqli_query($conn, "SELECT id, projectname, aboutproject,image FROM project_list WHERE type_project=1");
+                                                    while ($multiicon = mysqli_fetch_array($multiplesearch)) {
+                                                        $cilent_id = $multiicon['id'];
+                                                        $project_name = $multiicon['projectname'];
 
+                                                    ?>
+
+                                                        <option value="<?php echo $cilent_id; ?>"><?php echo $project_name; ?></option>
+                                                    <?php
+
+                                                    } ?>
+                                                </select>
+                                            </div>
+                                            <div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
+
+                                            <label for="files">Project Title:</label>
+                                            <textarea class="form-control" id="text" cols="0" rows="1" name='project_title' placeholder="Say something about this project..."></textarea>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
                                             <label for="">Project Logo</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="" required /><br>
+                                            <input type="file" class="form-control about_input py-2" id="text" rows="0" name="color" placeholder="" required /><br>
                                         </div>
+                                        <div class="col-lg-6 col-height">
+                                            <label>Select technology:</label><br>
+                                            <select style="width: 100%;" name='technology[]' class="multiple-select one py-2" data-placeholder="Select">
+                                                <?php
+                                                $multiplesearch = mysqli_query($conn, "SELECT `id`, `technology` FROM `technology_name`");
+                                                while ($multiicon = mysqli_fetch_array($multiplesearch)) {
+                                                    $technologyname = $multiicon['technology'];
+                                                    $id = $multiicon['id'];
+                                                ?>
+                                                    <option value="<?php echo $id; ?>"><?php echo $technologyname; ?></option>
+                                                <?php
 
-                                        <div class="col-lg-6">
-
-                                            <label for="">Technologies</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="Hex color code" required /><br>
+                                                } ?>
+                                            </select>
                                         </div>
-                                        <div class="col-lg-6">
-
-                                            <label for="">Banner Image</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="" required /><br>
+                                        <div class="col-lg-6 col-height">
+                                            <label for="files">Banner Images</label><br>
+                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="bannerimages" />
+                                            <output id="result"></output>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
+                                            <label for="files">Select Multiple Slider Images</label><br>
+                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="photos[]" accept="image/*" />
+                                            <output id="result"></output>
                                         </div>
                                         <div class="col-lg-12">
-
-                                            <label for="">Project Screen Shots</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="1" name="image" placeholder="" required /><br>
+                                        <label >Project_Overview:</label>
+                                <textarea class="form-control" id="text" cols="40" rows="2" name='project_overviews' placeholder="Say something about this project..." ></textarea>
                                         </div>
-                                        <span class="d-flex justify-content-end">
-                                    <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
-                                </span>
-
                                     </div>
+                                    <span class="d-flex justify-content-end">
+                                        <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
+                                    </span>
                                 </form>
                             </div>
 
                         </div>
                     </div>
+
                 </div>
+
             </div>
             <script src="upload_image.js"></script>
         </div>
