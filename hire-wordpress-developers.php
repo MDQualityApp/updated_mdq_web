@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Our experienced team delivers top-notch WordPress development services tailored to your needs. Contact us for reliable and efficient WordPress development expertise." />
+<meta name="description" content="Our experienced team delivers top-notch WordPress development services tailored to your needs. Contact us for WordPress development expertise." />
 <meta name="keywords" content="WordPress development services, WordPress website development, Custom WordPress development, Affordable WordPress development" />
-<title>Expert WordPress Developers for Hire | Trusted WordPress Development Services</title>
+<title>Expert WordPress Developers for Hire | WordPress Development Services</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

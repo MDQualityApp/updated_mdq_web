@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Explore cutting-edge Virtual Reality (VR) app development services tailored to your unique needs. Our skilled team transforms visions into immersive experiences. Contact us for top-notch VR solutions today." />
+<meta name="description" content="Explore cutting-edge Virtual Reality (VR) app development services tailored to your unique needs. Our skilled team transforms visions into immersive experiences." />
 <meta name="keywords" content="Virtual Reality App Development, VR App Developers, Virtual Reality Software Development, Top VR App Development Company" />
-<title>Leading Virtual Reality (VR) App Development Services | Expert VR Solutions</title>
+<title>Leading Virtual Reality (VR) App Development Services</title>
 </head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-4" style="padding-top:63px">

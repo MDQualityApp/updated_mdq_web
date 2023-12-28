@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="As a top AR VR development company, we deliver immersive experiences and innovative solutions tailored to your needs. Contact us for unparalleled expertise in augmented and virtual reality development." />
+<meta name="description" content="As a top AR VR development company, we deliver immersive experiences and innovative solutions tailored to your needs. Contact us for unparalleled expertise in AR/VR development." />
 <meta name="keywords" content="AR development India, Top AR VR developers India, Leading AR VR solutions India, AR VR consulting services" />
-<title>India's Leading AR VR Development Company</title>
+<title>India's Leading AR VR Development Company </title>
 </head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
@@ -22,8 +22,10 @@ include './header.php';
 
 
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/frontend-1.png" width="90%" alt="frontend management system app and web development">
+                </div>
             </div>
             <p class="website-para">We are at the forefront of VR and AR development, utilizing the most advanced tools and techniques to create highly immersive experiences. Our mission is to assist businesses in offering virtual environments that replicate the physical world to their target audience, all while achieving superior results in terms of time, cost, and effort.</p>
         <p class="website-para">Our team boasts expertise in AR and VR development and is known for pioneering an approach that is agile, user-centric, and delivers measurable product development. With this approach, our focus extends beyond delivering augmented and virtual reality experiences that captivate your target user base. We also work to advance your core business objectives and set you apart from the competition.</p>

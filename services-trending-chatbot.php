@@ -2,8 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="We specialize in creating cutting-edge conversational interfaces to enhance user engagement. Contact us for tailored chatbot solutions that elevate your business to new heights.
-" />
+<meta name="description" content="We specialize in creating cutting-edge conversational interfaces to enhance user engagement. Contact us for tailored chatbot solutions that elevate your business to new heights." />
 <meta name="keywords" content="Advanced chatbot solutions, Virtual assistant development, Chatbot development services, Chatbot development company" />
 <title>Chatbot Development Services for Seamless Conversational Experiences</title>
 </head>

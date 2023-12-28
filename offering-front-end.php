@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Full potential of your web presence with our top-notch front-end development services. Our skilled team crafts responsive and user-friendly interfaces, ensuring your digital solutions stand out. Contact us for unparalleled front-end development expertise." />
+<meta name="description" content="Full potential of your web presence with our top-notch front-end development services. Our responsive and user-friendly interfaces, ensuring your digital solutions stand out." />
 <meta name="keywords" content="Front-End Development Services, Front-End Development Agency, Modern Web Development Company" />
 <title>Front-End Development Services for Seamless User Experiences</title>
 </head>

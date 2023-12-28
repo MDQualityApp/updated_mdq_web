@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Discover powerful Big Data services tailored to your business needs. Explore advanced analytics, seamless integration, and scalable infrastructure for optimal business insights." />
+<meta name="description" content="Discover powerful Big Data services tailored to your business needs. Explore analytics, seamless integration, and scalable infrastructure for optimal business insights." />
 <meta name="keywords" content="Big Data Services, Big Data Consulting Services, Big Data Infrastructure Solutions" />
 <title>Cutting-Edge Big Data Services | Your Data Solutions Partner</title>
 </head>

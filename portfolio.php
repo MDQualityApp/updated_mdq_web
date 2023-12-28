@@ -5,12 +5,9 @@ include './connect.php';
 
 ?>
 <head>
-<meta name="description" content="Transform your business with our top-notch web and mobile application development services. Explore innovative enterprise software solutions tailored to meet your unique needs. Partner with us for cutting-edge technology solutions that drive success.
-" />
-<meta name="keywords" content="Mobile App Design and Development Portfolio, Scalable Enterprise Solutions
-" />
-<title>Web & Mobile Application Development | Enterprise Software Solutions
-</title>
+<meta name="description" content="Transform your business with our top-notch web and mobile application development services. Partner with us for cutting-edge technology solutions that drive success." />
+<meta name="keywords" content="Mobile App Design and Development Portfolio, Scalable Enterprise Solutions" />
+<title>Web & Mobile Application Development | Enterprise Software Solutions</title>
 <style>
   .carousel-indicators [data-bs-target]{
     display: none;

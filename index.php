@@ -1,12 +1,13 @@
 <?php
 include './header.php';
+include './connect.php'
 ?>
 
 <head>
-<meta name="description" content="Elevate your digital journey with the premier software development company in India, Dubai, and the USA. Transform ideas into powerful solutions. Click now for cutting-edge technology, expert developers, and unmatched innovation!
-" />
+<meta name="description" content="Elevate your digital journey with the premier software development company in India, Dubai, and the USA. Transform ideas into powerful solutions." />
 <meta name="keywords" content="Software Development Company, Custom Software Development" />
-<title>Leading Software Development Company in India, Dubai, and USA | Transform Your Ideas into Solutions</title>
+<title>Leading Software Development Company in India, Dubai, and USA</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-47HC6TLLR5"></script>
   <style>
     .swiper-container-1 {
       background: url(./images/our-work/mobile/mobileframe.png);
@@ -129,10 +130,42 @@ include './header.php';
     .mobile-center {
       display: flex;
     }
-
+    .carousel-title-hide-2{
+        display: none;
+      }
     @media (max-width:720px) {
       .mobile-center {
         display: inline-block;
+      }
+
+      /* .carousel-title {
+        margin-top: -25px !important;
+      } */
+    }
+    .carousel-title-hide-2{
+        display: none;
+      }
+      .carousel-title-hide {
+        font-size: 22px;
+      }
+
+    @media (max-width:620px) {
+      .carousel-title-hide {
+        font-size: 16px;
+      }
+      .carousel-title-hide-3{
+        display: none;
+      }
+      .carousel-title-hide-2{
+        display: inline-block;
+      }
+      h1.carousel-h1{
+        font-size: 20px;
+      }
+    }
+    @media (max-width:768px) {
+      .slider-margin{
+        margin-bottom: 120px;
       }
     }
   </style>
@@ -140,59 +173,51 @@ include './header.php';
 
 <body>
   <div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="4000">
-          <img src="./images/mobile-development.webp" class="d-block w-100" alt="best mobile app development company chennai">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col-lg-6 px-5">
-                <h1 style="font-size:35px">Innovating People, Celebrating Culture, Redefining Workplace Excellence.</h1>
-                <h2 style="font-size:24px">MDQuality Apps Solutions-</h2>
-                <h3 style="font-size:20px">pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href="./offering-mobile-app.php"> Android</a> and <a class="inner-link" href="#">iOS</a></h3>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/web-development.webp" class="d-block w-100" alt="best web development company chennai">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col-lg-6 px-5">
-                <h1>Your Path to Technological Transformation.</h1>
-                <h4>MDQuality Apps Solutions-</h4>
-                <h5>pioneer in Native and Hybrid Website Development of <a class="inner-link" href="#"> Android</a> and <a class="inner-link" href="#">iOS</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="4000">
-          <img src="./images/cyber-security.webp" class="d-block w-100" alt="best cyber security development company chennai">
-          <div class="card-img-overlay">
-            <div class="row">
-              <div class="col-lg-6 px-5">
-                <h1>Instructing Today, Versatile Tomorrow, Transforming the Future</h1>
-                <h4>MDQuality Apps Solutions-</h4>
-                <h5>pioneer in Native and Hybrid Mobile App Development of <a class="inner-link" href="#"> Android</a> and <a class="inner-link" href="#">iOS</a></h5>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <?php
+    $countQuery = mysqli_query($conn, "SELECT COUNT(id) as total FROM carousel");
+    $countData = mysqli_fetch_assoc($countQuery);
+    $num = $countData['total'];
+    ?>
+    <div class="carousel-indicators">
+        <?php
+        for ($i = 0; $i < $num; $i++) {
+        ?>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="<?php echo $i; ?>" <?php echo $i === 0 ? 'class="active"' : ''; ?> aria-current="<?php echo $i === 0 ? 'true' : 'false'; ?>" aria-label="Slide <?php echo $i + 1; ?>"></button>
+        <?php
+        }
+        ?>
     </div>
+    <div class="carousel-inner">
+        <?php
+        $sql = mysqli_query($conn, "SELECT * FROM carousel");
+        $active = true;
+
+        while ($data = mysqli_fetch_array($sql)) {
+        ?>
+            <div class="carousel-item <?php echo $active ? 'active' : ''; ?>" data-bs-interval="4000">
+                <img src="./images/carousel/<?php echo $data['image']; ?>" width="100%" class="d-block w-100" alt="Slide Image">
+                <div class="card-img-overlay d-flex align-items-center">
+                    <div class="row ">
+                        <div class="col-lg-7 col-12 carousel-title">
+                            <h1 class="carousel-h1"><?php echo $data['title1']; ?></h1>
+                            <h2 class="carousel-title-hide py-2" style="padding-right:100px; "><?php echo $data['title2']; ?></h2>
+                            <h3 class="carousel-title-hide-3" ><a style="text-decoration: none; color:white" href="mailto:apps@mdqualityapps.com">apps@mdqualityapps.com</a><br><a style="text-decoration: none; color:white" href="tel:8838995745">+91 8838995745</a></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php
+            $active = false;
+        }
+        ?>
+    </div>
+</div>
     <!-- secondsection -->
     <div class="container-fluid">
-      <div class="row px-4">
-        <div class="col-lg-6 p-4" >
+    <h5 class="carousel-title-hide-2 pt-3"><a style="text-decoration: none; color:#1C46A8; font-weight:600" href="mailto:apps@mdqualityapps.com"><img width="25" height="25" src="https://img.icons8.com/ios-filled/200/1C46A8/secured-letter--v1.png" alt="secured-letter--v1"/> apps@mdqualityapps.com</a><br><a style="text-decoration: none; color:#1C46A8;font-weight:600" href="tel:8838995745"><img width="25" height="25" src="https://img.icons8.com/ios-filled/400/1C46A8/phone.png" alt="phone"/> +91 8838995745</a></h5>
+      <div class="row">
+        <div class="col-lg-6 pb-4">
           <h5 class="py-3" style="color:#081A48; font-weight:700;">WE ARE MDQ</h5>
           <h2 style="font-weight:700;line-height:50px;color:#1C46A8">Empowering People through Technology</h2>
           <h5 class="py-2" style="font-weight:700;">We find ourselves at the dawn of a new era in digital transformation.</h5>
@@ -268,52 +293,65 @@ include './header.php';
           </div>
         </div>
       </div>
-
+      </div>
+<style>
+  .swiper-slide-clients{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: white;
+    width: 208px !important;
+    height: 208px !important;
+  }
+</style>
       <!-- clients -->
-      <div class="clients">
+      <div class="container-fluid">
         <div class="swiperlogo">
-          <div class="container">
-            <div class="swiper-container" id="slider1">
+        <h5 class="py-3" style="color:#081A48; font-weight:700;">Our Clients</h5>
+            <h2 style="font-weight:700;line-height:50px;color:#1C46A8">Our clients are at the heart of everything we do.</h2>
+          <div class="container-fluid px-5">
+
+            <div class="swiper-container px-2" id="slider1">
               <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./images/clients/algoshacklogo.pptx.png" alt="custom web development company" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/ARpower.png" alt="android app development company" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/azonixlogo.pptx.png" alt="android app development" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/cartunez.png" alt="iphone app development company" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/clubnoww.png" alt="android app development company mobile" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/CMRAgency.png" alt="cmragency" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/dulydecors.png" alt="dulydecors mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/evtron.png" alt="evtron mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/fujifilmlogo.pptx.png" alt="fujifilmlogo mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/imsklogo.pptx.png" alt="imsklogo mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/nadilogo.png" alt="nadilogo mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/pixellogo.pptx.png" alt="pixellogo mdq website development company" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/vibrocarelogo.pptx.png" alt="vibrocarelogo app development mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/viscoperuse.png" alt="viscoperuse mdq" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/vkart.png" alt="vkart web devlopment" width="60%"></div>
-                <div class="swiper-slide"><img src="./images/clients/vsafelogo.pptx.png" alt=" vsafe mdq app and web development company" width="60%"></div>
+                <div class="swiper-slide p-4 swiper-slide-clients d-flex justify-content-center align-items-center"><img src="./images/clients/algoshacklogo.pptx.png" alt="custom web development company" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/ARpower.jpg" alt="android app development company" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/azonixlogo.pptx.png" alt="android app development" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/cartunez.jpg" alt="iphone app development company" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/clubnoww.jpg" alt="android app development company mobile" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/CMRAgency.jpg" alt="cmragency" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/dulydecors.jpg" alt="dulydecors mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/evtron.png" alt="evtron mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/fujifilmlogo.pptx.png" alt="fujifilmlogo mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/imsklogo.pptx.png" alt="imsklogo mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/nadilogo.png" alt="nadilogo mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/pixellogo.pptx.png" alt="pixellogo mdq website development company" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/vibrocarelogo.pptx.png" alt="vibrocarelogo app development mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/viscoperuse.jpg" alt="viscoperuse mdq" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/vkart.jpg" alt="vkart web devlopment" width="100%"></div>
+                <div class="swiper-slide swiper-slide-clients p-4 d-flex justify-content-center align-items-center"><img src="./images/clients/vsafelogo.pptx.png" alt=" vsafe mdq app and web development company" width="100%"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div class="container-fluid px-5  pt-5 my-1">
-      <div>
-        <h5 class="" style=" font-weight:700; color:#1C46A8">OUR SERVICES</h5>
-        <h1 class="py-3" style="font-weight:800;color:#081A48">Providing a full range of services</h1>
+    <div class="container-fluid pt-5 my-1">
+      <div class="pb-2">
+      <h5 class="py-3" style="color:#081A48; font-weight:700;">OUR SERVICES</h5>
+            <h2 class="slider-margin" style="font-weight:700;line-height:50px;color:#1C46A8">Providing a full range of services</h2>
       </div>
       <?php
       include './includes/slider.php';
       ?>
     </div>
 
-    <div class="industries px-5 container-fluid">
-      <h5 class="pt-5" style="font-weight:700;  color:#1C46A8">Services We Offer</h5>
-      <h2 class="py-3" style="font-weight:800;color:#081A48;">Here, We make almost every genre of applications. You name it and we build it.</h2>
+    <div class="industries pt-4 container-fluid">
+    <h5 class="py-3" style="color:#081A48; font-weight:700;">Services We Offer</h5>
+            <h2 style="font-weight:700;line-height:50px;color:#1C46A8">You name it, we build it.</h2>
       <div class="row">
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100">
             <a href="./offering-mobile-app.php">
               <div class="flip-card">
@@ -331,7 +369,7 @@ include './header.php';
             </a>
           </div>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <a href="">
             <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
               <div class="flip-card">
@@ -349,7 +387,7 @@ include './header.php';
             </div>
           </a>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
             <a href="./offering-web-application.php">
               <div class="flip-card">
@@ -367,7 +405,7 @@ include './header.php';
             </a>
           </div>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <a href="./offering-ar-vr.php">
             <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1600">
               <div class="flip-card">
@@ -385,7 +423,7 @@ include './header.php';
             </div>
           </a>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
 
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1600">
             <a href="industry-iot.php">
@@ -404,7 +442,7 @@ include './header.php';
             </a>
           </div>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
             <a href="">
               <div class="flip-card">
@@ -422,7 +460,7 @@ include './header.php';
             </a>
           </div>
         </div>
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
             <a href="">
               <div class="flip-card">
@@ -441,7 +479,7 @@ include './header.php';
           </div>
         </div>
 
-        <div class="col-lg-3 d-flex justify-content-center">
+        <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100">
             <a href="">
               <div class="flip-card">
@@ -461,11 +499,11 @@ include './header.php';
         </div>
       </div>
     </div>
-    <div class="container-fluid px-5 pt-5">
-      <h5 style=" font-weight:700; color:#1C46A8">TECHNOLOGY STACK</h5>
-      <h2 class="py-3" style="font-weight:800;color:#081A48;">Technologies we work with</h2>
-      <div class="d-flex justify-content-center p-2" style="background-color:#1C46A8 !important; width:70%; margin-left:15%;margin-bottom:30px; border-radius:40px">
-        <ul class="nav  nav-pills mb-3" id="pills-tab" role="tablist" style="margin:0px !important;">
+    <div class="container-fluid pt-5">
+    <h5 class="py-3" style="color:#081A48; font-weight:700;">TECHNOLOGY STACK</h5>
+    <h2 class="pb-3" style="font-weight:700;line-height:50px;color:#1C46A8">Technologies we work with</h2>
+      <div class="d-flex justify-content-center p-2">
+        <ul  class="nav p-2 nav-pills mb-3" id="pills-tab" role="tablist" style="margin:0px !important;background-color:#1C46A8 !important; border-radius:30px">
           <li class="nav-item" role="presentation">
             <button class="nav-link nav-link-work active" id="pills-Front-End-tab" data-bs-toggle="pill" data-bs-target="#pills-Front-End" type="button" role="tab" aria-controls="pills-Front-End" aria-selected="true">Front-End</button>
           </li>
@@ -489,31 +527,105 @@ include './header.php';
           <div class="d-flex justify-content-center">
             <div>
               <div class="row">
-                <div class="col-lg-12 mobile-center">
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
                   <div class="d-flex">
                     <div>
-                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/html-5--v1.png" alt="html-5--v1" />
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/html-5--v1.png" alt="html-5--v1" />
                       <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">HTML</p>
                     </div>
                   </div>
-                  <div class="d-flex">
-                  <div>
-                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/css3.png" alt="css3" />
-                  <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">CSS</p>
-                  </div>
-                  </div>
-                  <div class="d-flex">
-                  <div>
-                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/500/1C46A8/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah" />
-                  <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">React JS</p>
-                  </div>
-                  </div>
-                  <div class="d-flex">
-                  <div>
-                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/angularjs.png" alt="angularjs" />
-                  <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Angular JS</p>
                 </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/css3.png" alt="css3" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">CSS</p>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/react-native.png" alt="react-native" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">React JS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/angularjs.png" alt="angularjs" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Angular JS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/vue-js.png" alt="vue-js" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Vue JS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/javascript--v1.png" alt="javascript--v1" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">JavaScript</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/typescript.png" alt="typescript" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">TypeScript</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/nuxt-jc.png" alt="nuxt-jc" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">NuxtJS</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/tailwind_css.png" alt="tailwind_css" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Tailwind CSS</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/500/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png" alt="color-tal-revivo" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">jQuery</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color-glass/480/bootstrap.png" alt="bootstrap" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Bootstrap</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                  <div class="d-flex">
+                    <div>
+                      <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/nextjs.png" alt="nextjs" />
+                      <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Next Js</p>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -522,31 +634,54 @@ include './header.php';
         <div class="tab-pane fade" id="pills-Back-End" role="tabpanel" aria-labelledby="pills-Back-End-tab">
           <div class="d-flex justify-content-center">
             <div class="row">
-              <div class="col-lg-12 mobile-center">
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/officel/600/php-logo.png" alt="php-logo" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">PHP</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/python--v1.png" alt="python--v1" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Python</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency/480/node-js.png" alt="node-js" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Node JS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
               <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/php-logo.png" alt="php-logo" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">PHP</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/python.png" alt="python" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Python</p>
-  </div>
-  </div>
-                <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/500/1C46A8/node-js.png" alt="node-js" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Node JS</p>
+                <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency/480/laravel.png" alt="laravel" />
+                  <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Laravel</p>
                 </div>
-                </div>
-                <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios/500/1C46A8/laravel.png" alt="laravel" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">laravel</p>
               </div>
               </div>
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/net-framework.png" alt="net-framework" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">
+                      .NET Core</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Java</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -554,44 +689,54 @@ include './header.php';
         <div class="tab-pane fade" id="pills-Mobile" role="tabpanel" aria-labelledby="pills-Mobile-tab">
           <div class="d-flex justify-content-center">
             <div class="row">
-              <div class="col-lg-12 mobile-center">
-              <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/flutter.png" alt="flutter" />
+            <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/flutter.png" alt="flutter"/>
 
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Flutter</p>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Flutter</p>
+                  </div>
                 </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/500/1C46A8/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="external-react-social-media-tanah-basah-glyph-tanah-basah" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">React</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/wired/500/1C46A8/iphone-x.png" alt="iphone-x" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">iOS</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/android-os.png" alt="android-os" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Android</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/kotlin.png" alt="kotlin" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Kotlin</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/swift.png" alt="swift" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Swift</p>
-                    </div>
-                    </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/react-native.png" alt="react-native" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">React Native</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/kotlin.png" alt="kotlin"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Kotlin</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency/480/xamarin.png" alt="xamarin"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Xamarin</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/unity.png" alt="unity"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Unity 3D</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/swift.png" alt="swift"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Swift</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -599,43 +744,69 @@ include './header.php';
         <div class="tab-pane fade" id="pills-devops" role="tabpanel" aria-labelledby="pills-devops-tab">
           <div class="d-flex justify-content-center">
             <div class="row">
-              <div class="col-lg-12 mobile-center">
-              <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/3200/1C46A8/amazon-web-services.png" alt="amazon-web-services" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">AWS</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/800/1C46A8/azure-1.png" alt="azure-1" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Azure</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-glyphs/900/1C46A8/cloud.png" alt="cloud" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Google Cloud</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency-systems-filled/960/1C46A8/docker.png" alt="docker" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Doker</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/1000/1C46A8/jenkins.png" alt="jenkins" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Jenkins</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/windows/900/1C46A8/kubernetes.png" alt="kubernetes" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Kubernetes</p>
-                    </div>
-                    </div>
+            <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/amazon-web-services.png" alt="amazon-web-services"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">AWS</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/800/1C46A8/azure-1.png" alt="azure-1" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Azure</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/google-cloud.png" alt="google-cloud"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Google Cloud</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/fluency/480/docker.png" alt="docker"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Doker</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/jenkins.png" alt="jenkins"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Jenkins</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/kubernetes.png" alt="kubernetes"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Kubernetes</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/terraform.png" alt="terraform"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Terraform</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/openshift.png" alt="openshift"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">OpenShift</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -643,31 +814,53 @@ include './header.php';
         <div class="tab-pane fade" id="pills-Database" role="tabpanel" aria-labelledby="pills-Database-tab">
           <div class="d-flex justify-content-center">
             <div class="row">
-              <div class="col-lg-12 mobile-center">
-              <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/1C46A8/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Mongo</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/500/1C46A8/mysql-logo.png" alt="mysql-logo" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">MySQL</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="./images/pngwing.com.png" alt="maria-db" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">MariaDB</p>
-                    </div>
-                    </div>
-                    <div class="d-flex">
-                    <div>
-                <img class="program-logo" width="70" height="70" src="https://img.icons8.com/ios-filled/1000/1C46A8/postgreesql.png" alt="postgreesql" />
-                <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">PostgreSQL</p>
-                    </div>
-                    </div>
+            <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/1C46A8/external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo.png" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-bold-tal-revivo" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Mongo</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/mysql-logo.png" alt="mysql-logo"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">MySQL</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/microsoft-sql-server.png" alt="microsoft-sql-server"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Microsoft SQL</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                    <img class="program-logo" width="70" height="70" src="./images/pngwing.com.png" alt="maria-db" />
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">MariaDB</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/postgreesql.png" alt="postgreesql"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">PostgreSQL</p>
+                  </div>
+                </div>
+              </div>
+                <div class="col-lg-2 col-4 col-md-3 col-sm-4 col-xl-2 col-xxl-2 mobile-center d-flex justify-content-center">
+                <div class="d-flex">
+                  <div>
+                  <img class="program-logo" width="70" height="70" src="https://img.icons8.com/color/480/redis.png" alt="redis"/>
+                    <p style="text-align:center; font-weight:600; font-size:14px; color:#1C46A8">Redis</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -677,65 +870,12 @@ include './header.php';
       <p class="website-para">We are committed to staying updated with the latest advancements in both mobile and web technologies. Our team continuously explores and adopts emerging tools and frameworks to ensure that your mobile and web applications are built using the most efficient, reliable, and scalable solutions available in the industry.</p>
     </div>
 
-    <!-- <div class="container-fluid pl-5 py-5" style="position:relative">
-      <h5 class=" px-5" style="font-weight:700;color:#1C46A8">OUR WORK</h5>
-      <h1 class="py-3 px-5" style="font-weight:800; color:#081A48">Our happiness lies in the journey</h1>
-      <div class="swiperlogo">
-        <div class="container d-flex justify-content-center align-items-center ">
-          <div class="swiper-container" id="slider2">
-            <div class="swiper-wrapper my-2">
-              <div class="swiper-slide py-5 px-3">
-                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
-                  <div class="card our-work-card" style="border-radius:0px">
-                    <img class="portfolio-img py-1" src="./images/our-work/portfolio/beppers-mdq.jpeg" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
-                    <div class="py-3 d-flex  align-items-center px-4">
-                      <div class="portfolio-logo" style="background-color:#EC0E71;">
-                        <img src="./images/our-work/portfolio/icons8-makeup-brush-100.png" alt="web development company chennai" width="25px" height="25px">
-                      </div>
-                      <h5 style="text-align:center; font-weight: 600;">&nbsp;&nbsp; Beppers</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide py-5 px-3">
-                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
-                  <div class="card our-work-card">
-                    <img class="portfolio-img py-1" src="./images/our-work//portfolio/beppers-mdq.jpeg" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
-                    <div class="py-3 d-flex  align-items-center px-4">
-                      <div class="portfolio-logo" style="background-color:#EC0E71;">
-                        <img src="./images/our-work/portfolio/icons8-makeup-brush-100.png" alt="web development company chennai" width="25px" height="25px">
-                      </div>
-                      <h5 style="text-align:center; font-weight: 600;">&nbsp;&nbsp; Beppers</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide py-5 px-3">
-                <a href="./readmore-portfolio.php" style="color:black; text-decoration:none">
-                  <div class="card our-work-card">
-                    <img class="portfolio-img py-1" src="./images/our-work//portfolio/beppers-mdq.jpeg" alt="mdq-beppers-website" width="100%" style="background-color:#EC0E71;">
-                    <div class="py-3 d-flex  align-items-center px-4">
-                      <div class="portfolio-logo" style="background-color:#EC0E71;">
-                        <img src="./images/our-work/portfolio/icons8-makeup-brush-100.png" alt="web development company chennai" width="25px" height="25px">
-                      </div>
-                      <h5 style="text-align:center; font-weight: 600;">&nbsp;&nbsp; Beppers</h5>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
     <div class="portfolio  mt-5">
-      <div class="container-fluid px-5 px-3">
-        <h5 style="font-weight:700;color:#1C46A8">OUR WORK</h5>
-        <h2 class="py-3" style="font-weight:800;color:#081A48;">We bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms. </h2>
+      <div class="container-fluid">
+      <h5 class="py-3" style="color:#081A48; font-weight:700;">OUR WORK</h5>
+    <h2 style="font-weight:700;line-height:50px;color:#1C46A8">We bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms.</h2>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-4">
             <div class="clients">
               <div class="swiperlogo">
                 <div class="container">
@@ -792,10 +932,10 @@ include './header.php';
               </div>
             </div>
           </div>
-          <div class="col-lg-9 p-5 d-flex justify-content-center align-items-center">
+          <div class="col-lg-8  d-flex justify-content-center align-items-center">
             <div class="">
               <h2 style="color:#1C46A8; font-weight:600;">Mobile Application Development</h2>
-              <p class="fs-5" style=" padding-right:10%">From concept to deployment, we bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms. Our team of experienced developers ensures seamless functionality and stunning designs that captivate users.</p>
+              <p class="fs-5" style=" padding-right:5%">From concept to deployment, we bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms. Our team of experienced developers ensures seamless functionality and stunning designs that captivate users.</p>
               <div class="web-button-div">
                 <a href="./portfolio.php">
                   <button class="web-button mt-2">Read More</button>
@@ -871,9 +1011,9 @@ include './header.php';
       </div>
     </div>
 
-    <div class="industries container-fluid px-5">
-      <h5 class="pt-5" style="font-weight:700;  color:#1C46A8">Industries We Serve</h5>
-      <h2 class="py-3" style="font-weight:800;color:#081A48;">Here, We make almost every genre of applications. You name it and we build it.</h2>
+    <div class="industries container-fluid pb-5">
+    <h5 class="py-3" style="color:#081A48; font-weight:700;">Industries We Serve</h5>
+    <h2 style="font-weight:700;line-height:50px;color:#1C46A8">Here, We make almost every genre of applications. You name it and we build it.</h2>
       <div class="row">
         <div class="col-lg-3 d-flex justify-content-center">
           <div class="card zoom-in mt-4" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100" style="width:100%; border-radius:16px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important; border:none">
@@ -941,6 +1081,9 @@ include './header.php';
         </div>
       </div>
     </div>
+    <div id="testimonials">
+    <?php include './includes/testimonials.php' ?>
+    </div>
     <script>
       const reviewsCarouselOptions = {
         direction: 'horizontal',
@@ -951,8 +1094,8 @@ include './header.php';
         loop: false,
         breakpoints: {
           640: {
-            slidesPerView: 2,
-            spaceBetween: 5,
+            slidesPerView: 1,
+            spaceBetween: 20,
           },
           768: {
             slidesPerView: 3,
@@ -967,6 +1110,10 @@ include './header.php';
             spaceBetween: 20,
           },
           1500: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+          2000: {
             slidesPerView: 6,
             spaceBetween: 20,
           },

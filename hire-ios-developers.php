@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Hire dedicated iOS developers skilled in Swift and SwiftUI to bring your ideas to life. Contact us for reliable and efficient iOS app development services tailored to your business needs." />
+<meta name="description" content="Hire dedicated iOS developers skilled in Swift and SwiftUI to bring your ideas to life. Contact us for reliable and efficient iOS app development services." />
 <meta name="keywords" content="Hire iOS programmers, Custom iOS app development, Hire dedicated iOS developers, iOS development company" />
-<title>Hire Skilled iOS Developers for Top-notch App Development | MD Quality Apps</title>
+<title>Hire Skilled iOS Developers for App Development | MD Quality Apps</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

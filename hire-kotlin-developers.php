@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Looking to hire Kotlin developers? Explore our skilled Kotlin development team for robust and efficient app solutions. Contact us for your Kotlin app development needs today!" />
+<meta name="description" content="Looking to hire Kotlin developers? Our skilled Kotlin development team for robust and efficient app solutions. Contact us for your app development needs today!" />
 <meta name="keywords" content="Top Kotlin development services, Kotlin mobile app development, Kotlin programming services, Hire Kotlin experts" />
-<title>Hire Expert Kotlin Developers for Seamless App Development | Top Kotlin Development Services</title>
+<title>Hire Expert Kotlin Developers for App Development | MD Quality Apps</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Our experienced React developers are proficient in crafting dynamic and responsive user interfaces. Find the perfect talent to elevate your web development endeavors today." />
+<meta name="description" content="Our experienced React developers are proficient in crafting dynamic and responsive user interfaces. Find the perfect talent your web development endeavors today." />
 <meta name="keywords" content="React JS developers, Hire React JS programmers, Skilled React JS developers, ReactJS coding specialists" />
 <title>Hire Expert React JS Developers for Your Web Development Needs</title>
 </head>

@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Our seasoned experts offer tailored solutions to optimize your Salesforce implementation, ensuring seamless integration and enhanced business performance. Explore our comprehensive range of services for a transformative Salesforce experience." />
+<meta name="description" content="Our seasoned experts offer tailored solutions to optimize your Salesforce implementation, ensuring seamless integration and enhanced business performance." />
 <meta name="keywords" content="Salesforce Professional Services, Expert Salesforce Solutions, Salesforce Implementation, Salesforce Support Services" />
-<title>Leading Salesforce Professional Services | Expert Solutions for Your Business</title>
+<title>Leading Salesforce Professional Services | MD Quality Apps</title>
 </head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">

@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Looking to hire skilled Angular developers? Our team of experienced Angular developers is ready to bring your web projects to life. Contact us today for expert Angular development services!" />
+<meta name="description" content="Looking to hire skilled Angular developers? Our team Angular developers is ready to bring your web projects to life. Contact us today for Angular development services!" />
 <meta name="keywords" content="Angular development services, Expert Angular developers, Angular programming experts, Angular app development company, Hire Angular specialists" />
-<title>Hire Expert Angular Developers for Seamless Web Solutions | MD Quality Apps</title>
+<title>Hire Expert Angular Developers for Web Solutions | MD Quality Apps</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

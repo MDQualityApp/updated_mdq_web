@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Looking to hire skilled Android developers? Our team of experienced professionals specializes in crafting bespoke mobile apps. Find the perfect Android developer for your project today!" />
+<meta name="description" content="Looking to hire skilled Android developers? Our team of experienced professionals specializes in crafting bespoke mobile apps." />
 <meta name="keywords" content="Android app development, Custom mobile app development, Hire Android app developers, Mobile app development services, Hire dedicated Android developers" />
 <title>Hire Expert Android Developers for Custom Mobile App Development</title>
 </head>

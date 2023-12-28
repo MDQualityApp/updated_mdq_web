@@ -4,7 +4,6 @@ include "../connect.php";
 if(isset($_POST['upload'])){
     $title1 = $_POST['title1'];
     $title2 = $_POST['title2'];
-    $title3 = $_POST['title3'];
 
     $allowedExtensions = array("jpg", "jpeg", "webp", "png");
 
@@ -18,7 +17,7 @@ if(isset($_POST['upload'])){
 
     if (move_uploaded_file($fileuploadtempname, $path.$image)) {
         if(in_array($extension, $allowedExtensions)) {
-            $sql = mysqli_query($conn, "INSERT INTO carousel (title1, title2, title3, image,  created_at) VALUES ('$title1', '$title2', '$title3', '$image', '$createdAt')");
+            $sql = mysqli_query($conn, "INSERT INTO carousel (title1, title2, image,  created_at) VALUES ('$title1', '$title2', '$image', '$createdAt')");
 
             if($sql > 0){
                 echo "<script type='text/javascript'>

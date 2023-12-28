@@ -3,7 +3,7 @@ include './header.php';
 ?>
 <head>
 <meta name="description" content="Explore top-notch product prototyping services tailored to bring your ideas to life. Our skilled team ensures precision, speed, and quality in transforming concepts into reality." />
-<meta name="keywords" content="Explore top-notch product prototyping services tailored to bring your ideas to life. Our skilled team ensures precision, speed, and quality in transforming concepts into reality." />
+<meta name="keywords" content="Innovative product development company, Prototyping services, Product prototyping development company" />
 <title>Product Prototyping Services for Innovative Ideas | MD Quality Apps</title>
 </head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
@@ -18,14 +18,6 @@ include './header.php';
 
 
         <p class="website-para">At our core, we excel in the art of product prototyping. This integral service allows us to breathe life into your innovative ideas, fostering better designs, clear communication of concepts, and a platform for innovation.</p>
-
-            </div>
-            <div class="col-lg-6 px-4">
-            </div>
-
-        </div>
-
-
         <p class="website-para">Planning and Budgeting</p>
         <p class="website-para">Identifying the real scope of your product.</p>
         <p class="website-para">Have an Idea?</p>
@@ -39,11 +31,22 @@ include './header.php';
         <p class="website-para">Concept Comprehension</p>
         <p class="website-para">Understand your vision even on a budget.</p>
         <p class="website-para">Reaction Mechanism</p>
+
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/prototype.png" width="90%" alt="prototype product management system app and web development">
+                </div>
+            </div>
+
+        </div>
+
+
+
         <p class="website-para">Gather early feedback from real users.</p>
         <p class="website-para">Complex Products</p>
         <p class="website-para">Expertise in creating and implementing large-scale solutions.</p>
             <h3 style="color:#1C46A8; font-weight:700;">Examples of Application Prototyping Development</h3>
-
             <p class="website-para">With our dedicated team of developers, you can choose between social networking applications, web portals, or commercial apps. We leverage our experience and tech stack to create unique online and mobile apps. Our track record speaks for itself!</p>
             <h5 style="color:#1C46A8; font-weight:700;">Modernization of Legacy Systems</h5>
             <p class="website-para">Witness the transformation of a decade-old legacy system into a multi-platform digital enterprise solution. Our aim is to enhance automation and interaction within your existing processes.</p>

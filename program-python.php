@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our top-tier Python programmers bring expertise and innovation to ensure the success of your development needs. Explore our skilled Python developers for hire today." />
 <meta name="keywords" content="Python development services, Hire expert Python developers, Professional Python development team, Python software development experts, Hire Python software engineers" />
-<title>Hire Top-Tier Python Developers for Your Project | Expert Python Programmers Available Now</title>
+<title>Hire Top-Tier Python Developers for Your Project | MD Quality Apps</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

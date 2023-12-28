@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Unlock the full potential of your online presence with our top-notch web application development services. Our skilled team crafts custom solutions to elevate your business, delivering seamless user experiences and cutting-edge functionality." />
+<meta name="description" content="Unlock the full potential of your online presence with our top-notch web application development services. Our custom solutions to elevate your business, and delivering seamless user experiences." />
 <meta name="keywords" content="Full-stack development company India, Web application development India, Custom web development services, Professional app developers India, Indian web development agency" />
 <title>Web Application Development Services India | MD Quality Apps</title>
 </head>
@@ -17,19 +17,19 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">Web Application Development Services</h2>
 
         <p class="website-para">Discover excellence in custom web application development at MDQuality Apps. We're a distinguished web application development company dedicated to crafting high-performance, user-friendly, and secure web applications.</p>
-            </div>
-            <div class="col-lg-6 px-4">
-            </div>
-        </div>
-
-
-
-            <h3 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Web Application Development Services?</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Web Application Development Services?</h3>
             <p class="website-para">Our team of highly skilled web application developers has successfully delivered over ___ unique web development projects, ranging from intranet and extranet portals to e-commerce platforms, content management systems, and B2B/B2C applications. We are your go-to experts in the realm of emerging technologies.</p>
 
             <h5 style="color:#1C46A8; font-weight:700;">Here's why you should choose us:</h5>
             <p class="website-para">100% On-Time Delivery: We are agile and committed to meeting your project deadlines efficiently.</p>
             <p class="website-para">Serving Over 5+ Industries: We take a consultative approach, tailoring solutions to meet the specific needs of your industry.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/web-1.png" width="90%" alt="web development management system app and web development">
+                </div>
+            </div>
+        </div>
             <p class="website-para">5+ Years of Experience: Our extensive experience equips us to handle your technical requirements effectively.</p>
             <p class="website-para">5+ Web Application Experts: We're a team of professionals who excel at solving your business challenges and unlocking substantial value.</p>
             <h5 style="color:#1C46A8; font-weight:700;">Our Expertise in Full Stack Web Development Services</h5>

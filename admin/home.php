@@ -38,7 +38,7 @@
                 $first_part = $components[1];
                 include 'sidebar.php'; ?>
             </div>
-            <div class="container-fluid px-5 py-3 mx-auto">
+            <div class="container-fluid px-5 py-4 mx-auto">
                 <div class="row">
                     <div class="d-flex align-items-center justify-content-between">
                     <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600"> Carousel</p>
@@ -54,19 +54,14 @@
                             <div class="about_label">
                                 <form method="POST" action="upload-carousel.php" enctype="multipart/form-data">
                                             <label for="">H1 Title</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="title1" placeholder="Enter the Name" required />
+                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="title1" placeholder="" required />
                                             <label class="mt-3" for="">H2 Title</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="title2" placeholder="Enter the Name" required />
-                                            <label class="mt-3" for="">H3 Title</label><br>
-                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="title3" placeholder="Enter the Name" required />
-
-
-                                            <label class="mt-3" for="">Carousel Image</label><br>
+                                            <input type="text" class="form-control about_input py-2" id="text" cols="30" rows="1" name="title2" placeholder="" required />
+                                            <label class="mt-3" for="">Carousel Image <span style="font-size:10px">(size<span style="color:red">*</span>=5626x2450pixel)</span></label><br>
                                             <input type="file" class="form-control about_input py-2" id="text" cols="30" rows="1" name="image" placeholder="" required /><br>
                                             <span class="d-flex justify-content-end">
                                     <button class="btn" style="width:100%; margin-left:-15px !important" type="submit" name="upload">Add</button>
                                 </span>
-
                                 </form>
                             </div>
 

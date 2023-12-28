@@ -11,7 +11,7 @@
 <body>
     <div class="container-fluid">
         <div class="row flex-nowrap">
-        <div class="col-auto px-0">
+            <div class="col-auto px-0">
                 <?php
                 $directoryURI = $_SERVER['REQUEST_URI'];
                 $path = parse_url($directoryURI, PHP_URL_PATH);
@@ -19,7 +19,7 @@
                 $first_part = $components[1];
                 include 'sidebar.php'; ?>
             </div>
-            <div class="col py-3 table-responsive">
+            <div class="col table-responsive">
 
                 <div id="post" class="tabcontent">
                     <?php
@@ -31,26 +31,25 @@
                     ?>
                             <div class="container">
                                 <div class="row justify-content-center">
-                                    <div class="col-12 py-3">
-                                        <div class="row py-3">
-                                            <a href="carouseltable.php">
-                                                <button type="button" class="btn-close btn-close-black" aria-label="Close">
-                                                </button>
-                                            </a>
-                                            <div class='text-center'>
-                                                <h4 class='fw-bold text-uppercase'>Carousel Edit</h4>
+                                    <div class="col-12">
+                                        <div class="d-flex pt-2 align-items-center justify-content-between">
+                                            <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600"> Carousel Edit</p>
+                                            <div class="fw-bold">
+                                                <a href="table-carousel.php" class="nav-link align-middle px-0">
+                                                    <button class="btn" type="submit" name="switch"><img width="30" height="30" src="https://img.icons8.com/ios-glyphs/200/ffffff/multiply.png" alt="multiply"/></button>
+                                                </a>
                                             </div>
                                         </div>
-                                        <form action='carouselbackend.php' method='post' enctype="multipart/form-data">
+                                        <form action='edit-carousel-backend.php' method='post' enctype="multipart/form-data">
                                             <div style='border-radius:1rem' class="card shadow px-3 py-3">
-                                                <div class="row py-3 gy-3">
-                                                    <div class="col-lg-12">
+                                                <div class="row gy-3">
+                                                    <div class="col-lg-3">
                                                         <div class="py-1">
                                                             <label for="gallery" class="form-label">Selected Image :</label>
                                                             <div class="row">
                                                                 <?php
-                                                               $image = $users['image'];{
-                                                                    echo "<div class='col-md-4 col-lg-3'>";
+                                                                $image = $users['image']; {
+                                                                    echo "<div>";
                                                                     echo "<img src='../images/carousel/$image' class='img-fluid' alt='$image'>";
                                                                     echo "</div>";
                                                                 }
@@ -58,10 +57,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-12">
-                                                        <div class="row">
+                                                    <div class="col-lg-6 d-flex">
+                                                        <div class="d-flex align-items-center">
                                                             <div class="py-1">
-                                                                <label for="image" class="form-label">File Upload</label>
+                                                                <label for="image" class="form-label">Update Image  <span style="font-size:10px">(size<span style="color:red">*</span>=5626x2450pixel)</span></label>
                                                                 <input class="form-control" type="file" name="image" value="<?php echo $users['image']; ?>">
                                                             </div>
                                                         </div>
@@ -70,16 +69,14 @@
                                                         <div class="py-1">
                                                             <input type="text" class='d-none' value='<?php echo $users['id']; ?>' name='id'>
                                                             <label for="name" class="form-label">Heading :</label>
-                                                            <input type="text" name='imgname' value='<?php echo $users['title1']; ?>' class="form-control" id="imgname" placeholder="Enter the name">
+                                                            <input type="text" name='title1' value='<?php echo $users['title1']; ?>' class="form-control" id="imgname" placeholder="Enter the name">
                                                             <label for="name" class="form-label">Heading :</label>
-                                                            <input type="text" name='imgname' value='<?php echo $users['title2']; ?>' class="form-control" id="imgname" placeholder="Enter the name">
-                                                            <label for="name" class="form-label">Heading :</label>
-                                                            <input type="text" name='imgname' value='<?php echo $users['title3']; ?>' class="form-control" id="imgname" placeholder="Enter the name">
+                                                            <input type="text" name='title2' value='<?php echo $users['title2']; ?>' class="form-control" id="imgname" placeholder="Enter the name">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class='text-center py-3'>
-                                                    <button type="submit" name='editimage' class='btn w-25'>Update</button>
+                                                <div class='text-center pt-2'>
+                                                    <button type="submit" name='edit-post' style="width:100%" class='btn '>Update</button>
                                                 </div>
                                             </div>
                                         </form>

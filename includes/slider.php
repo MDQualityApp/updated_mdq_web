@@ -9,7 +9,7 @@
 
 <body>
 <div class="">
-<div class="blog-slider mt-3"  style="background-color:#1C46A8">
+<div class="blog-slider mt-3"  style="background:linear-gradient(to right, #1C46A8, #081A48);">
   <div class="blog-slider__wrp swiper-wrapper">
   <div class="blog-slider__item swiper-slide">
       <div class="blog-slider__img">

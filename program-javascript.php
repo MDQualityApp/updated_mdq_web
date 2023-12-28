@@ -1,6 +1,11 @@
 <?php
 include './header.php';
 ?>
+<head>
+<meta name="description" content="Unlock the full potential of web development with our professional JavaScript development services. Our team delivers custom solutions, ensuring robust and dynamic websites." />
+<meta name="keywords" content="JavaScript development services, JavaScript programming services, JavaScript coding services" />
+<title>JavaScript Development Services for Web Solutions | MD Quality Apps</title>
+</head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
 
     <div class="container-fluid py-4">

@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Top-notch mobile app development services tailored to your business needs. Our skilled developers craft innovative and user-friendly apps for iOS and Android platforms. Get a free consultation today!" />
+<meta name="description" content="Top-notch mobile app development services tailored to your business needs. Our innovative and user-friendly apps for iOS and Android platforms. Get a free consultation today!" />
 <meta name="keywords" content="Enterprise Mobile App Development, UI/UX for Mobile Apps, Custom Mobile App Development, App Development Services" />
 <title>Mobile App Development Services for Seamless Solutions</title>
 </head>
@@ -17,20 +17,22 @@ include './header.php';
             <h2 style="color:#1C46A8; font-weight:700;">Mobile App Development Services</h2>
 
         <p class="website-para">Are you looking to create a reliable and scalable mobile application? We are a leading mobile app development company that offers specialized services tailored to your needs, budget, and timeline.</p>
-            </div>
-            <div class="col-lg-6 px-4">
-            </div>
-        </div>
-
-
-
-            <h3 style="color:#1C46A8; font-weight:700;">Why Choose Us for Offshore Mobile App Development?</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Why Choose Us for Offshore Mobile App Development?</h3>
             <p class="website-para">When it comes to mobile app development, MDQuality Apps is a top choice in India. We excel in crafting and customizing cross-platform, iOS, and Android mobile apps, providing a unique digital solution that ensures your product's success. Our commitment to on-time delivery, transparency, and ethical practices sets us apart as providers of cutting-edge mobile app development services.</p>
-
             <h5 style="color:#1C46A8; font-weight:700;">Our Expertise at a Glance</h5>
 
             <p class="website-para">100% On-Time Delivery: We pride ourselves on swift and confident execution to meet your deadlines.</p>
             <p class="website-para">Serving 6+ Domains: Our in-depth domain knowledge fuels business transformation.</p>
+
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/mobile-1.png" width="90%" alt="hospital management system app and web development">
+                </div>
+            </div>
+        </div>
+
+
             <p class="website-para">5+ Years of Experience: We've evolved over time to deliver top-notch quality.</p>
             <p class="website-para">A Team of 6+ Mobile Experts: Our skilled team drives our commitment to excellence.</p>
             <p class="website-para">5+ Mobile Projects: We leverage technology at its core, not just as an add-on.</p>

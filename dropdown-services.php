@@ -74,12 +74,20 @@
     width: 96vw !important;
     margin-left: -0px !important;
   }
-
+  .mobile-wrap{
+height: 330px !important;
+overflow-y: auto !important;
 }
+}
+/* @media (max-width:580px){
+  .mobile-wrap{
+min-height: 100px !important;
+}} */
+
 </style>
 <body>
 <div class="dropdown-content dropdown-content-service">
-<div class="background-adjust" style="opacity:1 !important; padding-top:8px"></div>
+<div class="background-adjust" style="opacity:1 !important; padding-top:6.5px"></div>
 <div class="d-flex align-items-start" style=" width:100% !important; box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
   <div class="nav flex-column nav-pills nav_pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-service active" id="v-pills-Industry-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Industry" type="button" role="tab" aria-controls="v-pills-Industry" aria-selected="true">Industry</button>
@@ -89,7 +97,7 @@
   </div>
   <div class="tab-content" id="v-pills-tabContent" style="width:100%;">
     <div class="tab-pane fade show active" id="v-pills-Industry" role="tabpanel" aria-labelledby="v-pills-Industry-tab" >
-    <div class="row">
+    <div class="row mobile-wrap">
         <div class="col-lg-6 col-md-6 col-sm-6">
         <p class="industry-content"><a href="#"><img style="margin-top: -5px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/device-shop.png" alt="device-shop"/>&nbsp;&nbsp; E-Commerce</a></p>
         <p class="industry-content"><a href="./industry-education.php"><img style="margin-top: -2px;" width="25" height="25" src="https://img.icons8.com/ios-glyphs/300/ffffff/online-group-studying.png" alt="online-group-studying"/>&nbsp;&nbsp; Education & E-Learning</a></p>
@@ -110,7 +118,7 @@
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-Offering" role="tabpanel" aria-labelledby="v-pills-Offering-tab">
-    <div class="row">
+    <div class="row mobile-wrap">
         <div class="col-lg-6">
         <p class="industry-content"><a href="./offering-ar-vr.php"><img style="margin-top:-5px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/oculus-rift.png" alt="oculus-rift"/>&nbsp;&nbsp; AR/VR App Development</a></p>
         <p class="industry-content"><a href="./offering-it-consulting.php"><img style="margin-top:-5px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/it.png" alt="it"/>&nbsp;&nbsp; IT Consulting Services</a></p>

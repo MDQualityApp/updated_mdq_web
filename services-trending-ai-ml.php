@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Explore our comprehensive AI & ML services designed to drive innovation, enhance efficiency, and unlock new possibilities for your business. Harness the power of artificial intelligence and machine learning with our expert solutions tailored to meet your unique needs." />
+<meta name="description" content="Explore our comprehensive AI & ML services designed to drive innovation, enhance efficiency, and unlock new possibilities for your business." />
 <meta name="keywords" content="ML consulting services, Business transformation with AI, AI and ML consulting services" />
 <title>Transform Your Business with Cutting-Edge AI & ML Services</title>
 </head>

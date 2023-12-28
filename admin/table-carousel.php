@@ -37,7 +37,7 @@
             <div class="row">
                     <div class="col-lg-12">
                     <div class="d-flex align-items-center justify-content-between">
-                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600"> Carousel</p>
+                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600"> Carousel Table</p>
                         <div class="fw-bold">
                             <a href="home.php" class="nav-link align-middle px-0">
                                 <button class="btn" type="submit" name="switch">Switch to Upload</button>
@@ -52,13 +52,11 @@
                                             <th class="text-center">No</th>
                                             <th class="text-center">H1 Title</th>
                                             <th class="text-center">H2 Title</th>
-                                            <th class="text-center">H3 Title</th>
                                             <th class="text-center">Image</th>
                                             <th class="text-center">Edit</th>
                                             <th class="text-center">Delete</th>
                                         </tr>
                                     </thead>
-
                                     <tbody id="post_search">
                                         <?php
                                         $num_per_page = 20;
@@ -75,21 +73,19 @@
                                         while ($data = mysqli_fetch_array($sql)) {
                                             $title1 = $data['title1'];
                                             $title2 = $data['title2'];
-                                            $title3 = $data['title3'];
                                             $image = $data['image'];
                                         ?>
                                         <tr id="<?php echo $data['id']; ?>" class="text-nowrap text-center">
                                             <td></td>
-                                            <td><?php echo $data['title1']; ?></td>
-                                            <td><?php echo $data['title1']; ?></td>
-                                            <td><?php echo $data['title1']; ?></td>
-                                            <td><img src="../images/carousel/<?php echo $data['image']; ?>" alt="logo" width="100px" height="100px"></td>
+                                            <td style="max-width: 300px; white-space:normal;"><?php echo $data['title1']; ?></td>
+                                            <td style="max-width: 300px; white-space:normal;"><?php echo $data['title2']; ?></td>
+                                            <td><img src="../images/carousel/<?php echo $data['image']; ?>" alt="logo" width="200px" height="80px"></td>
                                             <td class='text-center'>
                                                 <form action="edit-carousel.php" method='POST'>
                                                     <input class='d-none' type="text" value='<?php echo $data['id']; ?>'
                                                         name='postid'>
                                                         <div>
-                                                        <button style="background-color: #1CC4F8 !important;" class='btn' type='submit' name='postedit'><i
+                                                        <button style="background-color: #007BFF !important; margin-top:40%" class='btn' type='submit' name='postedit'><i
                                                             class="bi bi-pen fs-6"></i></button>
                                                         </div>
                                                 </form>
@@ -98,7 +94,7 @@
                                                 <form action="delete-carousel.php" method="POST">
                                                     <input class='d-none' type="text" value='<?php echo $data['id']; ?>'
                                                         name='userid'>
-                                                    <button class='btn posters' type='submit' name='postdelete'><i
+                                                    <button style="background-color: #007BFF !important; margin-top:35%" class='btn posters' type='submit' name='postdelete'><i
                                                             class="bi bi-trash fs-6"></i></button>
                                                 </form>
                                             </td>

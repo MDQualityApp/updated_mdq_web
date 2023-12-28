@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Looking to hire a dedicated mobile application developers team in India? Our skilled professionals offer expert mobile app development services tailored to your needs. Contact us for reliable and cost-effective solutions." />
+<meta name="description" content="Looking to hire a dedicated mobile application developers team in India? Contact us for reliable and cost-effective solutions." />
 <meta name="keywords" content="Mobile App Developers India, Top-rated App Development Team, Best App Developers in India, Hire Dedicated App Developers" />
 <title>Hire Top-rated Mobile Application Developers Team in India</title>
 </head>

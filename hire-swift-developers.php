@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Discover top-notch Swift developers for your iOS projects. Our skilled Swift programmers bring innovation and efficiency to your app development. Hire Swift developers today for exceptional results." />
+<meta name="description" content="Discover top-notch Swift developers for your iOS projects. Our skilled Swift programmers bring innovation and efficiency to your app development." />
 <meta name="keywords" content="Swift app development, Swift app development services, Hire Swift developers, Professional Swift development company" />
 <title>Hire Expert Swift Developers for Seamless iOS App Development</title>
 </head>

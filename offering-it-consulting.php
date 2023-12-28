@@ -2,10 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Our experts provide strategic solutions to elevate your IT infrastructure, optimize processes, and drive digital transformation. Explore tailored consulting for sustainable growth." />
+<meta name="description" content="Our experts provide strategic solutions to elevate your IT infrastructure, optimize processes, and digital transformation. Explore IT consulting for sustainable growth." />
 <meta name="keywords" content="IT outsourcing solutions, Information technology solutions, IT consulting services, Managed IT services" />
-<title>Strategic IT Consulting Services | Expert Information Technology Solutions
-</title>
+<title>Strategic IT Consulting Services | Information Technology Solutions</title>
 </head>
 <div class="website-background p-3" style="background-color: #F7FDFF;">
     <div class="container-fluid px-5" style="padding-top:63px">
@@ -20,8 +19,10 @@ include './header.php';
         <p class="website-para">Are you looking to transform your IT challenges into a strategic advantage? Let's have a conversation. MDQuality Apps serves as a Managed Service Provider (MSP) dedicated to helping organizations surmount their most intricate technology obstacles.</p>
         <p class="website-para">Our Advanced IT Consulting Services empower your business to remain secure, efficient, and financially sound. As one of the top 30 MSPs nationwide, we provide expert counsel on the essential technological path to keep you ahead in the world of technology—and ahead of your competitors.</p>
             </div>
-            <div class="col-lg-6 px-4">
-
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/itcunsulting-1.png" width="90%" alt=" it consulting management system app and web development">
+                </div>
             </div>
         </div>
 

@@ -71,6 +71,9 @@
     width: 18vh !important;
     margin: 0px !important;
   }
+  .nav-pills-tech{
+    padding: 80px 0px 35px 20px !important;
+  }
 }
 
 @media (max-width:719px){
@@ -82,13 +85,22 @@
     width: 15vh !important;
     margin: 0px !important;
   }
-
+  .mobile-wrap{
+height: 330px !important;
+overflow-y: auto !important;
+}
+.nav-pills-tech{
+  height: 350px !important;
+}
+.nav-pills-tech{
+    padding: 80px 0px 35px 20px !important;
+  }
 }
 
 </style>
 <body>
 <div class="dropdown-content dropdown-content-tech">
-<div class="background-adjust" style="opacity:1 !important; padding-top:8px"></div>
+<div class="background-adjust" style="opacity:1 !important; padding-top:6.5px"></div>
 <div class="d-flex align-items-start" style=" width:100% !important;box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
   <div class="nav flex-column nav-pills nav-pills-tech me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
     <button class="nav-link nav-link-tech active" id="v-pills-programming-tab" data-bs-toggle="pill" data-bs-target="#v-pills-programming" type="button" role="tab" aria-controls="v-pills-programming" aria-selected="true">Programming</button>
@@ -97,7 +109,7 @@
   </div>
   <div class="tab-content" id="v-pills-tabContent" style="width:100%;">
     <div class="tab-pane fade show active" id="v-pills-programming" role="tabpanel" aria-labelledby="v-pills-programming-tab" >
-    <div class="row">
+    <div class="row mobile-wrap">
         <div class="col-lg-4 col-md-4 col-sm-6">
         <p class="industry-content"><a href="#"><img style="margin-top:-5px;"  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; React JS</a></p>
         <p class="industry-content"><a href="./program-java.php"><img style="margin-top:-7px;" width="25" height="25" src="https://img.icons8.com/ios/500/ffffff/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; Java</a></p>
@@ -123,7 +135,7 @@
       </div>
     </div>
     <div class="tab-pane fade" id="v-pills-Trending" role="tabpanel" aria-labelledby="v-pills-Trending-tab">
-    <div class="row">
+    <div class="row mobile-wrap">
         <div class="col-lg-6">
         <p class="industry-content"><a href="./trending-virtual-reality.php"><img width="27" height="27" src="https://img.icons8.com/sf-black-filled/640/ffffff/virtual-reality.png" alt="virtual-reality"/>&nbsp;&nbsp; Virtual Reality (VR)</a></p>
         <p class="industry-content"><a href="./trending-cloud.php"><img width="23" height="23" src="https://img.icons8.com/ios-glyphs/300/ffffff/cloud.png" alt="cloud"/>&nbsp;&nbsp; Cloud</a></p>

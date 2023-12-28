@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="From custom software solutions to robust applications, our team delivers tailored Microsoft development services to elevate your business. Contact us for innovative and reliable solutions tailored to your needs." />
+<meta name="description" content="From custom software solutions to robust applications, our team delivers tailored Microsoft development services. Contact us for innovative and reliable solutions tailored to your needs." />
 <meta name="keywords" content="Microsoft development services India, Enterprise application development India, Expert Microsoft developers in India, Scalable Microsoft solutions in India, Full-stack Microsoft development services" />
 <title>Microsoft Development Services for Seamless Solutions in India</title>
 </head>
@@ -18,14 +18,7 @@ include './header.php';
             <h3 style="color:#1C46A8; font-weight:700;">Unlocking the Power of Microsoft Technology</h3>
 
         <p class="website-para">At Microsoft Development, we specialize in the rapid creation of custom applications that harness the full potential of Microsoft technology. Our services empower businesses to thrive in the dynamic digital landscape.</p>
-            </div>
-            <div class="col-lg-6 px-4">
-            </div>
-        </div>
-
-
-
-            <h3 style="color:#1C46A8; font-weight:700;">Key Achievements</h3>
+        <h3 style="color:#1C46A8; font-weight:700;">Key Achievements</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Our track record of success speaks volumes:</h5>
             <h5 style="color:#1C46A8; font-weight:700;">Punctuality Excellence</h5>
             <p class="website-para">We consistently deliver high-quality services on time, earning us a commendable 9/10 rating for on-time project completion.</p>
@@ -33,6 +26,18 @@ include './header.php';
             <p class="website-para">We cater to over 10 different industries, harnessing Microsoft technology to tailor solutions to specific needs.</p>
             <h5 style="color:#1C46A8; font-weight:700;">5+ Years of Proven Experience</h5>
             <p class="website-para">With over five years of dedicated experience, we bring extensive expertise to the table when crafting Microsoft applications.</p>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class="sec-mov-img">
+                    <img class="" src="images/vector-images/microsoft.png" width="90%" alt=" it consulting management system app and web development">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
             <h5 style="color:#1C46A8; font-weight:700;">A Team of 5+ Microsoft Experts</h5>
             <p class="website-para">Our skilled team comprises more than five proficient Microsoft engineers, ensuring top-tier solutions for our clients.</p>
             <h5 style="color:#1C46A8; font-weight:700;">10+ Successful Projects Delivered</h5>

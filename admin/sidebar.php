@@ -60,6 +60,9 @@ if (!$_SESSION['email']) {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        .bigger-icon {
+  font-size: 20px;
+}
     </style>
 </head>
 
@@ -81,14 +84,11 @@ if (!$_SESSION['email']) {
 
             <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="fas fa-briefcase" style="margin-left:3px"></i><span class="nav_name"> Portfolio</span> </a>
 
-            <a href="admin-edit-portfolio.php" class="nav_link <?php if ($first_part == "admin-edit-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i><span class="nav_name">Edit Portfolio</span> </a>
+            <a href="admin-testimonials.php" class="nav_link <?php if ($first_part == "admin-testimonials.php" || $first_part == "table-testimonials.php" || $first_part == "edit-testimonials.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="bx bxs-quote-alt-left bigger-icon"></i><span class="nav_name">Testimonials</span> </a>
 
             <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span></a>
 
-
-            <a href="admin-edit-blog.php" class="nav_link <?php if ($first_part == "admin-edit-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-edit nav_icon'></i> <span class="nav_name">Edit Blog</span> </a>
-
-            <a href="admin-blog.php" class="nav_link <?php if ($first_part == "admin-blog.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
+            <a href="admin-contactus.php" class="nav_link <?php if ($first_part == "admin-contactus.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
         </div>
 
         </nav>

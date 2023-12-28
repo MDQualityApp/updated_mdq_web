@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Hire seasoned Ionic developers to craft high-performance, cross-platform mobile apps. Contact us for reliable and efficient Ionic development services." />
 <meta name="keywords" content="Accelerate app development with Ionic, Ionic development services, Hire Ionic app developers, Hire dedicated Ionic developers, Affordable Ionic development services" />
-<title>Expert Ionic Developers for Hire | Accelerate Your App Development</title>
+<title>Expert Ionic Developers for Hire | App Development Agency</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">

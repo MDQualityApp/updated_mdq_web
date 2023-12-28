@@ -2,7 +2,7 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Looking to hire skilled Node.js developers? Our experienced team delivers top-notch Node.js development services tailored to your needs. Contact us for reliable and efficient Node.js development solutions." />
+<meta name="description" content="Looking to hire skilled Node.js developers? Our experienced team delivers Node.js development services. Contact us for Node.js development solutions." />
 <meta name="keywords" content="Node.js development services, Expert Node.js developers, Custom Node.js solutions, Hire Node.js developers, Node.js web development" />
 <title>Expert Node.js Developers for Hire | Top Node.js Development Services</title>
 </head>

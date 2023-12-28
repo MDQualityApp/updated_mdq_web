@@ -2,9 +2,9 @@
 include './header.php';
 ?>
 <head>
-<meta name="description" content="Explore skilled Flutter developers for hire and elevate your app development journey. Our experienced Flutter developers deliver top-notch solutions tailored to your needs. Find the perfect Flutter development team today!" />
+<meta name="description" content="Explore skilled Flutter developers for hire and elevate your app development journey. Our experienced Flutter developers deliver top-notch solutions. Find the perfect Flutter development team today!" />
 <meta name="keywords" content="Flutter development services, Expert Flutter developers, Top Flutter app development, Hire Flutter app developers, Flutter app development company, Flutter mobile app experts" />
-<title>Hire Expert Flutter Developers for Your Next Project | Top Flutter App Development Services</title>
+<title>Hire Expert Flutter Developers for Your Next Project | MD Quality Apps</title>
 </head>
 <div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
     <div class="container-fluid py-4">
