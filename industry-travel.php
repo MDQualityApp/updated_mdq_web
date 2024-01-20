@@ -32,7 +32,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="color:#1C46A8; font-weight:700;">Travel and Hospitality Technology Solutions</h2>
             <h3 style="color:#1C46A8; font-weight:700;">Empowering the Tourism Sector with Innovative Technology</h3>
 
@@ -54,7 +54,7 @@ include './header.php';
                     <img class="" src="images/vector-images/travel-2.png" width="60%" alt="travel management app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
 
 

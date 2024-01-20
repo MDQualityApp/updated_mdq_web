@@ -36,7 +36,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="color:#1C46A8; font-weight:700;">AR/VR Development Agency</h2>
         <p class="website-para">We specialize in crafting intelligent AR/VR solutions that elevate the smartphone user experience. As a seasoned offshore AR/VR app development company with over 8 years of expertise, we deliver versatile AR/VR solutions at a competitive cost, optimizing project timelines.</p>
 
@@ -54,7 +54,7 @@ include './header.php';
                     <img class="" src="images/vector-images/company-ar-vr-1.png" width="50%" alt="image">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 style="color:#1C46A8; font-weight:700;">Our Team of Expert Mobile App Developers</h3>
             <ul class="website-para" style="list-style-type: none; margin-left:-30px">
             <li><img width="20" height="20" src="https://img.icons8.com/material-sharp/96/1C46A8/starburst-shape.png" alt="starburst-shape"/> Skilled Mobile Application Designers</li>

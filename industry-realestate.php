@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 style="color:#1C46A8; font-weight:700;">Real Estate Technology Services</h2>
 
                 <p class="website-para">Our suite of real estate and property solutions offers affordability that can truly transform your business, elevating its performance and providing a competitive edge.</p>
@@ -53,7 +53,7 @@ include './header.php';
                     <img class="" src="images/vector-images/real-estate-2.png" width="60%" alt="hospital management app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <h5 style="color:#1C46A8; font-weight:700;">Real Estate Listings</h5>
                 <p class="website-para">We provide a property feed with search and filter options based on property type, location, or agent name, making property searching easier than ever.</p>

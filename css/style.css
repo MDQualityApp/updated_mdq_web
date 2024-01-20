@@ -254,11 +254,12 @@ opacity: 1;
 /* button animation */
 .web-button-div .web-button {
     background-color: white;
-    color: white;
+    color: #1C46A8;
     font-weight: 700;
-    padding: 3px 20px;
-    border: none;
-    background: linear-gradient(to right, #0D6EFD 50%, #1C46A8 50%);
+    padding: 3px 40px;
+    border-radius: 3px;
+    border: 1.5px solid #1C46A8;
+    background: linear-gradient(to right, #1C46A8 50%, #F7FDFF 50%);
     background-size: 220% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -274,19 +275,45 @@ opacity: 1;
     color: black;
     transition: all .6s ease-out;
 }
+.web-button-div-filled .web-button-filled {
+    background-color: white;
+    color: white;
+    font-weight: 700;
+    padding: 3px 40px;
+    border-radius: 3px;
+    border: 1.5px solid white;
+    background: linear-gradient(to right, #ffffff 50%, #1C46A8 50%);
+    background-size: 220% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.web-button-filled {
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    transition: all .6s ease-out;
+}
 
 .web-button:hover {
     color: white;
+}
+.web-button-filled:hover {
+    color: #1C46A8;
 }
 
 .web-button-div .web-button:hover {
     background-color: #081A48 !important;
     background-position: left bottom;
 }
-
-
-
-
+.web-button-div-filled .web-button-filled:hover {
+    background-color: #081A48 !important;
+    background-position: left bottom;
+}
 
 .carousel-dark .carousel-indicators [data-bs-target] {
     background-color: white !important;
@@ -395,7 +422,9 @@ opacity: 1;
 .our-work-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none;
-    border-radius: 10px;
+    border-radius: 0px;
+    width: 300px;
+    height: 400px;
 }
 .view-more-button{
     border: none !important;

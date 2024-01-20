@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 style="color:#1C46A8; font-weight:700;">Logistics & Distribution</h2>
                 <h3 style="color:#1C46A8; font-weight:700;">Information Technology Solutions for Transportation and Logistics</h3>
                 <p class="website-para">We specialize in integrated IT solutions for transportation and logistics, tailored to meet our clients' needs and enhance their business operations.</p>
@@ -53,7 +53,7 @@ include './header.php';
                     <img class="" src="images/vector-images/logistic-2.png" width="70%" alt="hospital management app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <h5 style="color:#1C46A8; font-weight:700;">Key Milestones</h5>
                 <p class="website-para">In the realm of transportation and logistics, technology plays a pivotal role in overseeing the seamless flow of goods, both inbound and outbound, from the manufacturing unit to the end user.</p>

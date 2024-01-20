@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 style="color:#1C46A8; font-weight:700;">IT Services for the Oil and Gas Sector</h2>
                 <p class="website-para">Gain real-time access to and invaluable insights into the inventories, logistics, monitoring, and tracking of the global oil, petroleum, and energy industries.</p>
                 <h3 style="color:#1C46A8; font-weight:700;">Key Milestones</h3>
@@ -53,7 +53,7 @@ include './header.php';
                     <img class="" src="images/vector-images/oil-2.png" width="60%" alt="media app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h5 style="color:#1C46A8; font-weight:700;">Automated Terminals: A Network of 20 Terminals</h5>
                 <p class="website-para">Harness the power of technology with our automated terminals, designed for seamless remote operations.</p>
                 <h5 style="color:#1C46A8; font-weight:700;">Access in Eight Nations</h5>

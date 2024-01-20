@@ -32,7 +32,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <p class="website-para">MDQuality Apps offers comprehensive solutions for securing the flow of media assets. Our services encompass a range of applications, including mobile apps, subscription management platforms, social networking applications, and a cutting-edge portal.</p>
             <h2 style="color:#1C46A8; font-weight:700;">Key Highlights</h2>
         <p class="website-para">Our expertise extends to the media and entertainment industry, with services that cater to live streaming, digital publishing, networking, and digital advertising.</p>
@@ -52,7 +52,7 @@ include './header.php';
                     <img class="" src="images/vector-images/media-2.png" width="100%" alt="media app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <p class="website-para">Access over 300,000 multimedia files with ease.</p>
         <p class="website-para">International Artist Network</p>
         <p class="website-para">Connect with more than 25,000 artists from around the globe.</p>

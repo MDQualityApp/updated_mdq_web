@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 style="color:#1C46A8; font-weight:700;">Retail IT Services</h2>
                 <p class="website-para">Our technology solutions for the retail sector are designed to create a seamless omnichannel ecosystem and enhance user engagement.</p>
                 <h3 style="color:#1C46A8; font-weight:700;">Key Achievements</h3>
@@ -54,7 +54,7 @@ include './header.php';
                     <img class="" src="images/vector-images/retail-2.png" width="90%" alt="hospital management app and web development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <p class="website-para">Secure Payment Gateway: With over 40 safe online payment options, we guarantee secure transactions for our customers.</p>
                 <p class="website-para">Global Reach: We extend our retail solutions to more than 7 countries, connecting with clients all over the world.</p>

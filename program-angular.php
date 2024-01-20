@@ -1,184 +1,100 @@
 <?php
 include './header.php';
 ?>
-<div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
+<head>
+<style>
+        .card-services {
+            border: none;
+            border-radius: 10px;
+            height: 100%;
+            background: linear-gradient(145deg, #dee4e6, #ffffff);
+            box-shadow: 11px 11px 22px #85898a,
+                -11px -11px 22px #ffffff;
+        }
+    </style>
+</head>
+<div class="website-background " style="background-color:#F7FDFF; padding-top:60px">
+<div class="intro" style="background-color:#081A48">
+        <h1 class="pt-4" style="color:white; text-align: center; font-weight:600">Angular JS</h1>
+        <h2 style="color:white; text-align: center;">AngularJS Development Services</h2>
+        <svg class="intro-wave" style="margin-bottom: -2px;" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="#F7FDFF" offset="0%"></stop>
+                    <stop stop-color="#F7FDFF" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,216L80,200C160,184,320,152,480,124C640,96,800,72,960,88C1120,104,1280,160,1440,168C1600,176,1760,136,1920,136C2080,136,2240,176,2400,176C2560,176,2720,136,2880,108C3040,80,3200,64,3360,48C3520,32,3680,16,3840,32C4000,48,4160,96,4320,116C4480,136,4640,128,4800,112C4960,96,5120,72,5280,68C5440,64,5600,80,5760,108C5920,136,6080,176,6240,196C6400,216,6560,216,6720,196C6880,176,7040,136,7200,100C7360,64,7520,32,7680,44C7840,56,8000,112,8160,132C8320,152,8480,136,8640,112C8800,88,8960,56,9120,44C9280,32,9440,40,9600,48C9760,56,9920,64,10080,80C10240,96,10400,120,10560,132C10720,144,10880,144,11040,156C11200,168,11360,192,11440,204L11520,216L11520,240L11440,240C11360,240,11200,240,11040,240C10880,240,10720,240,10560,240C10400,240,10240,240,10080,240C9920,240,9760,240,9600,240C9440,240,9280,240,9120,240C8960,240,8800,240,8640,240C8480,240,8320,240,8160,240C8000,240,7840,240,7680,240C7520,240,7360,240,7200,240C7040,240,6880,240,6720,240C6560,240,6400,240,6240,240C6080,240,5920,240,5760,240C5600,240,5440,240,5280,240C5120,240,4960,240,4800,240C4640,240,4480,240,4320,240C4160,240,4000,240,3840,240C3680,240,3520,240,3360,240C3200,240,3040,240,2880,240C2720,240,2560,240,2400,240C2240,240,2080,240,1920,240C1760,240,1600,240,1440,240C1280,240,1120,240,960,240C800,240,640,240,480,240C320,240,160,240,80,240L0,240Z">
+            </path>
+        </svg>
+    </div>
     <div class="container-fluid py-4">
-        <div class="d-flex justify-content-center align-items-center py-5">
-
-            <h1 style="position:relative;" class="h1-heading">Technology <br><span style="font-weight:500 !important; font-size:xx-large"> react</span></h1>
-        </div>
         <div class="row">
-            <div class="col-lg-6 px-5">
-
-                <h3 class="h2-heading ">Custom Java Application Development:</h3>
-                <p class="website-para">Discover Our Expertise in Java</p>
-                <p class="website-para">Why Choose MDQuality Apps for Your Java Development Needs?</p>
-                <p class="website-para">Our Java Developers' Proficiencies</p>
-                <p class="website-para">Java's Architecture for Tailored Solutions</p>
-                <p class="website-para">Service Offerings</p>
-                <p class="website-para">At MDQuality Apps, we specialize in crafting Java-based solutions. Here's what sets us apart:</p>
+            <div class="col-lg-6 px-4">
+                <h3 class="h2-heading ">AngularJS Development Services</h3>
+                <p class="website-para">Transform your concepts into agile, scalable, and high-performance AngularJS applications with the expertise of our dedicated team.</p>
+                <p class="website-para">Collaborate with the premier AngularJS development company to craft dynamic web and mobile apps tailored for businesses of all sizes.</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="70%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />
+            <div class="col-lg-6">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/angular-program-2.png" width="70%" alt="boy and girl with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Java Development Services</h2>
+        <div class="col-lg-6">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/angular-program.png" width="70%" alt="boy and girl with laptop and laptop">
+                </div>
             </div>
             <div class="col-lg-6 px-5">
-                <h3 class="h2-heading ">Java Development Services:</h3>
-                <p class="website-para">Utilizing scalable, secure Java frameworks to build business applications, software platforms, and SaaS solutions, we've been dedicated to Java application development since 2015. Our goal is to help you efficiently create enduring Java-based software.</p>
-                <p class="website-para">Preselecting Vendors for Your Java Project</p>
-                <p class="website-para">Think of MDQuality Apps as a reliable Java development firm backed by:</p>
-                <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Over six years of Java programming expertise</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Successfully delivered ten Java projects</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> A team of five skilled Java programmers, each with an average of six years of experience</li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="row py-5">
-            <div class="col-lg-6 order-2 order-lg-1 px-5 ">
-                <h5 class="h2-heading pt-5">Web Development in Java:</h5>
-                <p class="website-para">Building secure, robust, and high-performance applications for intranet and internet services.</p>
-
-                <h5 class="h2-heading ">Java Cloud Development:</h5>
-                <p class="website-para">Crafting cloud-native and serverless applications to leverage the flexibility and scalability of cloud resources.</p>
-
-                <h5 class="h2-heading ">SaaS Application Development using Java:</h5>
-                <p class="website-para">Developing secure SaaS applications with rapid, high-quality updates tailored to diverse tenant needs.</p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading ">Our Comprehensive Java Development Services</h2>
-
+            <h3 class="h2-heading ">Aspire to Greatness with Our AngularJS Development Services</h3>
+                <p class="website-para">As a widely adopted front-end framework, AngularJS seamlessly integrates modern technologies and operational architectures. Our proficient AngularJS developers harness the power of Angular front end development services, delivering superior customer-driven results for AngularJS websites and apps.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Java Powers Our Solutions</h2>
+        <div class="px-2">
+            <div>
+            <div class="row">
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Tailored AngularJS Web Application Development</h4>
+                        <p>AngularJS, an open-source JavaScript framework by Google, is the foundation for our custom and cost-effective AngularJS development. We create streamlined solutions that encompass the intricacies of your business requirements, building applications with enhanced UX and Agile development cycles to meet your users' needs.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 px-5 pt-5">
-                <h5 class="h2-heading ">We specialize in creating various Java-based software, including:</h5>
-                <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Enterprise applications, such as EAM, PIM, ECM, EHR, internet banking, POS, and industry-specific solutions.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Internet portals, e-commerce sites, and self-service applications.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> XaaS applications with millions of users, multiplayer game backends, VoIP and messaging apps, video processing, and more.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Innovative software for IoT device management, big data analysis, image processing, and cybersecurity.</li>
-                </ul>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Comprehensive Angular Development Services to Propel Your Growth</h4>
+                        <p>Deploy highly acclaimed AngularJS experts and embrace dynamic development methodologies. Our transparent, cooperative, and client-centric approach ensures the delivery of reliable, high-quality enterprise solutions.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 px-5">
-                <h5 class="h2-heading pt-4 pb-2">Why Collaborate with MDQuality Apps for Java Development?</h5>
-                <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Over six years of Java development experience</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Successful delivery of ten Java projects</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Rapid project initiation (1–4 weeks)</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Swift MVP deployment and functional prototypes</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Proprietary Integrated Manual and Automated Testing (IMAAT) approach</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Proficiency in big data, image processing, machine learning, IoT, blockchain, and other cutting-edge technologies</li>
-                </ul>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Diverse AngularJS Development Solutions for Your Business Evolution</h4>
+                        <p>Choose the best-fit solution for your evolving business needs. Elevate quality and technological assets with the unique capabilities of AngularJS websites or mobile app development tailored to your enterprise goals.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading "> Java Development</h2>
-
+            <div class="col-lg-6 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Advantages of AngularJS for Web Application Development</h4>
+                        <p>AngularJS is a structural framework for building high-quality, dynamic web apps. As the leading AngularJS development company, we enable you to harness the power of this advanced client-side MVC framework, simplifying application development and providing flexibility to developers.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="px-5">
-            <h3 class="h2-heading">What Sets Our Java Developers Apart?</h3>
-            <h5 class="h2-heading pt-3">Future-Proof Java App Design:</h5>
-            <p class="website-para">Our Java developers specialize in creating cloud-only (serverless) and cloud-native (microservices) applications.</p>
-            <h5 class="h2-heading pt-3">Reliable Java App Delivery:</h5>
-            <p class="website-para">We follow established DevOps and Agile practices to ensure significant updates every 2–6 weeks and small updates multiple times a day.</p>
-            <h5 class="h2-heading pt-3">Flexible Collaboration:</h5>
-            <p class="website-para">Our teams can adapt, including adding Java developers and architects as needed for your project.</p>
-            <h5 class="h2-heading pt-3">In-House Project Management Office (PMO):</h5>
-            <p class="website-para">Our experienced project managers have handled complex projects with distributed teams and multiple vendors.</p>
-            <h5 class="h2-heading pt-3">Transparent Communication:</h5>
-            <p class="website-para">We tailor communication to best suit each stakeholder, ensuring everyone stays informed about project progress.</p>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 px-5">
-                <h5 class="h2-heading pt-5 pb-2">Our commitment to code quality includes:</h5>
-                <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Adherence to Java style guidelines</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Meaningful variable names</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Documentation of coding methods</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> A comprehensive README document</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Modular, well-organized code</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Inclusion of unit tests</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Code portability</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Version control utilization</li>
-                </ul>
+            <div class="col-lg-6 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Your Premier AngularJS Application Development Company</h4>
+                        <p>Explore our AngularJS web app development services to strengthen website backends, providing agility to businesses in creating responsive, feature-rich, and engaging web apps.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading "> Assessing and Enhancing Java Code Quality</h2>
-
-            </div>
-        </div>
-        <div class="px-5">
-            <h5 class="h2-heading">Code Review Standards:</h5>
-            <p class="website-para">We employ various code review methods, including ad hoc analysis, walkthroughs, pass-arounds, pull requests, and scrutiny.</p>
-            <h5 class="h2-heading pt-3">Coding Quality Metrics:</h5>
-            <p class="website-para">We monitor and measure code quality with metrics like Cyclomatic Complexity (CC), Continuity of Inheritance, Maintainability Index (MI), Coupling by class, code lines, and Volume Halstead.</p>
-        </div>
-        <div class="px-5">
-            <h3 class="h2-heading pt-5">Choose Risk-Free, Expert Java Development</h3>
-            <h5 class="h2-heading pt-3">Our extensive expertise spans 30 industries and leading-edge technologies, enabling us to meet a wide range of Java development needs, such as:</h5>
-            <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Java code review and maintenance</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Developing new Java applications with industry-specific insights</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Crafting Java products and custom Java programming</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Supporting, maintaining, and expanding Java programs</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/ios/500/1C46A8/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" /> Migrating legacy applications to new Java versions and re-architecture</li>
-                </ul>
-        </div>
-
-        <div class="px-5">
-            <h3 class="h2-heading pt-5">Select Your Service Option</h3>
-            <h5 class="h2-heading pt-3">Leverage Skilled Java Expertise:</h5>
-            <p class="website-para">Supplement your internal team with our Java developers, who you directly oversee.</p>
-            <h5 class="h2-heading pt-3">Employ a Java-Focused Team:</h5>
-            <p class="website-para">Collaborate with a self-managed Java team that works with your in-house team or other vendors on a Java project.</p>
-            <h5 class="h2-heading pt-3">Full Java Project Delivery:</h5>
-            <p class="website-para">Let us manage every aspect of your Java project, from planning and development to application support, ensuring quality and risk management.</p>
-        </div>
-        <div class="px-5">
-            <h3 class="h2-heading pt-5">Java Software Development Services Pricing Options</h3>
-            <h5 class="h2-heading pt-3">Fixed Cost:</h5>
-            <p class="website-para">Ideal for small projects with specific requirements, proof-of-concept applications, and feasibility studies, where you pay a set cost according to the contract.</p>
-            <h5 class="h2-heading pt-3">Material and Time, with a Cap:</h5>
-            <p class="website-para">Perfect for agile development, design, and consulting tasks. You are billed based on the hours or efforts reported each month.</p>
-
-            <h5 class="h2-heading pt-3">Price per Ticket:</h5>
-            <p class="website-para">Suited for L1 and L2 Java application support, where you are charged according to the number of events we handle.</p>
-            <h5 class="h2-heading pt-3">Monthly Payment:</h5>
-            <p class="website-para">For L3 Java application support, you know the hourly rates upfront and pay for the hours of assistance provided.</p>
-            <p class="website-para">Choose Quick and Effective Java Development</p>
-            <p class="website-para">Rely on our technical expertise and deep knowledge of Java for secure, efficient, and cost-effective app development.</p>
-            <p class="website-para">Contact us via EMAIL for RFI/RFP inquiries.</p>
         </div>
     </div>
 </div>

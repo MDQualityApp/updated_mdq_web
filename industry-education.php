@@ -32,7 +32,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="color:#1C46A8; font-weight:700;">Education and eLearning Solutions</h2>
             <h3 style="color:#1C46A8; font-weight:700;">Empowering Education Through Customized eLearning Services</h3>
             <h5 style="color:#1C46A8; font-weight:700;">Key Achievements</h5>
@@ -53,7 +53,7 @@ include './header.php';
                     <img class="" src="images/vector-images/e-learning-2.png" width="60%" alt="e-learning system development">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h3>
             <h5 style="color:#1C46A8; font-weight:700;">IT Solutions for the Education Sector</h5>
             <p class="website-para">At MDQuality Apps, a leading educational software provider, we offer a comprehensive range of eLearning development services and solutions to ensure continuous learning. Our technological solutions enhance productivity, facilitate learning, and support students, teachers, and administrators.</p>

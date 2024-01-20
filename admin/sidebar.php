@@ -89,6 +89,8 @@ if (!$_SESSION['email']) {
             <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span></a>
 
             <a href="admin-contactus.php" class="nav_link <?php if ($first_part == "admin-contactus.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
+
+            <a href="table-offer-letter.php" class="nav_link <?php if ($first_part == "table-offer-letter.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Offer Letter</span></a>
         </div>
 
         </nav>

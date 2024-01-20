@@ -27,20 +27,19 @@ include './header.php';
 </head>
 <div class="background-color" style="background-color:#F7FDFF; padding-top:60px">
     <div class="group-photo">
-    <img src="./images/mdq-team-14.jpg" alt="Snow" style="width:100%;">
-    <div class="centered">We Transform your Idea into Business</div>
+    <img src="./images/team-photo.jpg" alt="Snow" style="width:100%;">
+    <h1 style="margin-top:-40%; font-weight:600; position:absolute; margin-left: 30px; font-size:50px; text-align:left">We Transform your Idea into <br> Business</h1>
         <!-- <div class="d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.6); width:100%; height: 100%;">
         <h1 class=" mt-5" style="color:white; font-weight:600; font-size:60px; padding-left:100px; padding-right:100px">We Transform your Idea into Business</h1> -->
     </div>
-    </div>
     <div class="container-fluid">
-        <div class="p-5">
+        <div class="p-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="font-weight:700; color:#1C46A8;">Company Overview:</h2>
             <p class="website-para">At MD Quality Apps, we're committed to fostering innovation and addressing today's technology needs. Our co-founder, Divya L, leads our team of professionals and problem solvers on a mission to become a global leader in IT services and solutions. We draw inspiration from our diverse culture, unwavering commitment, and expertise as we collaborate effectively with partners and clients.</p>
         </div>
         <div class="row px-5" style="background:linear-gradient(to right, #1C46A8, #081A48); color:white">
             <div class="col-lg-7 py-4 px-3">
-                <div>
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                     <h2 style="font-weight:800">Our mission is to make our clients succeed</h2>
                     <h3 style="font-size:22px; line-height:35px">Empowering our clients' success is at the core of our mission. At MacAppStudio, we're dedicated to crafting innovative solutions that not only propel our clients forward but also foster their longevity among industry leaders. Our commitment extends beyond just delivering solutions; it's about enabling sustained excellence within their domains.</h3>
                 </div>
@@ -77,9 +76,9 @@ include './header.php';
             border-radius: 100%;
         }
     </style>
-    <div class="container-fluid px-5" style="padding-top:5%; padding-bottom:10%">
+    <!-- <div class="container-fluid px-5" style="padding-top:5%; padding-bottom:10%">
     <h2 class="py-3" style="font-weight:700; color:#1C46A8;">Our Team</h2>
-        <div class=" d-flex justify-content-center align-items-center" style="height:100%">
+        <div class=" d-flex justify-content-center align-items-center" style="height:100%"> -->
         <!-- <div class="swiper-container swiper-container-1" id="slider3">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-team">
@@ -95,8 +94,8 @@ include './header.php';
             <div class="swiper-button-next custom-next" style="background-image:url('https://img.icons8.com/ios-filled/100/1C46A8/forward--v1.png') !important;"></div>
 
         </div> -->
-        </div>
-    </div>
+        <!-- </div>
+    </div> -->
     <div class="gallery">
         <div class="row" style="padding:0px !important; margin:0px">
             <div class="col-lg-6 " style="padding: 0 !important; overflow: hidden;">
@@ -180,6 +179,7 @@ include './header.php';
 
         </div>
     </div>
+
     <style>
         .nav-link-aboutus {
             color: #8da2d3 !important;
@@ -195,12 +195,12 @@ include './header.php';
             font-weight: 800;
         }
     </style>
-    <div class="container-fluid p-5">
+    <div class="container-fluid p-3">
         <div>
             <h2 style="font-weight:700; color:#1C46A8;">Empowering People through Technology</h2>
             <p class="website-para">We find ourselves at the dawn of a new era in digital transformation.</p>
             <p class="website-para">Established in 2016, MD Quality Apps has rapidly expanded its client base across three different countries. Our core focus is on delivering comprehensive IT services and industry-specific solutions across 13 domains worldwide. Whether you're an ISV or a large corporation, we're here to accelerate your progress and unlock future possibilities. With a wealth of industry knowledge and technical prowess, we're dedicated to creating tangible value through digitalization and propelling various sectors forward by leveraging cutting-edge innovations.</p>
-            <div class="row">
+            <div class="row py-4">
                 <div class="d-flex align-items-start">
                     <div class="col-lg-4 d-flex align-items-center justify-content-center" style="height:100%">
                         <div class="nav flex-column nav-pills nav-pills-aboutus me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -214,8 +214,8 @@ include './header.php';
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                 <div class="row">
-                                    <div class="col-lg-5 p-4 d-flex justify-content-center align-items-center" style="height: 300px;">
-                                        <img style="border-radius: 20px;" src="./images/principles.webp" width="100%" alt="">
+                                    <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
+                                        <img style="border-radius: 20px;" src="./images/principles.jpg" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
                                         <p class="website-para" style="padding-right: 14%;">
@@ -225,7 +225,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                 <div class="row">
-                                <div class="col-lg-5 p-4 d-flex justify-content-center align-items-center" style="height: 300px;">
+                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
                                         <img style="border-radius: 20px;" src="./images/vission.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -236,7 +236,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                 <div class="row">
-                                <div class="col-lg-5 p-4 d-flex justify-content-center align-items-center" style="height: 300px;">
+                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
                                         <img style="border-radius: 20px;" src="./images/mission.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -247,7 +247,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                 <div class="row">
-                                <div class="col-lg-5 p-4 d-flex justify-content-center align-items-center" style="height: 300px;">
+                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
                                         <img style="border-radius: 20px;" src="./images/quality.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -262,6 +262,42 @@ include './header.php';
 
             </div>
         </div>
+
+    </div>
+    <div class="px-3">
+    <hr>
+    </div>
+    <div class="join-mdq mt-4">
+        <div class="container mb-4">
+            <div class="row">
+            <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+                <img src="./images/we-are-hiring.webp" alt="hiring image" width="100%">
+            </div>
+                <div class="col-lg-6  d-flex justify-content-center align-items-center">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10">
+                        <div>
+                    <h2 style="font-weight:600; color:#1C46A8">Join the MDQ team!</h2>
+                    <h5 style="color:rgba(0, 0, 0, 0.7)">Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.</h5>
+                    <div class="web-button-div">
+                        <a href="./offer-letter.php">
+                <button class="web-button mt-3">Apply now</button>
+                </a>
+              </div>
+                    </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="px-3">
+        <hr  style="margin-bottom:0px">
+        </div>
+    </div>
+
+
     </div>
     <script>
                 const reviewsCarousel_1_Options = {

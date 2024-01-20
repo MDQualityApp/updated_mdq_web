@@ -190,15 +190,17 @@ include './connect.php';
                             $image = $frow['image'];
                             $id = $frow['id'];
                         ?>
-                            <div class="swiper-slide py-5 px-3">
+                            <div class="swiper-slide py-5 px-3 d-flex justify-content-center">
 
                                 <a href="portfolio-mobile.php?id=<?php echo $id; ?>" style="color:black; text-decoration:none">
                                     <!-- <a rel="preload" href="user.php?id=<?php echo $id; ?>" -->
-                                    <div class="card mt-5 our-work-card">
-                                        <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1C46A8;">
+                                    <div class="card p-4 mt-5 our-work-card">
+                                    <div class="d-flex justify-content-center align-items-center" style="width:100%; height:250px; background-color:#1CC4F8">
+                                        <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1CC4F8">
+                                    </div>
                                         <div class="py-3 px-2">
-                                            <h4 class="mx-4 fw-bold text-start"><?php echo $projectname; ?></h4>
-                                            <h6 class="mx-4"><?php echo $aboutproject; ?></h6>
+                                            <h4  style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
+                                            <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
 
                                         </div>
                                     </div>
@@ -207,11 +209,10 @@ include './connect.php';
                             </div>
                         <?php } ?>
                     </div>
-                    <div class="swiper-button-prev custom-prev px-5" style="background-image:url('https://img.icons8.com/ios-filled/100/1C46A8/back.png') !important;"></div>
-                    <div class="swiper-button-next custom-next px-5" style="background-image:url('https://img.icons8.com/ios-filled/100/1C46A8/forward--v1.png') !important;"></div>
+                    <div class="swiper-button-prev custom-prev" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-left.png" alt="circled-chevron-right"/></div>
+                    <div class="swiper-button-next custom-next" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-right.png" alt="circled-chevron-right"/></div>
 
                 </div>
-
                 <script>
                     const reviewsCarouselOptions = {
                         direction: 'horizontal',

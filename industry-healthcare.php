@@ -32,7 +32,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="color:#1C46A8; font-weight:700;">Healthcare Information Technology Solutions</h2>
         <p class="website-para">Our mission is to enhance patient care by providing cutting-edge healthcare information technology consulting and technology solutions, bridging the gap between hospitals and patients' homes. MDQuality Apps has achieved significant success through mobile devices, connected care solutions, and remote consultations:</p>
         <p class="website-para">5K consultations have been conducted, connecting patients with doctors through internet-enabled devices.</p>
@@ -53,7 +53,7 @@ include './header.php';
                     <img class="" src="images/vector-images/hospital-2.png" width="70%" alt="hospital management app and web development">
                 </div>
             </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h5 style="color:#1C46A8; font-weight:700;">IT Services for the Healthcare Sector</h5>
             <p class="website-para">Our comprehensive healthcare solutions encompass business consultancy, application development, maintenance, testing, mobility, and analytics, all aimed at improving patient outcomes and healthcare delivery. Our key offerings include:</p>
             <p class="website-para">Hospital Management System: A powerful system streamlining daily hospital operations while considering patient medical histories.</p>

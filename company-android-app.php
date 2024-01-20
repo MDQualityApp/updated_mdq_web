@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid px-5">
         <div class="row py-3">
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 style="color:#1C46A8; font-weight:600;">Android App Development Agency</h2>
                 <p class="website-para">Android is often considered the ideal choice for startups and emerging companies. However, our Android development services are designed to cater not only to these new ventures but also to support established companies and their SME counterparts. As a dedicated Android development company, we ensure scalability while offering expertise in all aspects of Android app development.</p>
             </div>
@@ -50,7 +50,7 @@ include './header.php';
                     <img class="" src="images/vector-images/company-app-1.png" width="60%" alt="image">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 style="color:#1C46A8; font-weight:700;">Consultation for Android App Development</h3>
                 <p class="website-para">Android applications come with unique user bases and customer expectations. We assist businesses in aligning their ideas with these expectations and the specific Android user base. Our consultants guide you in choosing the optimal Android platform and store placement strategy.</p>
             </div>

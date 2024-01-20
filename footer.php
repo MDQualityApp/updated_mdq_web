@@ -185,7 +185,7 @@
         position: relative;
         left: 0;
     }
-
+.form-group 
     input,
     textarea {
         font-family: "Quicksand", sans-serif;

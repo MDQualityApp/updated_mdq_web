@@ -53,7 +53,7 @@ include './connect.php';
 
 
 <!-- first row -->
-<div class="container">
+<div class="container-fluid">
 <h2 class="craft py-4 fw-bold text-center">Passion-Infused Exemplary Apps.</h2>
 <div class="row">
 <h3 class="craft fw-bold text-center">Mobile Applications</h3>
@@ -66,14 +66,15 @@ while ($frow = mysqli_fetch_array($logo)) {
     $image = $frow['image'];
     $id=$frow['id'];
     ?>
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex justify-content-center">
                 <a href="portfolio-mobile.php?id=<?php echo $id; ?>" style="color:black; text-decoration:none">
-                <!-- <a rel="preload" href="user.php?id=<?php echo $id; ?>" -->
-                <div class="card mt-5 our-work-card">
-                    <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1C46A8;">
-                    <div class="py-3 px-2">
-                    <h4 class="mx-4 fw-bold text-start"><?php echo $projectname; ?></h4>
-                <h6 class="mx-4"><?php echo $aboutproject; ?></h6>
+                <div class="card mt-5 our-work-card p-4">
+                <div class="d-flex justify-content-center align-items-center" style="width:100%; height:250px; background-color:#1CC4F8">
+                    <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1CC4F8;">
+                </div>
+                    <div class="py-3">
+                    <h4 style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
+                <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
                     </div>
                 </div>
                 </a>
@@ -93,14 +94,16 @@ while ($frow = mysqli_fetch_array($logo)) {
     $image = $frow['image'];
     $id=$frow['id'];
     ?>
-            <div class="col-lg-4">
+            <div class="col-lg-4 d-flex justify-content-center">
                 <a href="portfolio-web.php?id=<?php echo $id; ?>" style="color:black; text-decoration:none">
                 <!-- <a rel="preload" href="user.php?id=<?php echo $id; ?>" -->
-                <div class="card mt-5 our-work-card">
-                    <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1C46A8;">
-                    <div class="py-3 px-2">
-                    <h4 class="mx-4 fw-bold text-start"><?php echo $projectname; ?></h4>
-                <h6 class="mx-4"><?php echo $aboutproject; ?></h6>
+                <div class="card mt-5 our-work-card p-4">
+                  <div class="d-flex justify-content-center align-items-center" style="width:100%; height:250px; background-color:#1CC4F8">
+                    <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%">
+                    </div>
+                    <div class="py-3">
+                    <h4 style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
+                <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
 
                     </div>
                 </div>

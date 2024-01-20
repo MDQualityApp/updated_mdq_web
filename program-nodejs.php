@@ -5,33 +5,54 @@ include './header.php';
 <meta name="description" content="Delivers scalable and high-performance solutions tailored to your unique requirements. Contact us for innovative and reliable Node.js development services."/>
 <meta name="keywords" content="Node.js application development company, Scalable application development services, Node.js API development" />
 <title>Node.js Development Services | Transform Your Ideas into Applications</title>
+<style>
+        .card-services {
+            border: none;
+            border-radius: 10px;
+            height: 100%;
+            background: linear-gradient(145deg, #dee4e6, #ffffff);
+            box-shadow: 11px 11px 22px #85898a,
+                -11px -11px 22px #ffffff;
+        }
+    </style>
 </head>
-<div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
+<div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
+<div class="intro" style="background-color:#081A48">
+        <h1 class="pt-4" style="color:white; text-align: center; font-weight:600">Node.js</h1>
+        <svg class="intro-wave" style="margin-bottom: -2px;" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="#F7FDFF" offset="0%"></stop>
+                    <stop stop-color="#F7FDFF" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,216L80,200C160,184,320,152,480,124C640,96,800,72,960,88C1120,104,1280,160,1440,168C1600,176,1760,136,1920,136C2080,136,2240,176,2400,176C2560,176,2720,136,2880,108C3040,80,3200,64,3360,48C3520,32,3680,16,3840,32C4000,48,4160,96,4320,116C4480,136,4640,128,4800,112C4960,96,5120,72,5280,68C5440,64,5600,80,5760,108C5920,136,6080,176,6240,196C6400,216,6560,216,6720,196C6880,176,7040,136,7200,100C7360,64,7520,32,7680,44C7840,56,8000,112,8160,132C8320,152,8480,136,8640,112C8800,88,8960,56,9120,44C9280,32,9440,40,9600,48C9760,56,9920,64,10080,80C10240,96,10400,120,10560,132C10720,144,10880,144,11040,156C11200,168,11360,192,11440,204L11520,216L11520,240L11440,240C11360,240,11200,240,11040,240C10880,240,10720,240,10560,240C10400,240,10240,240,10080,240C9920,240,9760,240,9600,240C9440,240,9280,240,9120,240C8960,240,8800,240,8640,240C8480,240,8320,240,8160,240C8000,240,7840,240,7680,240C7520,240,7360,240,7200,240C7040,240,6880,240,6720,240C6560,240,6400,240,6240,240C6080,240,5920,240,5760,240C5600,240,5440,240,5280,240C5120,240,4960,240,4800,240C4640,240,4480,240,4320,240C4160,240,4000,240,3840,240C3680,240,3520,240,3360,240C3200,240,3040,240,2880,240C2720,240,2560,240,2400,240C2240,240,2080,240,1920,240C1760,240,1600,240,1440,240C1280,240,1120,240,960,240C800,240,640,240,480,240C320,240,160,240,80,240L0,240Z">
+            </path>
+        </svg>
+    </div>
     <div class="container-fluid py-4">
-        <div class="d-flex justify-content-center align-items-center py-5">
-
-            <h1 style="position:relative;" class="h1-heading">Technology <br><span style="font-weight:500 !important; font-size:xx-large">Node.js</span></h1>
-        </div>
         <div class="row">
             <div class="col-lg-6 px-5">
                 <h3 class="h2-heading ">Node.js for Efficient Server-Side Development</h3>
                 <p class="website-para">At MDQuality Apps, we harness the power of Node.js, a versatile JavaScript framework, to drive efficient server-side software development. Our expertise extends to real-time, data-intensive applications across a diverse array of industries, including medical, commerce, and wealth management.</p>
-                <h3 class="h2-heading ">Looking for a Node.js Development Partner?</h3>
-                <p class="website-para">We offer comprehensive Node.js development services at the heart of our offerings. Our team comprises pre-vetted Node.js experts and collaborative teams to fulfill your specific project requirements.</p>
+
 
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img style="margin-top: -100px;" width="60%" src="https://img.icons8.com/windows/1000/1C46A8/nodejs.png" alt="nodejs" />
+            <div class="col-lg-6">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/nodejs.png" width="60%" alt="js post man and woman">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; color:white; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Why Choose MDQ for Your Node.js Needs?</h2>
+        <div class="col-lg-6">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/nodejs-1.png" width="80%" alt="boy with laptop green theme">
+                </div>
             </div>
             <div class="col-lg-6 px-5">
+            <h3 class="h2-heading ">Looking for a Node.js Development Partner?</h3>
+                <p class="website-para">We offer comprehensive Node.js development services at the heart of our offerings. Our team comprises pre-vetted Node.js experts and collaborative teams to fulfill your specific project requirements.</p>
                 <h3 class="h2-heading ">Here's why MDQuality Apps stands out:</h3>
                 <h5 class="h2-heading ">Extensive Experience:</h5>
 
@@ -40,77 +61,102 @@ include './header.php';
                     <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> 4 years dedicated to smartphone app development.</li>
                     <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Node.js engineers with an average of two years of experience.</li>
                 </ul>
-                <h5 class="h2-heading ">Rapid Collaboration:</h5>
-                <p class="website-para">We can set up a collaboration within five days, ensuring your project gets underway swiftly.
-                    Cutting-Edge Expertise:</p>
-                <p class="website-para">Proficiency in emerging technologies, including AR, big data, blockchain, IoT, and machine learning.</p>
-                <h5 class="h2-heading ">Mature Development Practices:</h5>
-                <p class="website-para">We follow agile, cloud-native development methods, employing DevOps, and effective project and team management.</p>
-
-            </div>
-
-        </div>
-        <div class="row py-5">
-            <div class="col-lg-6 order-2 order-lg-1 px-5 ">
-                <h5 class="h2-heading pt-5">Digital Signage System with Augmented Reality (AR):</h5>
-                <p class="website-para">Delivered a flexible role-based interface for managing customer accounts, AR gear, and AR app layouts.</p>
-                <p class="website-para">Tools & Technologies: MariaDB, Feathers JS, Go, Docker, Redis, Amazon S3, and Node.js.</p>
-
-                <h5 class="h2-heading ">Remote Patient Monitoring Software:</h5>
-                <p class="website-para">Developed mobile apps (iOS and Android) and a web-based application to collect and analyze data from various sensors in real-time.</p>
-                <p class="website-para">Tools & Technologies: Java, PHP, Swift, C++, Node.js, MySQL, Express.js, Backbone.js, and more.</p>
-
-                <h5 class="h2-heading ">Upgrade of a 400m Membership Web Portal:</h5>
-                <p class="website-para">Enhanced the portal with specific APIs for tailored data queries and transformed it into a single-page app for vacation packages and hotel deals.
-                Tools & Technologies: Microsoft SQL Server, JavaScript, Node.js, Microsoft CMS, and ASP.NET MVC.</p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-
-                <h2 style="position: absolute; color:white; margin-top:-100px; padding-left:10%; padding-right:10%" class="h1-heading ">Notable Node.js Development Projects:</h2>
-
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; color:white; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">Our Commitment to Code Quality:</h2>
+
+        <div class="row px-2">
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Rapid Collaboration:</h4>
+                        <p>We can set up a collaboration within five days, ensuring your project gets underway swiftly. Cutting-Edge Expertise: Proficiency in emerging technologies, including AR, big data, blockchain, IoT, and machine learning.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6 px-5 pt-4">
-                <h5 class="h2-heading ">We adhere to stringent code quality processes, including:</h5>
-                <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Naming conventions for code variables.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Comprehensive comments explaining program code methods and functions.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Detailed documentation in an ultimate README document.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Creation of concise code units.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Utilization of framework APIs and third-party libraries.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Execution of unit tests.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Code portability maintenance.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Version control implementation.</li>
-                    <li><img width="25" height="25" src="https://img.icons8.com/windows/200/1C46A8/node-js.png" alt="node-js" /> Application of linting tools like ESLint and SonarQube.</li>
-                </ul>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Mature Development Practices:</h4>
+                        <p>We follow agile, cloud-native development methods, employing DevOps, and effective project and team management.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="px-5">
-        <h5 class="h2-heading ">Code Review Standards:</h5>
-                <p class="website-para">We employ various code review methods, such as ad hoc reviews, pass-around, walkthroughs, and pull requests, to maintain the highest code quality.</p>
-        <h5 class="h2-heading ">Metrics for Code Quality Control:</h5>
-                <p class="website-para">We monitor code quality through metrics like the Maintainability Index (MI), Depth of Inheritance, Lines of Code, Class Coupling, and Cyclomatic Complexity (CC).</p>
-        <h3 class="h2-heading ">Choose Your Model of Cooperation:</h3>
-        <h5 class="h2-heading ">MDQuality Apps offers flexible collaboration models tailored to your project needs:</h5>
-        <h5 class="h2-heading ">Project Administration:</h5>
-                <p class="website-para">We oversee project management, business analysis, UX/UI design, QA and testing, and application maintenance if required.</p>
-        <h5 class="h2-heading ">Adding Node.js Developers:</h5>
-                <p class="website-para">We provide Node.js experts to complement your team or offer a specialized Node.js team managed by us.</p>
-        <h5 class="h2-heading ">Full-Service Project Outsourcing:</h5>
-                <p class="website-para">Opt for complete project outsourcing or partial project assistance, depending on your project's scope and needs.</p>
-        <h5 class="h2-heading ">Pricing Structure:</h5>
-                <p class="website-para">Our pricing structure can be either set price or time and materials, depending on your project's specifics and duration. We're here to deliver your project efficiently, within budget, and with the highest quality standards.</p>
-        </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Digital Signage System with Augmented Reality (AR):</h4>
+                        <p>Delivered a flexible role-based interface for managing customer accounts, AR gear, and AR app layouts. Tools & Technologies: MariaDB, Feathers JS, Go, Docker, Redis, Amazon S3, and Node.js.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Remote Patient Monitoring Software:</h4>
+                        <p>Developed mobile apps (iOS and Android) and a web-based application to collect and analyze data from various sensors in real-time. Tools & Technologies: Java, PHP, Swift, C++, Node.js, MySQL, Express.js, Backbone.js, and more.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Upgrade of a 400m Membership
+Web
+Portal:</h4>
+                        <p>Enhanced the portal with specific APIs for tailored data queries and transformed it into a single-page app for vacation packages and hotel deals. Tools & Technologies: Microsoft SQL Server, JavaScript, Node.js, Microsoft CMS, and ASP.NET MVC.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Code Review Standards:</h4>
+                        <p>We employ various code review methods, such as ad hoc reviews, pass-around, walkthroughs, and pull requests, to maintain the highest code quality.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Metrics for Code Quality Control:</h4>
+                        <p>We monitor code quality through metrics like the Maintainability Index (MI), Depth of Inheritance, Lines of Code, Class Coupling, and Cyclomatic Complexity (CC).</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">MDQuality Apps offers flexible collaboration models tailored to your project needs:</h4>
+                        <p>We oversee project management, business analysis, UX/UI design, QA and testing, and application maintenance if required.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Adding Node.js Developers:</h4>
+                        <p>We provide Node.js experts to complement your team or offer a specialized Node.js team managed by us.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Full-Service Project Outsourcing:</h4>
+                        <p>Opt for complete project outsourcing or partial project assistance, depending on your project's scope and needs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-3">
+                <div class="card card-services">
+                    <div class="card-body">
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Pricing Structure:</h4>
+                        <p>Our pricing structure can be either set price or time and materials, depending on your project's specifics and duration. We're here to deliver your project efficiently, within budget, and with the highest quality standards.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
     </div>
 </div>
 <?php

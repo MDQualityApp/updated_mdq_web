@@ -111,7 +111,7 @@ overflow-y: auto !important;
     <div class="tab-pane fade show active" id="v-pills-programming" role="tabpanel" aria-labelledby="v-pills-programming-tab" >
     <div class="row mobile-wrap">
         <div class="col-lg-4 col-md-4 col-sm-6">
-        <p class="industry-content"><a href="#"><img style="margin-top:-5px;"  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; React JS</a></p>
+        <p class="industry-content"><a href="./program-react.php"><img style="margin-top:-5px;"  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; React JS</a></p>
         <p class="industry-content"><a href="./program-java.php"><img style="margin-top:-7px;" width="25" height="25" src="https://img.icons8.com/ios/500/ffffff/java-coffee-cup-logo--v1.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; Java</a></p>
         <p class="industry-content"><a href="./program-python.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/python.png" alt="python"/>&nbsp;&nbsp; Python</a></p>
         <p class="industry-content"><a href="./program-php.php"><img width="25" height="25" src="https://img.icons8.com/nolan/1000/ffffff/php-elephant.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; PHP</a></p>
@@ -120,16 +120,16 @@ overflow-y: auto !important;
         <div class="col-lg-4 col-md-4 col-sm-6">
         <p class="industry-content"><a href="./program-reactnative.php"><img style="margin-top:-5px;"  width="25" height="25" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/1000/ffffff/external-react-social-media-tanah-basah-glyph-tanah-basah.png" alt="java-coffee-cup-logo--v1" />&nbsp;&nbsp; React Native</a></p>
         <p class="industry-content"><a href="./program-nodejs.php"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/windows/200/ffffff/node-js.png" alt="node-js" />&nbsp;&nbsp; Node.js</a></p>
-        <p class="industry-content"><a href="#"><img style="margin-top:-5px;" width="20" height="20" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/ffffff/external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo.png" alt="external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo"/>&nbsp;&nbsp;&nbsp; Laravel</a></p>
-        <p class="industry-content"><a href="#"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/flutter.png" alt="flutter"/>&nbsp;&nbsp; Flutter</a></p>
-        <p class="industry-content"><a href="#"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/material-rounded/960/ffffff/kotlin.png" alt="kotlin"/>&nbsp;&nbsp; Kotlin</a></p>
+        <p class="industry-content"><a href="./program-laravel.php"><img style="margin-top:-5px;" width="20" height="20" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/500/ffffff/external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo.png" alt="external-laravel-is-a-free-open-source-php-web-framework-logo-bold-tal-revivo"/>&nbsp;&nbsp;&nbsp; Laravel</a></p>
+        <p class="industry-content"><a href="./program-flutter.php"><img width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/flutter.png" alt="flutter"/>&nbsp;&nbsp; Flutter</a></p>
+        <p class="industry-content"><a href="./program-kotlin.php"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/material-rounded/960/ffffff/kotlin.png" alt="kotlin"/>&nbsp;&nbsp; Kotlin</a></p>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6">
-        <p class="industry-content"><a href="#"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/angularjs.png" alt="angularjs"/>&nbsp;&nbsp; Angular JS / TS</a></p>
-        <p class="industry-content"><a href="#"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/700/ffffff/c-sharp-logo.png" alt="c-sharp-logo"/>&nbsp;&nbsp; C Sharp</a></p>
-        <p class="industry-content"><a href="#"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/swift.png" alt="swift"/>&nbsp;&nbsp; Swift</a></p>
-        <p class="industry-content"><a href="#"><img width="25" height="25" src="https://img.icons8.com/external-flat-icons-inmotus-design/670/ffffff/external-c-calculator-flat-icons-inmotus-design.png" alt="external-c-calculator-flat-icons-inmotus-design"/>&nbsp;&nbsp; Objective-C</a></p>
-        <p class="industry-content"><a href="#"><img width="25" height="25" src="https://img.icons8.com/material-outlined/960/ffffff/asp.png" alt="asp"/>&nbsp;&nbsp; ASP.NET</a></p>
+        <p class="industry-content"><a href="./program-angular.php"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/angularjs.png" alt="angularjs"/>&nbsp;&nbsp; Angular JS / TS</a></p>
+        <p class="industry-content"><a href="./program-csharp.php"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/700/ffffff/c-sharp-logo.png" alt="c-sharp-logo"/>&nbsp;&nbsp; C Sharp</a></p>
+        <p class="industry-content"><a href="./program-swift.php"><img style="margin-top:-3px;" width="25" height="25" src="https://img.icons8.com/ios-filled/500/ffffff/swift.png" alt="swift"/>&nbsp;&nbsp; Swift</a></p>
+        <p class="industry-content"><a href="./program-objective-c.php"><img width="25" height="25" src="https://img.icons8.com/external-flat-icons-inmotus-design/670/ffffff/external-c-calculator-flat-icons-inmotus-design.png" alt="external-c-calculator-flat-icons-inmotus-design"/>&nbsp;&nbsp; Objective-C</a></p>
+        <p class="industry-content"><a href="./program-asp.net.php"><img width="25" height="25" src="https://img.icons8.com/material-outlined/960/ffffff/asp.png" alt="asp"/>&nbsp;&nbsp;.NET</a></p>
 
         </div>
       </div>

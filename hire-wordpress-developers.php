@@ -1,19 +1,39 @@
 <?php
 include './header.php';
 ?>
-<head>
-<meta name="description" content="Our experienced team delivers top-notch WordPress development services tailored to your needs. Contact us for WordPress development expertise." />
-<meta name="keywords" content="WordPress development services, WordPress website development, Custom WordPress development, Affordable WordPress development" />
-<title>Expert WordPress Developers for Hire | WordPress Development Services</title>
-</head>
-<div class="website-background" style="background-color:#F7FDFF; padding-top:63px">
-    <div class="container-fluid py-4">
-        <div class="d-flex justify-content-center align-items-center py-5">
 
-            <h1 style="position:relative;" class="h1-heading">Hire Developers <br><span style="font-weight:500 !important; font-size:xx-large">WordPress</span></h1>
-        </div>
+<head>
+    <meta name="description" content="Our experienced team delivers top-notch WordPress development services tailored to your needs. Contact us for WordPress development expertise." />
+    <meta name="keywords" content="WordPress development services, WordPress website development, Custom WordPress development, Affordable WordPress development" />
+    <title>Expert WordPress Developers for Hire | WordPress Development Services</title>
+    <style>
+        .card-services {
+            border: none;
+            border-radius: 10px;
+            height: 100%;
+            background: linear-gradient(145deg, #dee4e6, #ffffff);
+            box-shadow: 11px 11px 22px #85898a,
+                -11px -11px 22px #ffffff;
+        }
+    </style>
+</head>
+<div class="website-background" style="background-color:#F7FDFF; padding-top:60px">
+    <div class="intro" style="background-color:#081A48">
+        <h1 class="pt-4" style="color:white; text-align: center; font-weight:600">Hire WordPress Developers </h1>
+        <svg class="intro-wave" style="margin-bottom: -2px;" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                    <stop stop-color="#F7FDFF" offset="0%"></stop>
+                    <stop stop-color="#F7FDFF" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,216L80,200C160,184,320,152,480,124C640,96,800,72,960,88C1120,104,1280,160,1440,168C1600,176,1760,136,1920,136C2080,136,2240,176,2400,176C2560,176,2720,136,2880,108C3040,80,3200,64,3360,48C3520,32,3680,16,3840,32C4000,48,4160,96,4320,116C4480,136,4640,128,4800,112C4960,96,5120,72,5280,68C5440,64,5600,80,5760,108C5920,136,6080,176,6240,196C6400,216,6560,216,6720,196C6880,176,7040,136,7200,100C7360,64,7520,32,7680,44C7840,56,8000,112,8160,132C8320,152,8480,136,8640,112C8800,88,8960,56,9120,44C9280,32,9440,40,9600,48C9760,56,9920,64,10080,80C10240,96,10400,120,10560,132C10720,144,10880,144,11040,156C11200,168,11360,192,11440,204L11520,216L11520,240L11440,240C11360,240,11200,240,11040,240C10880,240,10720,240,10560,240C10400,240,10240,240,10080,240C9920,240,9760,240,9600,240C9440,240,9280,240,9120,240C8960,240,8800,240,8640,240C8480,240,8320,240,8160,240C8000,240,7840,240,7680,240C7520,240,7360,240,7200,240C7040,240,6880,240,6720,240C6560,240,6400,240,6240,240C6080,240,5920,240,5760,240C5600,240,5440,240,5280,240C5120,240,4960,240,4800,240C4640,240,4480,240,4320,240C4160,240,4000,240,3840,240C3680,240,3520,240,3360,240C3200,240,3040,240,2880,240C2720,240,2560,240,2400,240C2240,240,2080,240,1920,240C1760,240,1600,240,1440,240C1280,240,1120,240,960,240C800,240,640,240,480,240C320,240,160,240,80,240L0,240Z">
+            </path>
+        </svg>
+    </div>
+    <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-5 pt-2">
+            <div class="col-lg-6 px-4 pt-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h2 class="h2-heading ">Hire WordPress Developers</h2>
                 <h3 class="h2-heading ">Enlist WordPress Developers for Your Team</h3>
 
@@ -22,61 +42,170 @@ include './header.php';
                 <h5 class="h2-heading ">Leverage the expertise of a team of WordPress developers.</h5>
                 <p class="website-para">At MDQuality Apps, a leading WordPress development firm, you can access skilled WordPress developers who assist clients in anticipating business needs and rapidly expanding their teams.</p>
                 <p class="website-para">WordPress, a contemporary and reliable software, powers millions of websites worldwide. This user-friendly and agile CMS platform has revolutionized the way websites operate.</p>
-
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-
+            <div class="col-lg-6">
+                <div class="sec-mov-img pt-4 d-flex justify-content-center align-items-center">
+                    <img class="" src="images/vector-images/hiredevelopers-6.png" width="70%" alt="hire developer image">
+                </div>
             </div>
         </div>
-        <div class="px-4">
-        <div class="px-1">
-
-            <p class="website-para">Our reliable WordPress web developers offer top-notch development and customization solutions, backed by open source technologies, to help your business thrive in the competitive world. We are poised to use WordPress technology to help businesses navigate the digital landscape and prepare for future workforce changes.</p>
-            <p class="website-para">MDQuality Apps provides qualified WordPress developers, programmers, designers, and software engineers on an hourly, part-time, or full-time basis. There are no hidden fees or upfront costs. Depending on your project's requirements, you can engage top WordPress developers, programmers, and designers from India, whether you need a single WordPress developer or an entire team of WordPress specialists. Let's shape the future together with our skilled WordPress developers.</p>
-            <h5 class="h2-heading ">Unlock the Benefits of Hiring Remote WordPress Developers</h5>
-            <p class="website-para">Explore the power of team augmentation, collaboration, subject-matter expertise, and technical excellence.</p>
-            <h5 class="h2-heading ">Scalability and Flexibility</h5>
-            <p class="website-para">Hiring WordPress developers gives your teams the flexibility to scale up as per your business needs and project requirements. Our WordPress developers are highly skilled and pre-approved to meet the demands of your dynamic business.</p>
-            <h5 class="h2-heading ">Cost Savings</h5>
-            <p class="website-para">Gain the advantages of cost arbitrage, reduce development, hiring, and training costs, and gain a competitive edge through cost-efficient delivery and effective teamwork.</p>
-            <h5 class="h2-heading ">Risk Management</h5>
-            <p class="website-para">Remote WordPress developers enhance continuity and reduce short-term risks, ensuring higher productivity.</p>
-            <h5 class="h2-heading ">Focus on Core Processes</h5>
-            <p class="website-para">Hire WordPress experts for your CMS project so they can concentrate on enhancing your core business processes and nurturing client relationships.</p>
-            <h5 class="h2-heading ">Rapid Time-to-Market</h5>
-            <p class="website-para">Companies can hire WordPress developers to expedite critical development tasks, ensuring a faster website launch.</p>
-            <h5 class="h2-heading ">Hire a WordPress Developer for a Range of Services</h5>
-            <p class="website-para">Engage the best WordPress developers to design open-source applications for rapid business transformation and value creation.</p>
-            <h5 class="h2-heading ">WordPress CMS Development</h5>
-            <p class="website-para">Hire WordPress developers to keep your CMS site active, up-to-date, and in tune with current trends.</p>
-            <h5 class="h2-heading ">WordPress Plugin Development</h5>
-            <p class="website-para">Our remote WordPress developers can create custom plugins to meet your unique needs and enhance your brand.</p>
-            <h5 class="h2-heading ">WordPress Blog Creation</h5>
-            <p class="website-para">Harness the flexibility of the WordPress platform by hiring experienced WordPress developers for blog creation and integration.</p>
-            <h5 class="h2-heading ">E-commerce WordPress Development</h5>
-            <p class="website-para">Dedicated WordPress specialists provide WordPress eCommerce development services tailored to your business needs.</p>
-            <h5 class="h2-heading ">WordPress Integration</h5>
-            <p class="website-para">Remote WordPress developers offer custom API and integration services for a feature-rich user experience.</p>
-            <h5 class="h2-heading ">WordPress Support & Maintenance</h5>
-            <p class="website-para">Keep your website updated and secure by hiring a WordPress developer.</p>
-            <p class="website-para">The Advantages of Hiring MDQuality Apps' WordPress Developers</p>
-            <p class="website-para">Hire WordPress developers from MDQuality Apps to ensure faster time-to-market, the development of high-performance online applications, and robust security. We provide top-notch WordPress developers for dedicated projects, ensuring exceptional speed and productivity.</p>
-            <h5 class="h2-heading ">A Point of Expertise</h5>
-            <p class="website-para">We offer WordPress experts and points of contact to collaborate with your team throughout various project stages, ensuring project success.</p>
-            <h5 class="h2-heading ">Extensibility</h5>
-            <p class="website-para">WordPress's high degree of flexibility allows for the seamless integration of the latest web capabilities, ensuring optimal client and reader interaction.</p>
-            <h5 class="h2-heading ">Technical Proficiency</h5>
-            <p class="website-para">Our professional WordPress developers are well-versed in tools, platforms, and industry standards, enabling them to create high-performance WordPress sites.</p>
-            <h5 class="h2-heading ">Flexible Hiring Models for WordPress Developers</h5>
-            <p class="website-para">Embrace change and stay ahead of the curve by hiring skilled WordPress developers.</p>
-            <h5 class="h2-heading ">Managed Team by MDQuality Apps</h5>
-            <p class="website-para">Our managed team hiring approach provides an effective way to meet the demands of complex projects with a dedicated development team and manager, from start to finish.</p>
-            <h5 class="h2-heading ">Customer-Managed Team</h5>
-            <p class="website-para">Our WordPress specialists work seamlessly with your internal team or project managers to provide development support and ensure scalability to meet evolving business needs.</p>
-            <h5 class="h2-heading ">Hybrid Approach</h5>
-            <p class="website-para">This strategy offers complete flexibility, allowing you to respond to highly competitive business conditions by combining the benefits of both on-site and offshore development centers.</p>
-            </div>
-            </div>
+        <div class="px-2">
+            <div class="px-1">
+                <div class="row">
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Unlock the Benefits of Hiring Remote WordPress Developers</h5>
+                                <p>Explore the power of team augmentation, collaboration, subject-matter expertise, and technical excellence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Cost Savings</h5>
+                                <p>Gain the advantages of cost arbitrage, reduce development, hiring, and training costs, and gain a competitive edge through cost-efficient delivery and effective teamwork.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Risk Management</h5>
+                                <p>Remote WordPress developers enhance continuity and reduce short-term risks, ensuring higher productivity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Scalability and Flexibility</h5>
+                                <p>Hiring WordPress developers gives your teams the flexibility to scale up as per your business needs and project requirements. Our WordPress developers are highly skilled and pre-approved to meet the demands of your dynamic business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Focus on Core Processes</h5>
+                                <p>Hire WordPress experts for your CMS project so they can concentrate on enhancing your core business processes and nurturing client relationships.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Rapid Time-to-Market</h5>
+                                <p>Companies can hire WordPress developers to expedite critical development tasks, ensuring a faster website launch.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Hire a WordPress Developer for a Range of Services</h5>
+                                <p>Engage the best WordPress developers to design open-source applications for rapid business transformation and value creation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">WordPress CMS Development</h5>
+                                <p>Hire WordPress developers to keep your CMS site active, up-to-date, and in tune with current trends.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">WordPress Plugin Development</h5>
+                                <p>Our remote WordPress developers can create custom plugins to meet your unique needs and enhance your brand.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">WordPress Blog Creation</h5>
+                                <p>Harness the flexibility of the WordPress platform by hiring experienced WordPress developers for blog creation and integration.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">E-commerce WordPress Development</h5>
+                                <p>Dedicated WordPress specialists provide WordPress eCommerce development services tailored to your business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">WordPress Integration</h5>
+                                <p>Remote WordPress developers offer custom API and integration services for a feature-rich user experience. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">A Point of ExpertiseA Point of Expertise</h5>
+                                <p>We offer WordPress experts and points of contact to collaborate with your team throughout various project stages, ensuring project success.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Extensibility</h5>
+                                <p>WordPress's high degree of flexibility allows for the seamless integration of the latest web capabilities, ensuring optimal client and reader interaction.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Technical Proficiency</h5>
+                                <p>Our professional WordPress developers are well-versed in tools, platforms, and industry standards, enabling them to create high-performance WordPress sites.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Flexible Hiring Models for WordPress Developers</h5>
+                                <p>Embrace change and stay ahead of the curve by hiring skilled WordPress developers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Managed Team by MDQuality Apps</h5>
+                                <p>Our managed team hiring approach provides an effective way to meet the demands of complex projects with a dedicated development team and manager, from start to finish.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Customer-Managed Team</h5>
+                                <p>Our WordPress specialists work seamlessly with your internal team or project managers to provide development support and ensure scalability to meet evolving business needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-3">
+                        <div class="card card-services">
+                            <div class="card-body">
+                                <h5 style="color:#1C46A8; font-weight:700;">Hybrid Approach</h5>
+                                <p>This strategy offers complete flexibility, allowing you to respond to highly competitive business conditions by combining the benefits of both on-site and offshore development centers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </div>
 <?php
