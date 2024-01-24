@@ -7,28 +7,36 @@ include './header.php';
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/42ccddb556.js" crossorigin="anonymous"></script>
     <style>
-.group-photo {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+        .group-photo {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
 
         .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
 
         .zoom-gallery:hover {
             transform: scale(1.1);
         }
+        .about-heading{
+                font-size: 50px;
+            }
+        @media (max-width:720px) {
+            .about-heading{
+                font-size: 40px;
+            }
+        }
     </style>
 </head>
-<div class="background-color" style="background-color:#F7FDFF; padding-top:60px">
+<div class="background-color" style="background-color:#F7FDFF; padding-top:30px">
     <div class="group-photo">
-    <img src="./images/team-photo.jpg" alt="Snow" style="width:100%;">
-    <h1 style="margin-top:-40%; font-weight:600; position:absolute; margin-left: 30px; font-size:50px; text-align:left">We Transform your Idea into <br> Business</h1>
+        <img src="./images/team-photo.jpg" alt="Snow" style="width:100%;">
+        <h1 class="about-heading" style="margin-top:-38%; font-weight:600; position:absolute; margin-left: 30px; text-align:center">We Transform your Idea into <br> Business</h1>
         <!-- <div class="d-flex align-items-center" style="background-color: rgba(0, 0, 0, 0.6); width:100%; height: 100%;">
         <h1 class=" mt-5" style="color:white; font-weight:600; font-size:60px; padding-left:100px; padding-right:100px">We Transform your Idea into Business</h1> -->
     </div>
@@ -72,14 +80,14 @@ include './header.php';
         </div>
     </div>
     <style>
-        .swiper-slide-team{
+        .swiper-slide-team {
             border-radius: 100%;
         }
     </style>
     <!-- <div class="container-fluid px-5" style="padding-top:5%; padding-bottom:10%">
     <h2 class="py-3" style="font-weight:700; color:#1C46A8;">Our Team</h2>
         <div class=" d-flex justify-content-center align-items-center" style="height:100%"> -->
-        <!-- <div class="swiper-container swiper-container-1" id="slider3">
+    <!-- <div class="swiper-container swiper-container-1" id="slider3">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-slide-team">
                     <img style="border-radius:100%;" class="radius" src="images/robert.png"  width="100%" alt="mdq mobile development"></div>
@@ -94,7 +102,7 @@ include './header.php';
             <div class="swiper-button-next custom-next" style="background-image:url('https://img.icons8.com/ios-filled/100/1C46A8/forward--v1.png') !important;"></div>
 
         </div> -->
-        <!-- </div>
+    <!-- </div>
     </div> -->
     <div class="gallery">
         <div class="row" style="padding:0px !important; margin:0px">
@@ -119,13 +127,13 @@ include './header.php';
             </div>
             <div class="row" style="padding:0px !important; margin:0px">
                 <div class="col-lg-4" style="padding: 0 !important; overflow: hidden;">
-                <div class="row" style="padding:0px !important; margin:0px">
+                    <div class="row" style="padding:0px !important; margin:0px">
                         <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
-                    <div style="width: 100%; overflow: hidden;">
-                        <img class="zoom-gallery" src="./images/team/mdq-team.jpeg" width="100%" style="transition: transform 0.3s ease-in-out;"  alt="mdq">
-                    </div>
-                    </div>
-                    <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
+                            <div style="width: 100%; overflow: hidden;">
+                                <img class="zoom-gallery" src="./images/team/mdq-team.jpeg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdq">
+                            </div>
+                        </div>
+                        <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
                             <div style="width: 100%; overflow: hidden;">
                                 <img class="zoom-gallery" src="./images/team/mdq-team-11.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality developers">
                             </div>
@@ -137,7 +145,7 @@ include './header.php';
                     <div class="row" style="padding:0px !important; margin:0px">
                         <div class="col-lg-5" style="padding: 0 !important; overflow: hidden;">
                             <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-5.jpg" width="100%" style="transition: transform 0.3s ease-in-out;"  alt="mdquality team">
+                                <img class="zoom-gallery" src="./images/team/mdq-team-5.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality team">
                             </div>
                         </div>
                         <div class="col-lg-7" style="padding: 0 !important; overflow: hidden;">
@@ -146,31 +154,31 @@ include './header.php';
                             </div>
                         </div>
                         <div class="col-lg-6" style="padding: 0 !important; overflow: hidden;">
-                        <div class="row" style="padding:0px !important; margin:0px">
-                        <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
-                            <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-7.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality developers">
+                            <div class="row" style="padding:0px !important; margin:0px">
+                                <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
+                                    <div style="width: 100%; overflow: hidden;">
+                                        <img class="zoom-gallery" src="./images/team/mdq-team-7.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality developers">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
+                                    <div style="width: 100%; overflow: hidden;">
+                                        <img class="zoom-gallery" src="./images/team/mdq-team-12.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality developers">
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
-                            <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-12.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality developers">
-                            </div>
-                        </div>
-                        </div>
                         </div>
                         <div class="col-lg-6" style="padding: 0 !important; overflow: hidden;">
-                        <div class="row" style="padding:0px !important; margin:0px">
-                        <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
-                            <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-15.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality apps chennai">
-                            </div>
-                            </div>
-                        <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
-                            <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-13.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality apps chennai">
-                            </div>
-                            </div>
+                            <div class="row" style="padding:0px !important; margin:0px">
+                                <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
+                                    <div style="width: 100%; overflow: hidden;">
+                                        <img class="zoom-gallery" src="./images/team/mdq-team-15.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality apps chennai">
+                                    </div>
+                                </div>
+                                <div class="col-lg-12" style="padding: 0 !important; overflow: hidden;">
+                                    <div style="width: 100%; overflow: hidden;">
+                                        <img class="zoom-gallery" src="./images/team/mdq-team-13.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdquality apps chennai">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -225,7 +233,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                 <div class="row">
-                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
+                                    <div class="col-lg-5 d-flex justify-content-center align-items-center">
                                         <img style="border-radius: 20px;" src="./images/vission.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -236,7 +244,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                 <div class="row">
-                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
+                                    <div class="col-lg-5 d-flex justify-content-center align-items-center">
                                         <img style="border-radius: 20px;" src="./images/mission.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -247,7 +255,7 @@ include './header.php';
                             </div>
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                 <div class="row">
-                                <div class="col-lg-5 d-flex justify-content-center align-items-center" >
+                                    <div class="col-lg-5 d-flex justify-content-center align-items-center">
                                         <img style="border-radius: 20px;" src="./images/quality.webp" width="100%" alt="">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
@@ -265,26 +273,26 @@ include './header.php';
 
     </div>
     <div class="px-3">
-    <hr>
+        <hr>
     </div>
     <div class="join-mdq mt-4">
         <div class="container mb-4">
             <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
-                <img src="./images/we-are-hiring.webp" alt="hiring image" width="100%">
-            </div>
+                <div class="col-lg-6 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+                    <img src="./images/we-are-hiring.webp" alt="hiring image" width="100%">
+                </div>
                 <div class="col-lg-6  d-flex justify-content-center align-items-center">
                     <div class="row d-flex justify-content-center">
                         <div class="col-lg-10">
-                        <div>
-                    <h2 style="font-weight:600; color:#1C46A8">Join the MDQ team!</h2>
-                    <h5 style="color:rgba(0, 0, 0, 0.7)">Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.</h5>
-                    <div class="web-button-div">
-                        <a href="./offer-letter.php">
-                <button class="web-button mt-3">Apply now</button>
-                </a>
-              </div>
-                    </div>
+                            <div>
+                                <h2 style="font-weight:600; color:#1C46A8">Join the MDQ team!</h2>
+                                <h5 style="color:rgba(0, 0, 0, 0.7)">Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.</h5>
+                                <div class="web-button-div">
+                                    <a href="./offer-letter.php">
+                                        <button class="web-button mt-3">Apply now</button>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -293,57 +301,57 @@ include './header.php';
             </div>
         </div>
         <div class="px-3">
-        <hr  style="margin-bottom:0px">
+            <hr style="margin-bottom:0px">
         </div>
     </div>
 
 
-    </div>
-    <script>
-                const reviewsCarousel_1_Options = {
-                    direction: 'horizontal',
-                    freeMode: true,
-                    grabCursor: true,
-                    speed: 600,
-                    a11y: false,
-                    loop: false,
-                    breakpoints: {
-                        640: {
-                            slidesPerView: 2,
-                            spaceBetween: 5,
-                        },
-                        768: {
-                            slidesPerView: 3,
-                            spaceBetween: 10,
-                        },
-                        1024: {
-                            slidesPerView: 4,
-                            spaceBetween: 10,
-                        },
-                        1366: {
-                            slidesPerView: 5,
-                            spaceBetween: 20,
-                        },
-                        1500: {
-                            slidesPerView: 6,
-                            spaceBetween: 20,
-                        },
-                        2000: {
-                            slidesPerView: 6,
-                            spaceBetween: 20,
-                        },
-                    },
-                    autoplay: {
-                        delay: 2000,
-                    },
-                    loop: true,
-                    navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev',
-                        },
-                };
-                const reviews_Carousel = new Swiper('#slider3', reviewsCarousel_1_Options);
-            </script>
-    <?php
-    include './footer.php';
-    ?>
+</div>
+<script>
+    const reviewsCarousel_1_Options = {
+        direction: 'horizontal',
+        freeMode: true,
+        grabCursor: true,
+        speed: 600,
+        a11y: false,
+        loop: false,
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 5,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+            },
+            1366: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+            },
+            1500: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+            },
+            2000: {
+                slidesPerView: 6,
+                spaceBetween: 20,
+            },
+        },
+        autoplay: {
+            delay: 2000,
+        },
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    };
+    const reviews_Carousel = new Swiper('#slider3', reviewsCarousel_1_Options);
+</script>
+<?php
+include './footer.php';
+?>

@@ -30,21 +30,23 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Objective-C Development Solutions</h3>
                 <p class="website-para">Utilize Objective-C, a fundamental language for crafting advanced applications on iOS and OS X. Rooted in object-oriented principles emphasizing data and code, Objective-C stands out for its versatility. Whether you're envisioning a groundbreaking business communication platform or a seamless food delivery app, MD Quality Apps is poised to deliver top-tier Objective-C development services.</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+            <div class="col-lg-6 ">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/object-c.png" width="40%" alt="boy with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+        <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/object-c-1.png" width="40%" alt="boy with laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Time-Tested Language:</h3>
                 <p class="website-para">Developed in the 1980s, Objective-C boasts a legacy of addressing common bugs, ensuring a smoother development process. Engineers working with Objective-C benefit from a bug-free and highly customizable solution, thanks to its extensive track record.</p>
             </div>

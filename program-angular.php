@@ -30,7 +30,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">AngularJS Development Services</h3>
                 <p class="website-para">Transform your concepts into agile, scalable, and high-performance AngularJS applications with the expertise of our dedicated team.</p>
                 <p class="website-para">Collaborate with the premier AngularJS development company to craft dynamic web and mobile apps tailored for businesses of all sizes.</p>
@@ -47,7 +47,7 @@ include './header.php';
                     <img src="images/vector-images/angular-program.png" width="70%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Aspire to Greatness with Our AngularJS Development Services</h3>
                 <p class="website-para">As a widely adopted front-end framework, AngularJS seamlessly integrates modern technologies and operational architectures. Our proficient AngularJS developers harness the power of Angular front end development services, delivering superior customer-driven results for AngularJS websites and apps.</p>
             </div>

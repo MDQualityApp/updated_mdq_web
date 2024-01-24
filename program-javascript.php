@@ -33,7 +33,7 @@ include './header.php';
 
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <h2 class="h2-heading ">JavaScript Development Services:</h2>
                 <h3 class="h2-heading py-3">Elevating JavaScript Web and Mobile Applications</h3>
@@ -52,7 +52,7 @@ include './header.php';
                     <img src="images/vector-images/java-script-1.png" width="75%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5 pt-5">
+            <div class="col-lg-6 px-5 pt-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h5 class="h2-heading py-3">Are you in search of skilled JavaScript developers?</h5>
                 <p class="website-para">MDQuality Apps provides a solution: a handpicked team of JavaScript experts who are ready to reduce project delivery times and costs. Here's why our expertise is your advantage:</p>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">

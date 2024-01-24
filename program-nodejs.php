@@ -32,7 +32,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Node.js for Efficient Server-Side Development</h3>
                 <p class="website-para">At MDQuality Apps, we harness the power of Node.js, a versatile JavaScript framework, to drive efficient server-side software development. Our expertise extends to real-time, data-intensive applications across a diverse array of industries, including medical, commerce, and wealth management.</p>
 
@@ -50,7 +50,7 @@ include './header.php';
                     <img src="images/vector-images/nodejs-1.png" width="80%" alt="boy with laptop green theme">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Looking for a Node.js Development Partner?</h3>
                 <p class="website-para">We offer comprehensive Node.js development services at the heart of our offerings. Our team comprises pre-vetted Node.js experts and collaborative teams to fulfill your specific project requirements.</p>
                 <h3 class="h2-heading ">Here's why MDQuality Apps stands out:</h3>

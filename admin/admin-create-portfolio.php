@@ -1,9 +1,10 @@
 <?php include 'header.php'; ?>
 
 <style>
-    .col-height{
+    .col-height {
         height: 80px;
     }
+
     .body_color {
         background-color: #e5e8e8 !important;
     }
@@ -44,7 +45,7 @@
             <div class="container-fluid px-5 pt-1 pb-3 mx-auto">
                 <div class="row">
                     <div class="d-flex align-items-center justify-content-between">
-                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - App</p>
+                        <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - App</p>
                         <div class="fw-bold">
                             <a href="table-add-mobile.php" class="nav-link align-middle px-0">
                                 <button class="btn" type="submit" name="switch">Switch to table</button>
@@ -79,38 +80,13 @@
                                             <label for="files">Project Title:</label>
                                             <textarea class="form-control" id="text" cols="0" rows="1" name='project_title' placeholder="Say something about this project..."></textarea>
                                         </div>
-                                        <div class="col-lg-6 col-height mt-2">
+
+                                        <div class="col-lg-6 col-height ">
                                             <label for="">Project Logo</label><br>
                                             <input type="file" class="form-control py-2" id="text" rows="1" name="projectimages" placeholder="" required /><br>
                                         </div>
-                                        <div class="col-lg-6 col-height mt-2">
 
-                                            <label>Select technology:</label>
-                              <select name='technology[]'  class="multiple-select one" data-placeholder="Select" multiple >
-                       <?php
-                    $multiplesearch = mysqli_query($conn,"SELECT `id`, `technology` FROM `technology_name`");
-                    while($multiicon = mysqli_fetch_array($multiplesearch))
-                    {
-                         $technologyname = $multiicon['technology'];
-                         $id = $multiicon['id'];
-                         ?>
-                <option  value="<?php echo $id; ?>" ><?php echo $technologyname; ?></option>
-                <?php
-
-                }?>
-            </select>
-            <script>
-           $('.multiple-select.one').multipleSelect();
-
-           let tempMultipleSelect = $.fn.multipleSelect;
-
-               $.fn.multipleSelect = function() {
-              this.removeAttr('multiple'); //remove attribute as per your logic
-                  return tempMultipleSelect.apply(this, arguments);
-                   }
-             </script>
-                                        </div>
-                                        <div class="col-lg-6 col-height">
+                                        <div class="col-lg-6 col-height ">
                                             <label for="files">Banner Images</label><br>
                                             <input type="file" class="form-control" id="files" multiple="multiple" name="bannerimages" />
                                             <output id="result"></output>
@@ -120,9 +96,24 @@
                                             <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="photos[]" accept="image/*" />
                                             <output id="result"></output>
                                         </div>
-                                        <div class="col-lg-12">
-                                        <label >Project_Overview:</label>
-                                <textarea class="form-control" id="text" cols="40" rows="2" name='project_overviews' placeholder="Say something about this project..." ></textarea>
+                                        <div class="col-lg-12 col-height mt-2">
+                                            <label>Select technology:</label>
+                                            <select style="width: 100%;" name='technology[]' class="multiple-select one py-2" data-placeholder="Select" multiple data-actions-box="true" size="3">
+                                                <?php
+                                                $multiplesearch = mysqli_query($conn, "SELECT `id`, `technology` FROM `technology_name`");
+                                                while ($multiicon = mysqli_fetch_array($multiplesearch)) {
+                                                    $technologyname = $multiicon['technology'];
+                                                    $id = $multiicon['id'];
+                                                ?>
+                                                    <option value="<?php echo $id; ?>"><?php echo $technologyname; ?></option>
+                                                <?php
+                                                } ?>
+                                            </select>
+
+                                        </div>
+                                        <div class="col-lg-12 mt-5">
+                                            <label>Project_Overview:</label>
+                                            <textarea class="form-control" id="text" cols="40" rows="2" name='project_overviews' placeholder="Say something about this project..."></textarea>
                                         </div>
                                     </div>
                                     <span class="d-flex justify-content-end">
@@ -134,7 +125,7 @@
                         </div>
                     </div>
                     <div class="d-flex pt-5 align-items-center justify-content-between">
-                    <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - Web</p>
+                        <p class="fs-4 card-text" style="color:#1C46A8; font-weight:600">Create Portfolio - Web</p>
                         <div class="fw-bold">
                             <a href="table-add-web.php" class="nav-link align-middle px-0">
                                 <button class="btn" type="submit" name="switch">Switch to table</button>
@@ -172,15 +163,25 @@
                                         <div class="col-lg-6 col-height">
 
                                             <label for="files">Project Title:</label>
-                                            <textarea class="form-control" id="text" cols="0" rows="1" name='project_title' placeholder="Say something about this project..."></textarea>
+                                            <textarea class="form-control" id="text" cols="0" rows="1" name='webproject_title' placeholder="Say something about this project..."></textarea>
                                         </div>
                                         <div class="col-lg-6 col-height">
                                             <label for="">Project Logo</label><br>
-                                            <input type="file" class="form-control about_input py-2" id="text" rows="0" name="color" placeholder="" required /><br>
+                                            <input type="file" class="form-control about_input py-2" id="text" rows="0" name="weblogo_images" placeholder="" required /><br>
                                         </div>
                                         <div class="col-lg-6 col-height">
-                                            <label>Select technology:</label><br>
-                                            <select style="width: 100%;" name='technology[]' class="multiple-select one py-2" data-placeholder="Select">
+                                            <label for="files">Banner Images</label><br>
+                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="webbannerimages" />
+                                            <output id="result"></output>
+                                        </div>
+                                        <div class="col-lg-6 col-height">
+                                            <label for="files">Select Multiple Slider Images</label><br>
+                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="webphotos[]" accept="image/*" />
+                                            <output id="result"></output>
+                                        </div>
+                                        <div class="col-lg-12 col-height mt-2">
+                                            <label>Select technology:</label>
+                                            <select style="width: 100%;" name='technology[]' class="multiple-select one py-2" data-placeholder="Select" multiple data-actions-box="true" size="3">
                                                 <?php
                                                 $multiplesearch = mysqli_query($conn, "SELECT `id`, `technology` FROM `technology_name`");
                                                 while ($multiicon = mysqli_fetch_array($multiplesearch)) {
@@ -189,23 +190,13 @@
                                                 ?>
                                                     <option value="<?php echo $id; ?>"><?php echo $technologyname; ?></option>
                                                 <?php
-
                                                 } ?>
                                             </select>
+
                                         </div>
-                                        <div class="col-lg-6 col-height">
-                                            <label for="files">Banner Images</label><br>
-                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="bannerimages" />
-                                            <output id="result"></output>
-                                        </div>
-                                        <div class="col-lg-6 col-height">
-                                            <label for="files">Select Multiple Slider Images</label><br>
-                                            <input type="file" class="form-control text-clr" id="files" multiple="multiple" name="photos[]" accept="image/*" />
-                                            <output id="result"></output>
-                                        </div>
-                                        <div class="col-lg-12">
-                                        <label >Project_Overview:</label>
-                                <textarea class="form-control" id="text" cols="40" rows="2" name='project_overviews' placeholder="Say something about this project..." ></textarea>
+                                        <div class="col-lg-12 mt-5">
+                                            <label>Project_Overview:</label>
+                                            <textarea class="form-control" id="text" cols="40" rows="2" name='webproject_overviews' placeholder="Say something about this project..."></textarea>
                                         </div>
                                     </div>
                                     <span class="d-flex justify-content-end">

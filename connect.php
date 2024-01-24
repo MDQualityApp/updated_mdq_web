@@ -1,5 +1,5 @@
 <?php
- $conn=mysqli_connect("localhost","root","","mdq_web");
+ $conn=mysqli_connect("localhost","root","","updated_mdq");
 // $conn=mysqli_connect("localhost","u815853083_mdqdeveloper","Mdq123456!","u815853083_mdqdevelopment");
 if(mysqli_connect_errno())
 {

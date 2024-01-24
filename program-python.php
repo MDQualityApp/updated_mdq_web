@@ -35,7 +35,7 @@ include './header.php';
         <p class="website-para pt-4 px-4">With over 3 years of experience, MDQuality App's Python developers and data scientists are committed to delivering top-notch software with precision, on-time delivery, and enhanced performance. Our extensive services range from providing self-managed Python software developers to addressing specific Python skill gaps.</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 px-5 pt-4">
+            <div class="col-lg-6 px-5 pt-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Why Opt for MDQuality Apps to Hire Python Developers?</h3>
                 <h5 class="h2-heading py-2  ">Our Python experts bring the following to the table:</h5>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">
@@ -58,7 +58,7 @@ include './header.php';
                     <img src="images/vector-images/python-program-2.png" width="70%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Get Dependable Python Developers in Less Than a Week:</h3>
                 <p class="website-para">At MDQuality Apps, you can access high-performing Python developers and designers, alongside a diverse team of experts in other programming languages, DevOps, security, and testing. Our professionals:</p>
                 <ul class="website-para" style="line-height: 35px; list-style-type:none; margin-left:-30px;">

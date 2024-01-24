@@ -8,6 +8,7 @@ include './connect.php'
   <meta name="keywords" content="Software Development Company, Custom Software Development" />
   <title>Leading Software Development Company in India, Dubai, and USA</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-47HC6TLLR5"></script>
+
   <style>
     .swiper-container-1 {
       background: url(./images/our-work/mobile/mobileframe.png);
@@ -189,6 +190,105 @@ include './connect.php'
     .we-card-margin {
       margin-top: 15% !important;
     }
+    .carousel-indicators [data-bs-target] {
+            display: none;
+        }
+
+        :root {
+            --card-height: 235px;
+            --card-width: 250px;
+        }
+
+        .port-animation-card {
+            width: var(--card-width);
+            height: var(--card-height);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0 36px;
+            perspective: 2500px;
+            margin: 0 50px;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .wrapper {
+            transition: all 0.5s;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .port-animation-card:hover .wrapper {
+            transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+            box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+        }
+
+        .wrapper::before,
+        .wrapper::after {
+            content: "";
+            opacity: 0;
+            width: 100%;
+            height: 80px;
+            transition: all 0.5s;
+            position: absolute;
+            left: 0;
+        }
+
+        .wrapper::before {
+            top: 0;
+            height: 100%;
+            background-image: linear-gradient(to top,
+                    transparent 46%,
+                    rgba(12, 13, 19, 0.5) 68%,
+                    rgba(12, 13, 19) 97%);
+        }
+
+        .wrapper::after {
+            bottom: 0;
+            opacity: 1;
+            background-image: linear-gradient(to bottom,
+                    transparent 46%,
+                    rgba(12, 13, 19, 0.5) 68%,
+                    rgba(12, 13, 19) 97%);
+        }
+
+        .port-animation-card:hover .wrapper::before,
+        .wrapper::after {
+            opacity: 1;
+        }
+
+        .port-animation-card:hover .wrapper::after {
+            height: 100%;
+        }
+
+        .title {
+            width: 100%;
+            transition: transform 0.5s;
+        }
+
+        .port-animation-card:hover .title {
+            transform: translate3d(0%, -50px, 100px);
+        }
+
+        .character {
+            opacity: 0;
+            transition: all 0.5s;
+            position: absolute;
+            z-index: -1;
+        }
+
+        .port-animation-card:hover .character {
+            opacity: 1;
+            transform: translate3d(0%, -30%, 100px);
+        }
   </style>
 </head>
 
@@ -899,27 +999,35 @@ include './connect.php'
       <p class="website-para pt-4">We harness a diverse range of cutting-edge technologies and tools to engineer robust, scalable, and high-performance mobile and web applications. Our proficiency in these technologies allows us to remain at the forefront of the continuously evolving development landscape.</p>
       <p class="website-para">We are committed to staying updated with the latest advancements in both mobile and web technologies. Our team continuously explores and adopts emerging tools and frameworks to ensure that your mobile and web applications are built using the most efficient, reliable, and scalable solutions available in the industry.</p>
     </div>
-    <div class="portfolio  mt-5">
-      <div class="container-fluid" style="padding-left:4%; padding-right:4%">
+
+    <div class="portfolio  mt-5" style="background-color:#F7FDFF">
+
+    <!-- <hr> -->
+      <div class="container-fluid" >
         <h5 class="py-3" style="color:#081A48; font-weight:700;">OUR WORK</h5>
         <h2 style="font-weight:700;line-height:50px;color:#1C46A8">We bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms.</h2>
-        <div class="row py-5" style="background-color:#1C46A8">
-          <div class="col-lg-4 p-4" style=" overflow: hidden;">
+        <div class="row py-5">
+          <div class="col-lg-4 p-1" style=" overflow: hidden;">
             <img src="./images/app-and-web.gif" alt="Your GIF" style="width: 100%; height: 100%;">
           </div>
           <div class="col-lg-8  d-flex justify-content-center align-items-center">
             <div class="">
-              <h2 style="color:white; font-weight:600;">Mobile Application Development</h2>
-              <p class="fs-5" style="color:white; padding-right:10%">From concept to deployment, we bring your ideas to life by creating intuitive, feature-rich mobile applications for iOS and Android platforms. Our team of experienced developers ensures seamless functionality and stunning designs that captivate users.</p>
-              <div class="web-button-div-filled">
+              <h2 style="color:#1C46A8; font-weight:600;">Mobile Application and Web Development</h2>
+              <p class="website-para" >From concept to deployment, we specialize in crafting intuitive mobile applications for iOS and Android, complemented by seamless website development. Our experienced team ensures captivating designs and seamless functionality. Emphasizing user-centric design, we create engaging experiences, leveraging the latest technologies for feature-rich applications. Quality assurance is paramount throughout development, guaranteeing bug-free, optimized mobile apps and websites. Let us elevate your digital presence, exceeding user expectations across both platforms.</p>
+
                 <a href="./portfolio.php">
-                  <button class="web-button-filled mt-2">Read More</button>
+                <div class="web-button-div">
+                <a href="./portfolio.php">
+            <button class="web-button my-4">Read More</button>
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <hr>
+        </div>
+
+        <!-- <hr> -->
+        </div>
         <div>
           <style>
             .our-work-card-1 {
@@ -930,8 +1038,9 @@ include './connect.php'
               height: 300px;
             }
           </style>
+          <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-3 p-3 d-flex justify-content-center mt-4">
+            <div class="col-lg-3 p-3 d-flex justify-content-center mt-5">
               <div>
               <h5 style="font-weight:600">Our Beautiful Interfaces</h5>
               <p style="font-size:14px; color: rgba(0, 0, 0, 0.7)">Our interfaces are a symphony of design and functionality, seamlessly blending beauty with purpose to create a captivating user experience.</p>
@@ -946,29 +1055,29 @@ include './connect.php'
               <div class="swiper-container">
                 <div class="swiper-wrapper">
                   <?php
-                  $logo = mysqli_query($conn, "SELECT id, projectname, aboutproject,image FROM project_list WHERE type_project=2");
+                  $logo = mysqli_query($conn, "SELECT id, projectname, aboutproject, image, sec_image FROM project_list WHERE type_project=2");
 
                   while ($frow = mysqli_fetch_array($logo)) {
                     $projectname = $frow['projectname'];
                     $aboutproject = $frow['aboutproject'];
                     $image = $frow['image'];
+                    $sec_image = $frow['sec_image'];
                     $id = $frow['id'];
                   ?>
-                    <div class="swiper-slide mt-3 mb-4 px-3 d-flex justify-content-center">
+                    <div class="swiper-slide d-flex justify-content-center">
+                    <a href="./portfolio.php" style="color:black; text-decoration:none">
+            <div class=" port-animation-card">
+                <div class="wrapper">
+                    <img src="./images/portfolio/<?php echo $image; ?>" class="cover-image" />
+                </div>
+                <img src="./images/portfolio/<?php echo $sec_image; ?>" width="170px" class="character" />
 
-                      <a href="./portfolio.php" style="color:black; text-decoration:none">
-                        <!-- <a rel="preload" href="user.php?id=<?php echo $id; ?>" -->
-                        <div class="card p-3 our-work-card-1">
-                          <div class="d-flex justify-content-center align-items-center" style="width:100%; height:250px; background-color:#1CC4F8">
-                            <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1CC4F8">
-                          </div>
-                          <div class="py-3 px-2">
-                            <h4 style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
-                            <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
-
-                          </div>
-                        </div>
-                      </a>
+            </div>
+            <div class="px-5" style="text-align:center">
+            <h4 style="color:#1C46A8" class=" fw-bold "><?php echo $projectname; ?></h4>
+                <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
+                </div>
+        </a>
 
                     </div>
                   <?php } ?>
@@ -1091,9 +1200,7 @@ include './connect.php'
           </div>
         </div>
       </div>
-      <a href="#" class="float">
-        <i class="fa fa-plus my-float"></i>
-      </a>
+
       <div id="testimonials">
         <?php include './includes/testimonials.php' ?>
       </div>
@@ -1244,6 +1351,37 @@ include './connect.php'
         window.addEventListener('load', load);
       </script>
     </div>
+    <!-- <button type="button" class="btn float btn-floating btn-lg" style="background-color:#07639e;" id="btn-back-to-top">
+        <i class="fa fa-angle-up text-white"></i>
+    </button> -->
+    <script>
+        let mybutton = document.getElementById("btn-back-to-top");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+</div>
 </body>
 <?php
 include './footer.php';

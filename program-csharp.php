@@ -30,22 +30,24 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">C# Development Solutions</h3>
                 <p class="website-para">Invest in cutting-edge integrated services enriched with profound expertise in C# programming.</p>
                 <p class="website-para">Create distinctive and highly immersive web services and tailored applications powered by C# on Microsoft's .NET platform.</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+            <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/c-sharp-1.png" width="40%" alt="boy and girl with laptop and laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+        <div class="col-lg-6">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/c-sharp.png" width="30%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Elevate Your Competitive Edge with C#</h3>
                 <p class="website-para">Revitalize your backend development with modern technology using robust C# Services. Integrate speed, scalability, security, and round-the-clock support for full-stack web and mobile interface development.</p>
             </div>

@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-7 px-4">
+            <div class="col-lg-7 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <h3 class="h2-heading ">React Native Development Services at MDQuality Apps</h3>
                 <p class="website-para">Are you looking to hire experienced React Native developers for your next project? MDQuality Apps offers a team of skilled React Native programmers who specialize in building clean, cross-platform code that can run seamlessly on Android, iOS, and the web. This approach can help reduce project time and expenses by up to 50%, especially for those targeting multiple platforms.</p>
@@ -49,7 +49,7 @@ include './header.php';
                     <img src="images/vector-images/react-native.png" width="80%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Why Choose MDQuality Apps as Your Development Partner?</h3>
                 <p class="website-para"><b>Extensive Experience:</b> With over 5 years of experience in the IT industry and 7 years of specialization in React Native, MDQuality Apps brings a wealth of knowledge to the table.</p>
                 <p class="website-para"><b>Proven Track Record:</b> We've successfully completed over 50 modest to large-scale React Native projects.</p>

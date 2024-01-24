@@ -33,21 +33,23 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Leading Kotlin App Development Firm</h3>
                 <p class="website-para">Explore cutting-edge Android app services through our esteemed Kotlin app development company in India and the USA. Leveraging the latest technology and our proven expertise, we stand out as a leader in the industry. Kotlin, endorsed by Google for Android app development, is our language of choice for creating robust solutions tailored to both enterprise and small business software needs. Simplifying the Android app development process, Kotlin enables our developers to produce applications that are not only secure but also forward-thinking and high-performing.</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+            <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/kotlinn.png" width="50%" alt="boy with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+        <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/kotlin-1.png" width="80%" alt="boy with laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Future-Ready Solutions with Kotlin</h3>
                 <p class="website-para">Adopting a modern development approach, we harness the versatility and power of Kotlin to future-ready fashion solutions. The language's wide-ranging applications extend beyond Android app development, encompassing server-side programming, web development, and cross-platform software. Our skilled Kotlin Android developers can custom design and develop applications across various domains, including transportation, logistics, education, travel, finance, entertainment, and more.</p>
             </div>

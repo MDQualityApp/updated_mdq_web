@@ -156,10 +156,10 @@ svg {
     border: none;
     outline: none;
     font-weight: 600 !important;
-    font-size: 16px;
+    font-size: 18px;
 }
 .offer-background-img{
-  background: url(./images/pieces-blue-stationery.jpg);
+  background: url(./images/pieces-blue-stationery.webp);
   background-position: 100% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -176,13 +176,13 @@ svg {
         <h3 class="text-center fw-bold py-4 fontstyle" style="color: #fff;">Apply Here for your Dream Job!</h3>
     </div>
     </div>
-    <div class="container">
+    <div class="container" style="padding-left: 6.5%; padding-right:6.5%">
     <div class="row">
     <form method="post" action="./admin/offer-letter-backend.php" enctype="multipart/form-data">
 
         <div class="container" style="text-align: end;">
             <fieldset>
-            <p style="color:white">Hey, Stranger!</p>
+            <p style="color:white">Hey, Buddy!</p>
             <div>
                 <input type="text" class="form__field field--name text-end fontbox fontstyle" id="floatingInput" name="name" value="" placeholder="Enter Your Name" required>
             </div>
@@ -194,7 +194,7 @@ svg {
                 <input type="email" class="form__field field--name text-end fontbox fontstyle"  id="floatingInput" name="email" value="" placeholder="Email Address" required>
             </div>
             <div>
-            <input type="tel" class="form__field field--name text-end fontbox fontstyle" id="floatingNumber" value="" name="phone" maxlength="10" placeholder="Mobile Number" required>
+            <input type="tel" class="form__field field--name text-end fontbox fontstyle" id="floatingNumber" oninput="this.value = this.value.replace(/[^0-9]/g, '')" name="phone" required value="" name="phone" maxlength="10" placeholder="Mobile Number" required>
             </div>
             <input type="date" class="form__field field--name text-end fontbox fontstyle" id="floatingInput"
                             placeholder="Enter Your DOB" name="dob" value="">
@@ -221,9 +221,7 @@ svg {
     <option value="BE Chemical Engineer">BE Chemical Engineer</option>
     <option value="Other">Other</option>
 </select>
-                   . I have also done Internship in a <input type="text" class="form__field field--name fontbox fontstyle" id="floatingInput"
-                            placeholder="Old woking place" name="oldoffice" value="" required>for <input type="text" class="form__field field--name fontbox fontstyle" id="floatingInput"
-                            placeholder="Enter a experience" name="experience" value="" required> months (parttime/fulltime). I believe with the academic qualification I have and the experience I have gathered, can be great addition to your company.
+                   I believe with the academic qualification I have and the experience I have gathered, can be great addition to your company.
 I have attached my resume for your persual.</span>
         </div>
         <div class="row d-flex justify-content-center">
@@ -234,9 +232,8 @@ I have attached my resume for your persual.</span>
           <span style="color:white" class="fontstyle d-flex justify-content-end">Regards,</div>
                 <input type="text" class="form__field field--name text-end fontbox fontstyle" id="floatingInput" name="name" value="" placeholder="Enter Your Name" required>
           </span>
-        <button class="btn text-uppercase fontstyle my-4" name="submit" type="submit" value="submit" style="background-color: #1C46A8; color:white; width:100px;">Submit</button>
+        <button class="btn text-uppercase fontstyle my-4" name="submit" type="submit" value="submit" style="background-color: #fff; color:#1C46A8; width:100px; font-weight:600">Submit</button>
         </div>
-
     </form>
     </div>
     </div>
@@ -250,7 +247,7 @@ I have attached my resume for your persual.</span>
         var selectedOption = selectElement.options[selectElement.selectedIndex];
 
         // Set the text color based on the selected option
-        selectElement.style.color = (selectedOption.value === "") ? "black" : "white";
+        selectElement.style.color = (selectedOption.value === "") ? "#081A48" : "white";
     }
 </script>
 

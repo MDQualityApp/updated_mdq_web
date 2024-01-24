@@ -35,7 +35,7 @@ include './header.php';
         <p class="website-para px-4">The primary objective of our PHP development solutions is to establish robust and secure server-side components for a wide range of online projects. At MDQuality Apps, our team excels in harnessing the power of PHP to create dependable web portals, Business-to-Customer and Business-to-Business web applications, Content Management Systems (CMS), and various other web-based services. With over five years of experience in PHP development, we are well-equipped to meet your development needs effectively.</p>
         </div>
         <div class="row">
-            <div class="col-lg-6 px-5 ">
+            <div class="col-lg-6 px-5 " data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
 
                 <h3 class="h2-heading ">Are You in Search of Dependable PHP Resources for Your Development Needs?</h3>
                 <p class="website-para">MDQuality Apps offers a skilled team of PHP developers, each boasting more than five years of experience, ready to assist you in capitalizing on the benefits of PHP-based technology, which includes:</p>
@@ -46,18 +46,19 @@ include './header.php';
                     <li><img width="25" height="25" src="https://img.icons8.com/nolan/1000/1C46A8/php-elephant.png" alt="java-coffee-cup-logo--v1" /> Easy Debugging.</li>
                 </ul>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="60%" src="https://img.icons8.com/nolan/1000/1C46A8/php-elephant.png" alt="java-coffee-cup-logo--v1" />
+            <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/php-1.png" width="70%" alt="lady and boy with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <svg width="450px" style="position: relative;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="#1C46A8">
-                    <path d="M1891 560c0-277-224-509-501-499-372 13-397 281-504 302s-215-179-511-75a459 459 0 0 0-222 218C10 809 262 886 259 992s-201 171-82 395c34 64 99 127 212 141 56 6 103 47 115 102a377 377 0 0 0 383 310c222 2 528-202 380-536-42-97 30-123 73-194s-11-120 128-156c233-61 423-246 423-494Z"></path>
-                </svg>
-                <h2 style="position: absolute; color:white; margin-top:-90px; padding-left:35%; padding-right:35%" class="h1-heading">What Distinguishes Our PHP Developers:</h2>
+        <div class="col-lg-6 pt-4 order-2 order-lg-1">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/php.png" width="80%" alt="students with laptop">
+                </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5 order-1 order-lg-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Our PHP developers stand out in several key ways:</h3>
                 <h5 class="h2-heading ">Expertise in Ten Diverse Industries:</h5>
                 <p class="website-para">We have in-depth knowledge across a range of industries, including retail, healthcare, finance, manufacturing, transportation, and technical services. This diverse expertise enables us to fully comprehend the unique aspects of your business and exceed your expectations.</p>

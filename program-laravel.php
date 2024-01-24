@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Laravel Development Solutions</h3>
                 <p class="website-para">Embark on your web app development journey with our Laravel Development Services.</p>
                 <p class="website-para">Create fast-paced, high-quality web applications using modular programming and stress-free coding that seamlessly run across various platforms and devices.</p>
@@ -50,7 +50,7 @@ include './header.php';
                     <img src="images/vector-images/laravel-program.png" width="55%" alt="laravel vector">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Visionary Laravel Development Company</h3>
                 <p class="website-para">Stay ahead of the competition by building futuristic web experiences with our unparalleled Laravel Development capabilities. We specialize in developing unbeatable business websites and web apps tailored to your specifications, leveraging Laravel's open-source frameworks and powerful tools.</p>
             </div>

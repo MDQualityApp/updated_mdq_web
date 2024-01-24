@@ -34,8 +34,9 @@
                 include 'sidebar.php'; ?>
             </div>
             <div class="container-fluid px-5 py-3 mx-auto">
-            <div class="row py-2 mt-5">
+            <div class="row py-2">
                     <div class="col-lg-12">
+                    <p class="fs-4" style="color:#1C46A8; font-weight:600">Contact</p>
                         <div class="table-responsive">
                             <div class="wrapper">
                                 <table class="table css-serial text-white" style="background-color: #111420;">

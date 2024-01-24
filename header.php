@@ -17,24 +17,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- animation aos  -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <style>
-    .float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
-}
 
-.my-float{
-	margin-top:22px;
-}
-  </style>
 </head>
 <body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -136,6 +119,41 @@ window.addEventListener('scroll', function() {
   }
 });
   </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+    (function() {
+        var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/615ed132157d100a41ab3d06/1fhd62c5n';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
+</script>
+
+<!--End of Tawk.to Script-->
+
+<div class="fab fab-icon-holder">
+            <a href="https://api.whatsapp.com/send?phone=+918838995745&text=Hi!" class="float" style="bottom: 180px;"target="_blank">
+                <img width="70" height="70" src="https://img.icons8.com/color/200/whatsapp--v1.png" alt="whatsapp--v1" />
+            </a>
+            </a>
+        </div>
+        <style>
+             .float {
+                position: fixed;
+                right: 15px;
+                color: #FFF;
+                border-radius: 50px;
+                text-align: center;
+                font-size: 30px;
+                z-index: 100;
+            }
+        </style>
 </body>
 
 </html>

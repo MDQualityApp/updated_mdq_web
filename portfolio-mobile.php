@@ -23,6 +23,106 @@ include './connect.php';
         /* Make the caption a block so it occupies its own line. */
         display: block;
     }
+
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+
+    :root {
+        --card-height: 235px;
+        --card-width: 250px;
+    }
+
+    .port-animation-card {
+        width: var(--card-width);
+        height: var(--card-height);
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0 36px;
+        perspective: 2500px;
+        margin: 0 50px;
+    }
+
+    .cover-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .wrapper {
+        transition: all 0.5s;
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .port-animation-card:hover .wrapper {
+        transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+        box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    }
+
+    .wrapper::before,
+    .wrapper::after {
+        content: "";
+        opacity: 0;
+        width: 100%;
+        height: 80px;
+        transition: all 0.5s;
+        position: absolute;
+        left: 0;
+    }
+
+    .wrapper::before {
+        top: 0;
+        height: 100%;
+        background-image: linear-gradient(to top,
+                transparent 46%,
+                rgba(12, 13, 19, 0.5) 68%,
+                rgba(12, 13, 19) 97%);
+    }
+
+    .wrapper::after {
+        bottom: 0;
+        opacity: 1;
+        background-image: linear-gradient(to bottom,
+                transparent 46%,
+                rgba(12, 13, 19, 0.5) 68%,
+                rgba(12, 13, 19) 97%);
+    }
+
+    .port-animation-card:hover .wrapper::before,
+    .wrapper::after {
+        opacity: 1;
+    }
+
+    .port-animation-card:hover .wrapper::after {
+        height: 100%;
+    }
+
+    .title {
+        width: 100%;
+        transition: transform 0.5s;
+    }
+
+    .port-animation-card:hover .title {
+        transform: translate3d(0%, -50px, 100px);
+    }
+
+    .character {
+        opacity: 0;
+        transition: all 0.5s;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .port-animation-card:hover .character {
+        opacity: 1;
+        transform: translate3d(0%, -30%, 100px);
+    }
 </style>
 <div class="website-background" style="padding-top:63px">
     <div class="container-fluid">
@@ -182,35 +282,36 @@ include './connect.php';
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <?php
-                        $logo = mysqli_query($conn, "SELECT id, projectname, aboutproject,image FROM project_list WHERE type_project=2");
+                        $logo = mysqli_query($conn, "SELECT id, projectname, aboutproject,image, sec_image FROM project_list WHERE type_project=2");
 
                         while ($frow = mysqli_fetch_array($logo)) {
                             $projectname = $frow['projectname'];
                             $aboutproject = $frow['aboutproject'];
                             $image = $frow['image'];
+                            $sec_image = $frow['sec_image'];
                             $id = $frow['id'];
                         ?>
                             <div class="swiper-slide py-5 px-3 d-flex justify-content-center">
 
                                 <a href="portfolio-mobile.php?id=<?php echo $id; ?>" style="color:black; text-decoration:none">
-                                    <!-- <a rel="preload" href="user.php?id=<?php echo $id; ?>" -->
-                                    <div class="card p-4 mt-5 our-work-card">
-                                    <div class="d-flex justify-content-center align-items-center" style="width:100%; height:250px; background-color:#1CC4F8">
-                                        <img class="portfolio-img py-1" src="./images/portfolio/<?php echo $image; ?>" alt="mdq-beppers-website" width="100%" style="background-color:#1CC4F8">
-                                    </div>
-                                        <div class="py-3 px-2">
-                                            <h4  style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
-                                            <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
-
+                                    <div class=" port-animation-card">
+                                        <div class="wrapper">
+                                            <img src="./images/portfolio/<?php echo $image; ?>" class="cover-image" />
                                         </div>
+                                        <img src="./images/portfolio/<?php echo $sec_image; ?>" width="180px" class="character" />
+
+                                    </div>
+                                    <div class="px-5">
+                                        <h4 style="color:#1C46A8" class=" fw-bold text-start"><?php echo $projectname; ?></h4>
+                                        <h6 style="color:rgba(0, 0, 0, 0.7)"><?php echo $aboutproject; ?></h6>
                                     </div>
                                 </a>
 
                             </div>
                         <?php } ?>
                     </div>
-                    <div class="swiper-button-prev custom-prev" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-left.png" alt="circled-chevron-right"/></div>
-                    <div class="swiper-button-next custom-next" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-right.png" alt="circled-chevron-right"/></div>
+                    <div class="swiper-button-prev custom-prev" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-left.png" alt="circled-chevron-right" /></div>
+                    <div class="swiper-button-next custom-next" style="background-image:none !important;"><img width="40" height="40" src="https://img.icons8.com/material-outlined/150/1C46A8/circled-chevron-right.png" alt="circled-chevron-right" /></div>
 
                 </div>
                 <script>

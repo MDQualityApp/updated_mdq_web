@@ -63,7 +63,7 @@ include './header.php';
         </div>
         <div class="row pt-4">
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 mt-4">
                 <div class="card card-services">
                     <div class="card-body">
                         <h4 style="font-weight:600; color:#1C46A8;  margin-bottom:15px">Custom Android Application Development</h4>
@@ -71,7 +71,7 @@ include './header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mt-4">
                 <div class="card card-services">
                     <div class="card-body">
                         <h4 style="font-weight:600; color:#1C46A8;  margin-bottom:15px">Android Software Testing</h4>
@@ -79,7 +79,7 @@ include './header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 mt-4">
                 <div class="card card-services">
                     <div class="card-body">
                         <h4 style="font-weight:600; color:#1C46A8;  margin-bottom:15px">Multi-platform Deployment</h4>

@@ -33,7 +33,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">MD Quality Apps: Your Premier Flutter App Development Partner</h3>
                 <p class="website-para">Elevate your mobile application experience with our cutting-edge Flutter app development services. At MD Quality Apps, our adept Flutter developers craft seamless, platform-independent digital experiences for native Android, iOS, and cross-platform applications.</p>
             </div>
@@ -49,7 +49,7 @@ include './header.php';
                     <img src="images/vector-images/flutter-program.png" width="70%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Key Features of Flutter: Expressive and Flexible</h3>
                 <p class="website-para">Flutter, an open-source UI software development kit, empowers the creation of web, desktop, and cross-platform apps. Our skilled developers leverage Flutter's capabilities to deliver feature-rich applications compatible with iOS, Android, web, Windows, MacOS, and Linux platforms, all from a single codebase.</p>
             </div>

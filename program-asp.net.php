@@ -31,7 +31,7 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">.NET Development Solutions for Business Success</h3>
                 <p class="website-para">Elevate your business goals with cutting-edge applications developed using .NET technology. Our expertise lies in crafting high-performing, industry-specific .NET-based applications, leveraging the robust programming model of .NET technologies to meet your unique business requirements.</p>
             </div>
@@ -47,7 +47,7 @@ include './header.php';
                     <img src="images/vector-images/asp-program.png" width="65%" alt="boy and girl with laptop and laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Dedicated .NET Development Services</h3>
                 <p class="website-para">MD Quality Apps is your trusted partner for top-notch .NET development services, committed to delivering high-quality software products and solutions by harnessing the power of the .NET platform. As an esteemed ASP.NET development company and a Microsoft Gold-certified partner, we stay ahead with the latest technologies, offering feature-rich enterprise solutions backed by a profound understanding of technical intricacies in this domain.</p>
             </div>

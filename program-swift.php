@@ -30,22 +30,24 @@ include './header.php';
     </div>
     <div class="container-fluid py-4">
         <div class="row">
-            <div class="col-lg-6 px-4">
+            <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Swift App Development</h3>
                 <p class="website-para">Embark on the journey of creating and configuring secure iPhone Apps with Swift Development expertise.</p>
                 <p class="website-para">Drive innovation, optimize app performance, and design intuitive and highly engaging iOS Apps through our custom Swift application development services.</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+            <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/swift.png" width="50%" alt="boy with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
+        <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/swift-1.png" width="50%" alt="two girls with laptop">
                 </div>
             </div>
-            <div class="col-lg-6 px-5">
+            <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h3 class="h2-heading ">Fuel Feature-rich, Multi-paradigm Application Development</h3>
                 <p class="website-para">Elevate enterprise mobility with dynamic dispatches, flexible language usage, late binding, and extensible Swift programming.</p>
             </div>

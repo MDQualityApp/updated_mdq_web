@@ -82,15 +82,17 @@ if (!$_SESSION['email']) {
         <div class="nav_list">
             <a href="home.php" class="nav_link <?php if ($first_part == "home.php" || $first_part == "table-carousel.php" || $first_part == "edit-carousel.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bxs-home nav_icon'></i><span class="nav_name">Carousel</span> </a>
 
-            <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="fas fa-briefcase" style="margin-left:3px"></i><span class="nav_name"> Portfolio</span> </a>
-
             <a href="admin-testimonials.php" class="nav_link <?php if ($first_part == "admin-testimonials.php" || $first_part == "table-testimonials.php" || $first_part == "edit-testimonials.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="bx bxs-quote-alt-left bigger-icon"></i><span class="nav_name">Testimonials</span> </a>
 
             <a href="admin-create-blog.php" class="nav_link <?php if ($first_part == "admin-create-blog.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Create Blog</span></a>
 
-            <a href="admin-contactus.php" class="nav_link <?php if ($first_part == "admin-contactus.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Career</span> </a>
+            <a href="admin-contactus.php" class="nav_link <?php if ($first_part == "admin-contactus.php") { echo "active"; } else { echo "noactive"; } ?>"> <i class='bx bi-people nav_icon'></i> <span class="nav_name">Contact</span> </a>
 
             <a href="table-offer-letter.php" class="nav_link <?php if ($first_part == "table-offer-letter.php") { echo "active"; } else { echo "noactive"; } ?>"><i class='bx bxs-pencil nav_icon'></i> <span class="nav_name">Offer Letter</span></a>
+
+            <a href="admin-create-portfolio.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="fas fa-briefcase" style="margin-left:3px"></i><span class="nav_name"> Portfolio</span> </a>
+
+            <a href="admin-project-list.php" class="nav_link <?php if ($first_part == "admin-create-portfolio.php") { echo "active"; } else { echo "noactive"; } ?>"><i class="fas fa-briefcase" style="margin-left:3px"></i><span class="nav_name"> Project List</span> </a>
         </div>
 
         </nav>

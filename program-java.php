@@ -41,14 +41,16 @@ include './header.php';
                 <p class="website-para">Service Offerings</p>
                 <p class="website-para">At MDQuality Apps, we specialize in crafting Java-based solutions. Here's what sets us apart:</p>
             </div>
-            <div class="col-lg-6 d-flex justify-content-center align-items-center pb-5">
-                <img width="50%" src="https://img.icons8.com/ios/1000/1C46A8/java-coffee-cup-logo--v1.png" alt="java development company india" />
+            <div class="col-lg-6 pt-4">
+                <div class="sec-mov-img d-flex justify-content-center align-items-center">
+                    <img src="images/vector-images/java.png" width="60%" alt="boy with laptop">
+                </div>
             </div>
         </div>
         <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 pt-4">
                 <div class="sec-mov-img d-flex justify-content-center align-items-center">
-                    <img class="pt-3" src="images/vector-images/angular-program.png" width="70%" alt="media app and web development">
+                    <img src="images/vector-images/java-1.png" width="60%" alt="girl with laptop">
                 </div>
             </div>
             <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
@@ -73,18 +75,6 @@ include './header.php';
 
                 <h5 class="h2-heading ">SaaS Application Development using Java:</h5>
                 <p class="website-para">Developing secure SaaS applications with rapid, high-quality updates tailored to diverse tenant needs.</p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center align-items-center">
-            <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-            <div class="sec-mov-img">
-                    <img class="" src="images/technology/Java vector.png" width="90%" alt="image">
-                </div>
             </div>
             <div class="col-lg-6 px-5 pt-5">
                 <h5 class="h2-heading ">We specialize in creating various Java-based software, including:</h5>
