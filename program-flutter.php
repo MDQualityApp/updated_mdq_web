@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our experienced team crafts tailored Java solutions for seamless performance and scalability. Contact us for reliable Java application development expertise." />
 <meta name="keywords" content="Java development services India, Java software development India, Hire Java developers India, Java software outsourcing" />
-<title>Java Application Development Services in India | Custom Java Solutions</title>
+<title>Flutter Application Development Services in India | Custom Flutter Solutions</title>
 <style>
         .card-services {
             border: none;
@@ -19,7 +19,7 @@ include './header.php';
 <div class="website-background " style="background-color:#F7FDFF; padding-top:60px">
 <div class="intro" style="background-color:#081A48">
         <h1 class="pt-4" style="color:white; text-align: center; font-weight:600">Flutter</h1>
-        <h2 style="color:white; text-align: center;">MD Quality Apps: Your Premier Flutter App Development Partner</h2>
+        <h2 style="color:white; text-align: center;">MDQuality Apps: Your Premier Flutter App Development Partner</h2>
         <svg class="intro-wave" style="margin-bottom: -2px;" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
             <defs>
                 <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
@@ -34,8 +34,8 @@ include './header.php';
     <div class="container-fluid py-4">
         <div class="row">
             <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                <h3 class="h2-heading ">MD Quality Apps: Your Premier Flutter App Development Partner</h3>
-                <p class="website-para">Elevate your mobile application experience with our cutting-edge Flutter app development services. At MD Quality Apps, our adept Flutter developers craft seamless, platform-independent digital experiences for native Android, iOS, and cross-platform applications.</p>
+                <h3 class="h2-heading ">MDQuality Apps: Your Premier Flutter App Development Partner</h3>
+                <p class="website-para">Elevate your mobile application experience with our cutting-edge Flutter app development services. At MDQuality Apps, our adept Flutter developers craft seamless, platform-independent digital experiences for native Android, iOS, and cross-platform applications.</p>
             </div>
             <div class="col-lg-6">
                 <div class="sec-mov-img d-flex justify-content-center align-items-center">

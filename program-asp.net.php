@@ -49,7 +49,7 @@ include './header.php';
             </div>
             <div class="col-lg-6 px-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Dedicated .NET Development Services</h3>
-                <p class="website-para">MD Quality Apps is your trusted partner for top-notch .NET development services, committed to delivering high-quality software products and solutions by harnessing the power of the .NET platform. As an esteemed ASP.NET development company and a Microsoft Gold-certified partner, we stay ahead with the latest technologies, offering feature-rich enterprise solutions backed by a profound understanding of technical intricacies in this domain.</p>
+                <p class="website-para">MDQuality Apps is your trusted partner for top-notch .NET development services, committed to delivering high-quality software products and solutions by harnessing the power of the .NET platform. As an esteemed ASP.NET development company and a Microsoft Gold-certified partner, we stay ahead with the latest technologies, offering feature-rich enterprise solutions backed by a profound understanding of technical intricacies in this domain.</p>
             </div>
         </div>
         <div class="px-2">
@@ -59,7 +59,7 @@ include './header.php';
                         <div class="card card-services">
                             <div class="card-body">
                                 <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">Leading ASP.NET Development Company</h4>
-                                <p>ASP.NET, an integral part of Microsoft’s .NET framework, empowers developers to create dynamic websites and applications in a Windows server environment. Our ASP.NET development services cater to projects of varying scales, from mid-sized to large enterprise applications. With over 23 years of experience in the open-source version of ASP.NET compatible with Windows, Linux, and macOS, MD Quality Apps, a Microsoft Certified Gold Partner, specializes in end-to-end ASP.NET solutions, including MVC development, migration, CMS solutions, integration, and more.</p>
+                                <p>ASP.NET, an integral part of Microsoft’s .NET framework, empowers developers to create dynamic websites and applications in a Windows server environment. Our ASP.NET development services cater to projects of varying scales, from mid-sized to large enterprise applications. With over 23 years of experience in the open-source version of ASP.NET compatible with Windows, Linux, and macOS, MDQuality Apps, a Microsoft Certified Gold Partner, specializes in end-to-end ASP.NET solutions, including MVC development, migration, CMS solutions, integration, and more.</p>
                             </div>
                         </div>
                     </div>

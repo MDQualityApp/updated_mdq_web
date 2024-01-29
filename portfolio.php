@@ -187,7 +187,6 @@ include './connect.php';
           <h3 class="craft fw-bold text-center">Web Applications</h3>
           <?php
           $logo = mysqli_query($conn, "SELECT id, projectname, aboutproject,image, sec_image FROM project_list WHERE type_project=1");
-
           while ($frow = mysqli_fetch_array($logo)) {
             $projectname = $frow['projectname'];
             $aboutproject = $frow['aboutproject'];

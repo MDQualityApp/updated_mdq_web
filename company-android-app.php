@@ -5,7 +5,7 @@ include './header.php';
 <head>
     <meta name="description" content="Our skilled mobile app developers create cutting-edge solutions tailored to your needs. Contact us for innovative Android app development services." />
     <meta name="keywords" content="Android app development India, App development company in India, Hire app developers India, Mobile app outsourcing India, Native Android app development, Offshore app development services" />
-    <title>Android App Development Agency in India | MD Quality Apps</title>
+    <title>Android App Development Agency in India | MDQuality Apps</title>
     <style>
         .card-services {
             border: none;

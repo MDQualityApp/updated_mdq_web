@@ -465,8 +465,6 @@ include './connect.php'
         </div>
       </div>
     </div>
-
-
     <div class="container-fluid pt-5 my-1">
       <div class="pb-2">
         <h5 class="py-3" style="color:#081A48; font-weight:700;">OUR SERVICES</h5>
@@ -476,7 +474,6 @@ include './connect.php'
       include './includes/slider.php';
       ?>
     </div>
-
     <div class="industries pt-4 container-fluid">
       <h5 class="py-3" style="color:#081A48; font-weight:700;">Services We Offer</h5>
       <h2 style="font-weight:700;line-height:50px;color:#1C46A8">You name it, we build it.</h2>
@@ -500,7 +497,7 @@ include './connect.php'
           </div>
         </div>
         <div class="col-lg-3 col-md-6 d-flex justify-content-center">
-          <a href="">
+          <a href="./offering-mobile-app.php">
             <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
               <div class="flip-card">
                 <div class="content">
@@ -574,7 +571,7 @@ include './connect.php'
         </div>
         <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="1100">
-            <a href="">
+            <a href="./offering-ar-vr.php">
               <div class="flip-card">
                 <div class="content">
                   <div class="front">
@@ -592,7 +589,7 @@ include './connect.php'
         </div>
         <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="600">
-            <a href="">
+            <a href="#">
               <div class="flip-card">
                 <div class="content">
                   <div class="front">
@@ -611,7 +608,7 @@ include './connect.php'
 
         <div class="col-lg-3 col-md-6 d-flex justify-content-center">
           <div class="flip-card-container" data-aos="flip-left" data-aos-duration="1500" data-aos-delay="100">
-            <a href="">
+            <a href="#">
               <div class="flip-card">
                 <div class="content">
                   <div class="front">
@@ -1351,35 +1348,7 @@ include './connect.php'
         window.addEventListener('load', load);
       </script>
     </div>
-    <!-- <button type="button" class="btn float btn-floating btn-lg" style="background-color:#07639e;" id="btn-back-to-top">
-        <i class="fa fa-angle-up text-white"></i>
-    </button> -->
-    <script>
-        let mybutton = document.getElementById("btn-back-to-top");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {
-            scrollFunction();
-        };
-
-        function scrollFunction() {
-            if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
-            ) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-        // When the user clicks on the button, scroll to the top of the document
-        mybutton.addEventListener("click", backToTop);
-
-        function backToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
 
 </div>
 </body>

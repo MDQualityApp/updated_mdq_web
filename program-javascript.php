@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Unlock the full potential of web development with our professional JavaScript development services. Our team delivers custom solutions, ensuring robust and dynamic websites." />
 <meta name="keywords" content="JavaScript development services, JavaScript programming services, JavaScript coding services" />
-<title>JavaScript Development Services for Web Solutions | MD Quality Apps</title>
+<title>JavaScript Development Services for Web Solutions | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

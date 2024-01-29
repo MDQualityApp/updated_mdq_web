@@ -59,7 +59,7 @@ include './header.php';
                 <div class="card card-services">
                     <div class="card-body">
                         <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">A Forward-Thinking C# Development Company</h4>
-                        <p>We challenge the notion that merely having an online presence is sufficient to stay at the top of your A game. With 20 years of experience as software solution providers, MD Quality Apps understands the ever-changing mindset of consumers. For effective communication, your brand requires ever-ready and highly interactive interfaces across various platforms. C# is a versatile backend framework that offers:</p>
+                        <p>We challenge the notion that merely having an online presence is sufficient to stay at the top of your A game. With 20 years of experience as software solution providers, MDQuality Apps understands the ever-changing mindset of consumers. For effective communication, your brand requires ever-ready and highly interactive interfaces across various platforms. C# is a versatile backend framework that offers:</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +152,7 @@ include './header.php';
                 <div class="card card-services">
                     <div class="card-body">
                         <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">C# Development – The Stages</h4>
-                        <p>At MD Quality Apps, we follow a 6-step process to deliver a super scalable and high-performing asset at a faster time-to-market:</p>
+                        <p>At MDQuality Apps, we follow a 6-step process to deliver a super scalable and high-performing asset at a faster time-to-market:</p>
                     </div>
                 </div>
             </div>

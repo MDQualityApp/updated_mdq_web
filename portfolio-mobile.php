@@ -12,7 +12,9 @@ include './connect.php';
         /* The width of the container also implies margin around the images. */
         width: 120px;
     }
-
+    #contactus{
+        background-color: #fff !important;
+       }
     .sizeclr {
         width: 50px;
         height: 50px;

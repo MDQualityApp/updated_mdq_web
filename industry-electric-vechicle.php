@@ -141,8 +141,8 @@ include './header.php';
             <div class="col-lg-4 my-3">
                 <div class="card card-services">
                     <div class="card-body">
-                    <h4 style="color:#1C46A8; font-weight:700;">Why Choose MD Quality Apps for Your Electric Vehicle Software Development Needs?</h4>
-                        <p>MD Quality Apps is a leading electric vehicle software development company with a proven track record of delivering exceptional EV solutions worldwide. Clients choose us for their custom e-vehicle software and mobile app development needs for the following reasons:</p>
+                    <h4 style="color:#1C46A8; font-weight:700;">Why Choose MDQuality Apps for Your Electric Vehicle Software Development Needs?</h4>
+                        <p>MDQuality Apps is a leading electric vehicle software development company with a proven track record of delivering exceptional EV solutions worldwide. Clients choose us for their custom e-vehicle software and mobile app development needs for the following reasons:</p>
                     </div>
                 </div>
             </div>

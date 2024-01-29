@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Explore top-notch product prototyping services tailored to bring your ideas to life. Our skilled team ensures precision, speed, and quality in transforming concepts into reality." />
 <meta name="keywords" content="Innovative product development company, Prototyping services, Product prototyping development company" />
-<title>Product Prototyping Services for Innovative Ideas | MD Quality Apps</title>
+<title>Product Prototyping Services for Innovative Ideas | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

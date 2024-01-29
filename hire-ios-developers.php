@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Hire dedicated iOS developers skilled in Swift and SwiftUI to bring your ideas to life. Contact us for reliable and efficient iOS app development services." />
 <meta name="keywords" content="Hire iOS programmers, Custom iOS app development, Hire dedicated iOS developers, iOS development company" />
-<title>Hire Skilled iOS Developers for App Development | MD Quality Apps</title>
+<title>Hire Skilled iOS Developers for App Development | MDQuality Apps</title>
 <style>
                 .card-services {
                         border: none;

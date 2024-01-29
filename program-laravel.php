@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our experienced team crafts tailored Java solutions for seamless performance and scalability. Contact us for reliable Java application development expertise." />
 <meta name="keywords" content="Java development services India, Java software development India, Hire Java developers India, Java software outsourcing" />
-<title>Java Application Development Services in India | Custom Java Solutions</title>
+<title>Laravel Application Development Services in India | Custom Laravel Solutions</title>
 <style>
         .card-services {
             border: none;

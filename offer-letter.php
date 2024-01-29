@@ -178,13 +178,13 @@ svg {
     </div>
     <div class="container" style="padding-left: 6.5%; padding-right:6.5%">
     <div class="row">
-    <form method="post" action="./admin/offer-letter-backend.php" enctype="multipart/form-data">
+    <form method="post" onsubmit="return checkInput()" action="./messier97/offer-letter-backend.php" enctype="multipart/form-data">
 
         <div class="container" style="text-align: end;">
             <fieldset>
             <p style="color:white">Hey, Buddy!</p>
             <div>
-                <input type="text" class="form__field field--name text-end fontbox fontstyle" id="floatingInput" name="name" value="" placeholder="Enter Your Name" required>
+                <input type="text" class="form__field field--name text-end fontbox fontstyle" id="message" name="name" value="" placeholder="Enter Your Name" required>
             </div>
             <div>
                 <input type="text" class="form__field field--name text-end fontbox fontstyle" id="floatingInput"
@@ -241,6 +241,18 @@ I have attached my resume for your persual.</span>
     </div>
     </div>
     </div>
+    <script>
+                            function checkInput() {
+                                var message = document.getElementById('message').value;
+                                var restrictedChars = /[<>*\/]/;
+
+                                if (restrictedChars.test(message)) {
+                                    alert('Please avoid using <, >, *, or / in your message.');
+                                    return false;
+                                }
+                                return true;
+                            }
+                        </script>
     <script>
     function updateTextColor(selectElement) {
         // Get the selected option

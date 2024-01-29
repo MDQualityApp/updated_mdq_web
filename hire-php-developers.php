@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Looking to hire skilled PHP developers? Our team of experienced PHP experts ensures web development tailored to your needs. Connect with us for PHP development services." />
 <meta name="keywords" content="Expert PHP programmers, PHP web development, Professional web development team, Dedicated PHP developers" />
-<title>Hire Expert PHP Developers for Web Solutions | MD Quality Apps</title>
+<title>Hire Expert PHP Developers for Web Solutions | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Explore cutting-edge AR VR development services tailored to your business needs. Contact us for innovative augmented and virtual reality solutions." />
 <meta name="keywords" content="AR development India, VR development agency, Augmented reality experts, AR VR technology India, XR development company, Mixed reality development India, AR VR app development, AR VR consulting India" />
-<title>AR VR Development Agency in India | MD Quality Apps</title>
+<title>AR VR Development Agency in India | MDQuality Apps</title>
 <style>
             .card-services {
                 border: none;

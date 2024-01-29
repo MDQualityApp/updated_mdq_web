@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our skilled team crafts cutting-edge solutions for secure, transparent, and efficient processes. Contact us for leading blockchain technology expertise and transformative development services." />
 <meta name="keywords" content="Blockchain development services, Innovative blockchain solutions, Cryptocurrency development services" />
-<title>Blockchain Development Services for Innovative Solutions | MD Quality Apps</title>
+<title>Blockchain Development Services for Innovative Solutions | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

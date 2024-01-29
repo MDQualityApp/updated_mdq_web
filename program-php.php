@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our skilled team crafts robust and scalable web solutions tailored to your business needs. Contact us for tailored PHP development services today!" />
 <meta name="keywords" content="Affordable PHP development, Custom web solutions with PHP, PHP web development company, PHP programming services" />
-<title>PHP Development Services for Seamless Web Solutions | MD Quality Apps</title>
+<title>PHP Development Services for Seamless Web Solutions | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

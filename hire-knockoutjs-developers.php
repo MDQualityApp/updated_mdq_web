@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Hire skilled Knockout JS developers for your project. Contact us for efficient Knockout JS development services." />
 <meta name="keywords" content="Knockout JS development, Hire Knockout JS developers, Custom Knockout JS solutions, Best Knockout JS development company" />
-<title>Expert Knockout JS Developers for Hire | MD Quality Apps</title>
+<title>Expert Knockout JS Developers for Hire | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

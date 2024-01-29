@@ -138,7 +138,7 @@ include './header.php';
             <div class="col-lg-4 my-3">
                 <div class="card card-services">
                     <div class="card-body">
-                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">MD Quality Apps for Empowered Swift App Development</h4>
+                        <h4 style="font-weight:600; color:#1C46A8; margin-bottom:15px">MDQuality Apps for Empowered Swift App Development</h4>
                         <p>Benefit from impeccable full-cycle Swift application development services, considering every minute detail of requirements and objectives.</p>
                     </div>
                 </div>

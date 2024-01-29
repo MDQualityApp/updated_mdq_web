@@ -5,7 +5,7 @@ include './header.php';
 <head>
     <meta name="description" content="Elevate your business with our data science consulting services. Our experts harness the power of data to drive informed decisions, optimize processes, and boost performance." />
     <meta name="keywords" content="Data Science Consulting, Data Science Services, Data Analytics Solutions, Data Modeling Services" />
-    <title>Hire Data Science Consulting Services | MD Quality Apps</title>
+    <title>Hire Data Science Consulting Services | MDQuality Apps</title>
     <style>
         .card-services {
             border: none;

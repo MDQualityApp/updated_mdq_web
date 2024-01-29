@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Looking to hire skilled Angular developers? Our team Angular developers is ready to bring your web projects to life. Contact us today for Angular development services!" />
 <meta name="keywords" content="Angular development services, Expert Angular developers, Angular programming experts, Angular app development company, Hire Angular specialists" />
-<title>Hire Expert Angular Developers for Web Solutions | MD Quality Apps</title>
+<title>Hire Expert Angular Developers for Web Solutions | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our experts harness the power of AI to drive innovation, optimize processes, and enhance decision-making. Our tailored solutions for your industry." />
 <meta name="keywords" content="Artificial Intelligence Consulting, AI Consulting Services, Hire AI Experts" />
-<title>Hire Artificial Intelligence Consulting Services | MD Quality Apps</title>
+<title>Hire Artificial Intelligence Consulting Services | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;

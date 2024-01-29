@@ -3,6 +3,9 @@ include './header.php';
 ?>
 
 <head>
+<meta name="description" content="Supercharge your digital success with MDQuality Apps – where expertise meets excellence! Our stellar software and application development team craft cutting-edge solutions to propel your business forward." />
+    <meta name="keywords" content="Reliable application development services, Customized application solutions" />
+    <title>MDQuality Apps: Your Top Choice for Software & Application Development</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/42ccddb556.js" crossorigin="anonymous"></script>
@@ -43,7 +46,7 @@ include './header.php';
     <div class="container-fluid">
         <div class="p-5" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
             <h2 style="font-weight:700; color:#1C46A8;">Company Overview:</h2>
-            <p class="website-para">At MD Quality Apps, we're committed to fostering innovation and addressing today's technology needs. Our co-founder, Divya L, leads our team of professionals and problem solvers on a mission to become a global leader in IT services and solutions. We draw inspiration from our diverse culture, unwavering commitment, and expertise as we collaborate effectively with partners and clients.</p>
+            <p class="website-para">At MDQuality Apps, we're committed to fostering innovation and addressing today's technology needs. Our co-founder, Divya L, leads our team of professionals and problem solvers on a mission to become a global leader in IT services and solutions. We draw inspiration from our diverse culture, unwavering commitment, and expertise as we collaborate effectively with partners and clients.</p>
         </div>
         <div class="row px-5" style="background:linear-gradient(to right, #1C46A8, #081A48); color:white">
             <div class="col-lg-7 py-4 px-3">
@@ -150,7 +153,7 @@ include './header.php';
                         </div>
                         <div class="col-lg-7" style="padding: 0 !important; overflow: hidden;">
                             <div style="width: 100%; overflow: hidden;">
-                                <img class="zoom-gallery" src="./images/team/mdq-team-6.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="">
+                                <img class="zoom-gallery" src="./images/team/mdq-team-6.jpg" width="100%" style="transition: transform 0.3s ease-in-out;" alt="mdqualityapps team photo">
                             </div>
                         </div>
                         <div class="col-lg-6" style="padding: 0 !important; overflow: hidden;">
@@ -207,7 +210,7 @@ include './header.php';
         <div>
             <h2 style="font-weight:700; color:#1C46A8;">Empowering People through Technology</h2>
             <p class="website-para">We find ourselves at the dawn of a new era in digital transformation.</p>
-            <p class="website-para">Established in 2016, MD Quality Apps has rapidly expanded its client base across three different countries. Our core focus is on delivering comprehensive IT services and industry-specific solutions across 13 domains worldwide. Whether you're an ISV or a large corporation, we're here to accelerate your progress and unlock future possibilities. With a wealth of industry knowledge and technical prowess, we're dedicated to creating tangible value through digitalization and propelling various sectors forward by leveraging cutting-edge innovations.</p>
+            <p class="website-para">Established in 2016, MDQuality Apps has rapidly expanded its client base across three different countries. Our core focus is on delivering comprehensive IT services and industry-specific solutions across 13 domains worldwide. Whether you're an ISV or a large corporation, we're here to accelerate your progress and unlock future possibilities. With a wealth of industry knowledge and technical prowess, we're dedicated to creating tangible value through digitalization and propelling various sectors forward by leveraging cutting-edge innovations.</p>
             <div class="row py-4">
                 <div class="d-flex align-items-start">
                     <div class="col-lg-4 d-flex align-items-center justify-content-center" style="height:100%">
@@ -223,18 +226,18 @@ include './header.php';
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                                 <div class="row">
                                     <div class="col-lg-5 col-12 d-flex justify-content-center align-items-center">
-                                        <img style="border-radius: 20px;" src="./images/principles.jpg" width="100%" alt="">
+                                        <img style="border-radius: 20px;" src="./images/principles.jpg" width="100%" alt="our principles image">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
                                         <p class="website-para" style="padding-right: 14%;">
-                                            Our core values shape the culture of MD Quality Apps, continuously driving us to develop innovative solutions and nurture strong relationships with customers, employees, and the community.</p>
+                                            Our core values shape the culture of MDQuality Apps, continuously driving us to develop innovative solutions and nurture strong relationships with customers, employees, and the community.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                                 <div class="row">
                                     <div class="col-lg-5 d-flex justify-content-center align-items-center">
-                                        <img style="border-radius: 20px;" src="./images/vission.webp" width="100%" alt="">
+                                        <img style="border-radius: 20px;" src="./images/vission.webp" width="100%" alt=" our vision image">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
                                         <p class="website-para">
@@ -245,7 +248,7 @@ include './header.php';
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                                 <div class="row">
                                     <div class="col-lg-5 d-flex justify-content-center align-items-center">
-                                        <img style="border-radius: 20px;" src="./images/mission.webp" width="100%" alt="">
+                                        <img style="border-radius: 20px;" src="./images/mission.webp" width="100%" alt="our mission image ">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
                                         <p class="website-para">
@@ -256,7 +259,7 @@ include './header.php';
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                                 <div class="row">
                                     <div class="col-lg-5 d-flex justify-content-center align-items-center">
-                                        <img style="border-radius: 20px;" src="./images/quality.webp" width="100%" alt="">
+                                        <img style="border-radius: 20px;" src="./images/quality.webp" width="100%" alt="quality and cirtificate">
                                     </div>
                                     <div class="col-lg-7 d-flex align-items-center justify-content-center">
                                         <p class="website-para">

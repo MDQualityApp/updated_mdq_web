@@ -55,7 +55,7 @@ include './header.php';
             <h3 style="color:#1C46A8; font-weight:700;">Top-notch Manufacturing IT Solutions</h3>
                 <p class="website-para">With a team of over 20 professionals spanning two continents and serving clients in five countries, we excel in delivering high-quality manufacturing IT solutions across diverse time zones. Our track record boasts a 98% success rate in on-time and budgeted integration of manufacturing software.</p>
 
-                <p class="website-para">At MD Quality Apps, we deliver exponential business value with our tailored manufacturing software solutions. Designed to address specific challenges like supply chain management, inventory control, production planning, and quality control, our systems optimize operations for lasting competitiveness.</p>
+                <p class="website-para">At MDQuality Apps, we deliver exponential business value with our tailored manufacturing software solutions. Designed to address specific challenges like supply chain management, inventory control, production planning, and quality control, our systems optimize operations for lasting competitiveness.</p>
             </div>
 
         </div>
@@ -80,7 +80,7 @@ include './header.php';
                 <div class="card card-services">
                     <div class="card-body">
                     <h4 style="color:#1C46A8; font-weight:700;">Comprehensive Manufacturing Solutions</h4>
-                        <p>MD Quality Apps offers customized IT solutions for the manufacturing industry, boosting operational effectiveness, enhancing supply chains, and ensuring quality control. With a remarkable 93% repeat client rate, our industrial manufacturing software adds 360-degree value to businesses.</p>
+                        <p>MDQuality Apps offers customized IT solutions for the manufacturing industry, boosting operational effectiveness, enhancing supply chains, and ensuring quality control. With a remarkable 93% repeat client rate, our industrial manufacturing software adds 360-degree value to businesses.</p>
                     </div>
                 </div>
             </div>

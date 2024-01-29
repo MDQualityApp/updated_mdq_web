@@ -32,7 +32,7 @@ include './header.php';
         <div class="row">
             <div class="col-lg-6 px-4" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                 <h3 class="h2-heading ">Objective-C Development Solutions</h3>
-                <p class="website-para">Utilize Objective-C, a fundamental language for crafting advanced applications on iOS and OS X. Rooted in object-oriented principles emphasizing data and code, Objective-C stands out for its versatility. Whether you're envisioning a groundbreaking business communication platform or a seamless food delivery app, MD Quality Apps is poised to deliver top-tier Objective-C development services.</p>
+                <p class="website-para">Utilize Objective-C, a fundamental language for crafting advanced applications on iOS and OS X. Rooted in object-oriented principles emphasizing data and code, Objective-C stands out for its versatility. Whether you're envisioning a groundbreaking business communication platform or a seamless food delivery app, MDQuality Apps is poised to deliver top-tier Objective-C development services.</p>
             </div>
             <div class="col-lg-6 ">
                 <div class="sec-mov-img d-flex justify-content-center align-items-center">

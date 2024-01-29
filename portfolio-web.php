@@ -57,7 +57,9 @@ include './connect.php';
         width: 100%;
         z-index: -1;
     }
-
+    #contactus{
+        background-color: #fff !important;
+       }
     .port-animation-card:hover .wrapper {
         transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
         box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);

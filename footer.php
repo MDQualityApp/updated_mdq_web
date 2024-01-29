@@ -185,7 +185,7 @@
         position: relative;
         left: 0;
     }
-.form-group 
+.form-group
     input,
     textarea {
         font-family: "Quicksand", sans-serif;
@@ -592,7 +592,7 @@
             <div class="row">
                 <div class="col-lg-6"></div>
                 <div class="col-lg-6">
-                    <form method="POST" action="./admin/upload-contactus.php">
+                    <form method="POST" action="./messier97/upload-contactus.php">
                         <h1 class="title text-center mb-2">Talk to Us</h1>
                         <!-- Name -->
                         <div class="form-group position-relative">

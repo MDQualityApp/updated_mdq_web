@@ -4,7 +4,7 @@ include './header.php';
 <head>
 <meta name="description" content="Our seasoned experts offer tailored solutions to optimize your Salesforce implementation, ensuring seamless integration and enhanced business performance." />
 <meta name="keywords" content="Salesforce Professional Services, Expert Salesforce Solutions, Salesforce Implementation, Salesforce Support Services" />
-<title>Leading Salesforce Professional Services | MD Quality Apps</title>
+<title>Leading Salesforce Professional Services | MDQuality Apps</title>
 <style>
         .card-services {
             border: none;
